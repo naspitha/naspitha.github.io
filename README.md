@@ -1,6 +1,6 @@
-natalia.github.io
+#natalia.github.io
 
-This project was created using the Strongly Typed by HTML5 UP template (and heavily modifying it...)
+I created my website using the <b>Strongly Typed by HTML5 UP</b> template (and heavily modifying it...)
 
 https://html5up.net/strongly-typed
 
