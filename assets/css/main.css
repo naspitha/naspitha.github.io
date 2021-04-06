@@ -2248,9 +2248,17 @@ input, select, textarea {
 	#main-ds ul {
 		margin-left: 15%;
 		margin-right: 15%;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
 		text-align: justify
 	}
-
+	#in-text-fw-image {
+		margin-left:10%;
+		margin-right:10%;
+		text-align: center;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em
+	}
 	#profile.col-3.col-10-small{
 		padding: 60px 0 0 30px;
 		margin-left: auto;
