@@ -1798,7 +1798,6 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 2px solid #000000;
 		font-size: 0.8em;
-		!box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
 		font-weight: 600;
 		text-align: center;
 		letter-spacing: 2px;
@@ -2146,26 +2145,21 @@ input, select, textarea {
 			border: 2px solid #000000
 		}
 
-		#projects h2{}
 /* Banner */
 
 	#banner {
 		position: relative;
 		overflow: hidden;
 		background: rgba(168, 229, 168, 0.863);
-		!background-image:linear-gradient(to bottom, rgba(117, 243, 117, 0.863), rgb(255, 253, 122));
 		color: rgb(0, 0, 0);
 		text-align: center;
 		border-top: solid 3px #000000;
 		border-bottom: solid 3px #000000;
-		!border-radius: 50px;
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: none;
 		background-size: cover;
 		padding: 2em 0;
-		!margin-left: 50px;
-		!margin-right: 50px;
 		margin-bottom: 0;
 	}
 
@@ -2197,7 +2191,6 @@ input, select, textarea {
 				top: 50%;
 				width: 35px;
 				height: 141px;
-				!margin-top: -70px;
 				opacity: 0.0;
 			}
 
