@@ -163,7 +163,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: rgb(0, 0, 0);
 	}
 
 	red {
@@ -1935,7 +1935,7 @@ input, select, textarea {
 	}
 
 		#header > .container {
-			padding: 14em 0 2em 0;
+			padding: 10em 0 2em 0;
 		}
 
 		#header h1 {
@@ -1960,6 +1960,11 @@ input, select, textarea {
 				font-size: 1.85rem;
 				letter-spacing: 1px;
 				text-align: center;
+			}
+
+			#header h3 {
+				font-size: 2rem;
+				margin-bottom: 0;
 			}
 	
 			#header p {
@@ -2218,24 +2223,54 @@ input, select, textarea {
 		background: #fff;
 	}
 
-	#main, #main-ds > .container {
+	#main> .container {
 		padding: 40px 0 40px 0;
+	}
+
+	#main-ds > .container {
+		padding: 0 0 40px 0;
 	}
 	
 	#main-ds h3 {
 		text-align: center;
 	}
 
+	#main-ds h4{
+		text-align: center;
+		text-indent: 0px;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 400;
+		font-size: 1.1em;
+	}
 	#main-ds p {
 		text-align: justify;
 		text-indent: 50px;
 		margin-bottom: 0.5em;
+		margin-top: 0.5em;
 		margin-left: 10%;
 		margin-right: 10%
 	}
 
 	#main-ds section#divider {
 		margin-top: 3em;
+	}
+
+	#main-ds section.narrow-divider {
+		margin-top: 0.9em;
+		margin-bottom:0;
+		text-align: center;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#main-ds section#p1, section#p2, section#p3 {
+		margin-top: 0;
+		margin-bottom:0;
+		margin-left:10%;
+		margin-right:10%;
 	}
 
 	#main-ds ul {
