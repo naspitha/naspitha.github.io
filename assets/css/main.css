@@ -175,6 +175,11 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	ref {
+		font-size: 0.8em;
+		text-indent: 0px;
+	}
+
 	sub {
 		position: relative;
 		top: 0.5em;
