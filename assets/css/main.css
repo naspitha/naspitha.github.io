@@ -2258,7 +2258,14 @@ input, select, textarea {
 		margin-left: 10%;
 		margin-right: 10%
 	}
-
+	#main-ds li {
+		text-align: justify;
+		text-indent: 50px;
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+		margin-left: 10%;
+		margin-right: 10%
+	}
 	#main-ds section#divider {
 		margin-top: 3em;
 	}
