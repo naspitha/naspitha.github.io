@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Made using the template Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	//todo: possibly remove ad from pTable
+	//todo: atom model is buggy: fix ASAP
+	//todo: add hints
+	//todo: 
+-->
+<html>
+<head>
+<title>Thermodynamik und Kinetik</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+            <header id="header">
+                <div class="inner">
+
+                    <!-- Logo -->
+                        <a href="index.html" class="logo">
+                            <span class="symbol"><img src="images/huberlin-logo.svg" alt="" /></span><span class="title">Allgemeine und Anorganische Chemie</span>
+                        </a>
+
+                    <!-- Nav -->
+                        <nav>
+                            <ul>
+                                <li><a href="#menu">Menu</a></li>
+                            </ul>
+                        </nav>
+
+                </div>
+            </header>
+
+        <!-- Menu -->
+            <nav id="menu">
+                <h2>Menü</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="atombau+spektroskopie.html">Atombau und Spektroskopie</a></li>
+                    <li><a href="periodische+trends.html">Periodische Trends</a></li>
+                    <li><a href="#">Thermodynamik & Kinetik</a></li>
+                </ul>
+            </nav>
+
+        <!-- Main -->
+            <div id="main">
+                <div class="inner">
+                    <h1>Energieänderungen, Raten und Gleichgewichte von Reaktionen</h1>
+                </div>
+                <!-- Tabs -->
+                <div class="inner">
+                    <div class="tab" style="margin-top:50px">
+                        <button class="tablinks" onclick="openTab(event, 'simA-cont')">Simulation A</button>
+                        <button class="tablinks" onclick="openTab(event, 'simB-cont')">Simulation B</button>
+                        <button class="tablinks" onclick="openTab(event, 'simC-cont')">Simulation C</button>
+                        <button class="tablinks" onclick="openTab(event, 'simD-cont')">Simulation D</button>
+                    </div>
+                </div>
+
+                <!-- Activities-->
+                <div class="inner" id="simA-cont" style="display:none">
+                    <h2>Simulation A: Das Bindungspotential </h2>
+                    <p>Das folgende Diagramm zeigt die Abhängigkeit der potenziellen Energie von dem Kernabstand in einem Wasserstoffmolekül oder in einem Fluormolekul.</p>
+                    <p><b style="color:brown">Bitte versuch erstmal, die Potenzialkurve für Fluor vorherzusagen (Frage 1f), bevor du dich die tatsächliche Form anschaust!</b> </p>
+                    <div id="simulationA"></div>
+                    <p style="font-size:1em; color:rgb(26, 14, 255); margin-bottom:0; margin-left:0.5em">&copy;N.Spitha, 2022</p>
+                </div>
+                
+                <div class="inner" id="simB-cont" style="display:block">
+                    <h2>Simulation B: Hess'sches Gesetz </h2>
+                    <h3>Überblick der Simulation:</h3>
+                    <ul>
+                        <li>
+                            Berühren, halten und ziehen Sie, um Atome zu verschieben.
+                        </li>
+                        <li>
+                            Tippen Sie auf eine Bindung, oder tippen Sie nacheinander auf zwei Atome, um eine Bindung zu brechen (<span style="color:rgb(56, 81, 222); font-size:1.2em">✄</span>). 
+                        </li>
+                        <li>
+                            Tippen Sie nacheinander auf zwei Atome, um eine Einzel- (<span style="color:rgb(56, 81, 222)">●⚊●</span>) oder Doppelbindung (<span style="color:rgb(56, 81, 222)">●⚌●</span>) zu bilden. 
+                        </li>
+                        <li>
+                            Die Enthalpieänderungen werden in der Grafik unten angezeigt. Sie können auch alle Bindungen auf einmal aufbrechen (<span style="color:rgb(56, 81, 222)">●✕●✕●</span>).
+                        </li> 
+                        <li>
+                            Wenn Sie auf "Zurücksetzen" klicken, wird der Pfad von Methan- und Sauerstoffmolekülen neu gestartet.
+                        </li>
+                    </ul>
+                    <h3>Beachte:</h3>
+                    <ul>
+                        <li>
+                            Jedes Molekül in der Simulation entspricht 1 mol von gasformigen Molekülen.
+                        </li>
+                        <li>
+                            Tippen Sie auf eine Bindung, oder tippen Sie nacheinander auf zwei Atome, um eine Bindung zu brechen oder zu bilden. 
+                        </li>
+                        
+                    </ul>
+                    <iframe scrolling="no" id="simulationB" src="assets/glowscript/hessCycEn.html" 
+									style="width: 90%; aspect-ratio: 0.6"></iframe>
+                </div>
+
+                <div class="inner" id="simC-cont" style="display:none">
+                    <h2>Simulation C: Teilchen und Reaktionsgeschwindigkeit</h2>
+                    <h3>Überblick der Simulation:</h3>
+                    <ul>
+                        <li>
+                            1. Schritt
+                        </li>
+                        <li>
+                            2. Schritt
+                        </li>
+                        <li>
+                            3. Schritt
+                        </li> 
+                    </ul>
+                </div>
+
+                <div class="inner" id="simD-cont" style="display:none">
+                    <h2>Simulation D: Das Erreichen vom chemischen Gleichgewicht </h2>
+                    <h3>Überblick der Simulation:</h3>
+                    <ul>
+                        <li>
+                            1. Schritt
+                        </li>
+                        <li>
+                            2. Schritt
+                        </li>
+                        <li>
+                            3. Schritt
+                        </li> 
+                    </ul>
+                </div>
+                
+
+                <!-- Hints and Help-->
+                <div class="inner" id="helpHints">
+                    <h2>Hilfreiche Informationen</h2>
+                    <h3>Konstanten:</h3>
+                    <li>Verdampfungsenthalpie von Wasser: 
+                        ΔH<sub>vap</sub> = 43,9 kJ mol<sup>-1</sup></li>
+                    <li>Sublimationsenthalpie von Kohlenstoff: 
+                        ΔH<sub>sub</sub> = 717 kJ mol<sup>-1</sup></li>
+                    <li>Gaskonstante: R = 8,314 J mol<sup>-1</sup> K<sup>-1</sup></li>
+                    <li>Coulomb-Konstante: <em>k</em> = 8,99&middot;10<sup>9</sup> N m<sup>2</sup> C<sup>-2</sup> </li>
+                    <h3>Gleichungen:</h3>
+                    <li>Coulombsches Gesetz: F = <em>k</em> (q<sub>1</sub>q<sub>2</sub>)/r<sup>2</sup></li>
+                    <li>Gibbs-Energie: ΔG<sup>o</sup> = ΔH<sup>o</sup> - T &middot;ΔS<sup>o</sup>=-RT&middot;ln(K<sub>eq</sub>)</li>
+                    <li>Arrhenius-Gleichung: <em>k</em> = A &middot; e<sup> - E<sub>a</sub>/RT</sup></li>
+                </div>
+
+            </div>
+
+        <!-- Footer -->
+            <footer id="footer">
+                <div class="inner">
+                    <ul class="copyright">
+                        <li>&copy; AK Tiemann@ HU-Berlin. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+    </div>
+
+<!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/Three49custom.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>\
+    <script src="assets/js/LJpotentials.js"></script>
+    <!-- Opening Tabs -->
+    <script> 
+
+        function openTab(evt, objectName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        var simA = document.getElementById("simA-cont");
+        var simB = document.getElementById("simB-cont");
+        var simC = document.getElementById("simC-cont");
+        var simD = document.getElementById("simD-cont");
+        tabcontent = [simA, simB, simC, simD];
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(objectName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
