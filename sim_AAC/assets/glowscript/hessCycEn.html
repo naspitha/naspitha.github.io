@@ -6,11 +6,12 @@
     <link type="text/css" href="jquery-ui.custom.css" rel="stylesheet" />
     <!-- <link type="text/css" href="/assets\css\main.css" " />
     -->
-    <link type="text/css" href="/assets\css\main.css" rel="stylesheet" rel="stylesheet" />
+    <link type="text/css" href="ide.css" rel="stylesheet" rel="stylesheet" />
+    <!-- <link type="text/css" href="/assets\css\main.css" rel="stylesheet" rel="stylesheet" /> -->
   </head>
 
-  <body>
-    <div id="glowscript" class="glowscript">
+<body>
+    <div id="glowscriptdiv" style="width:100%" class="glowscript">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         
         <script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery.min.js"></script>
@@ -61,6 +62,8 @@
         "use strict";
             var display = canvas;
             var scene = canvas();
+            
+            scene.width = document.getElementById("glowscriptdiv").offsetWidth
         
             var version, print, arange, __name__, type, ρσ_ls, systemEnergy, step, cut_button, sb_button, db_button, break_all, restart_button, setMol, Egraph, f1, c1_atom, c2_atom, h1_atom, h2_atom, h3_atom, h4_atom, h5_atom, h6_atom, h7_atom, h8_atom, o1_atom, o2_atom, o3_atom, o4_atom, o5_atom, o6_atom, o7_atom, o8_atom, bond_list, scissorMode, sel_bond, lasthit, lastcolor, prevAtom, prevAtomColor, AtomsSelected, clickCounter, hit, drag, startMol;
             version = ρσ_list_decorate([ "3.2", "glowscript" ]);
@@ -97,16 +100,18 @@
             "26"; break_all = ρσ_interpolate_kwargs.call(this, button, [ρσ_desugar_kwargs({text: "●✕●✕●", background: color.white, color: color.black, bind: CutAllBonds})]);
             "27";
             restart_button = ρσ_interpolate_kwargs.call(this, button, [ρσ_desugar_kwargs({text: "Zurück", background: color.white, color: color.black, bind: restart})]);
+            "28"; 
+            scene.append_to_caption("\n \n Ausgangsmaterialien:");
             "29"; 
-            "30"; scene.append_to_caption("\n\n Ausgangsmaterialien:");
             setMol = ρσ_interpolate_kwargs.call(this, menu, [ρσ_desugar_kwargs({text: "set moles", choices: ρσ_list_decorate([ "CH4 + 2O2", "2CH4+4O2" ]), bind: setMol, disabled: false})]);
+            "30"; scene.append_to_caption("\n");
             "31";
-            scene.append_to_caption("\n\n");
+            Egraph = ρσ_interpolate_kwargs.call(this, graph, [ρσ_desugar_kwargs({xtitle: "Schritt", ytitle: "Enthalpieänderung (kJ/mol)", xmin: 0, xmax: 20, ymin: 1["-u"]()["*"](5e3), ymax: 6e3, background: color.white, width:scene.width*0.9, height:scene.width*0.5})]);
             "35";
-            Egraph = ρσ_interpolate_kwargs.call(this, graph, [ρσ_desugar_kwargs({xtitle: "Schritt", ytitle: "Enthalpieänderung (kJ/mol)", xmin: 0, xmax: 20, ymin: 1["-u"]()["*"](5e3), ymax: 6e3, background: color.white})]);
+             
             "36";
             f1 = ρσ_interpolate_kwargs.call(this, gcurve, [ρσ_desugar_kwargs({graph: Egraph, color: color.red})]);
-            "37";
+            "37"; 
             f1.plot(step, systemEnergy);
             "39";
             c1_atom = c2_atom = null;
@@ -904,11 +909,11 @@
         if (!__main__.__module__) Object.defineProperties(__main__, {
             __module__ : {value: null}
         });
-        
-        ;$(function(){ window.__context = { glowscript_container: $("#glowscript").removeAttr("id") }; __main__() })})()
+  
+        ;$(function(){ window.__context = { glowscript_container: $("#glowscriptdiv")}; __main__() })})()
         // END JAVASCRIPT
         
         //--><!]]></script>
         </div> 
-  </body>
+</body>
 

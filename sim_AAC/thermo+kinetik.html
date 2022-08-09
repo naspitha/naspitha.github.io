@@ -73,7 +73,7 @@
                     <p style="font-size:1em; color:rgb(26, 14, 255); margin-bottom:0; margin-left:0.5em">&copy;N.Spitha, 2022</p>
                 </div>
                 
-                <div class="inner" id="simB-cont" style="display:block">
+                <div class="inner" id="simB-cont" style="display:block; visibility:hidden">
                     <h2>Simulation B: Hess'sches Gesetz </h2>
                     <h3>Überblick der Simulation:</h3>
                     <ul>
@@ -104,10 +104,10 @@
                         
                     </ul>
                     <iframe scrolling="no" id="simulationB" src="assets/glowscript/hessCycEn.html" 
-									style="width: 90%; aspect-ratio: 0.6"></iframe>
+									style="width: 90%; height:100px"></iframe>
                 </div>
 
-                <div class="inner" id="simC-cont" style="display:none">
+                <div class="inner" id="simC-cont" style="display:block; visibility:hidden">
                     <h2>Simulation C: Teilchen und Reaktionsgeschwindigkeit</h2>
                     <h3>Überblick der Simulation:</h3>
                     <ul>
@@ -121,6 +121,8 @@
                             3. Schritt
                         </li> 
                     </ul>
+                    <iframe scrolling="no" id="simulationC" src="assets/glowscript/particleKinetics.html" 
+									style="width: 90%; height: 50px"></iframe>
                 </div>
 
                 <div class="inner" id="simD-cont" style="display:none">
@@ -203,6 +205,35 @@
         // Show the current tab, and add an "active" class to the button that opened the tab
         document.getElementById(objectName).style.display = "block";
         evt.currentTarget.className += " active";
+        
+        
+        if (objectName == "simB-cont") {
+            iframeB = document.getElementById('simulationB')
+            simB.style.visibility="visible"
+
+        }
+
+        if (objectName == "simC-cont") {
+            iframeC = document.getElementById('simulationB')
+            simC.style.visibility = "visible"
+        }
+
+        }
+
+    </script>
+    <!-- Resizing stuff -->
+    <script>
+        var divB = document.getElementById("simB-cont")
+        var iframeB = document.getElementById('simulationB')
+        iframeB.onload = function(){
+            iframeB.style.height = iframeB.contentWindow.document.body.scrollHeight+'px'
+            divB.style.display = "none"
+        }
+        var divC = document.getElementById("simC-cont")
+        var iframeC = document.getElementById('simulationC')
+        iframeC.onload = function(){
+            iframeC.style.height = iframeC.contentWindow.document.body.scrollHeight+'px'
+            divC.style.display = "none"
         }
     </script>
 </body>
