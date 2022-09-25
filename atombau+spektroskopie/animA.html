@@ -28,6 +28,14 @@
                     <span class="symbol"><img src="/images/huberlin-logo.svg" alt="" /></span>
                 </span>
             </div>
+            <nav>
+                <span class="helpButton">
+                    <p style="color: rgb(4, 140, 4); margin-bottom: 0; text-align: center">HILFE</p>
+                    <a href="#menu">
+                        <img id="helpIcon" src="/images/info-circle.svg" alt="Hilfe" />
+                    </a>                    
+                </span>
+            </nav>
         </header>
 
         <!-- Menu (help in disguise)-->
@@ -51,10 +59,10 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1>Atombau und Spektroskopie</h1>
+                <a href="index.html"><h1>Atombau und Spektroskopie</h1></a>
 				<h2>Animation A: Photoelektronenspektroskopie</h2>
-                <p>Bei der Photoelektronenspektroskopie (PES) werden mit Hilfe von UV-Licht oder Röntgenstrahlen Elektronen aus verschiedenen Energieniveaus einer Substanz entfernt (ionisiert). Wenn man die kinetische Energie der entfernten Elektronen messt (und die Energie des Lichts auch weißt), dann kann man auch die "Bindungsenergie" der verschiedenen Niveaus des Atoms bestimmen. Die Spitzen in einem PES-Spektrum enthalten daher Informationen sowohl über die Energie als auch über die Anzahl der Elektronen in den verschiedenen Schalen und Unterschalen eines Atoms.</p>
-                <video id="animationA" width="100%" autoplay="true" controls>
+                <p>Bei der Photoelektronenspektroskopie (PES) werden mit Hilfe von UV-Licht oder Röntgenstrahlen Elektronen aus verschiedenen Energieniveaus einer Substanz entfernt (ionisiert). Die Entfernung eines Elektrons (Ionisierung) erfolgt, wenn die Energie des Lichts ausreicht, um das Elektron von seinem ursprünglichen Energieniveau zur Vakuumenergie anzuregen. Wenn die kinetische Energie der entfernten Elektronen gemessen wird (und die Energie des Lichts bekannt ist), dann kann die "Bindungsenergie" der verschiedenen Energieniveaus des Atoms bestimmt werden. Die Spitzen (Peaks) in einem PES-Spektrum stellen daher die verschiedenen Energieniveaus (Schalen und deren Unterschalen) einer Probe dar und enthalten Informationen sowohl über die Energie als auch die Anzahl der Elektronen in den Unterschalen.</p>
+                <video id="animationA" width="100%" autoplay="true">
                     <source src="/images/PES_animationA.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -65,17 +73,6 @@
         <div id="simnav">
             <div class="inner">
                 <section class="tiles">
-                    <article class="stylePDF">
-                        <span class="image">
-                            <img src="/images/pic01.jpg" alt="" />
-                        </span>
-                        <a href="#">
-                            <h2>PDF</h2>
-                            <div class="content">
-                                <p>Aufgaben dieser Aktivität</p>
-                            </div>
-                        </a>
-                    </article>
 					<article class="styleSimActive">
                         <span class="image">
                             <img src="/images/pic02.jpg" alt="" />
@@ -105,7 +102,7 @@
                         <a href="simB.html">
                             <h2>Simulation B</h2>
                             <div class="content">
-                                <p>Spektrum von Wasserstoff</p>
+                                <p>Spektrum von Wasserstoff & interaktives Diagramm</p>
                             </div>
                         </a>
                     </article>
@@ -140,5 +137,16 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
+    <script>
+        // replaying the video
+        document.getElementById('animationA').onclick=function(){this.paused ? this.play() : this.pause();}
+        document.getElementById('animationA').addEventListener('ended',myHandler,false);
+        function myHandler(e) {
+            console.log('ended');
+            setTimeout(function(){
+                document.getElementById('animationA').play();
+            }, 800);
+        }
+    </script>
 </body>
 </html>

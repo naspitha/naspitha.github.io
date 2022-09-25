@@ -29,6 +29,14 @@
                     <span class="symbol"><img src="/images/huberlin-logo.svg" alt="" /></span>
                 </span>
             </div>
+            <nav>
+                <span class="helpButton">
+                    <p style="color: rgb(4, 140, 4); margin-bottom: 0; text-align: center">HILFE</p>
+                    <a href="#menu">
+                        <img id="helpIcon" src="/images/info-circle.svg" alt="Hilfe" />
+                    </a>                    
+                </span>
+            </nav>
         </header>
 
         <!-- Menu (help in disguise)-->
@@ -52,9 +60,9 @@
         <!-- Main -->
         <div id="main">
             <div class="inner">
-                <h1>Atombau und Spektroskopie</h1>
+                <a href="index.html"><h1>Atombau und Spektroskopie</h1></a>
 				<h2>Simulation B: Spektrum von Wasserstoff</h2>
-                    <p>In dieser Simulation wirst du die Energieniveaus des Wasserstoffatoms nach dem Bohr'schen Modell quantitativ betrachten. Durch Ziehen der Anfangs- und Endpunkte des Elektrons können Sie in der Simulation Übergänge zwischen den Energieniveaus des Wasserstoffatoms erzeugen. Die Energie dieser Übergänge wird entlang der schwarzen Wellenlängenachse über dem Bild angezeigt. Der Wert der Energie ist auch neben dem Pfeil angegeben.</p>
+                    <p>In Simulation B werden die Energieniveaus des Wasserstoffatoms nach dem Bohrschen Modell quantitativ betrachtet. Das rote <span style="background:rgb(255, 0, 0); border-radius: 8px; font-weight: 900; color: rgb(255, 255, 255)">&nbsp +&nbsp </span>&nbsp -Zeichen steht für den Kern, während das blaue <span style="background:rgb(8, 28, 255); border-radius: 10px; font-weight: 900; color: rgb(255, 255, 255)">&nbsp -&nbsp </span>&nbsp -Zeichen ein Elektron darstellt, welches das Atom umkreist. Durch das Verändern der Anfangs- und Endposition des Elektrons werden Übergänge zwischen den Energieniveaus des Wasserstoffatoms erzeugt. Die Energie dieser Übergänge wird entlang der schwarzen Wellenlängenachse über dem Bild angezeigt und ist auch neben dem Pfeil angegeben.</p>
                     <div id="loadText">
                         <p style="color: rgb(26, 14, 255); border: solid 2px rgb(255, 255, 255)">Bitte warte, bis die Simulation geladen ist...</p>
                     </div>
@@ -67,9 +75,13 @@
                     <p>Besuchen Sie die <a href="https://javalab.org/en/spectrum_of_hydrogen_en/" target="_blank">Original-Website</a>, wenn das Bild nicht richtig angezeigt wird.</p>
                     </div>
                     <h2>Interaktives Diagramm B</h2>
-                    <p>Dieses interaktive Diagramm ist ein Applet von Geogebra &trade;. Als Erstes kannst du deine berechneten Energiewerten von den Niveaus <em>n</em>=2-8 in eine Tabelle eingeben. Du wirst dann sofort die Punkte auf dem Diagramm sehen. Danach kannst du mit Hilfe von Schiebereglern eine Gleichung ermitteln, die die Variation der Energie zwischen den Niveaus am besten beschreibt. </p>
-                    
-                        <a href="https://www.geogebra.org/graphing/an6grgwy" target="_blank"><button style="background-color:rgb(255, 240, 254)">Interaktives Diagramm öffnen</button></a>
+                    <h3>Verwendungstipps:</h3>
+                    <ul>
+                        <li>Die berechneten Energiewerten der Energieniveaus <em>n</em> = 2 – 8 können in eine Tabelle auf der Registerkarte "Table" eingeben werden. Die Punkte erscheinen im Diagram daneben.</li>
+                        <li>Danach kann mit Hilfe von Schiebereglern in der Registerkarte „Algebra“ (Taschenrechnersymbol) eine Gleichung ermittelt werden, welche die Variation der Energie zwischen den Niveaus am besten beschreibt.</p></li>
+                    </ul>
+                    <div id="ggb-intDiag" style="width:100%" ></div> 
+                        <!-- <a href="https://www.geogebra.org/graphing/an6grgwy" target="_blank"><button style="background-color:rgb(255, 240, 254)">Interaktives Diagramm öffnen</button></a> -->
             </div>
         </div>
         
@@ -77,17 +89,6 @@
         <div id="simnav">
             <div class="inner">
                 <section class="tiles">
-                    <article class="stylePDF">
-                        <span class="image">
-                            <img src="/images/pic01.jpg" alt="" />
-                        </span>
-                        <a href="#">
-                            <h2>PDF</h2>
-                            <div class="content">
-                                <p>Aufgaben dieser Aktivität</p>
-                            </div>
-                        </a>
-                    </article>
 					<article class="styleSim">
                         <span class="image">
                             <img src="/images/pic02.jpg" alt="" />
@@ -117,7 +118,7 @@
                         <a href="simB.html">
                             <h2>Simulation B</h2>
                             <div class="content">
-                                <p>Spektrum von Wasserstoff</p>
+                                <p>Spektrum von Wasserstoff & interaktives Diagram</p>
                             </div>
                         </a>
                     </article>
@@ -159,8 +160,21 @@
         iFrame.onload = function(){
             loadText.style.display = 'none'
             divContainer.style.display='block'
-            divContainer.clientHeight = divContainer.clientWidth*0.4
            }
+    </script>
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script>
+        var simwidth = document.getElementById("ggb-intDiag").offsetWidth;
+        var simheight = simwidth*0.6
+        var params = {
+            "appName": "graphing",
+                "width": simwidth,
+                "height": simheight,
+                "showMenuBar": true,
+                "material_id": "an6grgwy",};
+        var applet = new GGBApplet(params, true);
+        applet.inject('ggb-intDiag');
+    </script>
     </script>
 </body>
 </html>

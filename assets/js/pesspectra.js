@@ -1,19 +1,20 @@
 //TODO: make size of graph responsive
-//TODO: make bring cross to front
 //TODO: zoom
-//TODO:  set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 40, left: 50}
 
-var width = 520 - margin.left - margin.right
-var height = 400 - margin.top - margin.bottom;
+var margin = {top: 10, right: 30, bottom: 40, left: 50}
+var graphDiv = document.getElementById("simulationA")
+
+var width = graphDiv.clientWidth - margin.left - margin.right
+// var height = graphDiv.clientHeight - margin.top - margin.bottom;
+var height = width*0.6
 
 //info for legend
 var legx = width*0.93
-var legy = height*0.04
+var legy = height*0.24
 var legx1 = legx-17
-var legx2 = width*1.04
-var legy1 = 0
-var legy2 = 0.58*height 
+var legx2 = margin.left+width-20
+var legy1 = legy-0.04*height
+var legy2 = height*0.91
 
 // append the svg object to the body of the page
 var svg = d3.select("#simulationA")
@@ -25,7 +26,7 @@ var svg = d3.select("#simulationA")
         "translate(" + margin.left + "," + margin.top + ")")
     
 
-// Add the grey background that makes ggplot2 famous
+// Add the background
 svg
     .append("rect")
     .attr("x",0)
@@ -33,14 +34,24 @@ svg
     .attr("height", height)
     .attr("width", width)
     .style("fill", "white")
-    .on("click", function(){
-        var xval = d3.mouse(this)[0]
-        var yval = d3.mouse(this)[1]
-        xwithinbox = xval>legx1 && xval<legx2
-        ywithinbox = yval>legy1 && yval<legy2
-        withinbox = xwithinbox && ywithinbox
-        console.log(withinbox)
-        if (!withinbox){
+    
+
+// for clicking
+clickRect= svg.append("rect")
+    .attr("x",0)
+        .attr("y",0)
+        .attr("height", height)
+        .attr("width", width)
+        .attr("fill", "red") 
+        .attr("opacity", 0)
+        .on("click", function(){
+            var xval = d3.mouse(this)[0]
+            var yval = d3.mouse(this)[1]
+            // xwithinbox = xval>legx1 && xval<legx2
+            // ywithinbox = yval>legy1 && yval<legy2
+            // withinbox = xwithinbox && ywithinbox
+            // console.log(withinbox)
+            // if (!withinbox){
             d3.select("#xCur").attr("x1", xval).attr("x2", xval)
             d3.select("#xCur").attr("y1", yval-10).attr("y2", yval+10)
             d3.select("#yCur").attr("y1", yval).attr("y2", yval)
@@ -59,9 +70,9 @@ svg
             if(y<height/2){
                 d3.select("#coord").attr("y", yval+20)}
                 else{d3.select("#coord").attr("y", yval-10)}
-        }
-        
-    })
+            // }
+        })
+
 //Add X axis
 var x = d3.scaleLog()
     .domain([40000, 0.9])
@@ -101,21 +112,22 @@ svg.append("text")
     .attr("x", -margin.top - height/2 + 20)
     .text("Intensität")
 
-// cross with x and y values
+// Cursor-cross with x and y values
 x0 = 0.05*width; y0 = 0.05*height
-svg.append("line")
+cursor = svg.append("g").attr("id", "cursor")
+cursor.append("line")
     .style("stroke", "black")
     .style("stroke-width", 1.5)
     .attr("x1", x0+10).attr("x2", x0-10)
     .attr("y1", y0).attr("y2", y0)
     .attr("id", "yCur")
-svg.append("line")
+cursor.append("line")
     .style("stroke", "black")
     .style("stroke-width", 1.5)
     .attr("x1", x0).attr("x2", x0)
     .attr("y1", y0+10).attr("y2", y0-10)
     .attr("id", "xCur")
-svg.append("text")
+cursor.append("text")
     .style("stroke", "black")
     .attr("id", "coord")
     .attr("x", x0+10).attr("y", y0+20)
@@ -221,14 +233,16 @@ svg.append("path")
         )
 
 // Legend
-svg.append("rect")
+var legend = svg.append("g")
+    .attr("id", "legend")
+legend.append("rect")
     .attr("x",legx1)
     .attr("y",legy1)
     .attr("height", legy2-legy1)
     .attr("width", legx2-legx1)
     .style("fill", "white")
     .style("stroke", "black")
-svg.selectAll("mydots")
+legend.selectAll("mydots")
     .data(keys)
     .enter()
     .append("circle")
@@ -254,7 +268,7 @@ svg.selectAll("mydots")
 
 
 // Add one dot in the legend for each name.
-svg.selectAll("mylabels")
+legend.selectAll("mylabels")
     .data(keys)
     .enter()
     .append("text")
@@ -264,4 +278,10 @@ svg.selectAll("mylabels")
         .text(function(d){ return d})
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
-});
+
+cursor.raise()
+clickRect.raise()
+legend.raise()
+    });
+
+

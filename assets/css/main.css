@@ -3097,10 +3097,19 @@ input[type="checkbox"] + label:before {
 		}
 
 /* Menu */
-	.helpButton img {
+	.helpButton #helpIcon {
+		height: 4.5em;
+		width: 3.5em;
+		filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(100deg) brightness(104%) contrast(97%);
+		
+		
+	}
+
+	.helpButton #feedbackIcon {
 		height: 3em;
 		width: 3em;
-		filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(100deg) brightness(104%) contrast(97%);
+		filter: invert(27%) saturate(2878%) brightness(154%) contrast(97%);
+		margin-bottom: 1em;
 	}
 
 	.helpButton a {
@@ -3131,7 +3140,7 @@ input[type="checkbox"] + label:before {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #b7d4c6;
+		background: #cee8db;
 		font-size: 1em;
 		color: #303030;
 		cursor: default;
