@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <script src="https://kit.fontawesome.com/8b1d63b705.js" crossorigin="anonymous"></script>
     </head>
 <body class="is-preload">
 <!-- Wrapper -->
@@ -44,21 +45,31 @@
             <div class="inner">
 				<h2>Hilfreiche Informationen</h2>
 				<h3>Konstanten:</h3>
-				<li>Planck'sches Wirkungsquantum: <em>h</em> = 6.626 &middot; 10<sup>-34</sup> J&middot;s</sup></li>
+                <ul>
+                    <li>Planck'sches Wirkungsquantum: <em>h</em> = 6.626 &middot; 10<sup>-34</sup> J&middot;s</sup></li>
 				<li>Lichtgeschwindigkeit: <em>c</em> = 2.998 &middot; 10<sup>8</sup> m&middot;s<sup>-1</sup></li>
+                </ul>
 				<h3>Einheiten:</h3>
-				<li>1 eV = 1.602 &middot; 10<sup>-19</sup> J</li>
-				<li>1 Hz = 1 s<sup>-1</sup></li>
+                <ul>
+                    <li>1 eV = 1.602 &middot; 10<sup>-19</sup> J</li>
+                    <li>1 Hz = 1 s<sup>-1</sup></li>
+                </ul>
 				<h3>Elektromagnetisches Spektrum</h3>
 				<img src="/images/EM-Spektrum.svg" width="100%">
 				<p style="font-size:0.8em">Bildnachweis: Matt, CC BY-SA 2.5, via Wikimedia Commons | <a href = "https://commons.wikimedia.org/wiki/File:EM-Spektrum.svg" target="_blank">(Originalbild anschauen)</a></p>
+                
+                <h3><i class="far fa-lightbulb"></i> &nbsp Fakultative Hinweise </i></h3>
+                <p style="margin-bottom:0"><strong>Frage 7b</strong><span style="float:right"><toggle class="showHide" id="showHideA">Einblenden</toggle></span></p>
+                <p id="hintA" style="display:none">Achten Sie auf den Übergang zwischen den Gruppen 16 und 17! Berücksichtigen Sie insbesondere die Anzahl der Elektronen in den Orbitalen.</p>
+                <p style="margin-bottom:0"><strong>Frage 12</strong><span style="float:right"><toggle class="showHide" id="showHideB">Einblenden</toggle></span></p>
+                <p id="hintB" style="display:none">Schreiben Sie zunächst die chemischen Reaktionen auf, die den einzelnen Prozessen entsprechen.</p>
             </div>
         </nav>
 
         <!-- Main -->
         <div id="main">
             <div class="inner" >
-                <h1>Periodische Trends durch die Linse der atomaren Energieniveaus</h1>
+                <a href="index.html"><h1>Periodische Trends durch die Linse der atomaren Energieniveaus</h1></a>
                 <h2>Simulation A: Wie weit kann uns ein vereinfachtes Atommodel bringen?</h2>
                 <h3>Überblick der Simulation:</h3>
                 <ul>
@@ -130,8 +141,7 @@
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
-                <p>&copy; Tiemann Lab @ HU-Berlin | Design:&nbsp <a href="http://html5up.net">HTML5 UP</a></p>
-            </div>
+                <p>&copy; Tiemann Lab @ HU-Berlin | Design-Vorlage: <a href="http://html5up.net">HTML5 UP</a>| Icons: <a href="https://icons.getbootstrap.com/">Bootstrap</a> & <a href="https://fontawesome.com/">FontAwesome.</a></p>            </div>
         </footer>
     </div>
 
@@ -158,6 +168,30 @@
                 "material_id": "cjnberkf"};
         var applet = new GGBApplet(params, true);
         applet.inject('ggb-simA');
+    </script>
+    <script>
+        var showHideToggleA = document.getElementById("showHideA")
+        var hintA = document.getElementById("hintA")
+        showHideToggleA.onclick = function(){
+            if (hintA.style.display=="none"){
+                showHideToggleA.innerHTML = "Ausblenden"
+                hintA.style.display="block"
+            } else {
+                showHideToggleA.innerHTML = "Einblenden"
+                hintA.style.display="none"
+            }
+        }
+        var showHideToggleB = document.getElementById("showHideB")
+        var hintB = document.getElementById("hintB")
+        showHideToggleB.onclick = function(){
+            if (hintB.style.display=="none"){
+                showHideToggleB.innerHTML = "Ausblenden"
+                hintB.style.display="block"
+            } else {
+                showHideToggleB.innerHTML = "Einblenden"
+                hintB.style.display="none"
+            }
+        }
     </script>
 </body>
 </html>

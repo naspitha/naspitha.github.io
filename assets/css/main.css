@@ -8,7 +8,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
+pre, a, toggle, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -150,6 +150,22 @@ input, select, textarea {
 	}
 
 		a:hover {
+			border-bottom-color: transparent;
+			color: #f2849e !important;
+		}
+	
+	toggle {
+		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		text-decoration: none;
+		color: #585858;
+		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		font-weight: 550;
+	}
+
+		toggle:hover {
 			border-bottom-color: transparent;
 			color: #f2849e !important;
 		}

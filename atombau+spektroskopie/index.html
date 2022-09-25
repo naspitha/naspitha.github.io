@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+    <script src="https://kit.fontawesome.com/8b1d63b705.js" crossorigin="anonymous"></script>
     </head>
 <body class="is-preload">
 <!-- Wrapper -->
@@ -52,6 +53,10 @@
 					<h3>Elektromagnetisches Spektrum</h3>
 					<img src="/images/EM-Spektrum.svg" width="100%">
 					<p style="font-size:0.8em">Bildnachweis: Matt, CC BY-SA 2.5, via Wikimedia Commons | <a href = "https://commons.wikimedia.org/wiki/File:EM-Spektrum.svg" target="_blank">(Originalbild anschauen)</a></p>
+
+                    <h3><i class="far fa-lightbulb"></i> &nbsp Fakultative Hinweise </i></h3>
+                    <p style="margin-bottom:0"><strong>Frage 10</strong><span style="float:right"><toggle class="showHide" id="showHideA">Einblenden</toggle></span></p>
+                    <p id="hintA" style="display:none">Es kann sein, dass Sie an die mathematische Beziehung zwischen der Quantenzahl <em>n</em> und der Energie schon erinnern können!</p>
 				</div>
 			</div>
         </nav>
@@ -130,7 +135,7 @@
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
-                <p>&copy; Tiemann Lab @ HU-Berlin | Design:&nbsp <a href="http://html5up.net">HTML5 UP</a></p>
+                <p>&copy; Tiemann Lab @ HU-Berlin | Design-Vorlage: <a href="http://html5up.net">HTML5 UP</a>| Icons: <a href="https://icons.getbootstrap.com/">Bootstrap</a> & <a href="https://fontawesome.com/">FontAwesome.</a></p>            </div>
             </div>
         </footer>
     </div>
@@ -143,5 +148,18 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
+    <script>
+        var showHideToggleA = document.getElementById("showHideA")
+        var hintA = document.getElementById("hintA")
+        showHideToggleA.onclick = function(){
+            if (hintA.style.display=="none"){
+                showHideToggleA.innerHTML = "Ausblenden"
+                hintA.style.display="block"
+            } else {
+                showHideToggleA.innerHTML = "Einblenden"
+                hintA.style.display="none"
+            }
+        }
+    </script>
 </body>
 </html>
