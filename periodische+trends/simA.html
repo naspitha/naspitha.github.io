@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
     <script src="https://kit.fontawesome.com/8b1d63b705.js" crossorigin="anonymous"></script>
-    </head>
+</head>
 <body class="is-preload">
 <!-- Wrapper -->
     <div id="wrapper">
@@ -93,7 +93,9 @@
                         Die Simulation basiert auf dem Bohrschen Atommodell. Wenn das Bohrsche Modell für Atome mit mehr als einem Elektron verwendet wird, kann das oft zu ungenauen numerischen Ergebnissen führen, da das Modell hier nur durch erhebliche Vereinfachungen (z. B. die Verwendung des Konzepts der effektiven Kernladung) angewendet wird. Werte aus dem Periodensystem oder anderen Literaturquellen sind daher immer zuverlässiger!
                     </li>
                 </ul>
-                <div id="ggb-simA" style="width:90%" ></div> 
+                <h2 style="margin-bottom:0; display:inline-block">Z:</h2>
+                <button>-</button>&nbsp <span id="Zvalue">1</span>&nbsp <button>+</button>
+                <svg class="interactiveGraph" id="bohrSimulation" width="900" height="350"></svg>
             </div>
         </div>
         
@@ -153,22 +155,8 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
-    <script>
-        var simwidth = document.getElementById("ggb-simA").offsetWidth;
-        var params = {
-            "appName": "classic",
-                "width": 800, 
-                "height": 400, 
-                "scale": simwidth/800,
-                "showToolBar": false, 
-                "showZoomButtons":true,
-                "showAlgebraInput": false, 
-                "showMenuBar": false,
-                "material_id": "cjnberkf"};
-        var applet = new GGBApplet(params, true);
-        applet.inject('ggb-simA');
-    </script>
+    <script src="/assets/js/d3.slider.js"></script>
+    <script src="/assets/js/bohrModel.js"></script>
     <script>
         var showHideToggleA = document.getElementById("showHideA")
         var hintA = document.getElementById("hintA")
@@ -193,5 +181,6 @@
             }
         }
     </script>
+    
 </body>
 </html>
