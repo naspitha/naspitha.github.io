@@ -53,7 +53,9 @@
 					<h3>Elektromagnetisches Spektrum</h3>
 					<img src="/images/EM-Spektrum.svg" width="100%">
 					<p style="font-size:0.8em">Bildnachweis: Matt, CC BY-SA 2.5, via Wikimedia Commons | <a href = "https://commons.wikimedia.org/wiki/File:EM-Spektrum.svg" target="_blank">(Originalbild anschauen)</a></p>
-				</div>
+                    <h3><i class="far fa-lightbulb"></i> &nbsp Fakultative Hinweise </i></h3>
+                    <p style="margin-bottom:0"><strong>Frage 10</strong><span style="float:right"><toggle class="showHide" id="showHideA">Einblenden</toggle></span></p>
+                    <p id="hintA" style="display:none">Es kann sein, dass Sie an die mathematische Beziehung zwischen der Quantenzahl <em>n</em> und der Energie schon erinnern können!</p>				</div>
 			</div>
         </nav>
 
@@ -125,7 +127,7 @@
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
-                <p>&copy; Tiemann Lab @ HU-Berlin | Design:&nbsp <a href="http://html5up.net">HTML5 UP</a></p>
+                <p>&copy; Tiemann Lab @ HU-Berlin | Design-Vorlage: <a href="http://html5up.net">HTML5 UP</a>| Icons: <a href="https://icons.getbootstrap.com/">Bootstrap</a> & <a href="https://fontawesome.com/">FontAwesome.</a></p>            </div>
             </div>
         </footer>
     </div>
@@ -147,6 +149,19 @@
             setTimeout(function(){
                 document.getElementById('animationA').play();
             }, 800);
+        }
+    </script>
+    <script>
+        var showHideToggleA = document.getElementById("showHideA")
+        var hintA = document.getElementById("hintA")
+        showHideToggleA.onclick = function(){
+            if (hintA.style.display=="none"){
+                showHideToggleA.innerHTML = "Ausblenden"
+                hintA.style.display="block"
+            } else {
+                showHideToggleA.innerHTML = "Einblenden"
+                hintA.style.display="none"
+            }
         }
     </script>
 </body>
