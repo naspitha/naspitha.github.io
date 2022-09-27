@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
     <script src="https://kit.fontawesome.com/8b1d63b705.js" crossorigin="anonymous"></script>
-    </head>
+</head>
 <body class="is-preload">
 <!-- Wrapper -->
     <div id="wrapper">
@@ -85,7 +85,6 @@
                 </ul> 
                 <h3>Zu Beachten:</h3>
                 <ul>
-                    
                     <li>
                         Elektronen mit einer Energie von weniger als 0 eV (<b>Nullpunktsenergie</b> oder <b>Vakuumenergie</b>) gelten als an das Atom "gebunden." Elektronen mit höherer Energie sind im Gegenzug "außerhalb" von dem Einfluss des Kerns.
                     </li>
@@ -93,7 +92,30 @@
                         Die Simulation basiert auf dem Bohrschen Atommodell. Wenn das Bohrsche Modell für Atome mit mehr als einem Elektron verwendet wird, kann das oft zu ungenauen numerischen Ergebnissen führen, da das Modell hier nur durch erhebliche Vereinfachungen (z. B. die Verwendung des Konzepts der effektiven Kernladung) angewendet wird. Werte aus dem Periodensystem oder anderen Literaturquellen sind daher immer zuverlässiger!
                     </li>
                 </ul>
-                <div id="ggb-simA" style="width:90%" ></div> 
+                <div class="simulationInterface">
+                    <div class="addRemoveButton"><button id="removeZ">-</button></div> 
+                    <p>&nbsp Z = <span id="Zvalue">1</span>&nbsp</p>
+                    <div class="addRemoveButton"><button id="addZ">+</button></div> <p> &nbsp | &nbsp Radius: <span id="rValue">0.5</span> Å &nbsp | &nbsp</p>
+                    <p>Vom Kern ausgeübte Kraft auf <label for="orbitalToShowForce">
+                        <select name="orbitalToShowForce" id="orbitalToShowForce">
+                            <option value="1s">1s</option>
+                            <option value="2s">2s</option>
+                            <option value="2p">2p</option>
+                            <option value="3s">3s</option>
+                            <option value="3p">3p</option>
+                            <option value="4s">4s</option>
+                        </select></label>: <span id="fValue">-</span> nC &nbsp | &nbsp</p>
+                    <p>Energie des Niveaus <label for="orbitalToShowEnergy">
+                        <select name="orbitalToShowEnergy" id="orbitalToShowEnergy">
+                            <option value="1s">1s</option>
+                            <option value="2s">2s</option>
+                            <option value="2p">2p</option>
+                            <option value="3s">3s</option>
+                            <option value="3p">3p</option>
+                            <option value="4s">4s</option>
+                        </select></label>: <span id="eValue">-13.6</span> eV</p>
+                </div>
+                <svg class="interactiveGraph" id="bohrSimulation" width="900" height="360"></svg>
             </div>
         </div>
         
@@ -153,22 +175,7 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
-    <script>
-        var simwidth = document.getElementById("ggb-simA").offsetWidth;
-        var params = {
-            "appName": "classic",
-                "width": 800, 
-                "height": 400, 
-                "scale": simwidth/800,
-                "showToolBar": false, 
-                "showZoomButtons":true,
-                "showAlgebraInput": false, 
-                "showMenuBar": false,
-                "material_id": "cjnberkf"};
-        var applet = new GGBApplet(params, true);
-        applet.inject('ggb-simA');
-    </script>
+    <script src="/assets/js/bohrModel.js"></script>
     <script>
         var showHideToggleA = document.getElementById("showHideA")
         var hintA = document.getElementById("hintA")
@@ -193,5 +200,6 @@
             }
         }
     </script>
+    
 </body>
 </html>
