@@ -1,3 +1,6 @@
+// TODO: ticks
+// TODO: energy arrow
+
 var svg = d3.select("#bohrSimulation"),
 margin = 50, topmargin = 20, divider = 10
 var width = svg.attr("width")*1,
@@ -11,6 +14,7 @@ var rIndicator = document.getElementById("rValue")
 var fIndicator = document.getElementById("fValue")
 var eIndicator = document.getElementById("eValue")
 var fSelectMenu = document.getElementById("orbitalToShowForce")
+var eSelectMenu = document.getElementById("orbitalToShowEnergy")
 var removeZ = document.getElementById("removeZ")
 var addZ = document.getElementById("addZ")
 
@@ -30,9 +34,10 @@ var screeningEquations = {
 var orbitalColors = {
     "1s": "rgb(180, 0, 240", "2s": "rgb(0,100,240)", "2p": "rgb(0, 220, 0)",  "3s": "rgb(230, 230, 0)", 
     "3p": "rgb(255, 127, 0)", "4s": "rgb(230, 0, 0)"}
+var minEnergy = -250
 
 // Parameters
-var Z = 11; zIndicator.innerHTML = Z
+var Z = 1; zIndicator.innerHTML = Z
 var electrons, occupancy, occupiedShells, offsetIndex, radiusPanel, radiusPlot, xSpace, ySpace, x_axis, y_axis, energyPlot, energyPanel
 var radius
 
@@ -60,20 +65,17 @@ energyPlot = energyPanel.append("rect")
     .attr("y",topmargin)
     .attr("height", panelDimension)
     .attr("width", panelDimension)
-    .attr("stroke", "rgb(240, 240, 240)")
-    .attr("fill", "rgb(240, 240, 240)")
+    .attr("fill", "rgb(250, 250, 250)")
 xScale = d3.scaleLinear().domain([0,1])
     .range([energyPlot.attr("x"), +energyPlot.attr("x")+ +energyPlot.attr("width")])
-energyScale =  d3.scaleLinear().domain([1,-20])
+energyScale =  d3.scaleLinear().domain([20, minEnergy])
 .range([energyPlot.attr("y"), +energyPlot.attr("y")+ +energyPlot.attr("height")])
 energy_axis = d3.axisRight().scale(energyScale)
 energyAxis = energyPanel.append("g")
-.attr("transform", "translate("+(margin+2*panelDimension+divider)+",0)").call(energy_axis)
-energyPanel.append("line")
-    .attr("x1", xScale(0)).attr("x2", xScale(1))
-    .attr("y1", energyScale(0)).attr("y2",energyScale(0))
-    .attr("stroke", "rgb(0,0,0)")
-    .attr("stroke-dasharray", "4,2")
+    .attr("transform", "translate("+(margin+2*panelDimension+divider)+",0)").call(energy_axis)
+energyAxis.selectAll("text").style("fill", "rgb(150, 150, 150)")
+energyAxis.selectAll("path").style("stroke", "rgb(150, 150, 150)")
+
 // Initializing
 function Init(){
     electrons = [{"id": 0, "orbital":"1s", "orbitalId":0, "n": 1, "l":0, "scr":0, "zEff":Z, "radius": 1, "theta": Math.PI, "energy": 1, "fCoulNuc":0}]
@@ -126,11 +128,15 @@ function Init(){
     // let valenceElectron = electrons.filter()
     let valenceShell = electrons.filter((obj)=>obj.radius == radius)[0].orbital
     let force = getNuclearCoulombicForce(valenceShell)
+    let valenceEnergy = getTotalEnergy(electrons[Z-1])*joulesToEV
     fSelectMenu.value = valenceShell
+    eSelectMenu.value = valenceShell
     fIndicator.innerHTML = (force*1e9).toFixed(1)
+    eIndicator.innerHTML = (valenceEnergy).toFixed(1)
 
     // Graphing
     radiusPanel.selectAll("circle").remove()
+    energyPanel.selectAll("line").remove()
     radiusPanel.append("circle")
         .attr("cx", xSpace(0)).attr("cy", ySpace(0))
         .attr("r", xSpace(0.03)-xSpace(0))
@@ -173,14 +179,58 @@ function Init(){
             .style("stroke", function(d){ return "rgb(20, 20, 20)"})
             .style("stroke-width", 0.5)
             .on("click", function(d){
-                valenceShell = d.orbital
-                force = getNuclearCoulombicForce(valenceShell)
-                fSelectMenu.value = valenceShell
+                activeShell = d.orbital
+                force = getNuclearCoulombicForce(activeShell)
+                fSelectMenu.value = activeShell
                 fIndicator.innerHTML = (force*1e9).toFixed(1)
                 d3.select("#highlight")
                     .attr("r", xSpace(d.radius*1e10)-xSpace(0))
                     .style("stroke", orbitalColors[d.orbital])
             })
+    energyPanel.append("line")
+        .attr("x1", xScale(0)).attr("x2", xScale(1))
+        .attr("y1", energyScale(0)).attr("y2",energyScale(0))
+        .attr("stroke", "rgb(0,0,0)")
+        .attr("stroke-dasharray", "4,2")
+    energyPanel.append("line")
+        .attr("id", "highlightE")
+        .attr("x1", xScale(0)).attr("x2", xScale(1))
+        .attr("y1", energyScale(getTotalEnergy(electrons.filter((obj)=>obj.orbital==valenceShell && obj.orbitalId==0)[0])*joulesToEV))
+        .attr("y2",energyScale(getTotalEnergy(electrons.filter((obj)=>obj.orbital==valenceShell && obj.orbitalId==0)[0])*joulesToEV))
+        .style("stroke", orbitalColors[valenceShell])
+        .style("opacity", 0.3)
+        .style("stroke-width", 5)
+    energyPanel.selectAll("energyLines")
+        .data(electrons.filter((obj) => obj.orbitalId === 0))
+        .enter().append("line")
+        .attr("x1", xScale(0)).attr("x2", xScale(1))
+        .attr("y1", function(d){
+            return energyScale(getTotalEnergy(d)*joulesToEV)
+            })
+        .attr("y2", function(d){
+            return energyScale(getTotalEnergy(d)*joulesToEV)
+            })
+        .attr("stroke", function(d){
+            return orbitalColors[d.orbital]
+        })
+        .style("visibility", function(d){
+            if(getTotalEnergy(d)*joulesToEV > minEnergy){
+                return "visible"} else {return "hidden"}
+            })
+        .on("click", function(d){
+            electron = electrons.filter((obj)=>obj.orbital==d.orbital && obj.orbitalId==0)[0]
+            activeShell = electron.orbital
+            energy = getTotalEnergy(electron)*joulesToEV
+            eSelectMenu.value  = activeShell
+            eIndicator.innerHTML = (energy).toFixed(1)
+            d3.select("#highlightE")
+                .attr("y1", energyScale(energy)).attr("y2", energyScale(energy))
+                .style("stroke", orbitalColors[activeShell])
+                .style("visibility", function(d){
+                    if(energy > minEnergy){
+                        return "visible"} else {return "hidden"}
+                    })
+        })
     
 }
 
@@ -315,4 +365,17 @@ d3.select("#orbitalToShowForce").on("change", function(){
     d3.select("#highlight")
         .attr("r", xSpace(radius*1e10)-xSpace(0))
         .style("stroke", orbitalColors[shell])
+})
+
+d3.select("#orbitalToShowEnergy").on("change", function(){
+    let shell = eSelectMenu.value
+    let energy = getTotalEnergy(electrons.filter((obj)=>obj.orbital==shell && obj.orbitalId==0)[0])*joulesToEV
+    eIndicator.innerHTML = (energy).toFixed(1)
+    d3.select("#highlightE")
+        .attr("y1", energyScale(energy)).attr("y2", energyScale(energy))
+        .style("stroke", orbitalColors[shell])
+        .style("visibility", function(d){
+            if(energy > minEnergy){
+                return "visible"} else {return "hidden"}
+            })
 })
