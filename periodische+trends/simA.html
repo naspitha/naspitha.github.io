@@ -85,7 +85,6 @@
                 </ul> 
                 <h3>Zu Beachten:</h3>
                 <ul>
-                    
                     <li>
                         Elektronen mit einer Energie von weniger als 0 eV (<b>Nullpunktsenergie</b> oder <b>Vakuumenergie</b>) gelten als an das Atom "gebunden." Elektronen mit höherer Energie sind im Gegenzug "außerhalb" von dem Einfluss des Kerns.
                     </li>
@@ -93,8 +92,30 @@
                         Die Simulation basiert auf dem Bohrschen Atommodell. Wenn das Bohrsche Modell für Atome mit mehr als einem Elektron verwendet wird, kann das oft zu ungenauen numerischen Ergebnissen führen, da das Modell hier nur durch erhebliche Vereinfachungen (z. B. die Verwendung des Konzepts der effektiven Kernladung) angewendet wird. Werte aus dem Periodensystem oder anderen Literaturquellen sind daher immer zuverlässiger!
                     </li>
                 </ul>
-                <button style="border-radius: 15px; height: 2em; padding:0 0.5em 0 1em; line-height: 2em;" id="removeZ">-</button>&nbsp Z = <span id="Zvalue">1</span>&nbsp <button style="border-radius: 15px; height: 2em; padding:0 0.5em 0 1em; line-height: 2em;" id="addZ">+</button>
-                <svg class="interactiveGraph" id="bohrSimulation" width="900" height="350"></svg>
+                <div class="simulationInterface">
+                    <div class="addRemoveButton"><button id="removeZ">-</button></div> 
+                    <p>&nbsp Z = <span id="Zvalue">1</span>&nbsp</p>
+                    <div class="addRemoveButton"><button id="addZ">+</button></div> <p> &nbsp | &nbsp Radius: <span id="rValue">0.5</span> Å &nbsp | &nbsp</p>
+                    <p>Vom Kern ausgeübte Kraft auf <label for="orbitalToShowForce">
+                        <select name="orbitalToShowForce" id="orbitalToShowForce">
+                            <option value="1s">1s</option>
+                            <option value="2s">2s</option>
+                            <option value="2p">2p</option>
+                            <option value="3s">3s</option>
+                            <option value="3p">3p</option>
+                            <option value="4s">4s</option>
+                        </select></label>: <span id="fValue">-</span> nC &nbsp | &nbsp</p>
+                    <p>Energie des Niveaus <label for="orbitalToShowEnergy">
+                        <select name="orbitalToShowEnergy" id="orbitalToShowEnergy">
+                            <option value="1s">1s</option>
+                            <option value="2s">2s</option>
+                            <option value="2p">2p</option>
+                            <option value="3s">3s</option>
+                            <option value="3p">3p</option>
+                            <option value="4s">4s</option>
+                        </select></label>: <span id="eValue">-13.6</span> eV</p>
+                </div>
+                <svg class="interactiveGraph" id="bohrSimulation" width="900" height="360"></svg>
             </div>
         </div>
         
