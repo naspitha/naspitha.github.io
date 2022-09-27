@@ -93,8 +93,7 @@
                         Die Simulation basiert auf dem Bohrschen Atommodell. Wenn das Bohrsche Modell für Atome mit mehr als einem Elektron verwendet wird, kann das oft zu ungenauen numerischen Ergebnissen führen, da das Modell hier nur durch erhebliche Vereinfachungen (z. B. die Verwendung des Konzepts der effektiven Kernladung) angewendet wird. Werte aus dem Periodensystem oder anderen Literaturquellen sind daher immer zuverlässiger!
                     </li>
                 </ul>
-                <h2 style="margin-bottom:0; display:inline-block">Z:</h2>
-                <button>-</button>&nbsp <span id="Zvalue">1</span>&nbsp <button>+</button>
+                <button style="border-radius: 15px; height: 2em; padding:0 0.5em 0 1em; line-height: 2em;" id="removeZ">-</button>&nbsp Z = <span id="Zvalue">1</span>&nbsp <button style="border-radius: 15px; height: 2em; padding:0 0.5em 0 1em; line-height: 2em;" id="addZ">+</button>
                 <svg class="interactiveGraph" id="bohrSimulation" width="900" height="350"></svg>
             </div>
         </div>
@@ -155,7 +154,6 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="/assets/js/d3.slider.js"></script>
     <script src="/assets/js/bohrModel.js"></script>
     <script>
         var showHideToggleA = document.getElementById("showHideA")

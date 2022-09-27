@@ -2502,6 +2502,7 @@ input[type="checkbox"] + label:before {
 		margin-bottom: 0.2em;
 	}
 
+
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,

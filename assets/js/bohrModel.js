@@ -4,6 +4,8 @@ var width = svg.attr("width")*1,
 height = svg.attr("height")*1;
 var panelDimension = Math.min((width-2*margin)/2-divider/2, height-topmargin)
 
+var zIndicator = document.getElementById("Zvalue")
+
 // Constants
 var a0 = 5.3e-11, e0 = 8.8542e-12, mE = 9.11e-31, qe = 1.602e-19, joulesToEV = 13.6/2.17896e-18
 var orbitalSequence = ["1s","1s","2s","2s","2p","2p","2p","2p","2p","2p","3s","3s","3p","3p","3p","3p","3p","3p","4s","4s"]
@@ -23,76 +25,84 @@ var orbitalColors = {
     "3p": "rgb(255, 127, 0)", "4s": "rgb(230, 0, 0)"}
 
 // Parameters
-var Z = 14
-var electrons = [{"id": 0, "orbital":"1s", "orbitalId":0, "n": 1, "s":0, "zEff":Z, "radius": 1, "theta": Math.PI, "energy": 1, "fCoulNuc":0}]
+var Z = 17; zIndicator.innerHTML = Z
+var electrons, offsetIndex, radiusPanel, radiusPlot, xSpace, ySpace, x_axis, y_axis, energyPlot, energyPanel
 
-// iteration 1: adding electrons
-for (let i=1; i<Z; i++) {
-    orbital = orbitalSequence[i]
-    electrons.push({"id": i, "orbital":orbital, "orbitalId": orbitalIds[i], "n": +orbital[0], "zEff":Z})
-    occupancy[orbital] += 1
+// Initializing
+function Init(){
+    electrons = [{"id": 0, "orbital":"1s", "orbitalId":0, "n": 1, "s":0, "zEff":Z, "radius": 1, "theta": Math.PI, "energy": 1, "fCoulNuc":0}]
+
+    // iteration 1: adding electrons
+    for (let i=1; i<Z; i++) {
+        orbital = orbitalSequence[i]
+        electrons.push({"id": i, "orbital":orbital, "orbitalId": orbitalIds[i], "n": +orbital[0], "zEff":Z})
+        occupancy[orbital] += 1
+    }
+
+    offsetIndex=0
+    // iteration 2: correcting for screening constants, effective nuclear charge, and adding radius
+    for (let i=0; i<Z; i++) {
+        if (i!=0 && electrons[i].orbital != electrons[i-1].orbital){offsetIndex+=1}
+        electrons[i].s = screeningEquations[electrons[i].orbital](occupancy)
+        electrons[i].zEff -= electrons[i].s
+        electrons[i].radius = a0 * electrons[i].n**2/electrons[i].zEff
+        electrons[i].fCoulNuc = coulombicForceNucleus(electrons[i])
+        electronsInThisOrbital = occupancy[electrons[i].orbital]
+        offset = [Math.PI/2, 0][offsetIndex%2]
+        angle = getAngles(electronsInThisOrbital, offset)[electrons[i].orbitalId]
+        electrons[i].theta = angle
+    }
+
+    // Graphing
+    // Radius panel
+    radiusPanel = svg.append("g").attr("id", "radiusPanel")
+    RadiusPlot = radiusPanel.append("rect")
+        .attr("x",margin)
+        .attr("y",topmargin)
+        .attr("height", panelDimension)
+        .attr("width", panelDimension)
+        .attr("stroke", "rgb(240, 240, 240)")
+        .attr("fill", "rgb(255, 255, 255)")
+    xSpace = d3.scaleLinear().domain([-3, 3])
+        .range([radiusPlot.attr("x"), +radiusPlot.attr("x")+ +radiusPlot.attr("width")])
+    ySpace = d3.scaleLinear().domain([-3, 3])
+        .range([radiusPlot.attr("y"), +radiusPlot.attr("y") + +radiusPlot.attr("height")])
+    x_axis = d3.axisBottom().scale(xSpace);
+    y_axis = d3.axisLeft().scale(ySpace)
+
+    radiusPanel.selectAll("shells")
+        .data(electrons.filter((obj) => obj.orbitalId === 0))
+        .enter().append("circle")
+        .attr("cx", xSpace(0)).attr("cy", ySpace(0))
+        .attr("r", function(d){return xSpace(d.radius*1e10)-xSpace(0)})
+        .style("stroke", function(d){ return orbitalColors[d.orbital]})
+        .style("stroke-width", 3)
+        .style("fill", "none")
+        .style("opacity", 0.5)
+    radiusPanel.selectAll("electronDots")
+        .data(electrons)
+        .enter().append("circle")
+            .attr("cx", function(d){return xSpace(d.radius*1e10*Math.cos(d.theta))})
+            .attr("cy", function(d){return ySpace(d.radius*1e10*Math.sin(d.theta))})
+            .attr("r", 1.5)
+            .style("fill", function(d){ return orbitalColors[d.orbital]})
+            .style("stroke", function(d){ return "rgb(20, 20, 20)"})
+            .style("stroke-width", 0.5)
+
+
+    // Energy panel
+    energyPlot = svg.append("rect")
+        .attr("x", margin+ panelDimension +divider)
+        .attr("y",topmargin)
+        .attr("height", panelDimension)
+        .attr("width", panelDimension)
+        .attr("fill", "gray")
+
+    svg.append("g").attr("id","energyPanel")
+
 }
 
-var offsetIndex=0
-// iteration 2: correcting for screening constants, effective nuclear charge, and adding radius
-for (let i=0; i<Z; i++) {
-    if (i!=0 && electrons[i].orbital != electrons[i-1].orbital){offsetIndex+=1}
-    electrons[i].s = screeningEquations[electrons[i].orbital](occupancy)
-    electrons[i].zEff -= electrons[i].s
-    electrons[i].radius = a0 * electrons[i].n**2/electrons[i].zEff
-    electrons[i].fCoulNuc = coulombicForceNucleus(electrons[i])
-    electronsInThisOrbital = occupancy[electrons[i].orbital]
-    offset = [Math.PI/2, 0][offsetIndex%2]
-    angle = getAngles(electronsInThisOrbital, offset)[electrons[i].orbitalId]
-    electrons[i].theta = angle
-}
-
-// Graphing
-// Radius panel
-var radiusPanel = svg.append("g").attr("id", "radiusPanel")
-var radiusPlot = radiusPanel.append("rect")
-    .attr("x",margin)
-    .attr("y",topmargin)
-    .attr("height", panelDimension)
-    .attr("width", panelDimension)
-    .attr("stroke", "rgb(240, 240, 240)")
-    .attr("fill", "rgb(255, 255, 255)")
-var xSpace = d3.scaleLinear().domain([-3, 3])
-    .range([radiusPlot.attr("x"), +radiusPlot.attr("x")+ +radiusPlot.attr("width")])
-var ySpace = d3.scaleLinear().domain([-3, 3])
-    .range([radiusPlot.attr("y"), +radiusPlot.attr("y") + +radiusPlot.attr("height")])
-var x_axis = d3.axisBottom().scale(xSpace);
-var y_axis = d3.axisLeft().scale(ySpace)
-
-radiusPanel.selectAll("shells")
-    .data(electrons.filter((obj) => obj.orbitalId === 0))
-    .enter().append("circle")
-    .attr("cx", xSpace(0)).attr("cy", ySpace(0))
-    .attr("r", function(d){return xSpace(d.radius*1e10)-xSpace(0)})
-    .style("stroke", function(d){ return orbitalColors[d.orbital]})
-    .style("stroke-width", 3)
-    .style("fill", "none")
-    .style("opacity", 0.5)
-radiusPanel.selectAll("electronDots")
-    .data(electrons)
-    .enter().append("circle")
-        .attr("cx", function(d){return xSpace(d.radius*1e10*Math.cos(d.theta))})
-        .attr("cy", function(d){return ySpace(d.radius*1e10*Math.sin(d.theta))})
-        .attr("r", 1.5)
-        .style("fill", function(d){ return orbitalColors[d.orbital]})
-        .style("stroke", function(d){ return "rgb(20, 20, 20)"})
-        .style("stroke-width", 0.5)
-
-
-// Energy panel
-var energyPlot = svg.append("rect")
-    .attr("x", margin+ panelDimension +divider)
-    .attr("y",topmargin)
-    .attr("height", panelDimension)
-    .attr("width", panelDimension)
-    .attr("fill", "gray")
-
-svg.append("g").attr("id","energyPanel")
+Init()
 
 // Functions
 function getAngles(number, offset=0){
@@ -126,5 +136,23 @@ function coulombicRepulsion(electron1, electron2) {
 }
 
 
+var removeZ = document.getElementById("removeZ")
+var addZ = document.getElementById("addZ")
+d3.select("#removeZ").on("click", function(){
+    Znew = Z-1
+    Z = Znew
+    zIndicator.innerHTML = Z
+    if (Znew==1){
+        removeZ.disabled=true
+    }
+    if (addZ.disabled){addZ.disabled=false}
+})
 
+d3.select("#addZ").on("click", function(){
+    Znew = Z + 1
+    Z = Znew
+    zIndicator.innerHTML = Z
+    if (removeZ.disabled){removeZ.disabled=false}
+    if (Znew==20){addZ.disabled=true}
+})
 console.log(electrons)
