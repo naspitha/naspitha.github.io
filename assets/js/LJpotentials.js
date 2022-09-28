@@ -6,7 +6,7 @@ var margin = {top: 10, right: 30, bottom: 40, left: 50}
 var width = 520 - margin.left - margin.right
 var height = 400 - margin.top - margin.bottom;
 
-
+var beansSpilled = false
 
 //info for legend
 var legx = width*0.93
@@ -14,7 +14,8 @@ var legy = height*0.04
 var legx1 = legx-17
 var legx2 = width*1.05
 var legy1 = 0
-var legy2 = 0.16*height 
+var legy2 = 0.16*height
+
 
 // append the svg object to the body of the page
 var svg = d3.select("#simulationA")
@@ -181,13 +182,32 @@ svg.selectAll("mydots")
             lineID = "#"+keys[i]+"_line"
             dotID = "#"+this.id
             var active = d3.select(lineID).style("visibility")
-            if (active == "visible"){
-                d3.select(lineID).style("visibility", "hidden")
-                d3.select(dotID).style("fill", "white")
+            if (this.id == "H2_dot"){
+                if (active == "visible"){
+                    d3.select(lineID).style("visibility", "hidden")
+                    d3.select(dotID).style("fill", "white")
+                } else {
+                    d3.select(lineID).style("visibility", "visible")
+                    d3.select(dotID).style("fill", color(d))
+                    d3.select("#coord").raise()
+            }
             } else {
-                d3.select(lineID).style("visibility", "visible")
-                d3.select(dotID).style("fill", color(d))
-                d3.select("#coord").raise()
+                if (active == "visible"){
+                    d3.select(lineID).style("visibility", "hidden")
+                    d3.select(dotID).style("fill", "white")
+                } else {
+                    console.log(beansSpilled)
+                    if (beansSpilled==true || prompt("Zauberwort zur Darstellung der Fluor-Potentialkurve?") == "zeigmir") {
+                    d3.select(lineID).style("visibility", "visible")
+                    d3.select(dotID).style("fill", color(d))
+                    d3.select("#coord").raise()
+                    document.getElementById("guessFirstWarning").style.display="none"
+                    beansSpilled = true
+                    } else {
+                        document.getElementById("guessFirstWarning").style.display="block"
+                    }
+            }
+            
             }
         })
 
