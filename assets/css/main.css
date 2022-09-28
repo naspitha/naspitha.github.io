@@ -2751,9 +2751,16 @@ button.addRemoveButon:hover{
 
 				.tiles article > a h2 {
 					margin: 0;
-					padding-top: 1em;
+					padding-top: 0;
+					line-height: 1.3;
 					color: rgb(255,255,255);
 				}
+
+				.tiles article > a p {
+					line-height: 1.2;
+				}
+
+				
 
 				.tiles article > a .content {
 					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
