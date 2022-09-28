@@ -96,7 +96,8 @@
                     
                 </ul>
                 <iframe scrolling="no" id="simulationB" src="/assets/glowscript/hessCycEn.html" 
-                                style="width: 90%; height:100px"></iframe>
+                    style="width: 90%; height:100px"></iframe>
+                    
             </div>
         </div>
         
@@ -180,11 +181,15 @@
     <script src="/assets/js/Three49custom.js"></script>
     <script src="https://d3js.org/d3.v4.js"></script>
     <script>
-        var divB = document.getElementById("simB-cont")
         var iframeB = document.getElementById('simulationB')
         iframeB.onload = function(){
             iframeB.style.height = iframeB.contentWindow.document.body.scrollHeight+'px'
-            divB.style.display = "none"
+            spans = iframeB.contentWindow.document.getElementsByTagName("span")
+            for (let i=0; i<spans.length; i++){
+                spans[i].style="font-size: 0.8em"
+            select = iframeB.contentWindow.document.getElementsByTagName("select")[0]
+            select.style.width="10em"
+            }
         }
     </script>
 </body>
