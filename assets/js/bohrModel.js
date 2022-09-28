@@ -329,7 +329,8 @@ function getKE(electron) {
     let potentialEnergy = getEPE(electron)
     // using the radius the electron would have if all its potential energy was due to the nucleus
     let effectiveRadius = -1/(4*Math.PI*e0)*electron.zEff*qE**2/potentialEnergy
-    return (electron.n**2 + electron.l*(electron.l+1))*hbar**2/(2*mE*effectiveRadius**2)
+    return 1/(4*Math.PI*e0)*electron.zEff*qE**2/(2*effectiveRadius) + (electron.l*(electron.l+1))*hbar**2/(2*mE*effectiveRadius**2)
+    // return (electron.n**2 + electron.l*(electron.l+1))*hbar**2/(2*mE*effectiveRadius**2)
 }
 
 function getTotalEnergy(electron){
