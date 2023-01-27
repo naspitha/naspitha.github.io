@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
-		
+		<script src="/assets/js/jquery.min.js"></script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -19,45 +19,10 @@
 				<section id="header">
 					<div class="container">
 						<h3>Perovskite Photophysics</h3>
-						<!-- Nav -->
+						
+						<!-- Menu -->
 						<nav id="nav">
-							<ul>
-								<li><a class="icon solid fa-home" href="/index.html"><span>Home</span></a></li>
-								<li>
-									<a href="#" class="icon solid fa-book"><span>Projects</span></a>
-									<ul>
-										<li><a href="/projects/perovskite+photophysics.html">Perovskite Photophysics</a></li>
-										<li><a href="#">Chemistry Education</a>
-											<ul>
-												<li><a href="/projects/beer's+law+simulation+project.html">Beer's Law Simulation</a></li>
-											</ul>
-										</li>
-										<li><a href="/projects/kinetikit.html"><em>KinetiKit</em></a></li>
-									</ul>
-								</li>
-								<li><a class="icon solid fa-anchor" href="/teaching+portfolio.html"><span>Teaching Portfolio</span></a>
-									<ul>
-										<li><a href="/teaching/teaching+philosophy.html">Teaching Philosophy</a></li>
-										<li><a href="/teaching/diversity+statement.html">Diversity Statement</a></li>
-										<li><a href="/teaching/tar+project.html">TAR Project</a></li>
-										<li><a href="/teaching/useful+resources.html">Useful Resources</a></li>
-										<li><a href="/teaching/example+artifacts.html">Example Artifacts</a></li>
-									</ul>
-								
-								</li>
-								<li>
-									<a href="#" class="icon solid fa-graduation-cap"><span>Publications</span></a>
-									<ul>
-										<li><a href="https://scholar.google.com/citations?hl=en&user=mB8SjQsAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">
-											View on Google Scholar</a></li>
-									</ul>
-								</li>
-								<li><a class="icon solid fa-ellipsis-h" href="#"><span>Other</span></a>
-									<ul>
-										<li><a>Nothing "othery" yet!</a></li>
-									</ul>
-								</li>
-							</ul>
+							<script>$("#nav").load("/menu.html")</script>
 						</nav>
 
 					</div>

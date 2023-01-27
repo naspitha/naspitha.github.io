@@ -1,0 +1,867 @@
+<div id="glowscript" class="glowscript">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" href="https://www.glowscript.org/css/redmond/2.1/jquery-ui.custom.css" rel="stylesheet" />
+<link type="text/css" href="https://www.glowscript.org/css/ide.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/lib/jquery/2.1/jquery-ui.custom.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/package/glow.3.0.min.js"></script>
+<script type="text/javascript" src="https://www.glowscript.org/package/RSrun.3.0.min.js"></script>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+// version 2023-27-01
+// START JAVASCRIPT
+;(function() {;
+var cwidth, clength, source, detector, runpause, reset, rview, rearrange, grid, ncylm, running, first, transmitted, captured, photon, plist, flashes, ind, t, gridon, conc, l, I, deltat, Atext, Ttext, rdss, rds, rdst, layabs, activel, passed, hs, height, theta, levels, cyls, xsections, cheight;
+async function __main__() {
+"use strict";
+
+    var version, display, vector, print, arange, __name__, type, scene, RS_ls, running, gridon, lron, first, conc, l, I, height, ncylm, nlevm, transmitted, rdss, rdst, rds, rearrange, lheight, im, captured, Atext, Ttext, ggrid, gcolor, gxyxt, gxyyt, gxyxb, gxyyb, gyzy, gxzx, n, gyzz, gxzz, dist, passed, layabs, activel, xsection, flash, p, t;
+    version = RS_list_decorate([ "3.0", "glowscript" ]);
+    Array.prototype['+'] = function(r) {return this.concat(r)}
+    Array.prototype['*'] = function(r) {return __array_times_number(this, r)}
+    window.__GSlang = "vpython";
+    display = canvas;
+    vector = vec;
+    print = GSprint;
+    arange = range;
+    __name__ = "__main__";
+    type = pytype;
+    scene = canvas();
+    "2Beer's Law with Cylinders version 2.3";
+    "6";
+    running = false;
+    "7";
+    gridon = false;
+    "8";
+    lron = true;
+    "9";
+    first = true;
+    "11";
+    async function ViewInit() {
+        "12";
+        "13";
+        scene.title = "<b>Beer's Law with spheres and cylinders, version 2.3<\/b>\n<i>Developed by Natalia Spitha, Pamela Doolittle, and John Wright.</i>\n---------------------------------------";
+        "14";
+        scene.append_to_title("\nScroll to zoom in/out, right-click and drag (on Mac: control + click and drag) to rotate view. \n \n");
+        "15";
+        scene.width = 400;
+        scene.height = 400;
+        "16";
+        scene.center = vector(0, 0, 0);
+        "17";
+        scene.background = color.white;
+        "18";
+        scene.camera.pos = vector(10, 10["-u"](), 0);
+        scene.camera.axis = vector(0, 0, 0)["-"](scene.camera.pos);
+        scene.up = vector(0, 0, 1);
+        "19";
+        scene.range = 15;
+        "20";
+        cwidth = 12;
+        "21";
+        clength = 15;
+        "22";
+        source = RS_interpolate_kwargs.call(this, box, [RS_desugar_kwargs({pos: vector(0, 0, 10), size: vector(cwidth, cwidth, .01), color: color.yellow, opacity: .2})]);
+        "23";
+        detector = RS_interpolate_kwargs.call(this, box, [RS_desugar_kwargs({pos: vector(0, 0, 10["-u"]()), size: vector(cwidth, cwidth, .01), color: vec(.2, .2, .2)})]);
+        "25";
+        runpause = RS_interpolate_kwargs.call(this, button, [RS_desugar_kwargs({text: "Run", pos: scene.title_anchor, bind: Run})]);
+        "26";
+        reset = RS_interpolate_kwargs.call(this, button, [RS_desugar_kwargs({text: "Reset Photons", pos: scene.title_anchor, bind: Reset})]);
+        "27";
+        rview = RS_interpolate_kwargs.call(this, button, [RS_desugar_kwargs({text: "Reset View", pos: scene.title_anchor, bind: ViewReset})]);
+        "28";
+        grid = RS_interpolate_kwargs.call(this, button, [RS_desugar_kwargs({text: "Grid on", pos: scene.title_anchor, bind: Grid})]);
+    };
+    if (!ViewInit.__module__) Object.defineProperties(ViewInit, {
+        __module__ : {value: "__main__"}
+    });
+
+    "31";
+    async function Run() {
+        var b = (arguments[0] === undefined || ( 0 === arguments.length["-"](1) && arguments[arguments.length["-"](1)] !== null && typeof arguments[arguments.length["-"](1)] === "object" && arguments[arguments.length["-"](1)] [RS_kwargs_symbol] === true)) ? Run.__defaults__.b : arguments[0];
+        var RS_kwargs_obj = arguments[arguments.length["-"](1)];
+        if (RS_kwargs_obj === null || typeof RS_kwargs_obj !== "object" || RS_kwargs_obj [RS_kwargs_symbol] !== true) RS_kwargs_obj = {};
+        if (Object.prototype.hasOwnProperty.call(RS_kwargs_obj, "b")){
+            b = RS_kwargs_obj.b;
+        }
+        "32";
+        "33";
+        running = !running;
+        "34";
+        first = false;
+        "35";
+        if (running) {
+            b.text = "Pause";
+        } else {
+            b.text = "Run";
+        }
+    };
+    if (!Run.__defaults__) Object.defineProperties(Run, {
+        __defaults__ : {value: {b:runpause}},
+        __handles_kwarg_interpolation__ : {value: true},
+        __argnames__ : {value: ["b"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "38";
+    async function parity(n) {
+        "39";
+        if (RS_equals(n["%"](2), 0)) {
+            "40";
+            return "even";
+            "41";
+        } else {
+            return "odd";
+        }
+    };
+    if (!parity.__argnames__) Object.defineProperties(parity, {
+        __argnames__ : {value: ["n"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "43";
+    async function Reset() {
+        var b = (arguments[0] === undefined || ( 0 === arguments.length["-"](1) && arguments[arguments.length["-"](1)] !== null && typeof arguments[arguments.length["-"](1)] === "object" && arguments[arguments.length["-"](1)] [RS_kwargs_symbol] === true)) ? Reset.__defaults__.b : arguments[0];
+        var RS_kwargs_obj = arguments[arguments.length["-"](1)];
+        if (RS_kwargs_obj === null || typeof RS_kwargs_obj !== "object" || RS_kwargs_obj [RS_kwargs_symbol] !== true) RS_kwargs_obj = {};
+        if (Object.prototype.hasOwnProperty.call(RS_kwargs_obj, "b")){
+            b = RS_kwargs_obj.b;
+        }
+        var RS_ls, p, flash;
+        "44";
+        "45";
+        if (!running) {
+            "46";
+            detector.color = vec(.2, .2, .2);
+        }
+        "47";
+        var RS_Iter0 = plist;
+        RS_Iter0 = ((typeof RS_Iter0[Symbol.iterator] === "function") ? (RS_Iter0 instanceof Map ? RS_Iter0.keys() : RS_Iter0) : Object.keys(RS_Iter0));
+        for (var RS_Index0 of RS_Iter0) {
+            p = RS_Index0;
+            p.visible = false;
+        }
+        p = undefined;
+        "48";
+        var RS_Iter1 = flashes;
+        RS_Iter1 = ((typeof RS_Iter1[Symbol.iterator] === "function") ? (RS_Iter1 instanceof Map ? RS_Iter1.keys() : RS_Iter1) : Object.keys(RS_Iter1));
+        for (var RS_Index1 of RS_Iter1) {
+            flash = RS_Index1;
+            flash.visible = false;
+        }
+        flash = undefined;
+        "49";
+        (await Init());
+    };
+    if (!Reset.__defaults__) Object.defineProperties(Reset, {
+        __defaults__ : {value: {b:reset}},
+        __handles_kwarg_interpolation__ : {value: true},
+        __argnames__ : {value: ["b"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "51";
+    async function PartReset() {
+        var b = (arguments[0] === undefined || ( 0 === arguments.length["-"](1) && arguments[arguments.length["-"](1)] !== null && typeof arguments[arguments.length["-"](1)] === "object" && arguments[arguments.length["-"](1)] [RS_kwargs_symbol] === true)) ? PartReset.__defaults__.b : arguments[0];
+        var RS_kwargs_obj = arguments[arguments.length["-"](1)];
+        if (RS_kwargs_obj === null || typeof RS_kwargs_obj !== "object" || RS_kwargs_obj [RS_kwargs_symbol] !== true) RS_kwargs_obj = {};
+        if (Object.prototype.hasOwnProperty.call(RS_kwargs_obj, "b")){
+            b = RS_kwargs_obj.b;
+        }
+        var RS_ls, cyl;
+        "52";
+        "53";
+        var RS_Iter2 = cyls;
+        RS_Iter2 = ((typeof RS_Iter2[Symbol.iterator] === "function") ? (RS_Iter2 instanceof Map ? RS_Iter2.keys() : RS_Iter2) : Object.keys(RS_Iter2));
+        for (var RS_Index2 of RS_Iter2) {
+            cyl = RS_Index2;
+            cyl.visible = false;
+        }
+        cyl = undefined;
+        "54";
+        (await PartInit());
+        "55";
+        rearrange.background = color.white;
+        "56";
+        rearrange.color = color.black;
+        "57";
+        rearrange.text = "Changes Applied";
+        "58";
+        rearrange.disabled = true;
+    };
+    if (!PartReset.__defaults__) Object.defineProperties(PartReset, {
+        __defaults__ : {value: {b:rearrange}},
+        __handles_kwarg_interpolation__ : {value: true},
+        __argnames__ : {value: ["b"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "60";
+    async function ViewReset() {
+        var b = (arguments[0] === undefined || ( 0 === arguments.length["-"](1) && arguments[arguments.length["-"](1)] !== null && typeof arguments[arguments.length["-"](1)] === "object" && arguments[arguments.length["-"](1)] [RS_kwargs_symbol] === true)) ? ViewReset.__defaults__.b : arguments[0];
+        var RS_kwargs_obj = arguments[arguments.length["-"](1)];
+        if (RS_kwargs_obj === null || typeof RS_kwargs_obj !== "object" || RS_kwargs_obj [RS_kwargs_symbol] !== true) RS_kwargs_obj = {};
+        if (Object.prototype.hasOwnProperty.call(RS_kwargs_obj, "b")){
+            b = RS_kwargs_obj.b;
+        }
+        "61";
+        (await ViewInit());
+    };
+    if (!ViewReset.__defaults__) Object.defineProperties(ViewReset, {
+        __defaults__ : {value: {b:rview}},
+        __handles_kwarg_interpolation__ : {value: true},
+        __argnames__ : {value: ["b"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "63";
+    async function Grid() {
+        var b = (arguments[0] === undefined || ( 0 === arguments.length["-"](1) && arguments[arguments.length["-"](1)] !== null && typeof arguments[arguments.length["-"](1)] === "object" && arguments[arguments.length["-"](1)] [RS_kwargs_symbol] === true)) ? Grid.__defaults__.b : arguments[0];
+        var RS_kwargs_obj = arguments[arguments.length["-"](1)];
+        if (RS_kwargs_obj === null || typeof RS_kwargs_obj !== "object" || RS_kwargs_obj [RS_kwargs_symbol] !== true) RS_kwargs_obj = {};
+        if (Object.prototype.hasOwnProperty.call(RS_kwargs_obj, "b")){
+            b = RS_kwargs_obj.b;
+        }
+        var RS_ls, gline;
+        "64";
+        "65";
+        gridon = !gridon;
+        "66";
+        if (gridon) {
+            "67";
+            var RS_Iter3 = ggrid;
+            RS_Iter3 = ((typeof RS_Iter3[Symbol.iterator] === "function") ? (RS_Iter3 instanceof Map ? RS_Iter3.keys() : RS_Iter3) : Object.keys(RS_Iter3));
+            for (var RS_Index3 of RS_Iter3) {
+                gline = RS_Index3;
+                "68";
+                gline.visible = true;
+                "69";
+            }
+        } else {
+            "70";
+            var RS_Iter4 = ggrid;
+            RS_Iter4 = ((typeof RS_Iter4[Symbol.iterator] === "function") ? (RS_Iter4 instanceof Map ? RS_Iter4.keys() : RS_Iter4) : Object.keys(RS_Iter4));
+            for (var RS_Index4 of RS_Iter4) {
+                gline = RS_Index4;
+                "71";
+                gline.visible = false;
+                "72";
+            }
+        }
+        if (gridon) {
+            b.text = "Grid off";
+        } else {
+            b.text = "Grid on";
+        }
+    };
+    if (!Grid.__defaults__) Object.defineProperties(Grid, {
+        __defaults__ : {value: {b:grid}},
+        __handles_kwarg_interpolation__ : {value: true},
+        __argnames__ : {value: ["b"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "88";
+    async function ATupdate(captured, transmitted) {
+        "89";
+        "90";
+        Ttext.text = "{:d}".format(transmitted);
+        "91";
+        Atext.text = "{:d}".format(captured);
+    };
+    if (!ATupdate.__argnames__) Object.defineProperties(ATupdate, {
+        __argnames__ : {value: ["captured", "transmitted"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "93";
+    async function NCyl(m) {
+        var RS_ls, val;
+        "94";
+        "95";
+        val = m.selected;
+        "96";
+        if ((val === "1" || typeof val === "object" && RS_equals(val, "1"))) {
+            conc = 1;
+        }
+        "97";
+        if ((val === "2" || typeof val === "object" && RS_equals(val, "2"))) {
+            conc = 2;
+        }
+        "98";
+        if ((val === "3" || typeof val === "object" && RS_equals(val, "3"))) {
+            conc = 3;
+        }
+        "99";
+        if ((val === "4" || typeof val === "object" && RS_equals(val, "4"))) {
+            conc = 4;
+        }
+        "100";
+        rearrange.background = color.orange;
+        "101";
+        rearrange.text = "Update Cylinders";
+        "102";
+        rearrange.disabled = false;
+    };
+    if (!NCyl.__argnames__) Object.defineProperties(NCyl, {
+        __argnames__ : {value: ["m"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "104";
+    async function NLev(m) {
+        var RS_ls, val;
+        "105";
+        "106";
+        val = m.selected;
+        "107";
+        if ((val === "1" || typeof val === "object" && RS_equals(val, "1"))) {
+            l = 1;
+        }
+        "108";
+        if ((val === "2" || typeof val === "object" && RS_equals(val, "2"))) {
+            l = 2;
+        }
+        "109";
+        if ((val === "3" || typeof val === "object" && RS_equals(val, "3"))) {
+            l = 3;
+        }
+        "110";
+        if ((val === "4" || typeof val === "object" && RS_equals(val, "4"))) {
+            l = 4;
+        }
+        "111";
+        if ((val === "5" || typeof val === "object" && RS_equals(val, "5"))) {
+            l = 5;
+        }
+        "112";
+        rearrange.background = color.orange;
+        "113";
+        rearrange.text = "Update Cylinders";
+        "114";
+        rearrange.disabled = false;
+    };
+    if (!NLev.__argnames__) Object.defineProperties(NLev, {
+        __argnames__ : {value: ["m"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "116";
+    async function setrds(s) {
+        "117";
+        "118";
+        rdst.text = "   {:0.1f}".format(s.value);
+        "119";
+        rearrange.background = color.orange;
+        "120";
+        rearrange.text = "Update Cylinders";
+        "121";
+        rearrange.disabled = false;
+    };
+    if (!setrds.__argnames__) Object.defineProperties(setrds, {
+        __argnames__ : {value: ["s"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "123";
+    async function setI(m) {
+        var RS_ls, val;
+        "124";
+        "125";
+        val = m.selected;
+        "126";
+        if ((val === "100 (for slow browsers)" || typeof val === "object" && RS_equals(val, "100 (for slow browsers)"))) {
+            I = 100;
+        }
+        "127";
+        if ((val === "1000 (best)" || typeof val === "object" && RS_equals(val, "1000 (best)"))) {
+            I = 1e3;
+        }
+        "128";
+        if ((val === "10000 (try at your own risk!)" || typeof val === "object" && RS_equals(val, "10000 (try at your own risk!)"))) {
+            I = 1e4;
+        }
+    };
+    if (!setI.__argnames__) Object.defineProperties(setI, {
+        __argnames__ : {value: ["m"]},
+        __module__ : {value: "__main__"}
+    });
+
+    "130";
+    async function Init() {
+        var RS_ls, p;
+        "131";
+        "132";
+        captured = 0;
+        "133";
+        transmitted = 0;
+        "134";
+        layabs = 0;
+        "135";
+        activel = 1;
+        "136";
+        passed = false;
+        "137";
+        photon = RS_interpolate_kwargs.call(this, sphere, [RS_desugar_kwargs({pos: vector(0, 0, 10), radius: .1, color: color.yellow, shininess: 1})]);
+        "138";
+        if ((first === false || typeof first === "object" && RS_equals(first, false))) {
+            print("------------------------------------------------");
+        }
+        "140";
+        ind = 0;
+        "141";
+        plist = RS_list_decorate([]);
+        "142";
+        flashes = RS_list_decorate([]);
+        "143";
+        while (ind["<"](I)) {
+            "144";
+            p = RS_interpolate_kwargs.call(photon, photon.clone, [RS_desugar_kwargs({pos: vector(6["-u"]()["+"](12["*"](random())), 6["-u"]()["+"](12["*"](random())), 10.1)})]);
+            "145";
+            p.velocity = vector(0, 0, 5["-u"]());
+            "146";
+            plist.append(p);
+            "147";
+            p.visible = false;
+            "148";
+            ind=ind["+"](1);
+        }
+        "149";
+        photon.visible = false;
+        "150";
+        deltat = .01;
+        "151";
+        t = 0;
+        "152";
+        var RS_Iter5 = plist;
+        RS_Iter5 = ((typeof RS_Iter5[Symbol.iterator] === "function") ? (RS_Iter5 instanceof Map ? RS_Iter5.keys() : RS_Iter5) : Object.keys(RS_Iter5));
+        for (var RS_Index5 of RS_Iter5) {
+            p = RS_Index5;
+            p.prev = 0;
+        }
+    };
+    if (!Init.__module__) Object.defineProperties(Init, {
+        __module__ : {value: "__main__"}
+    });
+
+    "154";
+    async function PartInit() {
+        var RS_ls, cylcolor, level, planes, ii, plane, part, h, plane_odd, plane_even, pl, cyl;
+        "155";
+        "156";
+        rds = rdss.value;
+        "157";
+        cylcolor = color.red;
+        "158";
+        rds = rds;
+        "159";
+        hs = RS_list_decorate([]);
+        "160";
+        height = clength["/"](l);
+        "161";
+        lheight.text = "  {:0.2f} cm".format(height);
+        "162";
+        cheight = clength["/"](8)["*"](.8);
+        "163";
+        theta = 2["*"](pi)["/"](l);
+        "164";
+        levels = range(0, l, 1);
+        "165";
+        var RS_Iter6 = levels;
+        RS_Iter6 = ((typeof RS_Iter6[Symbol.iterator] === "function") ? (RS_Iter6 instanceof Map ? RS_Iter6.keys() : RS_Iter6) : Object.keys(RS_Iter6));
+        for (var RS_Index6 of RS_Iter6) {
+            level = RS_Index6;
+            "166";
+            hs.append(7.5["-u"]()["+"](height["*"](level)));
+        }
+        "167";
+        cyls = RS_list_decorate([]);
+        "169";
+        if ((conc === 1 || typeof conc === "object" && RS_equals(conc, 1))) {
+            "170";
+            planes = RS_list_decorate([ vector(4.243, 0, 0)["*"](.83), vector(3.432["-u"](), 2.494["-u"](), 0)["*"](.83), vector(1.311, 4.035, 0)["*"](.83), vector(1.311, 4.035["-u"](), 0)["*"](.83), vector(3.432["-u"](), 2.494, 0)["*"](.83) ]);
+            "176";
+            ii = 0;
+            "177";
+            var RS_Iter7 = hs;
+            RS_Iter7 = ((typeof RS_Iter7[Symbol.iterator] === "function") ? (RS_Iter7 instanceof Map ? RS_Iter7.keys() : RS_Iter7) : Object.keys(RS_Iter7));
+            for (var RS_Index7 of RS_Iter7) {
+                h = RS_Index7;
+                "178";
+                plane = planes[(typeof ii === "number" && ii["<"](0)) ? planes.length["+"](ii) : ii];
+                "179";
+                if ((l === 1 || typeof l === "object" && RS_equals(l, 1))) {
+                    "180";
+                    plane = vector(0, 0, 0);
+                }
+                "181";
+                part = RS_interpolate_kwargs.call(this, cylinder, [RS_desugar_kwargs({pos: vector(plane.x, plane.y, h["+"](height)), axis: vector(0, 0, cheight["-u"]()), color: cylcolor, radius: rds})]);
+                "182";
+                cyls.append(part);
+                "183";
+                ii=ii["+"](1);
+                "185";
+            }
+        }
+        if ((conc === 2 || typeof conc === "object" && RS_equals(conc, 2))) {
+            "186";
+            plane_odd = [vector(2.5["-u"](), 2.5, 0), vector(2.5, 2.5["-u"](), 0)];
+            "187";
+            plane_even = [vector(2.5["-u"](), 2.5["-u"](), 0), vector(2.5, 2.5, 0)];
+            "188";
+            ii = 0;
+            "189";
+            var RS_Iter8 = hs;
+            RS_Iter8 = ((typeof RS_Iter8[Symbol.iterator] === "function") ? (RS_Iter8 instanceof Map ? RS_Iter8.keys() : RS_Iter8) : Object.keys(RS_Iter8));
+            for (var RS_Index8 of RS_Iter8) {
+                h = RS_Index8;
+                "190";
+                if (RS_equals((await parity(ii)), "even")) {
+                    "191";
+                    plane = plane_even;
+                    "192";
+                } else {
+                    "193";
+                    plane = plane_odd;
+                }
+                "194";
+                var RS_Iter9 = plane;
+                RS_Iter9 = ((typeof RS_Iter9[Symbol.iterator] === "function") ? (RS_Iter9 instanceof Map ? RS_Iter9.keys() : RS_Iter9) : Object.keys(RS_Iter9));
+                for (var RS_Index9 of RS_Iter9) {
+                    pl = RS_Index9;
+                    "195";
+                    part = RS_interpolate_kwargs.call(this, cylinder, [RS_desugar_kwargs({pos: vector(pl.x, pl.y, h["+"](height)), axis: vector(0, 0, cheight["-u"]()), color: cylcolor, radius: rds})]);
+                    "196";
+                    cyls.append(part);
+                }
+                "197";
+                ii=ii["+"](1);
+                "199";
+            }
+        }
+        if ((conc === 3 || typeof conc === "object" && RS_equals(conc, 3))) {
+            "200";
+            plane_even = [3.535["*"](vector(1, 0, 0)), 3.535["*"](vector(.5["-u"](), .866, 0)), 3.535["*"](vector(.5["-u"](), .866["-u"](), 0))];
+            "201";
+            plane_odd = [3.535["*"](vector(1["-u"](), 0, 0)), 3.535["*"](vector(.5, .866, 0)), 3.535["*"](vector(.5, .866["-u"](), 0))];
+            "202";
+            ii = 0;
+            "203";
+            var RS_Iter10 = hs;
+            RS_Iter10 = ((typeof RS_Iter10[Symbol.iterator] === "function") ? (RS_Iter10 instanceof Map ? RS_Iter10.keys() : RS_Iter10) : Object.keys(RS_Iter10));
+            for (var RS_Index10 of RS_Iter10) {
+                h = RS_Index10;
+                "204";
+                if (RS_equals((await parity(ii)), "even")) {
+                    "205";
+                    plane = plane_even;
+                    "206";
+                } else {
+                    "207";
+                    plane = plane_odd;
+                }
+                "208";
+                var RS_Iter11 = plane;
+                RS_Iter11 = ((typeof RS_Iter11[Symbol.iterator] === "function") ? (RS_Iter11 instanceof Map ? RS_Iter11.keys() : RS_Iter11) : Object.keys(RS_Iter11));
+                for (var RS_Index11 of RS_Iter11) {
+                    pl = RS_Index11;
+                    "209";
+                    part = RS_interpolate_kwargs.call(this, cylinder, [RS_desugar_kwargs({pos: vector(pl.x, pl.y, h["+"](height)), axis: vector(0, 0, cheight["-u"]()), color: cylcolor, radius: rds})]);
+                    "210";
+                    cyls.append(part);
+                }
+                "211";
+                ii=ii["+"](1);
+                "213";
+            }
+        }
+        if ((conc === 4 || typeof conc === "object" && RS_equals(conc, 4))) {
+            "214";
+            plane_odd = [vector(2.5["-u"](), 2.5, 0), vector(2.5, 2.5, 0), vector(2.5, 2.5["-u"](), 0), vector(2.5["-u"](), 2.5["-u"](), 0)];
+            "215";
+            plane_even = [vector(0, 3.535, 0), vector(3.535["-u"](), 0, 0), vector(0, 3.535["-u"](), 0), vector(3.535, 0, 0)];
+            "216";
+            ii = 0;
+            "217";
+            var RS_Iter12 = hs;
+            RS_Iter12 = ((typeof RS_Iter12[Symbol.iterator] === "function") ? (RS_Iter12 instanceof Map ? RS_Iter12.keys() : RS_Iter12) : Object.keys(RS_Iter12));
+            for (var RS_Index12 of RS_Iter12) {
+                h = RS_Index12;
+                "218";
+                if (RS_equals((await parity(ii)), "even")) {
+                    "219";
+                    plane = plane_even;
+                    "220";
+                } else {
+                    "221";
+                    plane = plane_odd;
+                }
+                "222";
+                var RS_Iter13 = plane;
+                RS_Iter13 = ((typeof RS_Iter13[Symbol.iterator] === "function") ? (RS_Iter13 instanceof Map ? RS_Iter13.keys() : RS_Iter13) : Object.keys(RS_Iter13));
+                for (var RS_Index13 of RS_Iter13) {
+                    pl = RS_Index13;
+                    "223";
+                    part = RS_interpolate_kwargs.call(this, cylinder, [RS_desugar_kwargs({pos: vector(pl.x, pl.y, h["+"](height)), axis: vector(0, 0, cheight["-u"]()), color: cylcolor, radius: rds})]);
+                    "224";
+                    cyls.append(part);
+                }
+                "225";
+                ii=ii["+"](1);
+            }
+        }
+        "227";
+        xsections = RS_list_decorate([]);
+        "228";
+        var RS_Iter14 = cyls;
+        RS_Iter14 = ((typeof RS_Iter14[Symbol.iterator] === "function") ? (RS_Iter14 instanceof Map ? RS_Iter14.keys() : RS_Iter14) : Object.keys(RS_Iter14));
+        for (var RS_Index14 of RS_Iter14) {
+            cyl = RS_Index14;
+            "229";
+            xsections.append(vector(cyl.pos));
+        }
+    };
+    if (!PartInit.__module__) Object.defineProperties(PartInit, {
+        __module__ : {value: "__main__"}
+    });
+
+    "234";
+    conc = 2;
+    "235";
+    l = 1;
+    "236";
+    I = 1e3;
+    "237";
+    height = 15;
+    "239";
+    (await ViewInit());
+    "240";
+    (await Init());
+    "241";
+    scene.caption = "Cylinders per layer: ";
+    "242";
+    ncylm = RS_interpolate_kwargs.call(this, menu, [RS_desugar_kwargs({choices: RS_list_decorate([ "1", "2", "3", "4" ]), index: 1, bind: NCyl})]);
+    "243";
+    scene.append_to_caption("   Number of layers: ");
+    "244";
+    nlevm = RS_interpolate_kwargs.call(this, menu, [RS_desugar_kwargs({choices: RS_list_decorate([ "1", "2", "3", "4", "5" ]), index: 0, bind: NLev})]);
+    "245";
+    transmitted = 0;
+    "246";
+    scene.append_to_caption("\nCylinder radius (cm): \n ");
+    "247";
+    rdss = RS_interpolate_kwargs.call(this, slider, [RS_desugar_kwargs({min: .4, max: 2, step: .1, value: .5, length: 200, bind: setrds})]);
+    "248";
+    rdst = RS_interpolate_kwargs.call(this, wtext, [RS_desugar_kwargs({text: "   {:0.1f}".format(rdss.value)})]);
+    "249";
+    rds = rdss.value;
+    "250";
+    scene.append_to_caption("   ");
+    "251";
+    rearrange = RS_interpolate_kwargs.call(this, button, [RS_desugar_kwargs({text: "Changes Applied!", bind: PartReset, background: color.white, color: color.black, disabled: true})]);
+    "252";
+    scene.append_to_caption("\n  \nInterlayer Distance (layer height):");
+    "253";
+    lheight = RS_interpolate_kwargs.call(this, wtext, [RS_desugar_kwargs({text: "   {:0.2f} cm".format(height)})]);
+    "254";
+    scene.append_to_caption("\nBox cross-sectional area: {:0.1f} cm x {:0.1f} cm \nTotal incident photons: ".format(cwidth, cwidth));
+    "255";
+    im = RS_interpolate_kwargs.call(this, menu, [RS_desugar_kwargs({choices: RS_list_decorate([ "100 (for slow browsers)", "1000 (best)", "10000 (try at your own risk!)" ]), index: 1, bind: setI})]);
+    "256";
+    scene.append_to_caption("\n(Click on Reset Photons to set the new number of photons.)");
+    "257";
+    captured = 0;
+    "258";
+    scene.append_to_caption("\nTotal Absorbed: ");
+    "259";
+    Atext = RS_interpolate_kwargs.call(this, wtext, [RS_desugar_kwargs({text: "{:d}".format(captured)})]);
+    "260";
+    scene.append_to_caption("   Transmitted: ");
+    "261";
+    Ttext = RS_interpolate_kwargs.call(this, wtext, [RS_desugar_kwargs({text: "{:d}".format(transmitted)})]);
+    "262";
+    scene.append_to_caption("\n \n");
+    "263";
+    scene.append_to_caption("<b>Results summary: ↓ </b>\n");
+    "264";
+    (await PartInit());
+    "267";
+    ggrid = RS_list_decorate([]);
+    "268";
+    gcolor = vector(.7, .7, .7);
+    "269";
+    for (var RS_Index15 = cwidth["-u"]()["/"](2); RS_Index15["<"](cwidth["/"](2)["+"](.1)); RS_Index15=RS_Index15["+"](1)) {
+        n = RS_Index15;
+        "270";
+        gxyxt = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(cwidth["-u"]()["/"](2), n, clength["/"](2)), vector(cwidth["/"](2), n, clength["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxyxt);
+        "271";
+        gxyyt = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(n, cwidth["-u"]()["/"](2), clength["/"](2)), vector(n, cwidth["/"](2), clength["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxyyt);
+        "272";
+        gxyxb = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(cwidth["-u"]()["/"](2), n, clength["-u"]()["/"](2)), vector(cwidth["/"](2), n, clength["-u"]()["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxyxb);
+        "273";
+        gxyyb = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(n, cwidth["-u"]()["/"](2), clength["-u"]()["/"](2)), vector(n, cwidth["/"](2), clength["-u"]()["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxyyb);
+        "274";
+        gyzy = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(cwidth["-u"]()["/"](2), n, clength["-u"]()["/"](2)), vector(cwidth["-u"]()["/"](2), n, clength["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gyzy);
+        "275";
+        gxzx = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(n, cwidth["/"](2), clength["-u"]()["/"](2)), vector(n, cwidth["/"](2), clength["/"](2)) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxzx);
+    }
+    "277";
+    for (var RS_Index16 = clength["-u"]()["/"](2); RS_Index16["<"](clength["/"](2)["+"](.1)); RS_Index16=RS_Index16["+"](1)) {
+        n = RS_Index16;
+        "278";
+        gyzz = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(cwidth["-u"]()["/"](2), cwidth["-u"]()["/"](2), n), vector(cwidth["-u"]()["/"](2), cwidth["/"](2), n) ]), color: gcolor, visible: false})]);
+        ggrid.append(gyzz);
+        "279";
+        gxzz = RS_interpolate_kwargs.call(this, curve, [RS_desugar_kwargs({pos: RS_list_decorate([ vector(cwidth["-u"]()["/"](2), cwidth["/"](2), n), vector(cwidth["/"](2), cwidth["/"](2), n) ]), color: gcolor, visible: false})]);
+        ggrid.append(gxzz);
+    }
+    "285";
+    while (t["<"](1e20)) {
+        "286";
+        (await rate(200));
+        "287";
+        var RS_Iter17 = plist;
+        RS_Iter17 = ((typeof RS_Iter17[Symbol.iterator] === "function") ? (RS_Iter17 instanceof Map ? RS_Iter17.keys() : RS_Iter17) : Object.keys(RS_Iter17));
+        for (var RS_Index17 of RS_Iter17) {
+            p = RS_Index17;
+            "288";
+            if (p.pos.z["<"](9.99) && p.prev[">"](9.99)) {
+                "289";
+                p.visible = true;
+            }
+            "290";
+            var RS_Iter18 = xsections;
+            RS_Iter18 = ((typeof RS_Iter18[Symbol.iterator] === "function") ? (RS_Iter18 instanceof Map ? RS_Iter18.keys() : RS_Iter18) : Object.keys(RS_Iter18));
+            for (var RS_Index18 of RS_Iter18) {
+                xsection = RS_Index18;
+                "291";
+                if (p.pos.z["<"](xsection.z) && p.prev[">"](xsection.z)) {
+                    "292";
+                    dist = mag(vector(p.pos.x, p.pos.y, 0)["-"](vector(xsection.x, xsection.y, 0)));
+                    "293";
+                    passed = false;
+                    "294";
+                    if (dist["<"](rds) && (p.visible === true || typeof p.visible === "object" && RS_equals(p.visible, true))) {
+                        "295";
+                        p.velocity.z = 0;
+                        "296";
+                        captured=captured["+"](1);
+                        "297";
+                        layabs=layabs["+"](1);
+                        "298";
+                        (await ATupdate(captured, transmitted));
+                        "300";
+                        p.prev = p.pos.z;
+                        "302";
+                    }
+                }
+                if (p.pos.z["<"](xsection.z["-"](cheight)) && p.prev[">"](xsection.z["-"](cheight))) {
+                    "303";
+                    if ((xsection.z !== xsections[0].z && (typeof xsection.z !== "object" || RS_not_equals(xsection.z, xsections[0].z)))) {
+                        "304";
+                        p.pos.x = cwidth["-u"]()["/"](2)["+"](cwidth["*"](random()));
+                        p.pos.y = cwidth["-u"]()["/"](2)["+"](cwidth["*"](random()));
+                        "306";
+                    }
+                    if ((passed === false || typeof passed === "object" && RS_equals(passed, false))) {
+                        "307";
+                        passed = true;
+                        "308";
+                        if ((rearrange.disabled === false || typeof rearrange.disabled === "object" && RS_equals(rearrange.disabled, false))) {
+                            "309";
+                            if ((activel === 1 || typeof activel === "object" && RS_equals(activel, 1))) {
+                                "310";
+                                print("WARNING: changes to cylinders not applied!!! \n Click on the yellow button to update your cylinders before continuing to record data.");
+                                "311";
+                            }
+                        } else {
+                            "312";
+                            if ((activel === 1 || typeof activel === "object" && RS_equals(activel, 1))) {
+                                "313";
+                                if ((conc !== 1 && (typeof conc !== "object" || RS_not_equals(conc, 1)))) {
+                                    "314";
+                                    print("{:d} photons, {:d} layers, {:d} cylinders of radius {:0.1f} cm per layer. ".format(I, l, conc, rds));
+                                    "315";
+                                } else {
+                                    "316";
+                                    print("{:d} photons, {:d} layers, {:d} cylinder of radius {:0.1f} cm per layer. ".format(I, l, conc, rds));
+                                }
+                            }
+                            "317";
+                            print("{:d} photons absorbed by layer {:d} (cumulatively: {:d})".format(layabs, activel, captured));
+                        }
+                        "318";
+                        activel=activel["+"](1);
+                        "319";
+                        layabs = 0;
+                        "321";
+                    }
+                }
+            }
+            if (p.pos.z["<"](detector.pos.z) && (p.visible === true || typeof p.visible === "object" && RS_equals(p.visible, true))) {
+                "322";
+                p.velocity.z = 0;
+                "323";
+                transmitted=transmitted["+"](1);
+                "324";
+                (await ATupdate(captured, transmitted));
+                "325";
+                p.visible = false;
+                "326";
+                flash = RS_interpolate_kwargs.call(this, sphere, [RS_desugar_kwargs({pos: p.pos, radius: .3, color: color.white, opacity: .4, duration: 1})]);
+                "327";
+                flashes.append(flash);
+                "328";
+                p.prev = p.pos.z;
+                "331";
+            } else {
+                "332";
+                if (running) {
+                    "333";
+                    p.prev = p.pos.z;
+                    "334";
+                    p.pos = p.pos["+"](p.velocity["*"](deltat));
+                    "337";
+                }
+            }
+        }
+        if (running) {
+            "338";
+            if (RS_equals(len(flashes), I["-"](captured))) {
+                "339";
+                (await sleep(1));
+                "340";
+                var RS_Iter19 = flashes;
+                RS_Iter19 = ((typeof RS_Iter19[Symbol.iterator] === "function") ? (RS_Iter19 instanceof Map ? RS_Iter19.keys() : RS_Iter19) : Object.keys(RS_Iter19));
+                for (var RS_Index19 of RS_Iter19) {
+                    flash = RS_Index19;
+                    "341";
+                    flash.visible = false;
+                }
+                "342";
+                detector.color = vec(.8, .8, .8);
+                "343";
+            } else {
+                "344";
+                detector.color = vec(.2, .2, .2);
+            }
+            "345";
+            t=t["+"](deltat);
+        }
+    }
+};
+if (!__main__.__module__) Object.defineProperties(__main__, {
+    __module__ : {value: "__main__"}
+});
+
+;$(function(){ window.__context = { glowscript_container: $("#glowscript").removeAttr("id") }; __main__() })})()
+// END JAVASCRIPT
+
+//--><!]]></script>
+</div>
