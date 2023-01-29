@@ -1700,14 +1700,14 @@ input, select, textarea {
 
 		ul.icons > li {
 			position: relative;
-			padding: 2em 0 0 3em;
+			padding: 0 0 0 2em;
 			margin: 0;
 		}
 
 			ul.icons > li:before {
 				position: absolute;
 				left: 0;
-				top: 2.6em;
+				/* top: 2.6em; */
 				display: block;
 				font-size: 0.8em;
 				background: #000000;
@@ -2505,6 +2505,7 @@ input, select, textarea {
 		border-top: solid 2px #e5e5e5;
 		background: #000000;
 		background-image: url(images/kiwi-dark.jpg);
+		background-position: 35% 26%;
 		background-size: cover;
 		padding: 2em 0 0 0;
 		color: #f0f0f0
@@ -2546,7 +2547,7 @@ input, select, textarea {
 	#copyright {
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
-		margin-top: 6em;
+		/* margin-top: 1em; */
 		padding-top: 1.5em;
 	}
 
