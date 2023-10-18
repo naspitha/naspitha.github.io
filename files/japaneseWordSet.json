@@ -1,13 +1,76 @@
 {
     "data": [
         {
+            "Kana": "\u3055\u3059",
+            "Kanji": "\u5dee\u3059",
+            "English": "to put up (an umbrella)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 0
+        },
+        {
+            "Kana": "{A} \u3044\u304b\u304c\u3067\u3059\u304b\uff1f",
+            "Kanji": "",
+            "English": "How about {A}? \nWould you like some {A}?",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 1
+        },
+        {
+            "Kana": "{A} \u304c\u3059\u304d\u3067\u3059",
+            "Kanji": "{A} \u304c\u597d\u304d\u3067\u3059",
+            "English": "I like {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 2
+        },
+        {
+            "Kana": "{A} \u304c\u307b\u3057\u3044\u3067\u3059",
+            "Kanji": "",
+            "English": "I want {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 3
+        },
+        {
+            "Kana": "{A} \u304c\u305f\u306e\u3057\u307f\u3067\u3059",
+            "Kanji": "",
+            "English": "I'm looking forward to {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 4
+        },
+        {
+            "Kana": "{A} \u306f\u3061\u3087\u3063\u3068",
+            "Kanji": "",
+            "English": "I don't really like {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 5
+        },
+        {
+            "Kana": "{A} \u3092\u3066\u3064\u3060\u3044\u307e\u3059",
+            "Kanji": "",
+            "English": "I will help with {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 6
+        },
+        {
             "Kana": "\u3042\u304b\u3061\u3083\u3093",
             "Kanji": "\u8d64\u3061\u3083\u3093",
             "English": "baby",
             "Category": "noun",
             "Notes": "",
             "Topic": "",
-            "id": 0
+            "id": 7
         },
         {
             "Kana": "\u3042\u304d",
@@ -16,16 +79,43 @@
             "Category": "noun",
             "Notes": "",
             "Topic": "time, weather",
-            "id": 1
+            "id": 8
+        },
+        {
+            "Kana": "\u3042\u3051\u308b",
+            "Kanji": "\u958b\u3051\u308b",
+            "English": "open",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 9
+        },
+        {
+            "Kana": "\u3042\u3052\u308b",
+            "Kanji": "\u4e0a\u3052\u308b",
+            "English": "to give",
+            "Category": "verb",
+            "Notes": "teineigo politeness",
+            "Topic": "basic actions",
+            "id": 10
+        },
+        {
+            "Kana": "\u3042\u3052\u308b",
+            "Kanji": "\u4e0a\u3052\u308b",
+            "English": "to raise, to launch",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 11
         },
         {
             "Kana": "\u3042\u3055",
             "Kanji": "\u671d",
-            "English": "morning ",
+            "English": "morning",
             "Category": "noun",
             "Notes": "",
             "Topic": "time",
-            "id": 2
+            "id": 12
         },
         {
             "Kana": "\u3042\u3058(\u3055\u3093)",
@@ -34,1753 +124,16 @@
             "Category": "noun",
             "Notes": "",
             "Topic": "family and people",
-            "id": 3
-        },
-        {
-            "Kana": "\u3042\u3063\u3061",
-            "Kanji": "",
-            "English": "that way (far)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 4
-        },
-        {
-            "Kana": "\u3042\u306b",
-            "Kanji": "\u5144",
-            "English": "(my) older brother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 5
-        },
-        {
-            "Kana": "\u3042\u306d",
-            "Kanji": "\u59c9",
-            "English": "(my) older sister",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 6
-        },
-        {
-            "Kana": "\u30a2\u30d1\u30fc\u30c8",
-            "Kanji": "",
-            "English": "apartment",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home",
-            "id": 7
-        },
-        {
-            "Kana": "\u3044\u3057\u3083",
-            "Kanji": "",
-            "English": "doctor",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 8
-        },
-        {
-            "Kana": "\u3044\u3082\u3046\u3068",
-            "Kanji": "\u59b9",
-            "English": "younger sister",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 9
-        },
-        {
-            "Kana": "\u3044\u308a\u3050\u3061",
-            "Kanji": "\u5165\u308a\u53e3",
-            "English": "entrance ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home, transit",
-            "id": 10
-        },
-        {
-            "Kana": "\u3044\u308d",
-            "Kanji": "\u8272",
-            "English": "color",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 11
-        },
-        {
-            "Kana": "\u3046\u3067\u3068\u3051\u3044",
-            "Kanji": "\u8155\u6642\u8a08",
-            "English": "watch",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 12
-        },
-        {
-            "Kana": "\u3046\u307f",
-            "Kanji": "",
-            "English": "beach",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
             "id": 13
         },
         {
-            "Kana": "\u3048",
-            "Kanji": "\u7d75",
-            "English": "picture",
-            "Category": "noun",
+            "Kana": "\u3042\u3057\u305f",
+            "Kanji": "\u660e\u65e5",
+            "English": "tomorrow",
+            "Category": "adverb/clause",
             "Notes": "",
-            "Topic": "hobbies",
+            "Topic": "time",
             "id": 14
-        },
-        {
-            "Kana": "\u3048\u3044\u304c",
-            "Kanji": "\u6620\u753b",
-            "English": "movie",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 15
-        },
-        {
-            "Kana": "\u30a8\u30ec\u30d9\u30fc\u30bf",
-            "Kanji": "",
-            "English": "elevator",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home",
-            "id": 16
-        },
-        {
-            "Kana": "\u30a8\u30f3\u30b8\u30cb\u30a2",
-            "Kanji": "",
-            "English": "engineer",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "work and school",
-            "id": 17
-        },
-        {
-            "Kana": "\u304a\u304b\u3042\u3055\u3093",
-            "Kanji": "\u304a\u6bcd\u3055\u3093",
-            "English": "mother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people ",
-            "id": 18
-        },
-        {
-            "Kana": "\u304a\u304b\u3057",
-            "Kanji": "",
-            "English": "snack",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 19
-        },
-        {
-            "Kana": "\u304a\u304b\u306d",
-            "Kanji": "\u304a\u91d1",
-            "English": "money",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 20
-        },
-        {
-            "Kana": "\u304a\u3053\u3055\u3093",
-            "Kanji": "\u304a\u5b50\u3055\u3093",
-            "English": "kid (formal)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 21
-        },
-        {
-            "Kana": "\u304a\u3055\u3089",
-            "Kanji": "\u304a\u76bf",
-            "English": "plate",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 22
-        },
-        {
-            "Kana": "\u304a\u3058(\u3055\u3093)",
-            "Kanji": "\u4f2f\u7236\u3055\u3093",
-            "English": "uncle (older than parent)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 23
-        },
-        {
-            "Kana": "\u304a\u3058\u3044\u3055\u3093",
-            "Kanji": "\u304a\u7956\u7236\u3055\u3093",
-            "English": "grandfather",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 24
-        },
-        {
-            "Kana": "\u304a\u3066\u3042\u3089\u3044",
-            "Kanji": "",
-            "English": "restroom",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home",
-            "id": 25
-        },
-        {
-            "Kana": "\u304a\u3066\u3089",
-            "Kanji": "",
-            "English": "temple",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, travel ",
-            "id": 26
-        },
-        {
-            "Kana": "\u304a\u3068\u3046\u3055\u3093",
-            "Kanji": "\u304a\u7236\u3055\u3093",
-            "English": "father",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 27
-        },
-        {
-            "Kana": "\u304a\u3068\u3046\u3068",
-            "Kanji": "\u5f1f",
-            "English": "younger brother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 28
-        },
-        {
-            "Kana": "\u304a\u3068\u3053\u306e\u3053",
-            "Kanji": "\u7537\u306e\u5b50",
-            "English": "boy",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 29
-        },
-        {
-            "Kana": "\u304a\u3068\u3053\u306e\u3072\u3068",
-            "Kanji": "\u7537\u306e\u4eba",
-            "English": "man",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 30
-        },
-        {
-            "Kana": "\u304a\u3068\u3068\u3057",
-            "Kanji": "\u4e00\u6628\u5e74",
-            "English": "year before last ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 31
-        },
-        {
-            "Kana": "\u304a\u3068\u306a",
-            "Kanji": "\u5927\u4eba",
-            "English": "adult",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 32
-        },
-        {
-            "Kana": "\u304a\u306a\u3058",
-            "Kanji": "\u540c\u3058",
-            "English": "same",
-            "Category": "noun",
-            "Notes": "\u5f7c\u3068\u540c\u3058=same as him",
-            "Topic": "",
-            "id": 33
-        },
-        {
-            "Kana": "\u304a\u306b\u3044\u3055\u3093",
-            "Kanji": "\u304a\u5144\u3055\u3093",
-            "English": "older brother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 34
-        },
-        {
-            "Kana": "\u304a\u306d\u3048\u3055\u3093",
-            "Kanji": "\u304a\u59c9\u3055\u3093",
-            "English": "older sister",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 35
-        },
-        {
-            "Kana": "\u304a\u3070(\u3055\u3093)",
-            "Kanji": "\u53d4\u6bcd\u3055\u3093",
-            "English": "aunt (younger than parent)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 36
-        },
-        {
-            "Kana": "\u304a\u3070(\u3055\u3093)",
-            "Kanji": "\u4f2f\u6bcd\u3055\u3093",
-            "English": "aunt (older than parent)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 37
-        },
-        {
-            "Kana": "\u304a\u3070\u3042\u3055\u3093",
-            "Kanji": "\u304a\u7956\u6bcd\u3055\u3093",
-            "English": "grandmother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 38
-        },
-        {
-            "Kana": "\u304a\u306f\u3057",
-            "Kanji": "\u304a\u7bb8",
-            "English": "chopstick ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 39
-        },
-        {
-            "Kana": "\u304a\u307f\u3084\u3052",
-            "Kanji": "\u304a\u571f\u7523",
-            "English": "souvenir",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "travel, hobbies",
-            "id": 40
-        },
-        {
-            "Kana": "\u304a\u3093\u304c\u304f",
-            "Kanji": "\u97f3\u697d",
-            "English": "music",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 41
-        },
-        {
-            "Kana": "\u304a\u3093\u306a\u306e\u3053",
-            "Kanji": "\u5973\u306e\u5b50",
-            "English": "girl ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 42
-        },
-        {
-            "Kana": "\u304a\u3093\u306a\u306e\u3072\u3068",
-            "Kanji": "\u5973\u306e\u4eba",
-            "English": "woman",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 43
-        },
-        {
-            "Kana": "\u304b\u3044\u3060\u3093",
-            "Kanji": "",
-            "English": "stairs",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home",
-            "id": 44
-        },
-        {
-            "Kana": "\u304b\u3044\u3082\u306e",
-            "Kanji": "\u8cb7\u3044\u7269",
-            "English": "shopping",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 45
-        },
-        {
-            "Kana": "\u304b\u304c\u307f",
-            "Kanji": "\u93e1",
-            "English": "mirror",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 46
-        },
-        {
-            "Kana": "\u304b\u3058",
-            "Kanji": "\u5bb6\u4e8b",
-            "English": "chore",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 47
-        },
-        {
-            "Kana": "\u304b\u3058",
-            "Kanji": "\u706b\u4e8b",
-            "English": "fire",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 48
-        },
-        {
-            "Kana": "\u304b\u305e\u304f",
-            "Kanji": "\u5bb6\u65cf",
-            "English": "family",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 49
-        },
-        {
-            "Kana": "\u304b\u305f\u3059\u307f",
-            "Kanji": "\u7247\u9685",
-            "English": "corner",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 50
-        },
-        {
-            "Kana": "\u304b\u3070\u3093",
-            "Kanji": "\u9784",
-            "English": "bag",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 51
-        },
-        {
-            "Kana": "\u304b\u3088\u3046\u3073",
-            "Kanji": "\u706b\u66dc\u65e5",
-            "English": "Tuesday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 52
-        },
-        {
-            "Kana": "\u304b\u3093\u3053\u3046",
-            "Kanji": "",
-            "English": "Sightseeing",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 53
-        },
-        {
-            "Kana": "\u304d\u305f",
-            "Kanji": "\u5317",
-            "English": "North",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 54
-        },
-        {
-            "Kana": "\u30ad\u30c3\u30c1\u30f3",
-            "Kanji": "",
-            "English": "kitchen",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 55
-        },
-        {
-            "Kana": "\u304d\u3085\u3046\u304d\u3085\u3046\u3057\u3083",
-            "Kanji": "",
-            "English": "ambulance",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 56
-        },
-        {
-            "Kana": "\u304d\u3087\u306d\u3093",
-            "Kanji": "\u53bb\u5e74",
-            "English": "last year",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 57
-        },
-        {
-            "Kana": "\u304d\u3093\u3088\u3046\u3073",
-            "Kanji": "\u91d1\u66dc\u65e5",
-            "English": "Friday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 58
-        },
-        {
-            "Kana": "\u304f\u3064\u3057\u305f",
-            "Kanji": "\u9774\u4e0b",
-            "English": "socks ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 59
-        },
-        {
-            "Kana": "\u304f\u307f",
-            "Kanji": "\u7d44",
-            "English": "counter for pair of gloves",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 60
-        },
-        {
-            "Kana": "\u3051\u3044\u3055\u3064",
-            "Kanji": "",
-            "English": "police",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 61
-        },
-        {
-            "Kana": "\u3051\u3063\u3053\u3093",
-            "Kanji": "\u7d50\u5a5a",
-            "English": "marriage",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 62
-        },
-        {
-            "Kana": "\u3052\u3064\u3088\u3046\u3073",
-            "Kanji": "\u6708\u66dc\u65e5",
-            "English": "Monday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 63
-        },
-        {
-            "Kana": "\u3053\u3063\u305b\u3064",
-            "Kanji": "\u9aa8\u6298",
-            "English": "bone fracture",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "health",
-            "id": 64
-        },
-        {
-            "Kana": "\u3053\u3063\u3061",
-            "Kanji": "",
-            "English": "this way",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 65
-        },
-        {
-            "Kana": "\u30b3\u30c3\u30d7",
-            "Kanji": "",
-            "English": "glass",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 66
-        },
-        {
-            "Kana": "\u3053\u3068\u3057",
-            "Kanji": "\u4eca\u5e74",
-            "English": "this year ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 67
-        },
-        {
-            "Kana": "\u3053\u3069\u3082",
-            "Kanji": "\u5b50\u4f9b",
-            "English": "(my) kid",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 68
-        },
-        {
-            "Kana": "\u30b3\u30e1\u30c7\u30a3",
-            "Kanji": "",
-            "English": "comedy",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 69
-        },
-        {
-            "Kana": "\u3055\u3044\u3075",
-            "Kanji": "",
-            "English": "wallet",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "clothing",
-            "id": 70
-        },
-        {
-            "Kana": "\u3055\u3044\u3075",
-            "Kanji": "\u8ca1\u5e03",
-            "English": "wallet",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 71
-        },
-        {
-            "Kana": "\u3055\u3089\u3044\u306d\u3093",
-            "Kanji": "\u518d\u6765\u5e74",
-            "English": "year after next",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 72
-        },
-        {
-            "Kana": "\u3058\u304b\u3093",
-            "Kanji": "\u6642\u9593",
-            "English": "time, hour",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 73
-        },
-        {
-            "Kana": "\u3057\u3064\u3082\u3093",
-            "Kanji": "\u8cea\u554f",
-            "English": "question",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "\u8cea\u554f\u3057\u3066\u3082\u3044\u3044\u3067\u3059\u304b\uff1f",
-            "id": 74
-        },
-        {
-            "Kana": "\u3057\u3083\u3057\u3093:",
-            "Kanji": "\u5199\u771f",
-            "English": "photo",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 75
-        },
-        {
-            "Kana": "\u3057\u3085\u3046\u307e\u3064",
-            "Kanji": "\u9031\u672b",
-            "English": "weekend",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 76
-        },
-        {
-            "Kana": "\u3057\u3085\u304f\u3060\u3044",
-            "Kanji": "\u5bbf\u984c",
-            "English": "homework",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 77
-        },
-        {
-            "Kana": "\u3057\u3085\u3066\u3093",
-            "Kanji": "",
-            "English": "final stop",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 78
-        },
-        {
-            "Kana": "\u3057\u308d",
-            "Kanji": "",
-            "English": "castle",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 79
-        },
-        {
-            "Kana": "\u3058\u3093\u3058\u3083",
-            "Kanji": "",
-            "English": "shrine ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, travel ",
-            "id": 80
-        },
-        {
-            "Kana": "\u3057\u3093\u305b\u304d",
-            "Kanji": "\u89aa\u621a",
-            "English": "relatives",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 81
-        },
-        {
-            "Kana": "\u30b9\u30fc\u30d7",
-            "Kanji": "",
-            "English": "soup",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 82
-        },
-        {
-            "Kana": "\u3059\u3044\u3088\u3046\u3073",
-            "Kanji": "\u6c34\u66dc\u65e5",
-            "English": "Wednesday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 83
-        },
-        {
-            "Kana": "\u30b9\u30c8\u30ec\u30c3\u30c1",
-            "Kanji": "",
-            "English": "stretch",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 84
-        },
-        {
-            "Kana": "\u305b\u304d",
-            "Kanji": "",
-            "English": "seat",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 85
-        },
-        {
-            "Kana": "\u305b\u3093\u305f\u304f",
-            "Kanji": "",
-            "English": "laundry",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 86
-        },
-        {
-            "Kana": "\u305b\u3093\u305f\u304f\u304d",
-            "Kanji": "\u6d17\u6fef\u6a5f",
-            "English": "washing machine",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 87
-        },
-        {
-            "Kana": "\u305d\u3046\u3058",
-            "Kanji": "\u6383\u9664",
-            "English": "cleaning ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 88
-        },
-        {
-            "Kana": "\u305d\u3046\u3058\u304d",
-            "Kanji": "",
-            "English": "vacuum cleaner",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 89
-        },
-        {
-            "Kana": "\u305d\u304f",
-            "Kanji": "\u8db3",
-            "English": "counter for pair of socks",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 90
-        },
-        {
-            "Kana": "\u305d\u3063\u3061",
-            "Kanji": "",
-            "English": "that way (close to the listener)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 91
-        },
-        {
-            "Kana": "\u305d\u3075",
-            "Kanji": "\u7956\u7236",
-            "English": "grandpa",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 92
-        },
-        {
-            "Kana": "\u305d\u307c",
-            "Kanji": "\u7956\u6bcd",
-            "English": "grandma",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 93
-        },
-        {
-            "Kana": "\u3060\u3044\u3069\u3053\u308d",
-            "Kanji": "\u53f0\u6240",
-            "English": "kitchen",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 94
-        },
-        {
-            "Kana": "\u305f\u3066\u3082\u306e",
-            "Kanji": "\u305f\u3066\u3082\u306e",
-            "English": "building",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home",
-            "id": 95
-        },
-        {
-            "Kana": "\u305f\u3093\u3058\u3087\u3046\u3073",
-            "Kanji": "",
-            "English": "birthday ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 96
-        },
-        {
-            "Kana": "\u3061\u3061",
-            "Kanji": "\u7236",
-            "English": "(my) father",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 97
-        },
-        {
-            "Kana": "\u3061\u3083\u308f\u3093",
-            "Kanji": "\u8336\u7897",
-            "English": "bowl",
-            "Category": "noun",
-            "Notes": "bowl of rice",
-            "Topic": "food and drink",
-            "id": 98
-        },
-        {
-            "Kana": "\u3064\u307e",
-            "Kanji": "\u59bb",
-            "English": "wife",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 99
-        },
-        {
-            "Kana": "\u3067\u3050\u3061",
-            "Kanji": "\u51fa\u53e3",
-            "English": "exit",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, home, transit",
-            "id": 100
-        },
-        {
-            "Kana": "\u3066\u3076\u304f\u308d",
-            "Kanji": "\u624b\u888b",
-            "English": "glove",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 101
-        },
-        {
-            "Kana": "\u3067\u3093\u3057\u30ec\u30f3\u30b8",
-            "Kanji": "",
-            "English": "microwave",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home, food and drink",
-            "id": 102
-        },
-        {
-            "Kana": "\u3069\u3046\u304c",
-            "Kanji": "",
-            "English": "video",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 103
-        },
-        {
-            "Kana": "\u3069\u3046\u3076\u3064",
-            "Kanji": "",
-            "English": "zoo",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 104
-        },
-        {
-            "Kana": "\u3069\u3046\u308a\u3087\u3046",
-            "Kanji": "",
-            "English": "coworker",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 105
-        },
-        {
-            "Kana": "\u3069\u304f\u3057\u3093",
-            "Kanji": "\u72ec\u8eab",
-            "English": "single",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 106
-        },
-        {
-            "Kana": "\u3068\u3051\u3044",
-            "Kanji": "\u6642\u8a08",
-            "English": "clock",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 107
-        },
-        {
-            "Kana": "\u3068\u3053\u308d",
-            "Kanji": "",
-            "English": "place",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 108
-        },
-        {
-            "Kana": "\u3069\u3063\u3061",
-            "Kanji": "",
-            "English": "which way/which one",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, general actions",
-            "id": 109
-        },
-        {
-            "Kana": "\u3069\u3088\u3046\u3073",
-            "Kanji": "\u571f\u66dc\u65e5",
-            "English": "Saturday ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 110
-        },
-        {
-            "Kana": "\u30c9\u30e9\u30de",
-            "Kanji": "",
-            "English": "drama",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 111
-        },
-        {
-            "Kana": "\u30c9\u30ec\u30b9",
-            "Kanji": "",
-            "English": "dress ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "clothing",
-            "id": 112
-        },
-        {
-            "Kana": "\u3068\u3093\u304b\u3064",
-            "Kanji": "",
-            "English": "pork cutlet ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 113
-        },
-        {
-            "Kana": "\u306a\u305f",
-            "Kanji": "\u590f",
-            "English": "summer",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time, weather",
-            "id": 114
-        },
-        {
-            "Kana": "\u306a\u3064\u3084\u3059\u307f",
-            "Kanji": "",
-            "English": "summer break",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 115
-        },
-        {
-            "Kana": "\u306a\u306e\u304b",
-            "Kanji": "7 \u65e5",
-            "English": "seventh of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 116
-        },
-        {
-            "Kana": "\u306a\u307e",
-            "Kanji": "",
-            "English": "raw",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "raw meat = \u306a\u307e\u306e\u8089",
-            "id": 117
-        },
-        {
-            "Kana": "\u306a\u3093\u306d\u3093",
-            "Kanji": "\u4f55\u5e74",
-            "English": "what year...?",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 118
-        },
-        {
-            "Kana": "\u306b\u3057",
-            "Kanji": "\u897f",
-            "English": "West",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 119
-        },
-        {
-            "Kana": "\u306b\u3061\u3088\u3042\u3073",
-            "Kanji": "\u65e5\u66dc\u65e5",
-            "English": "Sunday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 120
-        },
-        {
-            "Kana": "\u306b\u3082\u3064",
-            "Kanji": "\u8377\u7269",
-            "English": "lugggage",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 121
-        },
-        {
-            "Kana": "\u306d\u3093",
-            "Kanji": "\u5e74",
-            "English": "year",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 122
-        },
-        {
-            "Kana": "\u306f\u3044\u3044\u308d",
-            "Kanji": "\u7070\u8272",
-            "English": "gray ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 123
-        },
-        {
-            "Kana": "\u306f\u3064\u304b",
-            "Kanji": "\u4e8c\u5341\u65e5",
-            "English": "twenty days",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 124
-        },
-        {
-            "Kana": "\u306f\u306f",
-            "Kanji": "\u6bcd",
-            "English": "(my) mother",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 125
-        },
-        {
-            "Kana": "\u306f\u308b",
-            "Kanji": "\u6625",
-            "English": "spring",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time, weather",
-            "id": 126
-        },
-        {
-            "Kana": "\u30d1\u30f3\u3084",
-            "Kanji": "",
-            "English": "bakery",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 127
-        },
-        {
-            "Kana": "\u3072\u304c\u3057",
-            "Kanji": "\u6771",
-            "English": "East",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 128
-        },
-        {
-            "Kana": "\u3072\u3053\u3046\u304d",
-            "Kanji": "\u98db\u884c\u6a5f",
-            "English": "airplane",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 129
-        },
-        {
-            "Kana": "\u30d4\u30b6",
-            "Kanji": "",
-            "English": "pizza",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 130
-        },
-        {
-            "Kana": "\u30d4\u30b6\u3084",
-            "Kanji": "",
-            "English": "pizzeria",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink, buildings",
-            "id": 131
-        },
-        {
-            "Kana": "\u3073\u3058\u3085\u3064\u304b\u3093",
-            "Kanji": "",
-            "English": "art museum",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 132
-        },
-        {
-            "Kana": "\u3072\u3068",
-            "Kanji": "",
-            "English": "person",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 133
-        },
-        {
-            "Kana": "\u3073\u3087\u3046\u3044\u3093",
-            "Kanji": "\u75c5\u9662",
-            "English": "hospital",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "buildings, health",
-            "id": 134
-        },
-        {
-            "Kana": "\u3072\u308b",
-            "Kanji": "\u663c",
-            "English": "daytime",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time, weather",
-            "id": 135
-        },
-        {
-            "Kana": "\u3072\u308d\u3070",
-            "Kanji": "",
-            "English": "plaza",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 136
-        },
-        {
-            "Kana": "\u3076\u3069\u3046",
-            "Kanji": "",
-            "English": "grape",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 137
-        },
-        {
-            "Kana": "\u3075\u3068\u3093",
-            "Kanji": "\u5e03\u56e3",
-            "English": "futon",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 138
-        },
-        {
-            "Kana": "\u3075\u3086",
-            "Kanji": "\u51ac",
-            "English": "winter ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time, weather",
-            "id": 139
-        },
-        {
-            "Kana": "\u3078\u3044\u3058\u3064",
-            "Kanji": "\u5e73\u65e5",
-            "English": "weekdays",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 140
-        },
-        {
-            "Kana": "\u3078\u3084",
-            "Kanji": "\u90e8\u5c4b",
-            "English": "room",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 141
-        },
-        {
-            "Kana": "\u3079\u3093\u3054\u3057",
-            "Kanji": "",
-            "English": "lawyer",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 142
-        },
-        {
-            "Kana": "\u3079\u3093\u3068\u3046",
-            "Kanji": "\u5f01\u5f53",
-            "English": "bento (lunchbox)",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 143
-        },
-        {
-            "Kana": "\u30db\u30fc\u30e0",
-            "Kanji": "",
-            "English": "platform",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 144
-        },
-        {
-            "Kana": "\u307b\u304b",
-            "Kanji": "\u4ed6",
-            "English": "else",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 145
-        },
-        {
-            "Kana": "\u30dc\u30b9\u30c8\u30ab\u30fc\u30c9",
-            "Kanji": "",
-            "English": "postcard",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "travel",
-            "id": 146
-        },
-        {
-            "Kana": "\u30db\u30e9\u30fc",
-            "Kanji": "",
-            "English": "horror",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 147
-        },
-        {
-            "Kana": "\u307b\u3093\u3060\u306a",
-            "Kanji": "\u672c\u68da",
-            "English": "bookshelf",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 148
-        },
-        {
-            "Kana": "\u307e\u3044\u3042\u3055",
-            "Kanji": "\u6bce\u671d",
-            "English": "every morning",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 149
-        },
-        {
-            "Kana": "\u307e\u3044\u3057\u3085\u3046",
-            "Kanji": "\u6bce\u9031",
-            "English": "every week",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 150
-        },
-        {
-            "Kana": "\u307e\u3044\u3064\u304d",
-            "Kanji": "\u6bce\u6708",
-            "English": "every month ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 151
-        },
-        {
-            "Kana": "\u307e\u3044\u3068\u3057",
-            "Kanji": "\u6bce\u5e74",
-            "English": "every year",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 152
-        },
-        {
-            "Kana": "\u307e\u3044\u306b\u3061",
-            "Kanji": "\u6bce\u65e5",
-            "English": "every day",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 153
-        },
-        {
-            "Kana": "\u307e\u3044\u3070\u3093",
-            "Kanji": "\u6bce\u6669",
-            "English": "every evening",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 154
-        },
-        {
-            "Kana": "\u307e\u3061",
-            "Kanji": "",
-            "English": "town",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, buildings",
-            "id": 155
-        },
-        {
-            "Kana": "\u307f\u3061",
-            "Kanji": "\u9053",
-            "English": "road/way",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 156
-        },
-        {
-            "Kana": "\u307f\u3069\u308a\u3044\u308d",
-            "Kanji": "\u7dd1\u8272",
-            "English": "green",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 157
-        },
-        {
-            "Kana": "\u307f\u306a\u307f",
-            "Kanji": "\u5357",
-            "English": "South",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 158
-        },
-        {
-            "Kana": "\u3080\u3044\u304b",
-            "Kanji": "6\u65e5",
-            "English": "sixth of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 159
-        },
-        {
-            "Kana": "\u3080\u304b\u3057",
-            "Kanji": "\u6614",
-            "English": "old days",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 160
-        },
-        {
-            "Kana": "\u3080\u3059\u3053",
-            "Kanji": "\u606f\u5b50",
-            "English": "son",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 161
-        },
-        {
-            "Kana": "\u3080\u3059\u3081",
-            "Kanji": "\u5a18",
-            "English": "daughter",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 162
-        },
-        {
-            "Kana": "\u3080\u3089\u3055\u304d\u3044\u308d",
-            "Kanji": "\u7d2b\u8272",
-            "English": "purple",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 163
-        },
-        {
-            "Kana": "\u30e1\u30fc\u30eb",
-            "Kanji": "",
-            "English": "email",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "work and school",
-            "id": 164
-        },
-        {
-            "Kana": "\u3082\u304f\u3088\u3046\u3073",
-            "Kanji": "\u6728\u66dc\u65e5",
-            "English": "Thursday",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 165
-        },
-        {
-            "Kana": "\u3084\u304d\u3085\u3046",
-            "Kanji": "",
-            "English": "baseball",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 166
-        },
-        {
-            "Kana": "\u3084\u3059\u307f",
-            "Kanji": "\u4f11\u307f",
-            "English": "break",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 167
-        },
-        {
-            "Kana": "\u3084\u3059\u307f\u306e\u3072",
-            "Kanji": "\u4f11\u307f\u306e\u65e5",
-            "English": "day off/rest day",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 168
-        },
-        {
-            "Kana": "\u3088\u3046\u304b",
-            "Kanji": "8\u65e5",
-            "English": "eight of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 169
-        },
-        {
-            "Kana": "\u3088\u3046\u3073",
-            "Kanji": "\u66dc\u65e5",
-            "English": "day of the week",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 170
-        },
-        {
-            "Kana": "\u30e8\u30ac",
-            "Kanji": "",
-            "English": "yoga",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 171
-        },
-        {
-            "Kana": "\u3089\u3044\u306d\u3093",
-            "Kanji": "\u6765\u5e74",
-            "English": "next year",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 172
-        },
-        {
-            "Kana": "\u30e9\u30e1\u30f3\u3084",
-            "Kanji": "",
-            "English": "ramen shop",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink, buildings ",
-            "id": 173
-        },
-        {
-            "Kana": "\u308a\u3053\u3093",
-            "Kanji": "\u96e2\u5a5a",
-            "English": "divorce ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 174
-        },
-        {
-            "Kana": "\u30ea\u30d3\u30f3\u30b0",
-            "Kanji": "",
-            "English": "living room",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 175
-        },
-        {
-            "Kana": "\u308a\u3087\u3046\u308a",
-            "Kanji": "",
-            "English": "cuisine/cooking ",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 176
-        },
-        {
-            "Kana": "\u308a\u3087\u3053\u3046",
-            "Kanji": "",
-            "English": "trip/travel",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "",
-            "id": 177
-        },
-        {
-            "Kana": "\u308c\u3044\u305e\u3046\u3053",
-            "Kanji": "\u51b7\u8535\u5eab",
-            "English": "refrigerator",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "home",
-            "id": 178
-        },
-        {
-            "Kana": "\u30ec\u30e2\u30f3",
-            "Kanji": "",
-            "English": "lemon",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 179
-        },
-        {
-            "Kana": "\u308c\u3093\u3042\u3044",
-            "Kanji": "",
-            "English": "romance",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 180
-        },
-        {
-            "Kana": "\u30b9\u30d7\u30fc\u30f3",
-            "Kanji": "",
-            "English": "spoon",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 181
-        },
-        {
-            "Kana": "\u30ca\u30a4\u30d5",
-            "Kanji": "",
-            "English": "knife",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 182
-        },
-        {
-            "Kana": "\u30d5\u30a9\u30fc\u30af",
-            "Kanji": "",
-            "English": "fork",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 183
-        },
-        {
-            "Kana": "\u3064\u3044\u305f\u3061",
-            "Kanji": "1 \u65e5",
-            "English": "first of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 184
-        },
-        {
-            "Kana": "\u3075\u3064\u304b",
-            "Kanji": "2 \u65e5",
-            "English": "second of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 185
-        },
-        {
-            "Kana": "\u307f\u3063\u304b",
-            "Kanji": "3 \u65e5",
-            "English": "third of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 186
-        },
-        {
-            "Kana": "\u3088\u3063\u304b",
-            "Kanji": "4 \u65e5",
-            "English": "fourth of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 187
-        },
-        {
-            "Kana": "\u3044\u3064\u304b",
-            "Kanji": "5 \u65e5",
-            "English": "fifth of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 188
-        },
-        {
-            "Kana": "\u3053\u3053\u306e\u304b",
-            "Kanji": "9 \u65e5",
-            "English": "ninth of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 189
-        },
-        {
-            "Kana": "\u3068\u304a\u304b",
-            "Kanji": "10 \u65e5",
-            "English": "tenth of the month",
-            "Category": "noun",
-            "Notes": "",
-            "Topic": "time",
-            "id": 190
-        },
-        {
-            "Kana": "\u3061\u3044\u3059\u3044",
-            "Kanji": "\u5c0f\u3055\u3044",
-            "English": "small",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 191
-        },
-        {
-            "Kana": "\u304a\u304a\u304d\u3044",
-            "Kanji": "\u5927\u304d\u3044",
-            "English": "big",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 192
-        },
-        {
-            "Kana": "\u306a\u304c\u3044",
-            "Kanji": "\u9577\u3044",
-            "English": "long",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 193
-        },
-        {
-            "Kana": "\u3072\u304f\u3044",
-            "Kanji": "\u4f4e\u3044",
-            "English": "low/short in height",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 194
-        },
-        {
-            "Kana": "\u3042\u3064\u3044",
-            "Kanji": "\u71b1\u3044",
-            "English": "hot",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 195
-        },
-        {
-            "Kana": "\u3064\u3081\u305f\u3044",
-            "Kanji": "\u51b7\u305f\u3044",
-            "English": "cold",
-            "Category": "adjective",
-            "Notes": "for objects",
-            "Topic": "food and drink",
-            "id": 196
-        },
-        {
-            "Kana": "\u3055\u3080\u3044",
-            "Kanji": "\u5bd2\u3044",
-            "English": "cold",
-            "Category": "adjective",
-            "Notes": "for weather",
-            "Topic": "weather",
-            "id": 197
         },
         {
             "Kana": "\u3042\u305f\u305f\u304b\u3044",
@@ -1789,16 +142,7 @@
             "Category": "adjective",
             "Notes": "",
             "Topic": "weather",
-            "id": 198
-        },
-        {
-            "Kana": "\u3044\u305d\u304c\u3057\u3044",
-            "Kanji": "\u5fd9\u3057\u3044",
-            "English": "busy",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "work and school",
-            "id": 199
+            "id": 15
         },
         {
             "Kana": "\u3042\u305f\u3089\u3057\u3044",
@@ -1807,97 +151,79 @@
             "Category": "adjective",
             "Notes": "",
             "Topic": "shopping, time",
-            "id": 200
+            "id": 16
         },
         {
-            "Kana": "\u3075\u308b\u3044",
-            "Kanji": "\u53e4\u3044",
-            "English": "old",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "shopping, time",
-            "id": 201
-        },
-        {
-            "Kana": "\u304b\u3089\u3044",
-            "Kanji": "",
-            "English": "spicy",
+            "Kana": "\u3042\u3064\u3044",
+            "Kanji": "\u71b1\u3044",
+            "English": "hot",
             "Category": "adjective",
             "Notes": "",
             "Topic": "food and drink",
-            "id": 202
+            "id": 17
         },
         {
-            "Kana": "\u3084\u3059\u3044",
-            "Kanji": "\u5b89\u3044",
-            "English": "cheap",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "shopping",
-            "id": 203
-        },
-        {
-            "Kana": "\u305f\u304b\u3044",
-            "Kanji": "\u9ad8\u3044",
-            "English": "expensive, tall",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "shopping",
-            "id": 204
-        },
-        {
-            "Kana": "\u304a\u305d\u3044",
-            "Kanji": "\u9045\u3044",
-            "English": "slow",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "time, motion",
-            "id": 205
-        },
-        {
-            "Kana": "\u306f\u3084\u3044",
-            "Kanji": "\u901f\u3044",
-            "English": "fast",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "time, motion",
-            "id": 206
-        },
-        {
-            "Kana": "\u3068\u304a\u3044",
-            "Kanji": "\u9060\u3044",
-            "English": "far",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 207
-        },
-        {
-            "Kana": "\u3061\u304b\u3044",
-            "Kanji": "\u8fd1\u3044",
-            "English": "near",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "transit, dimensions",
-            "id": 208
-        },
-        {
-            "Kana": "\u3086\u308b\u3044",
+            "Kana": "\u3042\u3063\u3061",
             "Kanji": "",
-            "English": "loose",
-            "Category": "adjective",
+            "English": "that way (far)",
+            "Category": "noun",
             "Notes": "",
-            "Topic": "clothing",
-            "id": 209
+            "Topic": "transit",
+            "id": 18
         },
         {
-            "Kana": "\u3057\u3087\u3063\u3071\u3044",
-            "Kanji": "\u5869\u3063\u3071\u3044",
-            "English": "salty",
-            "Category": "adjective",
+            "Kana": "\u3042\u3063\u3061\u3053\u3063\u3061",
+            "Kanji": "",
+            "English": "here and there",
+            "Category": "adverb/clause",
             "Notes": "",
-            "Topic": "food and drink",
-            "id": 210
+            "Topic": "dimensions",
+            "id": 19
+        },
+        {
+            "Kana": "\u3042\u3068",
+            "Kanji": "",
+            "English": "after",
+            "Category": "adverb/clause",
+            "Notes": "X\u306e\u3042\u3068 = after X",
+            "Topic": "",
+            "id": 20
+        },
+        {
+            "Kana": "\u3042\u306b",
+            "Kanji": "\u5144",
+            "English": "(my) older brother",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 21
+        },
+        {
+            "Kana": "\u3042\u306d",
+            "Kanji": "\u59c9",
+            "English": "(my) older sister",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 22
+        },
+        {
+            "Kana": "\u30a2\u30d1\u30fc\u30c8",
+            "Kanji": "",
+            "English": "apartment",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home",
+            "id": 23
+        },
+        {
+            "Kana": "\u3042\u3073\u307e\u3059",
+            "Kanji": "",
+            "English": "to take (e.g. a shower)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 24
         },
         {
             "Kana": "\u3042\u307e\u3044",
@@ -1906,322 +232,7 @@
             "Category": "adjective",
             "Notes": "",
             "Topic": "food and drink",
-            "id": 211
-        },
-        {
-            "Kana": "\u3072\u308d\u3044",
-            "Kanji": "",
-            "English": "spacious",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions, home",
-            "id": 212
-        },
-        {
-            "Kana": "\u305b\u307e\u3044",
-            "Kanji": "",
-            "English": "cramped, narrow",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "dimensions, home",
-            "id": 213
-        },
-        {
-            "Kana": "\u306b\u304e\u3084\u304b",
-            "Kanji": "",
-            "English": "lively",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 214
-        },
-        {
-            "Kana": "\u3086\u3046\u3081\u3044",
-            "Kanji": "",
-            "English": "famous",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 215
-        },
-        {
-            "Kana": "\u3059\u3066\u304d",
-            "Kanji": "",
-            "English": "lovely ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 216
-        },
-        {
-            "Kana": "\u304d\u308c\u3044",
-            "Kanji": "",
-            "English": "beautiful, pretty, clean",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 217
-        },
-        {
-            "Kana": "\u3057\u305a\u304b\u306a",
-            "Kanji": "\u9759\u304b\u306a",
-            "English": "quiet",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 218
-        },
-        {
-            "Kana": "\u3059\u304d",
-            "Kanji": "",
-            "English": "liked ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 219
-        },
-        {
-            "Kana": "\u3046\u308b\u3055\u3044",
-            "Kanji": "",
-            "English": "annoying",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 220
-        },
-        {
-            "Kana": "\u3084\u3055\u3057\u3044",
-            "Kanji": "",
-            "English": "nice",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 221
-        },
-        {
-            "Kana": "\u304b\u3063\u3053\u3044\u3044",
-            "Kanji": "",
-            "English": "cool",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 222
-        },
-        {
-            "Kana": "\u304a\u3057\u3083\u308c",
-            "Kanji": "",
-            "English": "stylish",
-            "Category": "adjective",
-            "Notes": "(na)",
-            "Topic": "",
-            "id": 223
-        },
-        {
-            "Kana": "\u3044\u308d\u3044\u308d",
-            "Kanji": "",
-            "English": "all sorts of",
-            "Category": "adjective",
-            "Notes": "\u8272\u3005, usually written in kana",
-            "Topic": "",
-            "id": 224
-        },
-        {
-            "Kana": "\u3084\u3055\u3057\u3044",
-            "Kanji": "",
-            "English": "easy ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 225
-        },
-        {
-            "Kana": "\u305f\u3044\u3078\u3093",
-            "Kanji": "",
-            "English": "tough/difficult",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 226
-        },
-        {
-            "Kana": "\u305f\u306e\u3057\u3044",
-            "Kanji": "",
-            "English": "fun",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 227
-        },
-        {
-            "Kana": "\u3053\u3044\u3057\u3044",
-            "Kanji": "\u604b\u3057\u3044",
-            "English": "to be missed",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 228
-        },
-        {
-            "Kana": "\u3079\u308f\u308a",
-            "Kanji": "",
-            "English": "convenient ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 229
-        },
-        {
-            "Kana": "\u307f\u3058\u304b\u3044",
-            "Kanji": "",
-            "English": "short (in duration)",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 230
-        },
-        {
-            "Kana": "\u305f\u3044\u305b\u3064\u306a",
-            "Kanji": "\u5927\u5207\u306a",
-            "English": "important",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 231
-        },
-        {
-            "Kana": "\u3072\u307e\u306a",
-            "Kanji": "",
-            "English": "free (having time)",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 232
-        },
-        {
-            "Kana": "\u305f\u306e\u3057\u307f",
-            "Kanji": "",
-            "English": "looked forward to",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 233
-        },
-        {
-            "Kana": "\u3046\u308b\u3055\u3044",
-            "Kanji": "",
-            "English": "loud",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 234
-        },
-        {
-            "Kana": "\u304a\u3082\u3044",
-            "Kanji": "\u91cd\u3044",
-            "English": "heavy",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 235
-        },
-        {
-            "Kana": "\u304b\u308b\u3044",
-            "Kanji": "\u8efd\u3044",
-            "English": "lightweight",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 236
-        },
-        {
-            "Kana": "\u305f\u3044\u305b\u3064",
-            "Kanji": "\u5927\u5207",
-            "English": "important",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 237
-        },
-        {
-            "Kana": "\u3058\u3087\u3046\u3076",
-            "Kanji": "\u4e08\u592b",
-            "English": "sturdy ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 238
-        },
-        {
-            "Kana": "\u308a\u3063\u3071",
-            "Kanji": "\u7acb\u6d3e",
-            "English": "magnificent",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 239
-        },
-        {
-            "Kana": "\u3046\u308b\u3055\u3044",
-            "Kanji": "",
-            "English": "noisy ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 240
-        },
-        {
-            "Kana": "\u304a\u304a\u305c\u3044",
-            "Kanji": "\u5927\u52e2",
-            "English": "many ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 241
-        },
-        {
-            "Kana": "\u308f\u304b\u3044",
-            "Kanji": "\u82e5\u3044",
-            "English": "young",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 242
-        },
-        {
-            "Kana": "\u3086\u3046\u3081\u3044",
-            "Kanji": "\u6709\u540d",
-            "English": "famous, well-known ",
-            "Category": "adjective",
-            "Notes": "",
-            "Topic": "",
-            "id": 243
-        },
-        {
-            "Kana": "\u3059\u308b",
-            "Kanji": "",
-            "English": "to do",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 244
-        },
-        {
-            "Kana": "\u3084\u308b",
-            "Kanji": "",
-            "English": "to do",
-            "Category": "verb",
-            "Notes": "(more informal)",
-            "Topic": "basic actions",
-            "id": 245
-        },
-        {
-            "Kana": "\u3044\u308b",
-            "Kanji": "",
-            "English": "to exist (living things)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 246
+            "id": 25
         },
         {
             "Kana": "\u3042\u308b",
@@ -2230,6 +241,1995 @@
             "Category": "verb",
             "Notes": "",
             "Topic": "",
+            "id": 26
+        },
+        {
+            "Kana": "\u3042\u308b\u304f",
+            "Kanji": "\u6b69\u304f",
+            "English": "to walk",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "motion",
+            "id": 27
+        },
+        {
+            "Kana": "\u3044\u3046",
+            "Kanji": "\u8a00\u3046",
+            "English": "to say",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 28
+        },
+        {
+            "Kana": "\u3044\u304f",
+            "Kanji": "\u884c\u304f",
+            "English": "to go",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "motion",
+            "id": 29
+        },
+        {
+            "Kana": "\u3044\u3057\u3083",
+            "Kanji": "",
+            "English": "doctor",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 30
+        },
+        {
+            "Kana": "\u3044\u305d\u304c\u3057\u3044",
+            "Kanji": "\u5fd9\u3057\u3044",
+            "English": "busy",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "work and school",
+            "id": 31
+        },
+        {
+            "Kana": "\u3044\u3064\u304b",
+            "Kanji": "5 \u65e5",
+            "English": "fifth of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 32
+        },
+        {
+            "Kana": "\u3044\u3063\u3057\u3087(\u306b)",
+            "Kanji": "\u4e00\u7dd2(\u306b)",
+            "English": "together",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 33
+        },
+        {
+            "Kana": "\u3044\u3082\u3046\u3068",
+            "Kanji": "\u59b9",
+            "English": "younger sister",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 34
+        },
+        {
+            "Kana": "\u3044\u3089\u308b",
+            "Kanji": "\u5165\u308c\u308b",
+            "English": "to put in",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 35
+        },
+        {
+            "Kana": "\u3044\u308a\u3050\u3061",
+            "Kanji": "\u5165\u308a\u53e3",
+            "English": "entrance",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home, transit",
+            "id": 36
+        },
+        {
+            "Kana": "\u3044\u308b",
+            "Kanji": "",
+            "English": "to exist (living things)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 37
+        },
+        {
+            "Kana": "\u3044\u308d",
+            "Kanji": "\u8272",
+            "English": "color",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 38
+        },
+        {
+            "Kana": "\u3044\u308d\u3044\u308d",
+            "Kanji": "",
+            "English": "all sorts of",
+            "Category": "adjective",
+            "Notes": "\u8272\u3005, usually written in kana",
+            "Topic": "",
+            "id": 39
+        },
+        {
+            "Kana": "\u3046\u305f\u3046",
+            "Kanji": "\u6b4c\u3046",
+            "English": "to sing",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 40
+        },
+        {
+            "Kana": "\u3046\u3067\u3068\u3051\u3044",
+            "Kanji": "\u8155\u6642\u8a08",
+            "English": "watch",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 41
+        },
+        {
+            "Kana": "\u3046\u307e\u308c\u308b",
+            "Kanji": "\u751f\u307e\u308c\u308b",
+            "English": "to be born",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 42
+        },
+        {
+            "Kana": "\u3046\u307f",
+            "Kanji": "",
+            "English": "beach",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 43
+        },
+        {
+            "Kana": "\u3046\u308b\u3055\u3044",
+            "Kanji": "",
+            "English": "annoying",
+            "Category": "adjective",
+            "Notes": "multiple meanings",
+            "Topic": "",
+            "id": 44
+        },
+        {
+            "Kana": "\u3046\u308b\u3055\u3044",
+            "Kanji": "",
+            "English": "noisy, loud",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 45
+        },
+        {
+            "Kana": "\u3048",
+            "Kanji": "\u7d75",
+            "English": "picture",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 46
+        },
+        {
+            "Kana": "\u3048\u3044\u304c",
+            "Kanji": "\u6620\u753b",
+            "English": "movie",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 47
+        },
+        {
+            "Kana": "\u30a8\u30ec\u30d9\u30fc\u30bf",
+            "Kanji": "",
+            "English": "elevator",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home",
+            "id": 48
+        },
+        {
+            "Kana": "\u30a8\u30f3\u30b8\u30cb\u30a2",
+            "Kanji": "",
+            "English": "engineer",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "work and school",
+            "id": 49
+        },
+        {
+            "Kana": "\u304a\u304a\u304d\u3044",
+            "Kanji": "\u5927\u304d\u3044",
+            "English": "big",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "dimensions",
+            "id": 50
+        },
+        {
+            "Kana": "\u304a\u304a\u305c\u3044",
+            "Kanji": "\u5927\u52e2",
+            "English": "many",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 51
+        },
+        {
+            "Kana": "\u304a\u304b\u3042\u3055\u3093",
+            "Kanji": "\u304a\u6bcd\u3055\u3093",
+            "English": "mother",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 52
+        },
+        {
+            "Kana": "\u304a\u304b\u3057",
+            "Kanji": "\u304a\u83d3\u5b50",
+            "English": "sweet snack, candy",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 53
+        },
+        {
+            "Kana": "\u304a\u304b\u306d",
+            "Kanji": "\u304a\u91d1",
+            "English": "money",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 54
+        },
+        {
+            "Kana": "\u304a\u3053\u3055\u3093",
+            "Kanji": "\u304a\u5b50\u3055\u3093",
+            "English": "kid (formal)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 55
+        },
+        {
+            "Kana": "\u304a\u3055\u3089",
+            "Kanji": "\u304a\u76bf",
+            "English": "plate",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 56
+        },
+        {
+            "Kana": "\u304a\u3058(\u3055\u3093)",
+            "Kanji": "\u4f2f\u7236\u3055\u3093",
+            "English": "uncle (older than parent)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 57
+        },
+        {
+            "Kana": "\u304a\u3058\u3044\u3055\u3093",
+            "Kanji": "\u304a\u7956\u7236\u3055\u3093",
+            "English": "grandfather",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 58
+        },
+        {
+            "Kana": "\u304a\u3057\u3048\u307e\u3059",
+            "Kanji": "\u6559\u3048\u307e\u3059",
+            "English": "to teach",
+            "Category": "verb",
+            "Notes": "{Person}\u306b{object}\u3092\u6559\u3048\u307e\u3059",
+            "Topic": "work and school",
+            "id": 59
+        },
+        {
+            "Kana": "\u304a\u3057\u3083\u308c",
+            "Kanji": "\u304a\u6d12\u843d",
+            "English": "stylish",
+            "Category": "adjective",
+            "Notes": "(na)",
+            "Topic": "",
+            "id": 60
+        },
+        {
+            "Kana": "\u304a\u305d\u3044",
+            "Kanji": "\u9045\u3044",
+            "English": "slow",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "time, motion",
+            "id": 61
+        },
+        {
+            "Kana": "\u304a\u3066\u3042\u3089\u3044",
+            "Kanji": "\u304a\u624b\u6d17\u3044",
+            "English": "restroom",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home",
+            "id": 62
+        },
+        {
+            "Kana": "\u304a\u3066\u3089",
+            "Kanji": "\u304a\u5bfa",
+            "English": "temple",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, travel",
+            "id": 63
+        },
+        {
+            "Kana": "\u304a\u3068\u3046\u3055\u3093",
+            "Kanji": "\u304a\u7236\u3055\u3093",
+            "English": "father",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 64
+        },
+        {
+            "Kana": "\u304a\u3068\u3046\u3068",
+            "Kanji": "\u5f1f",
+            "English": "younger brother",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 65
+        },
+        {
+            "Kana": "\u304a\u3068\u3053\u306e\u3053",
+            "Kanji": "\u7537\u306e\u5b50",
+            "English": "boy",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 66
+        },
+        {
+            "Kana": "\u304a\u3068\u3053\u306e\u3072\u3068",
+            "Kanji": "\u7537\u306e\u4eba",
+            "English": "man",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 67
+        },
+        {
+            "Kana": "\u304a\u3068\u3068\u3057",
+            "Kanji": "\u4e00\u6628\u5e74",
+            "English": "year before last",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 68
+        },
+        {
+            "Kana": "\u304a\u3068\u306a",
+            "Kanji": "\u5927\u4eba",
+            "English": "adult",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 69
+        },
+        {
+            "Kana": "\u304a\u306a\u3058",
+            "Kanji": "\u540c\u3058",
+            "English": "same",
+            "Category": "noun",
+            "Notes": "\u5f7c\u3068\u540c\u3058=same as him",
+            "Topic": "",
+            "id": 70
+        },
+        {
+            "Kana": "\u304a\u306b\u3044\u3055\u3093",
+            "Kanji": "\u304a\u5144\u3055\u3093",
+            "English": "older brother",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 71
+        },
+        {
+            "Kana": "\u304a\u306d\u3048\u3055\u3093",
+            "Kanji": "\u304a\u59c9\u3055\u3093",
+            "English": "older sister",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 72
+        },
+        {
+            "Kana": "\u304a\u3070(\u3055\u3093)",
+            "Kanji": "\u53d4\u6bcd\u3055\u3093",
+            "English": "aunt (younger than parent)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 73
+        },
+        {
+            "Kana": "\u304a\u3070(\u3055\u3093)",
+            "Kanji": "\u4f2f\u6bcd\u3055\u3093",
+            "English": "aunt (older than parent)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 74
+        },
+        {
+            "Kana": "\u304a\u3070\u3042\u3055\u3093",
+            "Kanji": "\u304a\u7956\u6bcd\u3055\u3093",
+            "English": "grandmother",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 75
+        },
+        {
+            "Kana": "\u304a\u306f\u3057",
+            "Kanji": "\u304a\u7bb8",
+            "English": "chopstick",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 76
+        },
+        {
+            "Kana": "\u304a\u3072\u3055\u3057\u3076\u308a\u3000\u3067\u3059",
+            "Kanji": "\u304a\u3072\u3055\u3072\u3076\u308a\u3000\u3067\u3059",
+            "English": "long time no see (formal)",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 77
+        },
+        {
+            "Kana": "\u304a\u3075\u308d\u306b\u306f\u3044\u308a\u307e\u3059",
+            "Kanji": "",
+            "English": "I take a bath",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 78
+        },
+        {
+            "Kana": "\u304a\u307f\u3084\u3052",
+            "Kanji": "\u304a\u571f\u7523",
+            "English": "souvenir",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "travel, hobbies",
+            "id": 79
+        },
+        {
+            "Kana": "\u304a\u3082\u3044",
+            "Kanji": "\u91cd\u3044",
+            "English": "heavy",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 80
+        },
+        {
+            "Kana": "\u304a\u3082\u3046",
+            "Kanji": "\u601d\u3046",
+            "English": "to think",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 81
+        },
+        {
+            "Kana": "\u304a\u308a\u307e\u3059",
+            "Kanji": "\u964d\u308a\u307e\u3059",
+            "English": "to disembark/get off",
+            "Category": "verb",
+            "Notes": "used with \u3078",
+            "Topic": "transit",
+            "id": 82
+        },
+        {
+            "Kana": "\u304a\u3093\u304c\u304f",
+            "Kanji": "\u97f3\u697d",
+            "English": "music",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 83
+        },
+        {
+            "Kana": "\u304a\u3093\u306a\u306e\u3053",
+            "Kanji": "\u5973\u306e\u5b50",
+            "English": "girl",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 84
+        },
+        {
+            "Kana": "\u304a\u3093\u306a\u306e\u3072\u3068",
+            "Kanji": "\u5973\u306e\u4eba",
+            "English": "woman",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 85
+        },
+        {
+            "Kana": "\u304b\u3044",
+            "Kanji": "\u56de",
+            "English": "counter for occurences",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 86
+        },
+        {
+            "Kana": "\u304b\u3044\u3060\u3093",
+            "Kanji": "",
+            "English": "stairs",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home",
+            "id": 87
+        },
+        {
+            "Kana": "\u304b\u3044\u3082\u306e",
+            "Kanji": "\u8cb7\u3044\u7269",
+            "English": "shopping",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 88
+        },
+        {
+            "Kana": "\u304b\u304c\u307f",
+            "Kanji": "\u93e1",
+            "English": "mirror",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 89
+        },
+        {
+            "Kana": "\u304b\u304b\u308b",
+            "Kanji": "\u639b\u304b\u308b",
+            "English": "to take (some time or money)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "time",
+            "id": 90
+        },
+        {
+            "Kana": "\u304b\u3058",
+            "Kanji": "\u5bb6\u4e8b",
+            "English": "chore",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 91
+        },
+        {
+            "Kana": "\u304b\u3058",
+            "Kanji": "\u706b\u4e8b",
+            "English": "fire",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 92
+        },
+        {
+            "Kana": "\u304b\u305e\u304f",
+            "Kanji": "\u5bb6\u65cf",
+            "English": "family",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 93
+        },
+        {
+            "Kana": "\u304b\u305f\u3059\u307f",
+            "Kanji": "\u7247\u9685",
+            "English": "corner",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 94
+        },
+        {
+            "Kana": "\u304b\u3063\u3053\u3044\u3044",
+            "Kanji": "",
+            "English": "cool",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 95
+        },
+        {
+            "Kana": "\u304b\u3070\u3093",
+            "Kanji": "\u9784",
+            "English": "bag",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 96
+        },
+        {
+            "Kana": "\u304b\u3088\u3046\u3073",
+            "Kanji": "\u706b\u66dc\u65e5",
+            "English": "Tuesday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 97
+        },
+        {
+            "Kana": "\u304b\u3089\u3044",
+            "Kanji": "",
+            "English": "spicy",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 98
+        },
+        {
+            "Kana": "\u304b\u308b\u3044",
+            "Kanji": "\u8efd\u3044",
+            "English": "lightweight",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 99
+        },
+        {
+            "Kana": "\u304b\u3093\u3053\u3046",
+            "Kanji": "",
+            "English": "Sightseeing",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 100
+        },
+        {
+            "Kana": "\u304d\u304f",
+            "Kanji": "\u805e\u304f",
+            "English": "to hear / to ask",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "hobbies, basic actions",
+            "id": 101
+        },
+        {
+            "Kana": "\u304d\u305f",
+            "Kanji": "\u5317",
+            "English": "North",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 102
+        },
+        {
+            "Kana": "\u30ad\u30c3\u30c1\u30f3",
+            "Kanji": "",
+            "English": "kitchen",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 103
+        },
+        {
+            "Kana": "\u304d\u306e\u3046",
+            "Kanji": "\u6628\u65e5",
+            "English": "yesterday",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "time",
+            "id": 104
+        },
+        {
+            "Kana": "\u304d\u3085\u3046\u304d\u3085\u3046\u3057\u3083",
+            "Kanji": "",
+            "English": "ambulance",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 105
+        },
+        {
+            "Kana": "\u304d\u3087\u3046",
+            "Kanji": "\u4eca\u65e5",
+            "English": "today",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "time",
+            "id": 106
+        },
+        {
+            "Kana": "\u304d\u3087\u306d\u3093",
+            "Kanji": "\u53bb\u5e74",
+            "English": "last year",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 107
+        },
+        {
+            "Kana": "\u304d\u308c\u3044",
+            "Kanji": "",
+            "English": "beautiful, pretty, clean",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 108
+        },
+        {
+            "Kana": "\u304d\u3093\u3088\u3046\u3073",
+            "Kanji": "\u91d1\u66dc\u65e5",
+            "English": "Friday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 109
+        },
+        {
+            "Kana": "\u304f\u3064\u3057\u305f",
+            "Kanji": "\u9774\u4e0b",
+            "English": "socks",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 110
+        },
+        {
+            "Kana": "\u304f\u307f",
+            "Kanji": "\u7d44",
+            "English": "counter for pair of gloves",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 111
+        },
+        {
+            "Kana": "\u304f\u308b",
+            "Kanji": "\u6765\u308b",
+            "English": "to come",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "motion",
+            "id": 112
+        },
+        {
+            "Kana": "\u3051\u3044\u3055\u3064",
+            "Kanji": "",
+            "English": "police",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 113
+        },
+        {
+            "Kana": "\u3051\u3063\u3053\u3093",
+            "Kanji": "\u7d50\u5a5a",
+            "English": "marriage",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 114
+        },
+        {
+            "Kana": "\u3052\u3064\u3088\u3046\u3073",
+            "Kanji": "\u6708\u66dc\u65e5",
+            "English": "Monday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 115
+        },
+        {
+            "Kana": "\u3053\u3044\u3057\u3044",
+            "Kanji": "\u604b\u3057\u3044",
+            "English": "to be missed",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 116
+        },
+        {
+            "Kana": "\u3053\u3053\u306e\u304b",
+            "Kanji": "9 \u65e5",
+            "English": "ninth of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 117
+        },
+        {
+            "Kana": "\u3053\u3063\u305b\u3064",
+            "Kanji": "\u9aa8\u6298",
+            "English": "bone fracture",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "health",
+            "id": 118
+        },
+        {
+            "Kana": "\u3053\u3063\u3061",
+            "Kanji": "",
+            "English": "this way",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 119
+        },
+        {
+            "Kana": "\u30b3\u30c3\u30d7",
+            "Kanji": "",
+            "English": "glass",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 120
+        },
+        {
+            "Kana": "\u3053\u3068\u3057",
+            "Kanji": "\u4eca\u5e74",
+            "English": "this year",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 121
+        },
+        {
+            "Kana": "\u3053\u3069\u3082",
+            "Kanji": "\u5b50\u4f9b",
+            "English": "(my) kid",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 122
+        },
+        {
+            "Kana": "\u3054\u3076\u3055\u305f\u3000\u3057\u3066\u3000\u304a\u308a\u307e\u3059",
+            "Kanji": "\u3054\u7121\u6c99\u6c70\u3057\u3066\u304a\u308a\u307e\u3059",
+            "English": "sorry it's been so long!",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 123
+        },
+        {
+            "Kana": "\u30b3\u30e1\u30c7\u30a3",
+            "Kanji": "",
+            "English": "comedy",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 124
+        },
+        {
+            "Kana": "\u3053\u3093\u304b\u3044",
+            "Kanji": "\u4eca\u56de",
+            "English": "this time",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 125
+        },
+        {
+            "Kana": "\u3053\u3093\u306a{A}",
+            "Kanji": "",
+            "English": "things like {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 126
+        },
+        {
+            "Kana": "\u3055\u3044\u3075",
+            "Kanji": "",
+            "English": "wallet",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "clothing",
+            "id": 127
+        },
+        {
+            "Kana": "\u3055\u3044\u3075",
+            "Kanji": "\u8ca1\u5e03",
+            "English": "wallet",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 128
+        },
+        {
+            "Kana": "\u3055\u3080\u3044",
+            "Kanji": "\u5bd2\u3044",
+            "English": "cold",
+            "Category": "adjective",
+            "Notes": "for weather",
+            "Topic": "weather",
+            "id": 129
+        },
+        {
+            "Kana": "\u3055\u3089\u3044\u306d\u3093",
+            "Kanji": "\u518d\u6765\u5e74",
+            "English": "year after next",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 130
+        },
+        {
+            "Kana": "\u3058\u304b\u3093",
+            "Kanji": "\u6642\u9593",
+            "English": "time, hour",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 131
+        },
+        {
+            "Kana": "\u3057\u305a\u304b\u306a",
+            "Kanji": "\u9759\u304b\u306a",
+            "English": "quiet",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 132
+        },
+        {
+            "Kana": "\u3057\u3063\u3066\u3044\u308b",
+            "Kanji": "\u77e5\u3063\u3066\u3044\u308b",
+            "English": "to know or have heard of something",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 133
+        },
+        {
+            "Kana": "\u3057\u3064\u3082\u3093",
+            "Kanji": "\u8cea\u554f",
+            "English": "question",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "\u8cea\u554f\u3057\u3066\u3082\u3044\u3044\u3067\u3059\u304b\uff1f",
+            "id": 134
+        },
+        {
+            "Kana": "\u3057\u3066\u3082\u3044\u3044",
+            "Kanji": "",
+            "English": "alright to do",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 135
+        },
+        {
+            "Kana": "\u3057\u306c",
+            "Kanji": "\u6b7b\u306c",
+            "English": "to die",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 136
+        },
+        {
+            "Kana": "\u3057\u3083\u3057\u3093:",
+            "Kanji": "\u5199\u771f",
+            "English": "photo",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 137
+        },
+        {
+            "Kana": "\u3057\u3083\u3079\u308b",
+            "Kanji": "\u558b\u308b",
+            "English": "to chat, to speak",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 138
+        },
+        {
+            "Kana": "\u3057\u3085\u3046\u307e\u3064",
+            "Kanji": "\u9031\u672b",
+            "English": "weekend",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 139
+        },
+        {
+            "Kana": "\u3057\u3085\u304f\u3060\u3044",
+            "Kanji": "\u5bbf\u984c",
+            "English": "homework",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 140
+        },
+        {
+            "Kana": "\u3057\u3085\u3066\u3093",
+            "Kanji": "",
+            "English": "final stop",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 141
+        },
+        {
+            "Kana": "\u3058\u3087\u3046\u3076",
+            "Kanji": "\u4e08\u592b",
+            "English": "sturdy",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 142
+        },
+        {
+            "Kana": "\u3057\u3087\u3063\u3071\u3044",
+            "Kanji": "\u5869\u3063\u3071\u3044",
+            "English": "salty",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 143
+        },
+        {
+            "Kana": "\u3057\u308b",
+            "Kanji": "\u77e5\u308b",
+            "English": "to discover/find out",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 144
+        },
+        {
+            "Kana": "\u3057\u308d",
+            "Kanji": "",
+            "English": "castle",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 145
+        },
+        {
+            "Kana": "\u3058\u3093\u3058\u3083",
+            "Kanji": "",
+            "English": "shrine",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, travel",
+            "id": 146
+        },
+        {
+            "Kana": "\u3057\u3093\u305b\u304d",
+            "Kanji": "\u89aa\u621a",
+            "English": "relatives",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 147
+        },
+        {
+            "Kana": "\u30b9\u30fc\u30d7",
+            "Kanji": "",
+            "English": "soup",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 148
+        },
+        {
+            "Kana": "\u3059\u3044\u3088\u3046\u3073",
+            "Kanji": "\u6c34\u66dc\u65e5",
+            "English": "Wednesday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 149
+        },
+        {
+            "Kana": "\u3059\u304d",
+            "Kanji": "",
+            "English": "liked",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 150
+        },
+        {
+            "Kana": "\u3059\u3053\u3057",
+            "Kanji": "",
+            "English": "a bit",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 151
+        },
+        {
+            "Kana": "\u3059\u3066\u304d",
+            "Kanji": "",
+            "English": "lovely",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 152
+        },
+        {
+            "Kana": "\u30b9\u30c8\u30ec\u30c3\u30c1",
+            "Kanji": "",
+            "English": "stretch",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 153
+        },
+        {
+            "Kana": "\u30b9\u30d7\u30fc\u30f3",
+            "Kanji": "",
+            "English": "spoon",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 154
+        },
+        {
+            "Kana": "\u3059\u308b",
+            "Kanji": "",
+            "English": "to do",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 155
+        },
+        {
+            "Kana": "\u3059\u308f\u308b",
+            "Kanji": "\u5ea7\u308b",
+            "English": "to sit",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions, motion",
+            "id": 156
+        },
+        {
+            "Kana": "\u305b\u304d",
+            "Kanji": "",
+            "English": "seat",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 157
+        },
+        {
+            "Kana": "\u305b\u307e\u3044",
+            "Kanji": "",
+            "English": "cramped, narrow",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "dimensions, home",
+            "id": 158
+        },
+        {
+            "Kana": "\u305b\u3093\u305f\u304f",
+            "Kanji": "",
+            "English": "laundry",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 159
+        },
+        {
+            "Kana": "\u305b\u3093\u305f\u304f\u304d",
+            "Kanji": "\u6d17\u6fef\u6a5f",
+            "English": "washing machine",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 160
+        },
+        {
+            "Kana": "\u305b\u3093\u306d\u3093\u307e\u3048\u306b",
+            "Kanji": "\u5343\u5e74\u524d\u306b",
+            "English": "a thousand years ago",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 161
+        },
+        {
+            "Kana": "\u305d\u3046\u3058",
+            "Kanji": "\u6383\u9664",
+            "English": "cleaning",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 162
+        },
+        {
+            "Kana": "\u305d\u3046\u3058\u304d",
+            "Kanji": "",
+            "English": "vacuum cleaner",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 163
+        },
+        {
+            "Kana": "\u305d\u304f",
+            "Kanji": "\u8db3",
+            "English": "counter for pair of socks",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 164
+        },
+        {
+            "Kana": "\u305d\u3057\u3066\u3001",
+            "Kanji": "",
+            "English": "then,...",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 165
+        },
+        {
+            "Kana": "\u305d\u3063\u3061",
+            "Kanji": "",
+            "English": "that way (close to the listener)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 166
+        },
+        {
+            "Kana": "\u305d\u3075",
+            "Kanji": "\u7956\u7236",
+            "English": "grandpa",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 167
+        },
+        {
+            "Kana": "\u305d\u307c",
+            "Kanji": "\u7956\u6bcd",
+            "English": "grandma",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 168
+        },
+        {
+            "Kana": "\u305f\u3044\u305b\u3064",
+            "Kanji": "\u5927\u5207",
+            "English": "important",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 169
+        },
+        {
+            "Kana": "\u305f\u3044\u305b\u3064\u306a",
+            "Kanji": "\u5927\u5207\u306a",
+            "English": "important",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 170
+        },
+        {
+            "Kana": "\u3060\u3044\u3069\u3053\u308d",
+            "Kanji": "\u53f0\u6240",
+            "English": "kitchen",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 171
+        },
+        {
+            "Kana": "\u305f\u3044\u3078\u3093",
+            "Kanji": "",
+            "English": "tough/difficult",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 172
+        },
+        {
+            "Kana": "\u305f\u304b\u3044",
+            "Kanji": "\u9ad8\u3044",
+            "English": "expensive, tall",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "shopping",
+            "id": 173
+        },
+        {
+            "Kana": "\u3060\u3059",
+            "Kanji": "\u3060\u3059",
+            "English": "to take out",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 174
+        },
+        {
+            "Kana": "\u305f\u3059\u3051\u305f\uff01",
+            "Kanji": "",
+            "English": "Help! (in an emergency)",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 175
+        },
+        {
+            "Kana": "\u305f\u3064",
+            "Kanji": "\u7acb\u3064",
+            "English": "to stand",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions, motion",
+            "id": 176
+        },
+        {
+            "Kana": "\u305f\u3066\u3082\u306e",
+            "Kanji": "\u305f\u3066\u3082\u306e",
+            "English": "building",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home",
+            "id": 177
+        },
+        {
+            "Kana": "\u305f\u3066\u308b",
+            "Kanji": "\u7acb\u3066\u308b",
+            "English": "stand up",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 178
+        },
+        {
+            "Kana": "\u305f\u306e\u3057\u3044",
+            "Kanji": "",
+            "English": "fun",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 179
+        },
+        {
+            "Kana": "\u305f\u306e\u3057\u307f",
+            "Kanji": "",
+            "English": "looked forward to",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 180
+        },
+        {
+            "Kana": "\u305f\u3076\u3093",
+            "Kanji": "",
+            "English": "probably",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 181
+        },
+        {
+            "Kana": "\u305f\u3079\u308b",
+            "Kanji": "\u98df\u3079\u308b",
+            "English": "to eat",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 182
+        },
+        {
+            "Kana": "\u305f\u3093\u3058\u3087\u3046\u3073",
+            "Kanji": "",
+            "English": "birthday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 183
+        },
+        {
+            "Kana": "\u3061\u3044\u3055\u3044",
+            "Kanji": "\u5c0f\u3055\u3044",
+            "English": "small",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "dimensions",
+            "id": 184
+        },
+        {
+            "Kana": "\u3061\u304b\u3044",
+            "Kanji": "\u8fd1\u3044",
+            "English": "near",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 185
+        },
+        {
+            "Kana": "\u3061\u304c\u3046",
+            "Kanji": "\u9055\u3046",
+            "English": "to differ, to be wrong",
+            "Category": "verb",
+            "Notes": "used as an adjective? (\u9055\u3046\u9784=a different bag)",
+            "Topic": "",
+            "id": 186
+        },
+        {
+            "Kana": "\u3061\u3061",
+            "Kanji": "\u7236",
+            "English": "(my) father",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 187
+        },
+        {
+            "Kana": "\u3061\u3083\u308f\u3093",
+            "Kanji": "\u8336\u7897",
+            "English": "bowl",
+            "Category": "noun",
+            "Notes": "bowl of rice",
+            "Topic": "food and drink",
+            "id": 188
+        },
+        {
+            "Kana": "\u3061\u3083\u3093\u3068",
+            "Kanji": "",
+            "English": "reliably (I will make sure to...)",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 189
+        },
+        {
+            "Kana": "\u3064\u3044\u305f\u3061",
+            "Kanji": "1 \u65e5",
+            "English": "first of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 190
+        },
+        {
+            "Kana": "\u3064\u304e",
+            "Kanji": "\u6b21",
+            "English": "next",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 191
+        },
+        {
+            "Kana": "\u3064\u304f\u308b",
+            "Kanji": "\u4f5c\u308b",
+            "English": "to make",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 192
+        },
+        {
+            "Kana": "\u3064\u3051\u308b",
+            "Kanji": "",
+            "English": "to turn on",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 193
+        },
+        {
+            "Kana": "\u3064\u307e",
+            "Kanji": "\u59bb",
+            "English": "wife",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 194
+        },
+        {
+            "Kana": "\u3064\u3081\u305f\u3044",
+            "Kanji": "\u51b7\u305f\u3044",
+            "English": "cold",
+            "Category": "adjective",
+            "Notes": "for objects",
+            "Topic": "food and drink",
+            "id": 195
+        },
+        {
+            "Kana": "\u3067\u304d\u308b",
+            "Kanji": "",
+            "English": "to be able to\u2026",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 196
+        },
+        {
+            "Kana": "\u3067\u304d\u308b",
+            "Kanji": "\u51fa\u6765\u308b",
+            "English": "to be able to",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 197
+        },
+        {
+            "Kana": "\u3067\u3050\u3061",
+            "Kanji": "\u51fa\u53e3",
+            "English": "exit",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, home, transit",
+            "id": 198
+        },
+        {
+            "Kana": "\u3066\u3064\u3060\u3046",
+            "Kanji": "\u624b\u4f1d\u3046",
+            "English": "help with",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 199
+        },
+        {
+            "Kana": "\u3066\u3064\u3060\u3063\u3066\u304f\u3060\u3055\u3044",
+            "Kanji": "\u624b\u4f1d\u3063\u3066\u304f\u3060\u3055\u3044",
+            "English": "Can you give me a hand with this?",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 200
+        },
+        {
+            "Kana": "\u3066\u3076\u304f\u308d",
+            "Kanji": "\u624b\u888b",
+            "English": "glove",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 201
+        },
+        {
+            "Kana": "\u3067\u308b",
+            "Kanji": "\u51fa\u308b",
+            "English": "to leave",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "motion",
+            "id": 202
+        },
+        {
+            "Kana": "\u3067\u308b",
+            "Kanji": "\u51fa\u308b",
+            "English": "to exit/leave",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "buildings, transit",
+            "id": 203
+        },
+        {
+            "Kana": "\u3067\u3093\u3057\u30ec\u30f3\u30b8",
+            "Kanji": "",
+            "English": "microwave",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home, food and drink",
+            "id": 204
+        },
+        {
+            "Kana": "\u3069\u3046\u304c",
+            "Kanji": "",
+            "English": "video",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 205
+        },
+        {
+            "Kana": "\u3069\u3046\u3076\u3064",
+            "Kanji": "",
+            "English": "zoo",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 206
+        },
+        {
+            "Kana": "\u3069\u3046\u308a\u3087\u3046",
+            "Kanji": "",
+            "English": "coworker",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 207
+        },
+        {
+            "Kana": "\u3068\u304a\u3044",
+            "Kanji": "\u9060\u3044",
+            "English": "far",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 208
+        },
+        {
+            "Kana": "\u3068\u304a\u304b",
+            "Kanji": "10 \u65e5",
+            "English": "tenth of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 209
+        },
+        {
+            "Kana": "\u3068\u304a\u308a\u307e\u3059",
+            "Kanji": "\u901a\u308a\u307e\u3059",
+            "English": "to pass by",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "transit, buildings",
+            "id": 210
+        },
+        {
+            "Kana": "\u3069\u304f\u3057\u3093",
+            "Kanji": "\u72ec\u8eab",
+            "English": "single",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 211
+        },
+        {
+            "Kana": "\u3068\u3051\u3044",
+            "Kanji": "\u6642\u8a08",
+            "English": "clock",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 212
+        },
+        {
+            "Kana": "\u3068\u3053\u308d",
+            "Kanji": "",
+            "English": "place",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "dimensions",
+            "id": 213
+        },
+        {
+            "Kana": "\u3069\u3063\u3061",
+            "Kanji": "",
+            "English": "which way/which one",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, general actions",
+            "id": 214
+        },
+        {
+            "Kana": "\u3069\u306e\u3050\u3089\u3044...\uff1f",
+            "Kanji": "",
+            "English": "about how long...?",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 215
+        },
+        {
+            "Kana": "\u3069\u3088\u3046\u3073",
+            "Kanji": "\u571f\u66dc\u65e5",
+            "English": "Saturday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 216
+        },
+        {
+            "Kana": "\u30c9\u30e9\u30de",
+            "Kanji": "",
+            "English": "drama",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 217
+        },
+        {
+            "Kana": "\u3068\u308b",
+            "Kanji": "\u53d6\u308b",
+            "English": "to take (a photo)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 218
+        },
+        {
+            "Kana": "\u30c9\u30ec\u30b9",
+            "Kanji": "",
+            "English": "dress",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "clothing",
+            "id": 219
+        },
+        {
+            "Kana": "\u3068\u3093\u304b\u3064",
+            "Kanji": "",
+            "English": "pork cutlet",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 220
+        },
+        {
+            "Kana": "\u3069\u3093\u306a {A}",
+            "Kanji": "",
+            "English": "what kind of {A}",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 221
+        },
+        {
+            "Kana": "\u30ca\u30a4\u30d5",
+            "Kanji": "",
+            "English": "knife",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 222
+        },
+        {
+            "Kana": "\u306a\u304c\u3044",
+            "Kanji": "\u9577\u3044",
+            "English": "long",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "dimensions",
+            "id": 223
+        },
+        {
+            "Kana": "\u306a\u304f\u306a\u308b",
+            "Kanji": "\u4ea1\u304f\u306a\u308b",
+            "English": "to pass away",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 224
+        },
+        {
+            "Kana": "\u306a\u305f",
+            "Kanji": "\u590f",
+            "English": "summer",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time, weather",
+            "id": 225
+        },
+        {
+            "Kana": "\u306a\u3064\u3084\u3059\u307f",
+            "Kanji": "",
+            "English": "summer break",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 226
+        },
+        {
+            "Kana": "\u306a\u306e\u304b",
+            "Kanji": "7 \u65e5",
+            "English": "seventh of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 227
+        },
+        {
+            "Kana": "\u306a\u307e",
+            "Kanji": "",
+            "English": "raw",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "raw meat = \u306a\u307e\u306e\u8089",
+            "id": 228
+        },
+        {
+            "Kana": "\u306a\u3089\u3046",
+            "Kanji": "\u7fd2\u3046",
+            "English": "to learn",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "work and school, basic actions",
+            "id": 229
+        },
+        {
+            "Kana": "\u306a\u308b:",
+            "Kanji": "",
+            "English": "to become",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 230
+        },
+        {
+            "Kana": "\u306a\u3093\u306d\u3093",
+            "Kanji": "\u4f55\u5e74",
+            "English": "what year...?",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 231
+        },
+        {
+            "Kana": "\u306b\u304e\u3084\u304b",
+            "Kanji": "",
+            "English": "lively",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 232
+        },
+        {
+            "Kana": "\u306b\u3057",
+            "Kanji": "\u897f",
+            "English": "West",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 233
+        },
+        {
+            "Kana": "\u306b\u3061\u3088\u3042\u3073",
+            "Kanji": "\u65e5\u66dc\u65e5",
+            "English": "Sunday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 234
+        },
+        {
+            "Kana": "\u306b\u3068\u3063\u3066",
+            "Kanji": "",
+            "English": "to/for someone, with regard to someone",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 235
+        },
+        {
+            "Kana": "\u306b\u307b\u3093\u3054\u3067\u306a\u3093\u3066\u3044\u3044\u307e\u3059\u304b\uff1f",
+            "Kanji": "\u65e5\u672c\u8a9e\u3067\u4f55\u3066\u8a00\u3044\u307e\u3059\u304b\uff1f",
+            "English": "how do you say it in Japanese?",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 236
+        },
+        {
+            "Kana": "\u306b\u3082\u3064",
+            "Kanji": "\u8377\u7269",
+            "English": "lugggage",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 237
+        },
+        {
+            "Kana": "\u306c\u304e\u308b",
+            "Kanji": "",
+            "English": "to take off",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "clothing",
+            "id": 238
+        },
+        {
+            "Kana": "\u306d\u308b",
+            "Kanji": "\u5bdd\u308b",
+            "English": "to sleep",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 239
+        },
+        {
+            "Kana": "\u306d\u3093",
+            "Kanji": "\u5e74",
+            "English": "year",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 240
+        },
+        {
+            "Kana": "\u306e\u3080",
+            "Kanji": "\u98f2\u3080",
+            "English": "to drink",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 241
+        },
+        {
+            "Kana": "\u306e\u308b",
+            "Kanji": "\u4e57\u308b",
+            "English": "to ride",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 242
+        },
+        {
+            "Kana": "\u306f\u3044\u3044\u308d",
+            "Kanji": "\u7070\u8272",
+            "English": "gray",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 243
+        },
+        {
+            "Kana": "\u306f\u3044\u308a\u307e\u3059",
+            "Kanji": "\u5165\u308a\u307e\u3059",
+            "English": "to enter",
+            "Category": "verb",
+            "Notes": "used with \u306b",
+            "Topic": "buildings, transit",
+            "id": 244
+        },
+        {
+            "Kana": "\u306f\u3058\u3081\u306b",
+            "Kanji": "",
+            "English": "first",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 245
+        },
+        {
+            "Kana": "\u306f\u3057\u308b",
+            "Kanji": "\u8d70\u308b",
+            "English": "to run",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "motion, hobbies",
+            "id": 246
+        },
+        {
+            "Kana": "\u306f\u3064\u304b",
+            "Kanji": "\u4e8c\u5341\u65e5",
+            "English": "twenty days",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
             "id": 247
         },
         {
@@ -2242,760 +2242,22 @@
             "id": 248
         },
         {
-            "Kana": "\u3088\u3076",
-            "Kanji": "\u547c\u3076",
-            "English": "to call",
-            "Category": "verb",
+            "Kana": "\u306f\u306f",
+            "Kanji": "\u6bcd",
+            "English": "(my) mother",
+            "Category": "noun",
             "Notes": "",
-            "Topic": "",
+            "Topic": "family and people",
             "id": 249
         },
         {
-            "Kana": "\u3044\u304f",
-            "Kanji": "\u884c\u304f",
-            "English": "to go",
-            "Category": "verb",
+            "Kana": "\u306f\u3084\u3044",
+            "Kanji": "\u901f\u3044",
+            "English": "fast",
+            "Category": "adjective",
             "Notes": "",
-            "Topic": "motion",
+            "Topic": "time, motion",
             "id": 250
-        },
-        {
-            "Kana": "\u3067\u308b",
-            "Kanji": "\u51fa\u308b",
-            "English": "to leave",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "motion",
-            "id": 251
-        },
-        {
-            "Kana": "\u304f\u308b",
-            "Kanji": "\u6765\u308b",
-            "English": "to come",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "motion",
-            "id": 252
-        },
-        {
-            "Kana": "\u307f\u308b",
-            "Kanji": "",
-            "English": "to see",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic motions ",
-            "id": 253
-        },
-        {
-            "Kana": "\u304a\u3082\u3046",
-            "Kanji": "\u601d\u3046",
-            "English": "to think",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 254
-        },
-        {
-            "Kana": "\u3044\u3046",
-            "Kanji": "\u8a00\u3046",
-            "English": "to say",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 255
-        },
-        {
-            "Kana": "\u307e\u3064",
-            "Kanji": "\u5f85\u3064",
-            "English": "to wait",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 256
-        },
-        {
-            "Kana": "\u308f\u304b\u308b",
-            "Kanji": "\u5206\u304b\u308b",
-            "English": "to understand",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 257
-        },
-        {
-            "Kana": "\u3057\u308b",
-            "Kanji": "\u77e5\u308b",
-            "English": "to discover/find out",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 258
-        },
-        {
-            "Kana": "\u3057\u3063\u3066\u3044\u308b",
-            "Kanji": "\u77e5\u3063\u3066\u3044\u308b",
-            "English": "to know or have heard of something",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 259
-        },
-        {
-            "Kana": "\u3067\u304d\u308b",
-            "Kanji": "",
-            "English": "to be able to\u2026",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 260
-        },
-        {
-            "Kana": "\u3072\u3089\u304f",
-            "Kanji": "\u958b\u304f",
-            "English": "to open",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 261
-        },
-        {
-            "Kana": "\u3068\u308b",
-            "Kanji": "\u53d6\u308b",
-            "English": "to take (a photo)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 262
-        },
-        {
-            "Kana": "\u3064\u304f\u308b",
-            "Kanji": "\u4f5c\u308b",
-            "English": "to make",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 263
-        },
-        {
-            "Kana": "\u3088\u3080",
-            "Kanji": "\u8aad\u3080",
-            "English": "to read",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 264
-        },
-        {
-            "Kana": "\u3042\u308b\u304f",
-            "Kanji": "\u6b69\u304f",
-            "English": "to walk",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "motion",
-            "id": 265
-        },
-        {
-            "Kana": "\u306f\u3057\u308b",
-            "Kanji": "\u8d70\u308b",
-            "English": "to run",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "motion, hobbies",
-            "id": 266
-        },
-        {
-            "Kana": "\u305f\u3079\u308b",
-            "Kanji": "\u98df\u3079\u308b",
-            "English": "to eat",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "food and drink",
-            "id": 267
-        },
-        {
-            "Kana": "\u306e\u3080",
-            "Kanji": "\u98f2\u3080",
-            "English": "to drink",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 268
-        },
-        {
-            "Kana": "\u306d\u308b",
-            "Kanji": "\u5bdd\u308b",
-            "English": "to sleep",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 269
-        },
-        {
-            "Kana": "\u304d\u304f",
-            "Kanji": "\u805e\u304f",
-            "English": "to hear / to ask",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "hobbies, basic actions",
-            "id": 270
-        },
-        {
-            "Kana": "\u306a\u308b:",
-            "Kanji": "",
-            "English": "to become",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 271
-        },
-        {
-            "Kana": "\u3046\u305f\u3046",
-            "Kanji": "\u6b4c\u3046",
-            "English": "to sing",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "hobbies",
-            "id": 272
-        },
-        {
-            "Kana": "\u3059\u308f\u308b",
-            "Kanji": "\u5ea7\u308b",
-            "English": "to sit",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions, motion",
-            "id": 273
-        },
-        {
-            "Kana": "\u305f\u3064",
-            "Kanji": "\u7acb\u3064",
-            "English": "to stand",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions, motion",
-            "id": 274
-        },
-        {
-            "Kana": "\u306a\u3089\u3046",
-            "Kanji": "\u7fd2\u3046",
-            "English": "to learn",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "work and school, basic actions",
-            "id": 275
-        },
-        {
-            "Kana": "\u308f\u3059\u308c\u308b",
-            "Kanji": "\u5fd8\u308c\u308b",
-            "English": "to forget",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 276
-        },
-        {
-            "Kana": "\u306e\u308b",
-            "Kanji": "\u4e57\u308b",
-            "English": "to ride",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "transit",
-            "id": 277
-        },
-        {
-            "Kana": "\u304a\u3057\u3048\u307e\u3059",
-            "Kanji": "\u6559\u3048\u307e\u3059",
-            "English": "to teach",
-            "Category": "verb",
-            "Notes": "{Person}\u306b{object}\u3092\u6559\u3048\u307e\u3059",
-            "Topic": "work and school",
-            "id": 278
-        },
-        {
-            "Kana": "\u306c\u304e\u308b ",
-            "Kanji": "",
-            "English": "to take off",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "clothing",
-            "id": 279
-        },
-        {
-            "Kana": "\u306f\u3044\u308a\u307e\u3059",
-            "Kanji": "\u5165\u308a\u307e\u3059",
-            "English": "to enter",
-            "Category": "verb",
-            "Notes": "used with \u306b",
-            "Topic": "buildings, transit",
-            "id": 280
-        },
-        {
-            "Kana": "\u3067\u307e\u3059",
-            "Kanji": "\u51fa\u307e\u3059",
-            "English": "to exit/leave",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "buildings, transit",
-            "id": 281
-        },
-        {
-            "Kana": "\u304a\u308a\u307e\u3059",
-            "Kanji": "\u964d\u308a\u307e\u3059",
-            "English": "to disembark/get off",
-            "Category": "verb",
-            "Notes": "used with \u3078",
-            "Topic": "transit",
-            "id": 282
-        },
-        {
-            "Kana": "\u3068\u304a\u308a\u307e\u3059",
-            "Kanji": "\u901a\u308a\u307e\u3059",
-            "English": "to pass by",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "transit, buildings",
-            "id": 283
-        },
-        {
-            "Kana": "\u307e\u304c\u308b",
-            "Kanji": "\u66f2\u304c\u308b",
-            "English": "to turn",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "transit, motion",
-            "id": 284
-        },
-        {
-            "Kana": "\u304b\u304b\u308b",
-            "Kanji": "\u639b\u304b\u308b",
-            "English": "to take (some time or money)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "time",
-            "id": 285
-        },
-        {
-            "Kana": "\u3072\u3063\u3053\u3059",
-            "Kanji": "\u5f15\u3063\u8d8a\u3059",
-            "English": "to move (residence)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "home",
-            "id": 286
-        },
-        {
-            "Kana": "\u3088\u3080",
-            "Kanji": "\u8aad\u3080",
-            "English": "to read",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "hobbies, basic actions",
-            "id": 287
-        },
-        {
-            "Kana": "\u3042\u3073\u307e\u3059",
-            "Kanji": "",
-            "English": "to take (e.g. a shower)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 288
-        },
-        {
-            "Kana": "\u3067\u304d\u308b",
-            "Kanji": "\u51fa\u6765\u308b",
-            "English": "to be able to",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 289
-        },
-        {
-            "Kana": "\u3066\u3064\u3060\u3046",
-            "Kanji": "\u624b\u4f1d\u3046",
-            "English": "help with",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 290
-        },
-        {
-            "Kana": "\u3042\u3051\u308b",
-            "Kanji": "\u958b\u3051\u308b",
-            "English": "open",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 291
-        },
-        {
-            "Kana": "\u305f\u3066\u308b",
-            "Kanji": "\u7acb\u3066\u308b",
-            "English": "stand up",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 292
-        },
-        {
-            "Kana": "\u3064\u3051\u308b",
-            "Kanji": "",
-            "English": "to turn on",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 293
-        },
-        {
-            "Kana": "\u3060\u3059",
-            "Kanji": "\u3060\u3059",
-            "English": "to take out",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 294
-        },
-        {
-            "Kana": "\u3044\u3089\u308b",
-            "Kanji": "\u5165\u308c\u308b",
-            "English": "to put in",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 295
-        },
-        {
-            "Kana": "\u3042\u3052\u308b",
-            "Kanji": "",
-            "English": "to give",
-            "Category": "verb",
-            "Notes": "teineigo",
-            "Topic": "basic actions",
-            "id": 296
-        },
-        {
-            "Kana": "\u3082\u3064",
-            "Kanji": "\u6301\u3064",
-            "English": "to hold",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 297
-        },
-        {
-            "Kana": "\u3061\u304c\u3046",
-            "Kanji": "\u9055\u3046",
-            "English": "to differ, to be wrong",
-            "Category": "verb",
-            "Notes": "used as an adjective? (\u9055\u3046\u9784=a different bag)",
-            "Topic": "",
-            "id": 298
-        },
-        {
-            "Kana": "\u3088\u3076",
-            "Kanji": "\u547c\u3076",
-            "English": "to call",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 299
-        },
-        {
-            "Kana": "\u3046\u307e\u308c\u308b",
-            "Kanji": "\u751f\u307e\u308c\u308b",
-            "English": "to be born",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 300
-        },
-        {
-            "Kana": "\u306a\u304f\u306a\u308b",
-            "Kanji": "\u4ea1\u304f\u306a\u308b",
-            "English": "to pass away",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 301
-        },
-        {
-            "Kana": "\u3057\u306c",
-            "Kanji": "\u6b7b\u306c",
-            "English": "to die",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 302
-        },
-        {
-            "Kana": "\u308f\u304b\u308c\u308b",
-            "Kanji": "\u5225\u308c\u308b",
-            "English": "to break up",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 303
-        },
-        {
-            "Kana": "\u3082\u3089\u3046",
-            "Kanji": "\u8cb0\u3046",
-            "English": "to take/receive ",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 304
-        },
-        {
-            "Kana": "\u3057\u3083\u3079\u308b",
-            "Kanji": "\u558b\u308b",
-            "English": "to chat, to speak ",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "basic actions",
-            "id": 305
-        },
-        {
-            "Kana": " \u3055\u3059",
-            "Kanji": "\u5dee\u3059",
-            "English": "to put up (an umbrella)",
-            "Category": "verb",
-            "Notes": "",
-            "Topic": "",
-            "id": 306
-        },
-        {
-            "Kana": "\u304d\u3087\u3046",
-            "Kanji": "\u4eca\u65e5",
-            "English": "today",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "time",
-            "id": 307
-        },
-        {
-            "Kana": "\u304d\u306e\u3046",
-            "Kanji": "\u6628\u65e5",
-            "English": "yesterday",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "time",
-            "id": 308
-        },
-        {
-            "Kana": "\u3042\u3057\u305f",
-            "Kanji": "\u660e\u65e5",
-            "English": "tomorrow",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "time",
-            "id": 309
-        },
-        {
-            "Kana": "\u3044\u3063\u3057\u3087(\u306b)",
-            "Kanji": "",
-            "English": "together",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "family and people",
-            "id": 310
-        },
-        {
-            "Kana": "\u306f\u3058\u3081\u306b",
-            "Kanji": "",
-            "English": "first",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 311
-        },
-        {
-            "Kana": "\u3064\u304e",
-            "Kanji": "\u6b21",
-            "English": "next",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 312
-        },
-        {
-            "Kana": "\u3042\u3063\u3061\u3053\u3063\u3061",
-            "Kanji": "",
-            "English": "here and there",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "dimensions",
-            "id": 313
-        },
-        {
-            "Kana": "\u307e\u3060",
-            "Kanji": "",
-            "English": "still",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "time",
-            "id": 314
-        },
-        {
-            "Kana": "\u305f\u3076\u3093",
-            "Kanji": "",
-            "English": "probably ",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 315
-        },
-        {
-            "Kana": "\u3082\u3046\u3059\u3050",
-            "Kanji": "",
-            "English": "soon",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "time",
-            "id": 316
-        },
-        {
-            "Kana": "\u3059\u3053\u3057",
-            "Kanji": "",
-            "English": "a bit",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 317
-        },
-        {
-            "Kana": "\u3061\u3083\u3093\u3068",
-            "Kanji": "",
-            "English": "reliably (I will make sure to...)",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 318
-        },
-        {
-            "Kana": "\u3042\u3068",
-            "Kanji": "",
-            "English": "after",
-            "Category": "adverb/clause",
-            "Notes": "X\u306e\u3042\u3068 = after X",
-            "Topic": "",
-            "id": 319
-        },
-        {
-            "Kana": "\u305d\u3057\u3066\u3001",
-            "Kanji": "",
-            "English": "then,...",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 320
-        },
-        {
-            "Kana": "\u306b\u3068\u3063\u3066",
-            "Kanji": "",
-            "English": "to/for someone, with regard to someone",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 321
-        },
-        {
-            "Kana": "\u307f\u3093\u306a",
-            "Kanji": "\u7686",
-            "English": "everyone, all of (for people)",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 322
-        },
-        {
-            "Kana": "\u307e\u3045\u3059\u3050",
-            "Kanji": "\u771f\u3063\u76f4\u3050",
-            "English": "straight ",
-            "Category": "adverb/clause",
-            "Notes": "",
-            "Topic": "",
-            "id": 323
-        },
-        {
-            "Kana": "{A}\u3000\u3044\u304b\u304c\u3067\u3059\u304b\uff1f",
-            "Kanji": "",
-            "English": "How about {A}? \nWould you like some {A}?",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 324
-        },
-        {
-            "Kana": "{A} \u304c\u3059\u304d\u3067\u3059",
-            "Kanji": "{A} \u304c\u597d\u304d\u3067\u3059",
-            "English": "I like {A}",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 325
-        },
-        {
-            "Kana": "{A} \u304c\u307b\u3057\u3044\u3067\u3059",
-            "Kanji": "",
-            "English": "I want {A}",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 326
-        },
-        {
-            "Kana": "\u3069\u3093\u306a {A}",
-            "Kanji": "",
-            "English": "what kind of {A}",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 327
-        },
-        {
-            "Kana": "{A}\u306f\u3061\u3087\u3063\u3068",
-            "Kanji": "",
-            "English": "I don't really like {A}",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 328
-        },
-        {
-            "Kana": "\u3072\u3055\u3057\u3076\u308a",
-            "Kanji": "\u4e45\u3057\u3076\u308a",
-            "English": "long time no see! (informal)",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 329
-        },
-        {
-            "Kana": "\u304a\u3072\u3055\u3057\u3076\u308a\u3000\u3067\u3059",
-            "Kanji": "\u304a\u3072\u3055\u3072\u3076\u308a\u3000\u3067\u3059",
-            "English": "long time no see (formal)",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 330
-        },
-        {
-            "Kana": "\u3054\u3076\u3055\u305f\u3000\u3057\u3066\u3000\u304a\u308a\u307e\u3059",
-            "Kanji": "\u3054\u7121\u6c99\u6c70\u3057\u3066\u304a\u308a\u307e\u3059",
-            "English": "sorry it's been so long!",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 331
-        },
-        {
-            "Kana": "\u306f\u3084\u304f\u3088\u304f\u306a\u3063\u3066\u306d",
-            "Kanji": "\u65e9\u304f\u826f\u304f\u306a\u3063\u3066\u306d",
-            "English": "get well soon!",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 332
         },
         {
             "Kana": "\u306f\u3084\u304f\u3052\u3093\u304d\u306b\u306a\u3063\u3066\u306d",
@@ -3004,106 +2266,286 @@
             "Category": "expression",
             "Notes": "",
             "Topic": "",
-            "id": 333
+            "id": 251
         },
         {
-            "Kana": "\u3069\u306e\u3050\u3089\u3044...\uff1f",
+            "Kana": "\u306f\u3084\u304f\u3088\u304f\u306a\u3063\u3066\u306d",
+            "Kanji": "\u65e9\u304f\u826f\u304f\u306a\u3063\u3066\u306d",
+            "English": "get well soon!",
+            "Category": "expression",
+            "Notes": "",
+            "Topic": "",
+            "id": 252
+        },
+        {
+            "Kana": "\u306f\u308b",
+            "Kanji": "\u6625",
+            "English": "spring",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time, weather",
+            "id": 253
+        },
+        {
+            "Kana": "\u30d1\u30f3\u3084",
             "Kanji": "",
-            "English": "about how long...?",
-            "Category": "expression",
+            "English": "bakery",
+            "Category": "noun",
             "Notes": "",
             "Topic": "",
-            "id": 334
+            "id": 254
         },
         {
-            "Kana": "\u3057\u3066\u3082\u3044\u3044",
+            "Kana": "\u3072\u304c\u3057",
+            "Kanji": "\u6771",
+            "English": "East",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 255
+        },
+        {
+            "Kana": "\u3072\u304f\u3044",
+            "Kanji": "\u4f4e\u3044",
+            "English": "low/short in height",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "dimensions",
+            "id": 256
+        },
+        {
+            "Kana": "\u3072\u3053\u3046\u304d",
+            "Kanji": "\u98db\u884c\u6a5f",
+            "English": "airplane",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 257
+        },
+        {
+            "Kana": "\u30d4\u30b6",
             "Kanji": "",
-            "English": "alright to do",
+            "English": "pizza",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 258
+        },
+        {
+            "Kana": "\u3072\u3055\u3057\u3076\u308a",
+            "Kanji": "\u4e45\u3057\u3076\u308a",
+            "English": "long time no see! (informal)",
             "Category": "expression",
             "Notes": "",
             "Topic": "",
-            "id": 335
+            "id": 259
         },
         {
-            "Kana": "\u3082\u3046\u3044\u3061\u3069\u3044\u3063\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b\uff1f",
+            "Kana": "\u30d4\u30b6\u3084",
             "Kanji": "",
-            "English": "can you say this one more time?",
-            "Category": "expression",
-            "Notes": "very formal",
-            "Topic": "",
-            "id": 336
-        },
-        {
-            "Kana": "\u306b\u307b\u3093\u3054\u3067\u306a\u3093\u3066\u3044\u3044\u307e\u3059\u304b\uff1f",
-            "Kanji": "\u65e5\u672c\u8a9e\u3067\u4f55\u3066\u8a00\u3044\u307e\u3059\u304b\uff1f",
-            "English": "how do you say it in Japanese?",
-            "Category": "expression",
+            "English": "pizzeria",
+            "Category": "noun",
             "Notes": "",
-            "Topic": "",
-            "id": 337
+            "Topic": "food and drink, buildings",
+            "id": 260
         },
         {
-            "Kana": "{A}\u3092\u3066\u3064\u3060\u3044\u307e\u3059",
+            "Kana": "\u3073\u3058\u3085\u3064\u304b\u3093",
             "Kanji": "",
-            "English": "I will help with {A}",
-            "Category": "expression",
+            "English": "art museum",
+            "Category": "noun",
             "Notes": "",
             "Topic": "",
-            "id": 338
+            "id": 261
         },
         {
-            "Kana": "\u304a\u3075\u308d\u306b\u306f\u3044\u308a\u307e\u3059",
+            "Kana": "\u3072\u3063\u3053\u3059",
+            "Kanji": "\u5f15\u3063\u8d8a\u3059",
+            "English": "to move (residence)",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "home",
+            "id": 262
+        },
+        {
+            "Kana": "\u3072\u3068",
             "Kanji": "",
-            "English": "I take a bath",
-            "Category": "expression",
+            "English": "person",
+            "Category": "noun",
             "Notes": "",
             "Topic": "",
-            "id": 339
+            "id": 263
         },
         {
-            "Kana": "\u304b\u3044",
-            "Kanji": "\u56de",
-            "English": "counter for occurences",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 340
-        },
-        {
-            "Kana": "\u3053\u3093\u304b\u3044",
-            "Kanji": "\u4eca\u56de",
-            "English": "this time",
-            "Category": "expression",
-            "Notes": "",
-            "Topic": "",
-            "id": 341
-        },
-        {
-            "Kana": "{A}\u304c\u305f\u306e\u3057\u307f\u3067\u3059",
+            "Kana": "\u3072\u307e\u306a",
             "Kanji": "",
-            "English": "I'm looking forward to {A}",
-            "Category": "expression",
+            "English": "free (having time)",
+            "Category": "adjective",
             "Notes": "",
             "Topic": "",
-            "id": 342
+            "id": 264
         },
         {
-            "Kana": "\u305f\u3059\u3051\u305f\uff01",
+            "Kana": "\u3073\u3087\u3046\u3044\u3093",
+            "Kanji": "\u75c5\u9662",
+            "English": "hospital",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "buildings, health",
+            "id": 265
+        },
+        {
+            "Kana": "\u3072\u3089\u304f",
+            "Kanji": "\u958b\u304f",
+            "English": "to open",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 266
+        },
+        {
+            "Kana": "\u3072\u308b",
+            "Kanji": "\u663c",
+            "English": "daytime",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time, weather",
+            "id": 267
+        },
+        {
+            "Kana": "\u3072\u308d\u3044",
             "Kanji": "",
-            "English": "Help! (in an emergency)",
-            "Category": "expression",
+            "English": "spacious",
+            "Category": "adjective",
             "Notes": "",
-            "Topic": "",
-            "id": 343
+            "Topic": "dimensions, home",
+            "id": 268
         },
         {
-            "Kana": "\u3066\u3064\u3060\u3063\u3066\u304f\u3060\u3055\u3044",
-            "Kanji": "\u624b\u4f1d\u3063\u3066\u304f\u3060\u3055\u3044",
-            "English": "Can you give me a hand with this?",
-            "Category": "expression",
+            "Kana": "\u3072\u308d\u3070",
+            "Kanji": "",
+            "English": "plaza",
+            "Category": "noun",
             "Notes": "",
             "Topic": "",
-            "id": 344
+            "id": 269
+        },
+        {
+            "Kana": "\u30d5\u30a9\u30fc\u30af",
+            "Kanji": "",
+            "English": "fork",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 270
+        },
+        {
+            "Kana": "\u3075\u3064\u304b",
+            "Kanji": "2 \u65e5",
+            "English": "second of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 271
+        },
+        {
+            "Kana": "\u3076\u3069\u3046",
+            "Kanji": "",
+            "English": "grape",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 272
+        },
+        {
+            "Kana": "\u3075\u3068\u3093",
+            "Kanji": "\u5e03\u56e3",
+            "English": "futon",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 273
+        },
+        {
+            "Kana": "\u3075\u3086",
+            "Kanji": "\u51ac",
+            "English": "winter",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time, weather",
+            "id": 274
+        },
+        {
+            "Kana": "\u3075\u308b\u3044",
+            "Kanji": "\u53e4\u3044",
+            "English": "old",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "shopping, time",
+            "id": 275
+        },
+        {
+            "Kana": "\u3078\u3044\u3058\u3064",
+            "Kanji": "\u5e73\u65e5",
+            "English": "weekdays",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 276
+        },
+        {
+            "Kana": "\u3078\u3084",
+            "Kanji": "\u90e8\u5c4b",
+            "English": "room",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 277
+        },
+        {
+            "Kana": "\u3079\u308f\u308a",
+            "Kanji": "",
+            "English": "convenient",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 278
+        },
+        {
+            "Kana": "\u3079\u3093\u3054\u3057",
+            "Kanji": "",
+            "English": "lawyer",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 279
+        },
+        {
+            "Kana": "\u3079\u3093\u3068\u3046",
+            "Kanji": "\u5f01\u5f53",
+            "English": "bento (lunchbox)",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 280
+        },
+        {
+            "Kana": "\u30db\u30fc\u30e0",
+            "Kanji": "",
+            "English": "platform",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 281
+        },
+        {
+            "Kana": "\u307b\u304b",
+            "Kanji": "\u4ed6",
+            "English": "else",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 282
         },
         {
             "Kana": "\u307b\u304b\u306b{question word}",
@@ -3112,22 +2554,580 @@
             "Category": "expression",
             "Notes": "",
             "Topic": "",
+            "id": 283
+        },
+        {
+            "Kana": "\u30dc\u30b9\u30c8\u30ab\u30fc\u30c9",
+            "Kanji": "",
+            "English": "postcard",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "travel",
+            "id": 284
+        },
+        {
+            "Kana": "\u30db\u30e9\u30fc",
+            "Kanji": "",
+            "English": "horror",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 285
+        },
+        {
+            "Kana": "\u307b\u3093\u3060\u306a",
+            "Kanji": "\u672c\u68da",
+            "English": "bookshelf",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 286
+        },
+        {
+            "Kana": "\u307e\u3044\u3042\u3055",
+            "Kanji": "\u6bce\u671d",
+            "English": "every morning",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 287
+        },
+        {
+            "Kana": "\u307e\u3044\u3057\u3085\u3046",
+            "Kanji": "\u6bce\u9031",
+            "English": "every week",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 288
+        },
+        {
+            "Kana": "\u307e\u3044\u3064\u304d",
+            "Kanji": "\u6bce\u6708",
+            "English": "every month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 289
+        },
+        {
+            "Kana": "\u307e\u3044\u3068\u3057",
+            "Kanji": "\u6bce\u5e74",
+            "English": "every year",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 290
+        },
+        {
+            "Kana": "\u307e\u3044\u306b\u3061",
+            "Kanji": "\u6bce\u65e5",
+            "English": "every day",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 291
+        },
+        {
+            "Kana": "\u307e\u3044\u3070\u3093",
+            "Kanji": "\u6bce\u6669",
+            "English": "every evening",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 292
+        },
+        {
+            "Kana": "\u307e\u3045\u3059\u3050",
+            "Kanji": "\u771f\u3063\u76f4\u3050",
+            "English": "straight",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 293
+        },
+        {
+            "Kana": "\u307e\u304c\u308b",
+            "Kanji": "\u66f2\u304c\u308b",
+            "English": "to turn",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "transit, motion",
+            "id": 294
+        },
+        {
+            "Kana": "\u307e\u3060",
+            "Kanji": "",
+            "English": "still",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "time",
+            "id": 295
+        },
+        {
+            "Kana": "\u307e\u3061",
+            "Kanji": "",
+            "English": "town",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, buildings",
+            "id": 296
+        },
+        {
+            "Kana": "\u307e\u3064",
+            "Kanji": "\u5f85\u3064",
+            "English": "to wait",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 297
+        },
+        {
+            "Kana": "\u307f\u3058\u304b\u3044",
+            "Kanji": "",
+            "English": "short (in duration)",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 298
+        },
+        {
+            "Kana": "\u307f\u3061",
+            "Kanji": "\u9053",
+            "English": "road/way",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit",
+            "id": 299
+        },
+        {
+            "Kana": "\u307f\u3063\u304b",
+            "Kanji": "3 \u65e5",
+            "English": "third of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 300
+        },
+        {
+            "Kana": "\u307f\u3069\u308a\u3044\u308d",
+            "Kanji": "\u7dd1\u8272",
+            "English": "green",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 301
+        },
+        {
+            "Kana": "\u307f\u306a\u307f",
+            "Kanji": "\u5357",
+            "English": "South",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "transit, dimensions",
+            "id": 302
+        },
+        {
+            "Kana": "\u307f\u308b",
+            "Kanji": "",
+            "English": "to see",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic motions",
+            "id": 303
+        },
+        {
+            "Kana": "\u307f\u3093\u306a",
+            "Kanji": "\u7686",
+            "English": "everyone, all of (for people)",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "",
+            "id": 304
+        },
+        {
+            "Kana": "\u3080\u3044\u304b",
+            "Kanji": "6\u65e5",
+            "English": "sixth of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 305
+        },
+        {
+            "Kana": "\u3080\u304b\u3057",
+            "Kanji": "\u6614",
+            "English": "old days",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 306
+        },
+        {
+            "Kana": "\u3080\u3059\u3053",
+            "Kanji": "\u606f\u5b50",
+            "English": "son",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 307
+        },
+        {
+            "Kana": "\u3080\u3059\u3081",
+            "Kanji": "\u5a18",
+            "English": "daughter",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "family and people",
+            "id": 308
+        },
+        {
+            "Kana": "\u3080\u3089\u3055\u304d\u3044\u308d",
+            "Kanji": "\u7d2b\u8272",
+            "English": "purple",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 309
+        },
+        {
+            "Kana": "\u30e1\u30fc\u30eb",
+            "Kanji": "",
+            "English": "email",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "work and school",
+            "id": 310
+        },
+        {
+            "Kana": "\u3082\u3046\u3044\u3061\u3069\u3044\u3063\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u304b\uff1f",
+            "Kanji": "",
+            "English": "can you say this one more time?",
+            "Category": "expression",
+            "Notes": "very formal",
+            "Topic": "",
+            "id": 311
+        },
+        {
+            "Kana": "\u3082\u3046\u3059\u3050",
+            "Kanji": "",
+            "English": "soon",
+            "Category": "adverb/clause",
+            "Notes": "",
+            "Topic": "time",
+            "id": 312
+        },
+        {
+            "Kana": "\u3082\u304f\u3088\u3046\u3073",
+            "Kanji": "\u6728\u66dc\u65e5",
+            "English": "Thursday",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 313
+        },
+        {
+            "Kana": "\u3082\u3064",
+            "Kanji": "\u6301\u3064",
+            "English": "to hold",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 314
+        },
+        {
+            "Kana": "\u3082\u3089\u3046",
+            "Kanji": "\u8cb0\u3046",
+            "English": "to take/receive",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "basic actions",
+            "id": 315
+        },
+        {
+            "Kana": "\u3084\u304d\u3085\u3046",
+            "Kanji": "",
+            "English": "baseball",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 316
+        },
+        {
+            "Kana": "\u3084\u3055\u3057\u3044",
+            "Kanji": "",
+            "English": "nice",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 317
+        },
+        {
+            "Kana": "\u3084\u3055\u3057\u3044",
+            "Kanji": "",
+            "English": "easy",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 318
+        },
+        {
+            "Kana": "\u3084\u3059\u3044",
+            "Kanji": "\u5b89\u3044",
+            "English": "cheap",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "shopping",
+            "id": 319
+        },
+        {
+            "Kana": "\u3084\u3059\u307f",
+            "Kanji": "\u4f11\u307f",
+            "English": "break",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 320
+        },
+        {
+            "Kana": "\u3084\u3059\u307f\u306e\u3072",
+            "Kanji": "\u4f11\u307f\u306e\u65e5",
+            "English": "day off/rest day",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 321
+        },
+        {
+            "Kana": "\u3084\u308b",
+            "Kanji": "",
+            "English": "to do",
+            "Category": "verb",
+            "Notes": "(more informal)",
+            "Topic": "basic actions",
+            "id": 322
+        },
+        {
+            "Kana": "\u3086\u3046\u3081\u3044",
+            "Kanji": "",
+            "English": "famous",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 323
+        },
+        {
+            "Kana": "\u3086\u3046\u3081\u3044",
+            "Kanji": "\u6709\u540d",
+            "English": "famous, well-known",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 324
+        },
+        {
+            "Kana": "\u3086\u308b\u3044",
+            "Kanji": "",
+            "English": "loose",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "clothing",
+            "id": 325
+        },
+        {
+            "Kana": "\u3088\u3046\u304b",
+            "Kanji": "8\u65e5",
+            "English": "eight of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 326
+        },
+        {
+            "Kana": "\u3088\u3046\u3073",
+            "Kanji": "\u66dc\u65e5",
+            "English": "day of the week",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 327
+        },
+        {
+            "Kana": "\u30e8\u30ac",
+            "Kanji": "",
+            "English": "yoga",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 328
+        },
+        {
+            "Kana": "\u3088\u3063\u304b",
+            "Kanji": "4 \u65e5",
+            "English": "fourth of the month",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 329
+        },
+        {
+            "Kana": "\u3088\u3076",
+            "Kanji": "\u547c\u3076",
+            "English": "to call",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 330
+        },
+        {
+            "Kana": "\u3088\u3076",
+            "Kanji": "\u547c\u3076",
+            "English": "to call",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
+            "id": 331
+        },
+        {
+            "Kana": "\u3088\u3080",
+            "Kanji": "\u8aad\u3080",
+            "English": "to read",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 332
+        },
+        {
+            "Kana": "\u3088\u3080",
+            "Kanji": "\u8aad\u3080",
+            "English": "to read",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "hobbies, basic actions",
+            "id": 333
+        },
+        {
+            "Kana": "\u3089\u3044\u306d\u3093",
+            "Kanji": "\u6765\u5e74",
+            "English": "next year",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "time",
+            "id": 334
+        },
+        {
+            "Kana": "\u30e9\u30e1\u30f3\u3084",
+            "Kanji": "",
+            "English": "ramen shop",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink, buildings",
+            "id": 335
+        },
+        {
+            "Kana": "\u308a\u3053\u3093",
+            "Kanji": "\u96e2\u5a5a",
+            "English": "divorce",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 336
+        },
+        {
+            "Kana": "\u308a\u3063\u3071",
+            "Kanji": "\u7acb\u6d3e",
+            "English": "magnificent",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 337
+        },
+        {
+            "Kana": "\u30ea\u30d3\u30f3\u30b0",
+            "Kanji": "",
+            "English": "living room",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 338
+        },
+        {
+            "Kana": "\u308a\u3087\u3046\u308a",
+            "Kanji": "",
+            "English": "cuisine/cooking",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 339
+        },
+        {
+            "Kana": "\u308a\u3087\u3053\u3046",
+            "Kanji": "",
+            "English": "trip/travel",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "",
+            "id": 340
+        },
+        {
+            "Kana": "\u308c\u3044\u305e\u3046\u3053",
+            "Kanji": "\u51b7\u8535\u5eab",
+            "English": "refrigerator",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "home",
+            "id": 341
+        },
+        {
+            "Kana": "\u30ec\u30e2\u30f3",
+            "Kanji": "",
+            "English": "lemon",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "food and drink",
+            "id": 342
+        },
+        {
+            "Kana": "\u308c\u3093\u3042\u3044",
+            "Kanji": "",
+            "English": "romance",
+            "Category": "noun",
+            "Notes": "",
+            "Topic": "hobbies",
+            "id": 343
+        },
+        {
+            "Kana": "\u308f\u304b\u3044",
+            "Kanji": "\u82e5\u3044",
+            "English": "young",
+            "Category": "adjective",
+            "Notes": "",
+            "Topic": "",
+            "id": 344
+        },
+        {
+            "Kana": "\u308f\u304b\u308b",
+            "Kanji": "\u5206\u304b\u308b",
+            "English": "to understand",
+            "Category": "verb",
+            "Notes": "",
+            "Topic": "",
             "id": 345
         },
         {
-            "Kana": "\u305b\u3093\u306d\u3093\u307e\u3048\u306b",
-            "Kanji": "\u5343\u5e74\u524d\u306b",
-            "English": "a thousand years ago",
-            "Category": "expression",
+            "Kana": "\u308f\u304b\u308c\u308b",
+            "Kanji": "\u5225\u308c\u308b",
+            "English": "to break up",
+            "Category": "verb",
             "Notes": "",
-            "Topic": "",
+            "Topic": "family and people",
             "id": 346
         },
         {
-            "Kana": "\u3053\u3093\u306a{A}",
-            "Kanji": "",
-            "English": "things like {A}",
-            "Category": "expression",
+            "Kana": "\u308f\u3059\u308c\u308b",
+            "Kanji": "\u5fd8\u308c\u308b",
+            "English": "to forget",
+            "Category": "verb",
             "Notes": "",
             "Topic": "",
             "id": 347

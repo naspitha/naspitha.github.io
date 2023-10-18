@@ -1,36 +1,74 @@
 ﻿Kana,Kanji,English,Category,Notes,Topic
+さす,差す,to put up (an umbrella),verb,,
+{A} いかがですか？,,"How about {A}? 
+Would you like some {A}?",expression,,
+{A} がすきです,{A} が好きです,I like {A},expression,,
+{A} がほしいです,,I want {A},expression,,
+{A} がたのしみです,,I'm looking forward to {A},expression,,
+{A} はちょっと,,I don't really like {A},expression,,
+{A} をてつだいます,,I will help with {A},expression,,
 あかちゃん,赤ちゃん,baby,noun,,
 あき,秋,autumn,noun,,"time, weather"
-あさ,朝,morning ,noun,,time
+あける,開ける,open,verb,,basic actions
+あげる,上げる,to give,verb,teineigo politeness,basic actions
+あげる,上げる,"to raise, to launch",verb,,
+あさ,朝,morning,noun,,time
 あじ(さん),叔父さん,uncle (younger than parent),noun,,family and people
+あした,明日,tomorrow,adverb/clause,,time
+あたたかい,,warm,adjective,,weather
+あたらしい,新しい,new,adjective,,"shopping, time"
+あつい,熱い,hot,adjective,,food and drink
 あっち,,that way (far),noun,,transit
+あっちこっち,,here and there,adverb/clause,,dimensions
+あと,,after,adverb/clause,Xのあと = after X,
 あに,兄,(my) older brother,noun,,family and people
 あね,姉,(my) older sister,noun,,family and people
 アパート,,apartment,noun,,"buildings, home"
+あびます,,to take (e.g. a shower),verb,,basic actions
+あまい,甘い,sweet,adjective,,food and drink
+ある,,to exist (inanimate objects),verb,,
+あるく,歩く,to walk,verb,,motion
+いう,言う,to say,verb,,
+いく,行く,to go,verb,,motion
 いしゃ,,doctor,noun,,
+いそがしい,忙しい,busy,adjective,,work and school
+いつか,5 日,fifth of the month,noun,,time
+いっしょ(に),一緒(に),together,adverb/clause,,family and people
 いもうと,妹,younger sister,noun,,family and people
-いりぐち,入り口,entrance ,noun,,"buildings, home, transit"
+いらる,入れる,to put in,verb,,basic actions
+いりぐち,入り口,entrance,noun,,"buildings, home, transit"
+いる,,to exist (living things),verb,,
 いろ,色,color,noun,,
+いろいろ,,all sorts of,adjective,"色々, usually written in kana",
+うたう,歌う,to sing,verb,,hobbies
 うでとけい,腕時計,watch,noun,,
+うまれる,生まれる,to be born,verb,,basic actions
 うみ,,beach,noun,,
+うるさい,,annoying,adjective,multiple meanings,
+うるさい,,"noisy, loud",adjective,,
 え,絵,picture,noun,,hobbies
 えいが,映画,movie,noun,,hobbies
 エレベータ,,elevator,noun,,"buildings, home"
 エンジニア,,engineer,noun,,work and school
-おかあさん,お母さん,mother,noun,,family and people 
-おかし,,snack,noun,,food and drink
+おおきい,大きい,big,adjective,,dimensions
+おおぜい,大勢,many,adjective,,
+おかあさん,お母さん,mother,noun,,family and people
+おかし,お菓子,"sweet snack, candy",noun,,food and drink
 おかね,お金,money,noun,,
 おこさん,お子さん,kid (formal),noun,,
 おさら,お皿,plate,noun,,food and drink
 おじ(さん),伯父さん,uncle (older than parent),noun,,family and people
 おじいさん,お祖父さん,grandfather,noun,,family and people
-おてあらい,,restroom,noun,,"buildings, home"
-おてら,,temple,noun,,"buildings, travel "
+おしえます,教えます,to teach,verb,{Person}に{object}を教えます,work and school
+おしゃれ,お洒落,stylish,adjective,(na),
+おそい,遅い,slow,adjective,,"time, motion"
+おてあらい,お手洗い,restroom,noun,,"buildings, home"
+おてら,お寺,temple,noun,,"buildings, travel"
 おとうさん,お父さん,father,noun,,family and people
 おとうと,弟,younger brother,noun,,family and people
 おとこのこ,男の子,boy,noun,,
 おとこのひと,男の人,man,noun,,
-おととし,一昨年,year before last ,noun,,time
+おととし,一昨年,year before last,noun,,time
 おとな,大人,adult,noun,,
 おなじ,同じ,same,noun,彼と同じ=same as him,
 おにいさん,お兄さん,older brother,noun,,family and people
@@ -38,313 +76,275 @@
 おば(さん),叔母さん,aunt (younger than parent),noun,,family and people
 おば(さん),伯母さん,aunt (older than parent),noun,,family and people
 おばあさん,お祖母さん,grandmother,noun,,family and people
-おはし,お箸,chopstick ,noun,,food and drink
+おはし,お箸,chopstick,noun,,food and drink
+おひさしぶり　です,おひさひぶり　です,long time no see (formal),expression,,
+おふろにはいります,,I take a bath,expression,,
 おみやげ,お土産,souvenir,noun,,"travel, hobbies"
+おもい,重い,heavy,adjective,,
+おもう,思う,to think,verb,,
+おります,降ります,to disembark/get off,verb,used with へ,transit
 おんがく,音楽,music,noun,,hobbies
-おんなのこ,女の子,girl ,noun,,
+おんなのこ,女の子,girl,noun,,
 おんなのひと,女の人,woman,noun,,
+かい,回,counter for occurences,expression,,
 かいだん,,stairs,noun,,"buildings, home"
 かいもの,買い物,shopping,noun,,
 かがみ,鏡,mirror,noun,,home
+かかる,掛かる,to take (some time or money),verb,,time
 かじ,家事,chore,noun,,
 かじ,火事,fire,noun,,
 かぞく,家族,family,noun,,family and people
 かたすみ,片隅,corner,noun,,home
+かっこいい,,cool,adjective,,
 かばん,鞄,bag,noun,,
 かようび,火曜日,Tuesday,noun,,time
+からい,,spicy,adjective,,food and drink
+かるい,軽い,lightweight,adjective,,
 かんこう,,Sightseeing,noun,,
+きく,聞く,to hear / to ask,verb,,"hobbies, basic actions"
 きた,北,North,noun,,"transit, dimensions"
 キッチン,,kitchen,noun,,home
+きのう,昨日,yesterday,adverb/clause,,time
 きゅうきゅうしゃ,,ambulance,noun,,
+きょう,今日,today,adverb/clause,,time
 きょねん,去年,last year,noun,,time
+きれい,,"beautiful, pretty, clean",adjective,,
 きんようび,金曜日,Friday,noun,,time
-くつした,靴下,socks ,noun,,
+くつした,靴下,socks,noun,,
 くみ,組,counter for pair of gloves,noun,,
+くる,来る,to come,verb,,motion
 けいさつ,,police,noun,,
 けっこん,結婚,marriage,noun,,
 げつようび,月曜日,Monday,noun,,time
+こいしい,恋しい,to be missed,adjective,,
+ここのか,9 日,ninth of the month,noun,,time
 こっせつ,骨折,bone fracture,noun,,health
 こっち,,this way,noun,,transit
 コップ,,glass,noun,,food and drink
-ことし,今年,this year ,noun,,time
+ことし,今年,this year,noun,,time
 こども,子供,(my) kid,noun,,
+ごぶさた　して　おります,ご無沙汰しております,sorry it's been so long!,expression,,
 コメディ,,comedy,noun,,hobbies
+こんかい,今回,this time,expression,,
+こんな{A},,things like {A},expression,,
 さいふ,,wallet,noun,,clothing
 さいふ,財布,wallet,noun,,
+さむい,寒い,cold,adjective,for weather,weather
 さらいねん,再来年,year after next,noun,,time
 じかん,時間,"time, hour",noun,,time
+しずかな,静かな,quiet,adjective,,
+しっている,知っている,to know or have heard of something,verb,,
 しつもん,質問,question,noun,,質問してもいいですか？
+してもいい,,alright to do,expression,,
+しぬ,死ぬ,to die,verb,,basic actions
 しゃしん:,写真,photo,noun,,hobbies
+しゃべる,喋る,"to chat, to speak",verb,,basic actions
 しゅうまつ,週末,weekend,noun,,time
 しゅくだい,宿題,homework,noun,,
 しゅてん,,final stop,noun,,transit
+じょうぶ,丈夫,sturdy,adjective,,
+しょっぱい,塩っぱい,salty,adjective,,food and drink
+しる,知る,to discover/find out,verb,,
 しろ,,castle,noun,,
-じんじゃ,,shrine ,noun,,"buildings, travel "
+じんじゃ,,shrine,noun,,"buildings, travel"
 しんせき,親戚,relatives,noun,,family and people
 スープ,,soup,noun,,food and drink
 すいようび,水曜日,Wednesday,noun,,time
+すき,,liked,adjective,,
+すこし,,a bit,adverb/clause,,
+すてき,,lovely,adjective,,
 ストレッチ,,stretch,noun,,
+スプーン,,spoon,noun,,food and drink
+する,,to do,verb,,basic actions
+すわる,座る,to sit,verb,,"basic actions, motion"
 せき,,seat,noun,,
+せまい,,"cramped, narrow",adjective,,"dimensions, home"
 せんたく,,laundry,noun,,
 せんたくき,洗濯機,washing machine,noun,,home
-そうじ,掃除,cleaning ,noun,,
+せんねんまえに,千年前に,a thousand years ago,expression,,
+そうじ,掃除,cleaning,noun,,
 そうじき,,vacuum cleaner,noun,,home
 そく,足,counter for pair of socks,noun,,
+そして、,,"then,...",adverb/clause,,
 そっち,,that way (close to the listener),noun,,transit
 そふ,祖父,grandpa,noun,,family and people
 そぼ,祖母,grandma,noun,,family and people
+たいせつ,大切,important,adjective,,
+たいせつな,大切な,important,adjective,,
 だいどころ,台所,kitchen,noun,,home
+たいへん,,tough/difficult,adjective,,
+たかい,高い,"expensive, tall",adjective,,shopping
+だす,だす,to take out,verb,,basic actions
+たすけた！,,Help! (in an emergency),expression,,
+たつ,立つ,to stand,verb,,"basic actions, motion"
 たてもの,たてもの,building,noun,,"buildings, home"
-たんじょうび,,birthday ,noun,,
+たてる,立てる,stand up,verb,,basic actions
+たのしい,,fun,adjective,,
+たのしみ,,looked forward to,adjective,,
+たぶん,,probably,adverb/clause,,
+たべる,食べる,to eat,verb,,food and drink
+たんじょうび,,birthday,noun,,
+ちいさい,小さい,small,adjective,,dimensions
+ちかい,近い,near,adjective,,"transit, dimensions"
+ちがう,違う,"to differ, to be wrong",verb,used as an adjective? (違う鞄=a different bag),
 ちち,父,(my) father,noun,,family and people
 ちゃわん,茶碗,bowl,noun,bowl of rice,food and drink
+ちゃんと,,reliably (I will make sure to...),adverb/clause,,
+ついたち,1 日,first of the month,noun,,time
+つぎ,次,next,adverb/clause,,
+つくる,作る,to make,verb,,
+つける,,to turn on,verb,,
 つま,妻,wife,noun,,family and people
+つめたい,冷たい,cold,adjective,for objects,food and drink
+できる,,to be able to…,verb,,
+できる,出来る,to be able to,verb,,basic actions
 でぐち,出口,exit,noun,,"buildings, home, transit"
+てつだう,手伝う,help with,verb,,basic actions
+てつだってください,手伝ってください,Can you give me a hand with this?,expression,,
 てぶくろ,手袋,glove,noun,,
+でる,出る,to leave,verb,,motion
+でる,出る,to exit/leave,verb,,"buildings, transit"
 でんしレンジ,,microwave,noun,,"home, food and drink"
 どうが,,video,noun,,hobbies
 どうぶつ,,zoo,noun,,
 どうりょう,,coworker,noun,,
+とおい,遠い,far,adjective,,"transit, dimensions"
+とおか,10 日,tenth of the month,noun,,time
+とおります,通ります,to pass by,verb,,"transit, buildings"
 どくしん,独身,single,noun,,
 とけい,時計,clock,noun,,
 ところ,,place,noun,,dimensions
 どっち,,which way/which one,noun,,"transit, general actions"
-どようび,土曜日,Saturday ,noun,,time
+どのぐらい...？,,about how long...?,expression,,
+どようび,土曜日,Saturday,noun,,time
 ドラマ,,drama,noun,,hobbies
-ドレス,,dress ,noun,,clothing
-とんかつ,,pork cutlet ,noun,,
+とる,取る,to take (a photo),verb,,
+ドレス,,dress,noun,,clothing
+とんかつ,,pork cutlet,noun,,
+どんな {A},,what kind of {A},expression,,
+ナイフ,,knife,noun,,food and drink
+ながい,長い,long,adjective,,dimensions
+なくなる,亡くなる,to pass away,verb,,basic actions
 なた,夏,summer,noun,,"time, weather"
 なつやすみ,,summer break,noun,,
 なのか,7 日,seventh of the month,noun,,time
 なま,,raw,noun,,raw meat = なまの肉
+ならう,習う,to learn,verb,,"work and school, basic actions"
+なる:,,to become,verb,,basic actions
 なんねん,何年,what year...?,noun,,time
+にぎやか,,lively,adjective,,
 にし,西,West,noun,,"transit, dimensions"
 にちよあび,日曜日,Sunday,noun,,time
+にとって,,"to/for someone, with regard to someone",adverb/clause,,
+にほんごでなんていいますか？,日本語で何て言いますか？,how do you say it in Japanese?,expression,,
 にもつ,荷物,lugggage,noun,,
+ぬぎる,,to take off,verb,,clothing
+ねる,寝る,to sleep,verb,,basic actions
 ねん,年,year,noun,,time
-はいいろ,灰色,gray ,noun,,
+のむ,飲む,to drink,verb,,basic actions
+のる,乗る,to ride,verb,,transit
+はいいろ,灰色,gray,noun,,
+はいります,入ります,to enter,verb,used with に,"buildings, transit"
+はじめに,,first,adverb/clause,,
+はしる,走る,to run,verb,,"motion, hobbies"
 はつか,二十日,twenty days,noun,,time
+はなす,話す,to talk,verb,,
 はは,母,(my) mother,noun,,family and people
+はやい,速い,fast,adjective,,"time, motion"
+はやくげんきになってね,早く元気になってね,get well soon!,expression,,
+はやくよくなってね,早く良くなってね,get well soon!,expression,,
 はる,春,spring,noun,,"time, weather"
 パンや,,bakery,noun,,
 ひがし,東,East,noun,,"transit, dimensions"
+ひくい,低い,low/short in height,adjective,,dimensions
 ひこうき,飛行機,airplane,noun,,transit
 ピザ,,pizza,noun,,food and drink
+ひさしぶり,久しぶり,long time no see! (informal),expression,,
 ピザや,,pizzeria,noun,,"food and drink, buildings"
 びじゅつかん,,art museum,noun,,
+ひっこす,引っ越す,to move (residence),verb,,home
 ひと,,person,noun,,
+ひまな,,free (having time),adjective,,
 びょういん,病院,hospital,noun,,"buildings, health"
+ひらく,開く,to open,verb,,
 ひる,昼,daytime,noun,,"time, weather"
+ひろい,,spacious,adjective,,"dimensions, home"
 ひろば,,plaza,noun,,
+フォーク,,fork,noun,,food and drink
+ふつか,2 日,second of the month,noun,,time
 ぶどう,,grape,noun,,food and drink
 ふとん,布団,futon,noun,,home
-ふゆ,冬,winter ,noun,,"time, weather"
+ふゆ,冬,winter,noun,,"time, weather"
+ふるい,古い,old,adjective,,"shopping, time"
 へいじつ,平日,weekdays,noun,,time
 へや,部屋,room,noun,,home
+べわり,,convenient,adjective,,
 べんごし,,lawyer,noun,,
 べんとう,弁当,bento (lunchbox),noun,,food and drink
 ホーム,,platform,noun,,transit
 ほか,他,else,noun,,
+ほかに{question word},,what/who else....?,expression,,
 ボストカード,,postcard,noun,,travel
 ホラー,,horror,noun,,hobbies
 ほんだな,本棚,bookshelf,noun,,home
 まいあさ,毎朝,every morning,noun,,time
 まいしゅう,毎週,every week,noun,,time
-まいつき,毎月,every month ,noun,,time
+まいつき,毎月,every month,noun,,time
 まいとし,毎年,every year,noun,,time
 まいにち,毎日,every day,noun,,time
 まいばん,毎晩,every evening,noun,,time
+まぅすぐ,真っ直ぐ,straight,adverb/clause,,
+まがる,曲がる,to turn,verb,,"transit, motion"
+まだ,,still,adverb/clause,,time
 まち,,town,noun,,"transit, buildings"
+まつ,待つ,to wait,verb,,
+みじかい,,short (in duration),adjective,,
 みち,道,road/way,noun,,transit
+みっか,3 日,third of the month,noun,,time
 みどりいろ,緑色,green,noun,,
 みなみ,南,South,noun,,"transit, dimensions"
+みる,,to see,verb,,basic motions
+みんな,皆,"everyone, all of (for people)",adverb/clause,,
 むいか,6日,sixth of the month,noun,,time
 むかし,昔,old days,noun,,
 むすこ,息子,son,noun,,family and people
 むすめ,娘,daughter,noun,,family and people
 むらさきいろ,紫色,purple,noun,,
 メール,,email,noun,,work and school
+もういちどいっていただけますか？,,can you say this one more time?,expression,very formal,
+もうすぐ,,soon,adverb/clause,,time
 もくようび,木曜日,Thursday,noun,,time
+もつ,持つ,to hold,verb,,basic actions
+もらう,貰う,to take/receive,verb,,basic actions
 やきゅう,,baseball,noun,,
+やさしい,,nice,adjective,,
+やさしい,,easy,adjective,,
+やすい,安い,cheap,adjective,,shopping
 やすみ,休み,break,noun,,
 やすみのひ,休みの日,day off/rest day,noun,,
+やる,,to do,verb,(more informal),basic actions
+ゆうめい,,famous,adjective,,
+ゆうめい,有名,"famous, well-known",adjective,,
+ゆるい,,loose,adjective,,clothing
 ようか,8日,eight of the month,noun,,time
 ようび,曜日,day of the week,noun,,time
 ヨガ,,yoga,noun,,hobbies
+よっか,4 日,fourth of the month,noun,,time
+よぶ,呼ぶ,to call,verb,,
+よぶ,呼ぶ,to call,verb,,
+よむ,読む,to read,verb,,hobbies
+よむ,読む,to read,verb,,"hobbies, basic actions"
 らいねん,来年,next year,noun,,time
-ラメンや,,ramen shop,noun,,"food and drink, buildings "
-りこん,離婚,divorce ,noun,,
+ラメンや,,ramen shop,noun,,"food and drink, buildings"
+りこん,離婚,divorce,noun,,
+りっぱ,立派,magnificent,adjective,,
 リビング,,living room,noun,,home
-りょうり,,cuisine/cooking ,noun,,
+りょうり,,cuisine/cooking,noun,,
 りょこう,,trip/travel,noun,,
 れいぞうこ,冷蔵庫,refrigerator,noun,,home
 レモン,,lemon,noun,,food and drink
 れんあい,,romance,noun,,hobbies
-スプーン,,spoon,noun,,food and drink
-ナイフ,,knife,noun,,food and drink
-フォーク,,fork,noun,,food and drink
-ついたち,1 日,first of the month,noun,,time
-ふつか,2 日,second of the month,noun,,time
-みっか,3 日,third of the month,noun,,time
-よっか,4 日,fourth of the month,noun,,time
-いつか,5 日,fifth of the month,noun,,time
-ここのか,9 日,ninth of the month,noun,,time
-とおか,10 日,tenth of the month,noun,,time
-ちいすい,小さい,small,adjective,,dimensions
-おおきい,大きい,big,adjective,,dimensions
-ながい,長い,long,adjective,,dimensions
-ひくい,低い,low/short in height,adjective,,dimensions
-あつい,熱い,hot,adjective,,food and drink
-つめたい,冷たい,cold,adjective,for objects,food and drink
-さむい,寒い,cold,adjective,for weather,weather
-あたたかい,,warm,adjective,,weather
-いそがしい,忙しい,busy,adjective,,work and school
-あたらしい,新しい,new,adjective,,"shopping, time"
-ふるい,古い,old,adjective,,"shopping, time"
-からい,,spicy,adjective,,food and drink
-やすい,安い,cheap,adjective,,shopping
-たかい,高い,"expensive, tall",adjective,,shopping
-おそい,遅い,slow,adjective,,"time, motion"
-はやい,速い,fast,adjective,,"time, motion"
-とおい,遠い,far,adjective,,"transit, dimensions"
-ちかい,近い,near,adjective,,"transit, dimensions"
-ゆるい,,loose,adjective,,clothing
-しょっぱい,塩っぱい,salty,adjective,,food and drink
-あまい,甘い,sweet,adjective,,food and drink
-ひろい,,spacious,adjective,,"dimensions, home"
-せまい,,"cramped, narrow",adjective,,"dimensions, home"
-にぎやか,,lively,adjective,,
-ゆうめい,,famous,adjective,,
-すてき,,lovely ,adjective,,
-きれい,,"beautiful, pretty, clean",adjective,,
-しずかな,静かな,quiet,adjective,,
-すき,,liked ,adjective,,
-うるさい,,annoying,adjective,,
-やさしい,,nice,adjective,,
-かっこいい,,cool,adjective,,
-おしゃれ,,stylish,adjective,(na),
-いろいろ,,all sorts of,adjective,"色々, usually written in kana",
-やさしい,,easy ,adjective,,
-たいへん,,tough/difficult,adjective,,
-たのしい,,fun,adjective,,
-こいしい,恋しい,to be missed,adjective,,
-べわり,,convenient ,adjective,,
-みじかい,,short (in duration),adjective,,
-たいせつな,大切な,important,adjective,,
-ひまな,,free (having time),adjective,,
-たのしみ,,looked forward to,adjective,,
-うるさい,,loud,adjective,,
-おもい,重い,heavy,adjective,,
-かるい,軽い,lightweight,adjective,,
-たいせつ,大切,important,adjective,,
-じょうぶ,丈夫,sturdy ,adjective,,
-りっぱ,立派,magnificent,adjective,,
-うるさい,,noisy ,adjective,,
-おおぜい,大勢,many ,adjective,,
 わかい,若い,young,adjective,,
-ゆうめい,有名,"famous, well-known ",adjective,,
-する,,to do,verb,,basic actions
-やる,,to do,verb,(more informal),basic actions
-いる,,to exist (living things),verb,,
-ある,,to exist (inanimate objects),verb,,
-はなす,話す,to talk,verb,,
-よぶ,呼ぶ,to call,verb,,
-いく,行く,to go,verb,,motion
-でる,出る,to leave,verb,,motion
-くる,来る,to come,verb,,motion
-みる,,to see,verb,,basic motions 
-おもう,思う,to think,verb,,
-いう,言う,to say,verb,,
-まつ,待つ,to wait,verb,,
 わかる,分かる,to understand,verb,,
-しる,知る,to discover/find out,verb,,
-しっている,知っている,to know or have heard of something,verb,,
-できる,,to be able to…,verb,,
-ひらく,開く,to open,verb,,
-とる,取る,to take (a photo),verb,,
-つくる,作る,to make,verb,,
-よむ,読む,to read,verb,,hobbies
-あるく,歩く,to walk,verb,,motion
-はしる,走る,to run,verb,,"motion, hobbies"
-たべる,食べる,to eat,verb,,food and drink
-のむ,飲む,to drink,verb,,basic actions
-ねる,寝る,to sleep,verb,,basic actions
-きく,聞く,to hear / to ask,verb,,"hobbies, basic actions"
-なる:,,to become,verb,,basic actions
-うたう,歌う,to sing,verb,,hobbies
-すわる,座る,to sit,verb,,"basic actions, motion"
-たつ,立つ,to stand,verb,,"basic actions, motion"
-ならう,習う,to learn,verb,,"work and school, basic actions"
-わすれる,忘れる,to forget,verb,,
-のる,乗る,to ride,verb,,transit
-おしえます,教えます,to teach,verb,{Person}に{object}を教えます,work and school
-ぬぎる ,,to take off,verb,,clothing
-はいります,入ります,to enter,verb,used with に,"buildings, transit"
-でます,出ます,to exit/leave,verb,,"buildings, transit"
-おります,降ります,to disembark/get off,verb,used with へ,transit
-とおります,通ります,to pass by,verb,,"transit, buildings"
-まがる,曲がる,to turn,verb,,"transit, motion"
-かかる,掛かる,to take (some time or money),verb,,time
-ひっこす,引っ越す,to move (residence),verb,,home
-よむ,読む,to read,verb,,"hobbies, basic actions"
-あびます,,to take (e.g. a shower),verb,,basic actions
-できる,出来る,to be able to,verb,,basic actions
-てつだう,手伝う,help with,verb,,basic actions
-あける,開ける,open,verb,,basic actions
-たてる,立てる,stand up,verb,,basic actions
-つける,,to turn on,verb,,
-だす,だす,to take out,verb,,basic actions
-いらる,入れる,to put in,verb,,basic actions
-あげる,,to give,verb,teineigo,basic actions
-もつ,持つ,to hold,verb,,basic actions
-ちがう,違う,"to differ, to be wrong",verb,used as an adjective? (違う鞄=a different bag),
-よぶ,呼ぶ,to call,verb,,
-うまれる,生まれる,to be born,verb,,basic actions
-なくなる,亡くなる,to pass away,verb,,basic actions
-しぬ,死ぬ,to die,verb,,basic actions
 わかれる,別れる,to break up,verb,,family and people
-もらう,貰う,to take/receive ,verb,,basic actions
-しゃべる,喋る,"to chat, to speak ",verb,,basic actions
- さす,差す,to put up (an umbrella),verb,,
-きょう,今日,today,adverb/clause,,time
-きのう,昨日,yesterday,adverb/clause,,time
-あした,明日,tomorrow,adverb/clause,,time
-いっしょ(に),,together,adverb/clause,,family and people
-はじめに,,first,adverb/clause,,
-つぎ,次,next,adverb/clause,,
-あっちこっち,,here and there,adverb/clause,,dimensions
-まだ,,still,adverb/clause,,time
-たぶん,,probably ,adverb/clause,,
-もうすぐ,,soon,adverb/clause,,time
-すこし,,a bit,adverb/clause,,
-ちゃんと,,reliably (I will make sure to...),adverb/clause,,
-あと,,after,adverb/clause,Xのあと = after X,
-そして、,,"then,...",adverb/clause,,
-にとって,,"to/for someone, with regard to someone",adverb/clause,,
-みんな,皆,"everyone, all of (for people)",adverb/clause,,
-まぅすぐ,真っ直ぐ,straight ,adverb/clause,,
-{A}　いかがですか？,,"How about {A}? 
-Would you like some {A}?",expression,,
-{A} がすきです,{A} が好きです,I like {A},expression,,
-{A} がほしいです,,I want {A},expression,,
-どんな {A},,what kind of {A},expression,,
-{A}はちょっと,,I don't really like {A},expression,,
-ひさしぶり,久しぶり,long time no see! (informal),expression,,
-おひさしぶり　です,おひさひぶり　です,long time no see (formal),expression,,
-ごぶさた　して　おります,ご無沙汰しております,sorry it's been so long!,expression,,
-はやくよくなってね,早く良くなってね,get well soon!,expression,,
-はやくげんきになってね,早く元気になってね,get well soon!,expression,,
-どのぐらい...？,,about how long...?,expression,,
-してもいい,,alright to do,expression,,
-もういちどいっていただけますか？,,can you say this one more time?,expression,very formal,
-にほんごでなんていいますか？,日本語で何て言いますか？,how do you say it in Japanese?,expression,,
-{A}をてつだいます,,I will help with {A},expression,,
-おふろにはいります,,I take a bath,expression,,
-かい,回,counter for occurences,expression,,
-こんかい,今回,this time,expression,,
-{A}がたのしみです,,I'm looking forward to {A},expression,,
-たすけた！,,Help! (in an emergency),expression,,
-てつだってください,手伝ってください,Can you give me a hand with this?,expression,,
-ほかに{question word},,what/who else....?,expression,,
-せんねんまえに,千年前に,a thousand years ago,expression,,
-こんな{A},,things like {A},expression,,
+わすれる,忘れる,to forget,verb,,
