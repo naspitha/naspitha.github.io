@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Japanese Flashcard applet</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="/assets/js/jquery.min.js"></script>
+		<style>
+			@media screen and (max-width: 736px){
+				#main-ds p {
+				text-indent:0;
+				margin-left: 5%;
+				margin-right: 5%;
+				}
+				#appContainer {
+					width:100% !important;
+					padding: 5% !important;
+					border: solid 0px 
+				}
+				
+				.flip-card-inner {
+					width: 95% !important;
+				}
+
+				.nextButton {
+					position:absolute;
+					top:75%;
+					width:20%;
+					left:65%;
+					font-size:2em;
+				}
+			}
+			#appContainer {
+				border: solid 2px rgb(103, 103, 103);
+				border-radius: 10px;
+				background-color: #e5e5f7;
+				opacity: 0.8;
+				background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+				background-size: 20px 20px;
+				background-position: 0 0,10px 10px;
+				width: 60%;
+				height: 25em;
+				padding: 3em;
+				margin:1em auto;
+				perspective:1000px;
+				position:relative;
+				box-shadow: inset 0 0 12px 6px rgba(0, 0, 0, 0.223)
+			}
+			.flip-card-inner {
+				position: relative;
+				width: 90%;
+				margin:auto;
+				margin-bottom:2em;
+				height: 15em;
+				text-align: center;
+				transition: transform 0.8s;
+				transform-style: preserve-3d;
+				cursor: pointer;
+				}
+			/* .flip-card-inner:hover {
+			transform: rotateX(180deg);
+			} */
+			#japaneseSide, #englishSide {
+				position:absolute;
+				border-radius: 20px;
+				width: 100%;
+				height: 100%;
+				padding: 2em 1em;
+				margin:auto;
+				margin-bottom:2em;
+				-webkit-backface-visibility: hidden;
+ 				 backface-visibility: hidden;
+			}
+			#appContainer > * >* > h3, h4 {
+				font-family: 'Lucida Sans Unicode';
+			}
+			#appContainer > * > * > h4 {
+				font-size: 0.8em;
+				color: rgb(100,100,100)
+			}
+			#japaneseSide {
+				border: solid 3px white;
+				background-color: rgb(214, 226, 255);
+				box-shadow: 5px 3px 12px rgb(135, 109, 83)
+			}
+			#englishSide {
+				border: solid 3px white;
+				background-color: rgb(254, 238, 207);
+				box-shadow: 5px 3px 12px rgb(135, 109, 83);
+				transform: rotateX(180deg);
+			}
+			#kana, #english {
+				color:rgb(0, 0, 153);
+				font-weight:600;
+				margin-bottom:0
+			}
+			#kanji {
+				color:rgb(46, 46, 46);
+				font-weight:500
+			}
+			#enNotes { 
+				margin-bottom: 3em !important;
+			}
+			#nextButton  {
+				cursor: pointer;
+				height:2em;
+				border-radius: 1em;
+				border: solid 3px white;
+				background-color: white;
+				box-shadow: 5px 3px 12px rgb(135, 109, 83)
+			}
+			#nextButton:hover {
+				height:2.1em;
+				-webkit-translate: 0 -0.05em;
+				-moz-translate: 0 -0.05em;
+				translate: 0 -0.05em;
+				border-radius: 1.05em;
+				-webkit-border-radius: 1.05em;
+				-moz-border-radius: 1.05em;
+				/* -webkit-box-shadow:  0px 0px 30px 0px rgba(255, 255, 255, 1);
+				-moz-box-shadow:     0px 0px 30px 0px rgba(255, 255, 255, 1);
+				box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 1); */
+			}
+			#langSel {
+				font-size: 1em;
+				position: absolute;
+				top:82%;
+				left:0%;
+				text-indent: 0 !important; 
+				margin-left: 5% !important
+			}
+				.btn1_container {
+				cursor: pointer;
+				width: 2em;
+				height: calc(0.75em + 6px);
+				translate: 0 0.2em;
+				background-color: black;
+				display: inline-block;
+				position: relative;
+				border: 3px solid #111;
+				margin-right: 0;
+				}
+
+				/* Style 1 */
+				.btn1_container {
+				border-radius: 30px;
+				}
+
+				.one {
+				position: absolute;
+				height: 0.75em;
+				width: 0.75em;
+				background-color: grey;
+				display: block;
+				border-radius: 30px;
+				border: 2px solid red;
+				background-color: rgba(255, 0, 0, 0.5);
+				transition: all 0.3s ease;
+				}
+
+				.one {
+				left: 00px;
+				}
+
+				.inactive1 {
+				transform: translateX(calc(1.33em - 6px));
+				border: 2px solid cyan;
+				background-color: rgba(30, 121, 213, 0.457);
+				}
+		</style>
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Menu -->
+						<nav id="nav">
+							<script>$("#nav").load("/menu.html")</script>
+						</nav>
+
+					</div>
+					
+				</section>
+
+			<!-- Main -->
+			<section id="main-ds">
+				<div class="container">
+					<div class="row">
+						<!-- Content -->
+							<div id="content" class="col-12">
+								<!-- Post -->
+									<article class="box post">
+										<h3>Japanese Flash Cards Applet</h3>
+										<p>A home-made flashcard app that uses a user-defined spreadsheet of Japanese words and their English translations. It has been customized for my personal use and is a constant work in progress. Perhaps someone else may find it helpful?</p>
+										<div id="appContainer">
+											<div id="card" class="flip-card-inner">
+												<div id="japaneseSide">
+													<h3 id="kana">  </h3>
+													<h3 id="kanji">  </h3>
+													<h4 id="grammarCatJ">  </h4>
+													<!-- <h4 id="jNotes">Notes</h4> -->
+												</div>
+												<div id="englishSide">
+													<h3 id="english">  </h3>
+													<h4 id="enNotes">  </h4>
+													<h4 id="grammarCatE">  </h4>
+												</div>
+											</div>
+											<h3 class="nextButton"><img id="nextButton" src="/images/next.svg" /></h3>
+											<p id="langSel">JP > EN <span class="btn1_container"><span class="one"></span></span> EN > JP</p>
+										</div>
+										<p style="text-align:right">by Natalia</p>
+									</article>
+							</div>			
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!-- Footer -->
+			<section id="footer">
+				<script>$("#footer").load("/footer.html")</script>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<script src="japaneseFlashCardApplet.js"></script>
+
+			
+	</body>
+</html>
