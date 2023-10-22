@@ -21,7 +21,7 @@ Would you like some {A}?",expression,,,,
 あつい,熱い,hot,adjective,,,,food and drink
 あっち,,that way (far),noun,,,,transit
 あっちこっち,,here and there,adverb/clause,,,,dimensions
-あと,,after,adverb/clause,common word,{X}のあと,after {X},time
+あと,,after,adverb/clause,,{X}のあと,after {X},time
 あに,兄,(my) older brother,noun,,,,family and people
 あね,姉,(my) older sister,noun,,,,family and people
 アパート,,apartment,noun,,,,"buildings, home"
@@ -40,7 +40,7 @@ Would you like some {A}?",expression,,,,
 いりぐち,入り口,entrance,noun,,,,"buildings, home, transit"
 いる,,to exist (living things),verb,,,,
 いろ,色,color,noun,,,,
-いろいろ,,all sorts of,adjective,"色々, usually written in kana",,,
+いろいろ,色々,all sorts of,adjective,usually written in kana,,,
 うたう,歌う,to sing,verb,,,,hobbies
 うでとけい,腕時計,watch,noun,,,,
 うまれる,生まれる,to be born,verb,,,,basic actions
@@ -87,7 +87,7 @@ Would you like some {A}?",expression,,,,
 おんがく,音楽,music,noun,,,,hobbies
 おんなのこ,女の子,girl,noun,,,,
 おんなのひと,女の人,woman,noun,,,,
-かい,回,counter for occurences (e.g. one time),counter,,彼は2回言った,He said it twice.,
+かい,回,counter for occurences ,counter,(e.g. one time),彼は2回言った,He said it twice.,
 かいだん,,stairs,noun,,,,"buildings, home"
 かいもの,買い物,shopping,noun,,,,
 かがみ,鏡,mirror,noun,,,,home
@@ -105,7 +105,7 @@ Would you like some {A}?",expression,,,,
 かんこう,,Sightseeing,noun,,,,
 きく,聞く,to hear / to ask,verb,,,,"hobbies, basic actions"
 きた,北,North,noun,,,,"transit, dimensions"
-きつい,,"tough, hard, tight",adjective,i-adjective,,,
+きつい,,"tough, hard, tight",adjective,i-adj,,,
 キッチン,,kitchen,noun,,,,home
 きのう,昨日,yesterday,adverb/clause,,,,time
 きゅうきゅうしゃ,,ambulance,noun,,,,
