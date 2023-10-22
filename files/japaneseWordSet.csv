@@ -25,7 +25,7 @@ Would you like some {A}?",expression,,,,
 あに,兄,(my) older brother,noun,,,,family and people
 あね,姉,(my) older sister,noun,,,,family and people
 アパート,,apartment,noun,,,,"buildings, home"
-あびます,,to take (e.g. a shower),verb,,,,basic actions
+あびます,,to take ,verb,(e.g. a shower),,,basic actions
 あまい,甘い,sweet,adjective,,,,food and drink
 ある,,to exist (inanimate objects),verb,,,,
 あるく,歩く,to walk,verb,,,,motion
@@ -119,7 +119,7 @@ Would you like some {A}?",expression,,,,
 くみ,組,counter for pair of gloves,counter,,,,
 くる,来る,to come,verb,,,,motion
 くろい,黒い,black,adjective,,,,
-けいたい,携帯,mobile (e.g. phone),noun,,,,
+けいたい,携帯,"mobile, carrying",noun,,,,
 けいたいでんわ,携帯電話,mobile phone,noun,,,,
 けいさつ,,police,noun,,,,
 けっこん,結婚,marriage,noun,,,,
