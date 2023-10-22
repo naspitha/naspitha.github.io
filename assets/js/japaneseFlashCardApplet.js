@@ -4,13 +4,16 @@ kanji=document.getElementById("kanji"),
 english=document.getElementById("english"), 
 categoryJ=document.getElementById("grammarCatJ"),
 categoryE=document.getElementById("grammarCatE"), 
-enNotes=document.getElementById("enNotes"),
+notes=document.getElementById("notes"),
+sentenceJP=document.getElementById("sentenceJP"),
+sentenceEN=document.getElementById("sentenceEN"),
 japaneseSide= document.getElementById("japaneseSide"),
 englishSide= document.getElementById("englishSide"),
 card = document.getElementById("card"),
-wordID, sideShown, presentedSide
-sideShown = 0 // 0: Japanese, 1:English
-presentedSide = 0 // the side presented as "known"
+wordID, sideShown, presentedSide, recentWords=[], 
+wordIdx = 0, // index of current word within recentWords
+sideShown = 0, // 0: Japanese, 1:English
+presentedSide = 0// the side presented as "known"
 $.getJSON("../files/japaneseWordSet.json", function(json) {
    words = json["data"];
    wordID = Math.floor(Math.random() * words.length)
@@ -23,7 +26,14 @@ function changeWord(id){
     english.innerHTML = word["English"]
     categoryJ.innerHTML = "("+word["Category"]+")"
     categoryE.innerHTML = "("+word["Category"]+")"
-    enNotes.innerHTML = word["Notes"]
+    if (word["Category"] != "expression"){
+        sentenceJP.innerHTML = word["sentenceJP"]
+        sentenceEN.innerHTML = word["sentenceEN"]
+    } else {
+        sentenceJP.innerHTML = ""
+        sentenceEN.innerHTML = ""
+    }
+    notes.innerHTML = word["Notes"]
     return word
 }
 function loadNewCard(id){
@@ -32,7 +42,9 @@ function loadNewCard(id){
     english.style.visibility="hidden"
     categoryJ.style.visibility="hidden"
     categoryE.style.visibility="hidden"
-    enNotes.style.visibility="hidden"
+    notes.style.visibility="hidden"
+    sentenceJP.style.visibility="hidden"
+    sentenceEN.style.visibility="hidden"
     setTimeout(function(){
         changeWord(id)
         kana.style.visibility="visible"
@@ -40,7 +52,9 @@ function loadNewCard(id){
         english.style.visibility="visible"
         categoryJ.style.visibility="visible"
         categoryE.style.visibility="visible"
-        enNotes.style.visibility="visible"
+        notes.style.visibility="visible"
+        sentenceJP.style.visibility="visible"
+        sentenceEN.style.visibility="visible"
     }, 300)
 }
 function flipCard(){
@@ -56,15 +70,34 @@ function newWord(){
     if (sideShown!=presentedSide){
         flipCard()
     }
-    wordID = Math.floor(Math.random() * words.length)
+    chooseWord()
     loadNewCard(wordID)
     
 }
+function updateRecent(){
+    let lenRecent = 50
+    // start building list of recent words; when it reaches its max, start replacing older words
+    if (recentWords.length <= lenRecent){
+        recentWords.push(wordID)
+    } else {
+        recentWords[wordIdx] = wordID
+        wordIdx += 1
+        if (wordIdx > (lenRecent-1)){wordIdx=0}
+    }
+}
+function chooseWord(){
+    wordID = Math.floor(Math.random() * words.length)
+    if (Array.from(recentWords).includes(wordID)){
+        // console.log(wordID, " found in recent words!")
+        chooseWord()
+    } else {updateRecent()}
+    // console.log("current word: ", wordID, " ", words[wordID]["English"], ", recent words: ", recentWords)
+    return wordID
+}
+
 
 card.onclick = flipCard
 document.getElementById('nextButton').onclick = newWord
-
-
 
 const btn1_ctn = document.getElementsByClassName("btn1_container")[0]
 const one = document.getElementsByClassName("one")[0]

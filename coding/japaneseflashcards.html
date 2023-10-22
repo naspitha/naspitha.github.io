@@ -98,14 +98,23 @@
 			#kana, #english {
 				color:rgb(0, 0, 153);
 				font-weight:600;
-				margin-bottom:0
+				margin-bottom:0;
 			}
 			#kanji {
 				color:rgb(46, 46, 46);
 				font-weight:500
 			}
-			#enNotes { 
-				margin-bottom: 3em !important;
+			/* #notes {
+				font-size: 1em !important;
+				color: rgb(0, 0, 0) !important;
+			} */
+			.example {
+				margin-top: 3.16em !important;
+				font-size: 0.95em;
+				font-style: italic;
+				font-weight: 700;
+				letter-spacing: 0;
+				color:rgb(155, 16, 3);
 			}
 			#nextButton  {
 				cursor: pointer;
@@ -204,15 +213,16 @@
 										<div id="appContainer">
 											<div id="card" class="flip-card-inner">
 												<div id="japaneseSide">
-													<h3 id="kana">  </h3>
-													<h3 id="kanji">  </h3>
-													<h4 id="grammarCatJ">  </h4>
-													<!-- <h4 id="jNotes">Notes</h4> -->
+													<h3 id="kana"></h3>
+													<h3 id="kanji"></h3>
+													<h4 id="grammarCatJ" c></h4>
+													<h3 id="sentenceJP" class="example"></h4>
 												</div>
 												<div id="englishSide">
-													<h3 id="english">  </h3>
-													<h4 id="enNotes">  </h4>
-													<h4 id="grammarCatE">  </h4>
+													<h3 id="english"></h3>
+													<h4 id="notes"></h4>
+													<h4 id="grammarCatE"></h4>
+													<h3 id="sentenceEN" class="example"></h4>
 												</div>
 											</div>
 											<h3 class="nextButton"><img id="nextButton" src="/images/next.svg" /></h3>
