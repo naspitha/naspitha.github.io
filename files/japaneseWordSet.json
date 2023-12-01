@@ -3,13 +3,13 @@
         {
             "Kana": "{A} \u3044\u304b\u304c\u3067\u3059\u304b\uff1f",
             "Kanji": "",
-            "English": "How about {A}? \nWould you like some {A}?",
+            "English": "How about {A}? Would you like some {A}?",
             "Category": "expression",
             "Notes": "",
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "interactions",
-            "id": 0
+            "id": "XAX \u3044\u304b\u304c\u3067\u3059\u304b\uff1f-How about XAX? -expression"
         },
         {
             "Kana": "{A} \u304c\u3059\u304d\u3067\u3059",
@@ -20,7 +20,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 1
+            "id": "XAX \u304c\u3059\u304d\u3067\u3059-I like XAX-expression"
         },
         {
             "Kana": "{A} \u304c\u305f\u306e\u3057\u307f\u3067\u3059",
@@ -31,7 +31,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 2
+            "id": "XAX \u304c\u305f\u306e\u3057\u307f\u3067\u3059-I'm looking for-expression"
         },
         {
             "Kana": "{A} \u304c\u307b\u3057\u3044\u3067\u3059",
@@ -42,7 +42,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 3
+            "id": "XAX \u304c\u307b\u3057\u3044\u3067\u3059-I want XAX-expression"
         },
         {
             "Kana": "{A} \u306f\u3061\u3087\u3063\u3068",
@@ -53,7 +53,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 4
+            "id": "XAX \u306f\u3061\u3087\u3063\u3068-I don't really -expression"
         },
         {
             "Kana": "{A} \u3092\u3066\u3064\u3060\u3044\u307e\u3059",
@@ -64,7 +64,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic, interactions",
-            "id": 5
+            "id": "XAX \u3092\u3066\u3064\u3060\u3044\u307e\u3059-I will help wit-expression"
         },
         {
             "Kana": "{A}\u3044\u3051\u307e\u305b\u3093 / \u3044\u3051\u306a\u3044",
@@ -75,7 +75,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 6
+            "id": "XAX\u3044\u3051\u307e\u305b\u3093 L \u3044\u3051\u306a\u3044-you must not do-expression"
         },
         {
             "Kana": "{A}\u306f\u3044\u304f\u3089\u3067\u3059\u304b\uff1f",
@@ -86,7 +86,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "shopping",
-            "id": 7
+            "id": "XAX\u306f\u3044\u304f\u3089\u3067\u3059\u304b\uff1f-How much does X-expression"
         },
         {
             "Kana": "\u3042\u304b\u3061\u3083\u3093",
@@ -97,7 +97,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 8
+            "id": "\u3042\u304b\u3061\u3083\u3093-baby-noun"
         },
         {
             "Kana": "\u3042\u304d",
@@ -108,7 +108,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, weather",
-            "id": 9
+            "id": "\u3042\u304d-autumn-noun"
         },
         {
             "Kana": "\u3042\u3051\u308b",
@@ -119,7 +119,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 10
+            "id": "\u3042\u3051\u308b-to open-verb"
         },
         {
             "Kana": "\u3042\u3052\u308b",
@@ -130,7 +130,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 11
+            "id": "\u3042\u3052\u308b-to give-verb"
         },
         {
             "Kana": "\u3042\u3052\u308b",
@@ -141,7 +141,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 12
+            "id": "\u3042\u3052\u308b-to raise, to la-verb"
         },
         {
             "Kana": "\u3042\u3055",
@@ -152,7 +152,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 13
+            "id": "\u3042\u3055-morning-noun"
         },
         {
             "Kana": "\u3042\u3058(\u3055\u3093)",
@@ -163,7 +163,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family and people",
-            "id": 14
+            "id": "\u3042\u3058(\u3055\u3093)-uncle (younger -noun"
         },
         {
             "Kana": "\u3042\u3057\u305f",
@@ -174,7 +174,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 15
+            "id": "\u3042\u3057\u305f-tomorrow-adverbLclause"
         },
         {
             "Kana": "\u3042\u305f\u305f\u304b\u3044",
@@ -185,7 +185,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "weather",
-            "id": 16
+            "id": "\u3042\u305f\u305f\u304b\u3044-warm-adjective"
         },
         {
             "Kana": "\u3042\u305f\u305f\u3081\u308b",
@@ -196,7 +196,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 17
+            "id": "\u3042\u305f\u305f\u3081\u308b-to warm up, to -verb"
         },
         {
             "Kana": "\u3042\u305f\u3089\u3057\u3044",
@@ -207,7 +207,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "shopping, time",
-            "id": 18
+            "id": "\u3042\u305f\u3089\u3057\u3044-new-adjective"
         },
         {
             "Kana": "\u3042\u3064\u3044",
@@ -218,7 +218,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 19
+            "id": "\u3042\u3064\u3044-hot-adjective"
         },
         {
             "Kana": "\u3042\u3063\u3061",
@@ -229,7 +229,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 20
+            "id": "\u3042\u3063\u3061-that way (far)-noun"
         },
         {
             "Kana": "\u3042\u3063\u3061\u3053\u3063\u3061",
@@ -240,7 +240,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 21
+            "id": "\u3042\u3063\u3061\u3053\u3063\u3061-here and there-adverbLclause"
         },
         {
             "Kana": "\u3042\u3068",
@@ -251,7 +251,7 @@
             "sentenceJP": "{X}\u306e\u3042\u3068",
             "sentenceEN": "after {X}",
             "Topic": "time",
-            "id": 22
+            "id": "\u3042\u3068-after-adverbLclause"
         },
         {
             "Kana": "\u3042\u306b",
@@ -262,7 +262,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 23
+            "id": "\u3042\u306b-(my) older brot-noun"
         },
         {
             "Kana": "\u3042\u306d",
@@ -273,7 +273,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 24
+            "id": "\u3042\u306d-(my) older sist-noun"
         },
         {
             "Kana": "\u30a2\u30d1\u30fc\u30c8",
@@ -284,7 +284,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home",
-            "id": 25
+            "id": "\u30a2\u30d1\u30fc\u30c8-apartment-noun"
         },
         {
             "Kana": "\u3042\u3073\u307e\u3059",
@@ -295,7 +295,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 26
+            "id": "\u3042\u3073\u307e\u3059-to take-verb"
         },
         {
             "Kana": "\u3042\u307e\u3044",
@@ -306,7 +306,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 27
+            "id": "\u3042\u307e\u3044-sweet-adjective"
         },
         {
             "Kana": "\u3042\u308b",
@@ -317,7 +317,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 28
+            "id": "\u3042\u308b-to exist (inani-verb"
         },
         {
             "Kana": "\u3042\u308b\u304f",
@@ -328,7 +328,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "motion",
-            "id": 29
+            "id": "\u3042\u308b\u304f-to walk-verb"
         },
         {
             "Kana": "\u3044\u3046",
@@ -339,7 +339,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 30
+            "id": "\u3044\u3046-to say-verb"
         },
         {
             "Kana": "\u3044\u304f",
@@ -350,7 +350,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "motion",
-            "id": 31
+            "id": "\u3044\u304f-to go-verb"
         },
         {
             "Kana": "\u3044\u3051",
@@ -361,7 +361,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 32
+            "id": "\u3044\u3051-pond-noun"
         },
         {
             "Kana": "\u3044\u3057\u3083",
@@ -372,7 +372,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 33
+            "id": "\u3044\u3057\u3083-doctor-noun"
         },
         {
             "Kana": "\u3044\u305d\u304c\u3057\u3044",
@@ -383,7 +383,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "work and school",
-            "id": 34
+            "id": "\u3044\u305d\u304c\u3057\u3044-busy-adjective"
         },
         {
             "Kana": "\u3044\u3064\u304b",
@@ -394,7 +394,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 35
+            "id": "\u3044\u3064\u304b-fifth of the mo-noun"
         },
         {
             "Kana": "\u3044\u3063\u3057\u3087(\u306b)",
@@ -405,7 +405,7 @@
             "sentenceJP": "\u4e00\u7dd2\u306b\u884c\u304d\u307e\u3057\u3087\u3046\uff01",
             "sentenceEN": "",
             "Topic": "family and people",
-            "id": 36
+            "id": "\u3044\u3063\u3057\u3087(\u306b)-together-adverbLclause"
         },
         {
             "Kana": "\u3044\u307f",
@@ -416,7 +416,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 37
+            "id": "\u3044\u307f-meaning-noun"
         },
         {
             "Kana": "\u3044\u3082\u3046\u3068",
@@ -427,7 +427,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family and people",
-            "id": 38
+            "id": "\u3044\u3082\u3046\u3068-younger sister-noun"
         },
         {
             "Kana": "\u3044\u3089\u308b",
@@ -438,7 +438,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 39
+            "id": "\u3044\u3089\u308b-to put in-verb"
         },
         {
             "Kana": "\u3044\u308a\u3050\u3061",
@@ -449,7 +449,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home, transit",
-            "id": 40
+            "id": "\u3044\u308a\u3050\u3061-entrance-noun"
         },
         {
             "Kana": "\u3044\u308b",
@@ -460,7 +460,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 41
+            "id": "\u3044\u308b-to exist (livin-verb"
         },
         {
             "Kana": "\u3044\u308b",
@@ -471,7 +471,7 @@
             "sentenceJP": "\u888b\u306f\u8981\u308a\u307e\u3059\u306a\uff1f",
             "sentenceEN": "Do you need a bag?",
             "Topic": "basic",
-            "id": 42
+            "id": "\u3044\u308b-to need, to wan-verb"
         },
         {
             "Kana": "\u3044\u308d",
@@ -482,7 +482,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 43
+            "id": "\u3044\u308d-color-noun"
         },
         {
             "Kana": "\u3044\u308d\u3044\u308d",
@@ -493,7 +493,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 44
+            "id": "\u3044\u308d\u3044\u308d-all sorts of-adjective"
         },
         {
             "Kana": "\u3046\u3057",
@@ -504,7 +504,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals",
-            "id": 45
+            "id": "\u3046\u3057-cow-noun"
         },
         {
             "Kana": "\u3046\u305f\u3046",
@@ -515,7 +515,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 46
+            "id": "\u3046\u305f\u3046-to sing-verb"
         },
         {
             "Kana": "\u3046\u3067\u3068\u3051\u3044",
@@ -526,7 +526,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 47
+            "id": "\u3046\u3067\u3068\u3051\u3044-watch-noun"
         },
         {
             "Kana": "\u3046\u307e",
@@ -537,7 +537,7 @@
             "sentenceJP": "\u99ac\u306b\u4e57\u308b",
             "sentenceEN": "to ride a horse",
             "Topic": "animals",
-            "id": 48
+            "id": "\u3046\u307e-horse-noun"
         },
         {
             "Kana": "\u3046\u307e\u308c\u308b",
@@ -548,7 +548,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 49
+            "id": "\u3046\u307e\u308c\u308b-to be born-verb"
         },
         {
             "Kana": "\u3046\u307f",
@@ -559,7 +559,7 @@
             "sentenceJP": "\u7537\u306e\u5b50\u304c\u6d77\u3067\u6cf3\u3044\u3067\u3044\u307e\u3059\u3002",
             "sentenceEN": "A boy is swimming in the pool.",
             "Topic": "nature",
-            "id": 50
+            "id": "\u3046\u307f-sea, beach-noun"
         },
         {
             "Kana": "\u3046\u308b\u3055\u3044",
@@ -570,7 +570,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 51
+            "id": "\u3046\u308b\u3055\u3044-annoying-adjective"
         },
         {
             "Kana": "\u3046\u308b\u3055\u3044",
@@ -581,7 +581,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 52
+            "id": "\u3046\u308b\u3055\u3044-noisy, loud-adjective"
         },
         {
             "Kana": "\u3048",
@@ -592,7 +592,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 53
+            "id": "\u3048-picture-noun"
         },
         {
             "Kana": "\u3048\u3044\u304c",
@@ -603,7 +603,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 54
+            "id": "\u3048\u3044\u304c-movie-noun"
         },
         {
             "Kana": "\u30a8\u30ec\u30d9\u30fc\u30bf",
@@ -614,7 +614,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home",
-            "id": 55
+            "id": "\u30a8\u30ec\u30d9\u30fc\u30bf-elevator-noun"
         },
         {
             "Kana": "\u30a8\u30f3\u30b8\u30cb\u30a2",
@@ -625,7 +625,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "work and school",
-            "id": 56
+            "id": "\u30a8\u30f3\u30b8\u30cb\u30a2-engineer-noun"
         },
         {
             "Kana": "\u304a\u304a\u3044",
@@ -636,7 +636,7 @@
             "sentenceJP": "\u5168\u304f\u591a\u304f\u306a\u3044",
             "sentenceEN": "not much at all",
             "Topic": "",
-            "id": 57
+            "id": "\u304a\u304a\u3044-many, a lot-adjective"
         },
         {
             "Kana": "\u304a\u304a\u304d\u3044",
@@ -647,7 +647,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 58
+            "id": "\u304a\u304a\u304d\u3044-big, loud-adjective"
         },
         {
             "Kana": "\u304a\u304a\u305c\u3044",
@@ -658,7 +658,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 59
+            "id": "\u304a\u304a\u305c\u3044-many-adjective"
         },
         {
             "Kana": "\u304a\u304b\u3042\u3055\u3093",
@@ -669,7 +669,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family and people",
-            "id": 60
+            "id": "\u304a\u304b\u3042\u3055\u3093-mother-noun"
         },
         {
             "Kana": "\u304a\u304b\u3057",
@@ -680,7 +680,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 61
+            "id": "\u304a\u304b\u3057-sweet snack, ca-noun"
         },
         {
             "Kana": "\u304a\u304b\u306d",
@@ -691,7 +691,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 62
+            "id": "\u304a\u304b\u306d-money-noun"
         },
         {
             "Kana": "\u304a\u3053\u3055\u3093",
@@ -702,7 +702,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 63
+            "id": "\u304a\u3053\u3055\u3093-kid (formal)-noun"
         },
         {
             "Kana": "\u304a\u3053\u308b",
@@ -713,7 +713,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 64
+            "id": "\u304a\u3053\u308b-to be angry-verb"
         },
         {
             "Kana": "\u304a\u3055\u3089",
@@ -724,7 +724,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 65
+            "id": "\u304a\u3055\u3089-plate-noun"
         },
         {
             "Kana": "\u304a\u3058(\u3055\u3093)",
@@ -735,7 +735,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 66
+            "id": "\u304a\u3058(\u3055\u3093)-uncle (older th-noun"
         },
         {
             "Kana": "\u304a\u3058\u3044\u3055\u3093",
@@ -746,7 +746,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 67
+            "id": "\u304a\u3058\u3044\u3055\u3093-grandfather-noun"
         },
         {
             "Kana": "\u304a\u3057\u3048\u307e\u3059",
@@ -757,7 +757,7 @@
             "sentenceJP": "{X}\u306b{Y}\u3092\u6559\u3048\u307e\u3059",
             "sentenceEN": "I teach {Y} to {X}.",
             "Topic": "work and school",
-            "id": 68
+            "id": "\u304a\u3057\u3048\u307e\u3059-to teach, to te-verb"
         },
         {
             "Kana": "\u304a\u3057\u3083\u308c",
@@ -768,7 +768,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 69
+            "id": "\u304a\u3057\u3083\u308c-stylish-adjective"
         },
         {
             "Kana": "\u304a\u305d\u3044",
@@ -779,7 +779,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, motion",
-            "id": 70
+            "id": "\u304a\u305d\u3044-slow-adjective"
         },
         {
             "Kana": "\u304a\u3066\u3042\u3089\u3044",
@@ -790,7 +790,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home",
-            "id": 71
+            "id": "\u304a\u3066\u3042\u3089\u3044-restroom-noun"
         },
         {
             "Kana": "\u304a\u3066\u3089",
@@ -801,7 +801,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, travel",
-            "id": 72
+            "id": "\u304a\u3066\u3089-temple-noun"
         },
         {
             "Kana": "\u304a\u3068\u3046\u3055\u3093",
@@ -812,7 +812,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 73
+            "id": "\u304a\u3068\u3046\u3055\u3093-father-noun"
         },
         {
             "Kana": "\u304a\u3068\u3046\u3068",
@@ -823,7 +823,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 74
+            "id": "\u304a\u3068\u3046\u3068-younger brother-noun"
         },
         {
             "Kana": "\u304a\u3068\u3053\u306e\u3053",
@@ -834,7 +834,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 75
+            "id": "\u304a\u3068\u3053\u306e\u3053-boy-noun"
         },
         {
             "Kana": "\u304a\u3068\u3053\u306e\u3072\u3068",
@@ -845,7 +845,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 76
+            "id": "\u304a\u3068\u3053\u306e\u3072\u3068-man-noun"
         },
         {
             "Kana": "\u304a\u3068\u3068\u3057",
@@ -856,7 +856,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 77
+            "id": "\u304a\u3068\u3068\u3057-year before las-noun"
         },
         {
             "Kana": "\u304a\u3068\u306a",
@@ -867,7 +867,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people, family",
-            "id": 78
+            "id": "\u304a\u3068\u306a-adult-noun"
         },
         {
             "Kana": "\u304a\u306a\u304b",
@@ -878,7 +878,7 @@
             "sentenceJP": "\u304a\u8179\u304c\u7a7a\u304d\u307e\u3057\u305f\u3002",
             "sentenceEN": "I'm hungry.",
             "Topic": "body",
-            "id": 79
+            "id": "\u304a\u306a\u304b-stomach-noun"
         },
         {
             "Kana": "\u304a\u306a\u304b\u304c\u3059\u304f",
@@ -889,7 +889,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "body, basic, food and drink",
-            "id": 80
+            "id": "\u304a\u306a\u304b\u304c\u3059\u304f-to become hungr-expression"
         },
         {
             "Kana": "\u304a\u306a\u3058",
@@ -900,7 +900,7 @@
             "sentenceJP": "\u5f7c\u3068\u540c\u3058",
             "sentenceEN": "the same as him",
             "Topic": "basic",
-            "id": 81
+            "id": "\u304a\u306a\u3058-same-noun"
         },
         {
             "Kana": "\u304a\u306b\u3044\u3055\u3093",
@@ -911,7 +911,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 82
+            "id": "\u304a\u306b\u3044\u3055\u3093-older brother-noun"
         },
         {
             "Kana": "\u304a\u306d\u3048\u3055\u3093",
@@ -922,7 +922,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 83
+            "id": "\u304a\u306d\u3048\u3055\u3093-older sister-noun"
         },
         {
             "Kana": "\u304a\u3070(\u3055\u3093)",
@@ -933,7 +933,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 84
+            "id": "\u304a\u3070(\u3055\u3093)-aunt (younger t-noun"
         },
         {
             "Kana": "\u304a\u3070(\u3055\u3093)",
@@ -944,7 +944,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 85
+            "id": "\u304a\u3070(\u3055\u3093)-aunt (older tha-noun"
         },
         {
             "Kana": "\u304a\u3070\u3042\u3055\u3093",
@@ -955,7 +955,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 86
+            "id": "\u304a\u3070\u3042\u3055\u3093-grandmother-noun"
         },
         {
             "Kana": "\u304a\u306f\u3057",
@@ -966,7 +966,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 87
+            "id": "\u304a\u306f\u3057-chopstick-noun"
         },
         {
             "Kana": "\u304a\u3072\u3055\u3057\u3076\u308a \u3067\u3059",
@@ -977,7 +977,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 88
+            "id": "\u304a\u3072\u3055\u3057\u3076\u308a \u3067\u3059-long time no se-expression"
         },
         {
             "Kana": "\u304a\u3075\u308d\u306b\u306f\u3044\u308a\u307e\u3059",
@@ -988,7 +988,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 89
+            "id": "\u304a\u3075\u308d\u306b\u306f\u3044\u308a\u307e\u3059-I take a bath-expression"
         },
         {
             "Kana": "\u304a\u307c\u3048\u308b",
@@ -999,7 +999,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 90
+            "id": "\u304a\u307c\u3048\u308b-to memorize-verb"
         },
         {
             "Kana": "\u304a\u307f\u3084\u3052",
@@ -1010,7 +1010,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "travel, hobbies",
-            "id": 91
+            "id": "\u304a\u307f\u3084\u3052-souvenir-noun"
         },
         {
             "Kana": "\u304a\u3082\u3044",
@@ -1021,7 +1021,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 92
+            "id": "\u304a\u3082\u3044-heavy-adjective"
         },
         {
             "Kana": "\u304a\u3082\u3046",
@@ -1032,7 +1032,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 93
+            "id": "\u304a\u3082\u3046-to think-verb"
         },
         {
             "Kana": "\u304a\u308a\u308b",
@@ -1043,7 +1043,7 @@
             "sentenceJP": "\u6b21\u306e\u99c5\u3067\u964d\u308a\u307e\u3059\u3002",
             "sentenceEN": "I get off at the next station.",
             "Topic": "transit",
-            "id": 94
+            "id": "\u304a\u308a\u308b-to disembark, t-verb"
         },
         {
             "Kana": "\u304a\u308f\u308b",
@@ -1054,7 +1054,7 @@
             "sentenceJP": "\u5bbf\u984c\u3092\u7d42\u308f\u308a\u307e\u3057\u305f\u304b\uff1f",
             "sentenceEN": "Did you finish your homework?",
             "Topic": "",
-            "id": 95
+            "id": "\u304a\u308f\u308b-to finish, to e-verb"
         },
         {
             "Kana": "\u304a\u3093\u304c\u304f",
@@ -1065,7 +1065,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 96
+            "id": "\u304a\u3093\u304c\u304f-music-noun"
         },
         {
             "Kana": "\u304a\u3093\u306a\u306e\u3053",
@@ -1076,7 +1076,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 97
+            "id": "\u304a\u3093\u306a\u306e\u3053-girl-noun"
         },
         {
             "Kana": "\u304a\u3093\u306a\u306e\u3072\u3068",
@@ -1087,7 +1087,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 98
+            "id": "\u304a\u3093\u306a\u306e\u3072\u3068-woman-noun"
         },
         {
             "Kana": "\u304b\u3044",
@@ -1098,7 +1098,7 @@
             "sentenceJP": "\u5f7c\u306f2\u56de\u8a00\u3063\u305f",
             "sentenceEN": "He said it twice.",
             "Topic": "time",
-            "id": 99
+            "id": "\u304b\u3044-counter for occ-counter"
         },
         {
             "Kana": "\u304b\u3044\u3060\u3093",
@@ -1109,7 +1109,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home",
-            "id": 100
+            "id": "\u304b\u3044\u3060\u3093-stairs-noun"
         },
         {
             "Kana": "\u304b\u3044\u3082\u306e",
@@ -1120,7 +1120,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "shopping",
-            "id": 101
+            "id": "\u304b\u3044\u3082\u306e-shopping-noun"
         },
         {
             "Kana": "\u304b\u304c\u307f",
@@ -1131,7 +1131,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 102
+            "id": "\u304b\u304c\u307f-mirror-noun"
         },
         {
             "Kana": "\u304b\u304b\u308b",
@@ -1142,7 +1142,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 103
+            "id": "\u304b\u304b\u308b-to take (some t-verb"
         },
         {
             "Kana": "\u304b\u3058",
@@ -1153,7 +1153,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 104
+            "id": "\u304b\u3058-chore-noun"
         },
         {
             "Kana": "\u304b\u3058",
@@ -1164,7 +1164,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 105
+            "id": "\u304b\u3058-fire-noun"
         },
         {
             "Kana": "\u304b\u305e\u304f",
@@ -1175,7 +1175,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family and people",
-            "id": 106
+            "id": "\u304b\u305e\u304f-family-noun"
         },
         {
             "Kana": "\u304b\u305f\u3059\u307f",
@@ -1186,7 +1186,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 107
+            "id": "\u304b\u305f\u3059\u307f-corner-noun"
         },
         {
             "Kana": "\u304b\u3063\u3053\u3044\u3044",
@@ -1197,7 +1197,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 108
+            "id": "\u304b\u3063\u3053\u3044\u3044-cool-adjective"
         },
         {
             "Kana": "\u304b\u3070\u3093",
@@ -1208,7 +1208,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing, shopping",
-            "id": 109
+            "id": "\u304b\u3070\u3093-bag-noun"
         },
         {
             "Kana": "\u304b\u3076\u308b",
@@ -1219,7 +1219,7 @@
             "sentenceJP": "\u5e3d\u5b50\u3092\u304b\u3076\u3063\u3066\u3044\u308b\u3002",
             "sentenceEN": "I am wearing a hat.",
             "Topic": "clothing",
-            "id": 110
+            "id": "\u304b\u3076\u308b-to wear, to put-verb"
         },
         {
             "Kana": "\u304b\u3088\u3046\u3073",
@@ -1230,7 +1230,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 111
+            "id": "\u304b\u3088\u3046\u3073-Tuesday-noun"
         },
         {
             "Kana": "\u304b\u3089\u3042\u3052",
@@ -1241,7 +1241,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 112
+            "id": "\u304b\u3089\u3042\u3052-fried chicken-noun"
         },
         {
             "Kana": "\u304b\u3089\u3044",
@@ -1252,7 +1252,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 113
+            "id": "\u304b\u3089\u3044-spicy-adjective"
         },
         {
             "Kana": "\u304b\u308b\u3044",
@@ -1263,7 +1263,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 114
+            "id": "\u304b\u308b\u3044-lightweight-adjective"
         },
         {
             "Kana": "\u304b\u308f",
@@ -1274,7 +1274,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 115
+            "id": "\u304b\u308f-river-noun"
         },
         {
             "Kana": "\u304b\u3093\u3053\u3046",
@@ -1285,7 +1285,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "travel",
-            "id": 116
+            "id": "\u304b\u3093\u3053\u3046-sightseeing-noun"
         },
         {
             "Kana": "\u304b\u3093\u3058",
@@ -1296,7 +1296,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 117
+            "id": "\u304b\u3093\u3058-kanji-noun"
         },
         {
             "Kana": "\u304d",
@@ -1307,7 +1307,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 118
+            "id": "\u304d-tree-noun"
         },
         {
             "Kana": "\u304d\u304f",
@@ -1318,7 +1318,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies, basic",
-            "id": 119
+            "id": "\u304d\u304f-to hear L to as-verb"
         },
         {
             "Kana": "\u304d\u305f",
@@ -1329,7 +1329,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, dimensions",
-            "id": 120
+            "id": "\u304d\u305f-North-noun"
         },
         {
             "Kana": "\u304d\u3064\u3044",
@@ -1340,7 +1340,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 121
+            "id": "\u304d\u3064\u3044-tough, hard, ti-adjective"
         },
         {
             "Kana": "\u30ad\u30c3\u30c1\u30f3",
@@ -1351,7 +1351,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 122
+            "id": "\u30ad\u30c3\u30c1\u30f3-kitchen-noun"
         },
         {
             "Kana": "\u304d\u306e\u3046",
@@ -1362,7 +1362,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 123
+            "id": "\u304d\u306e\u3046-yesterday-adverbLclause"
         },
         {
             "Kana": "\u304d\u3085\u3046\u304d\u3085\u3046\u3057\u3083",
@@ -1373,7 +1373,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 124
+            "id": "\u304d\u3085\u3046\u304d\u3085\u3046\u3057\u3083-ambulance-noun"
         },
         {
             "Kana": "\u304d\u3087\u3046",
@@ -1384,7 +1384,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 125
+            "id": "\u304d\u3087\u3046-today-adverbLclause"
         },
         {
             "Kana": "\u304d\u3087\u3046\u304b\u3057\u3087",
@@ -1395,7 +1395,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 126
+            "id": "\u304d\u3087\u3046\u304b\u3057\u3087-textbook-noun"
         },
         {
             "Kana": "\u304d\u3087\u306d\u3093",
@@ -1406,7 +1406,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 127
+            "id": "\u304d\u3087\u306d\u3093-last year-noun"
         },
         {
             "Kana": "\u304d\u308b",
@@ -1417,7 +1417,7 @@
             "sentenceJP": "\u9752\u3044\u30b7\u30e3\u30c4\u3092\u7740\u307e\u3057\u305f\u3002",
             "sentenceEN": "I put on a blue shirt.",
             "Topic": "clothing",
-            "id": 128
+            "id": "\u304d\u308b-to wear, to put-verb"
         },
         {
             "Kana": "\u304d\u308c\u3044",
@@ -1428,7 +1428,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people, basic",
-            "id": 129
+            "id": "\u304d\u308c\u3044-beautiful, pret-adjective"
         },
         {
             "Kana": "\u304d\u3093\u3088\u3046\u3073",
@@ -1439,7 +1439,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 130
+            "id": "\u304d\u3093\u3088\u3046\u3073-Friday-noun"
         },
         {
             "Kana": "\u3050\u3042\u3044",
@@ -1450,7 +1450,7 @@
             "sentenceJP": "\u5177\u5408\u304c\u60aa\u3044",
             "sentenceEN": "in bad health, sick",
             "Topic": "health",
-            "id": 131
+            "id": "\u3050\u3042\u3044-(state of) heal-noun"
         },
         {
             "Kana": "\u304f\u3064",
@@ -1461,7 +1461,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 132
+            "id": "\u304f\u3064-shoes-noun"
         },
         {
             "Kana": "\u304f\u3064\u3057\u305f",
@@ -1472,7 +1472,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 133
+            "id": "\u304f\u3064\u3057\u305f-socks-noun"
         },
         {
             "Kana": "\u30af\u30de",
@@ -1483,7 +1483,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals",
-            "id": 134
+            "id": "\u30af\u30de-bear-noun"
         },
         {
             "Kana": "\u304f\u307f",
@@ -1494,7 +1494,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 135
+            "id": "\u304f\u307f-counter for pai-counter"
         },
         {
             "Kana": "\u304f\u308b",
@@ -1505,7 +1505,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "motion",
-            "id": 136
+            "id": "\u304f\u308b-to come-verb"
         },
         {
             "Kana": "\u304f\u308d\u3044",
@@ -1516,7 +1516,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "colors",
-            "id": 137
+            "id": "\u304f\u308d\u3044-black-adjective"
         },
         {
             "Kana": "\u3051\u3044\u3055\u3064",
@@ -1527,7 +1527,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 138
+            "id": "\u3051\u3044\u3055\u3064-police-noun"
         },
         {
             "Kana": "\u3051\u3044\u305f\u3044",
@@ -1538,7 +1538,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "technology",
-            "id": 139
+            "id": "\u3051\u3044\u305f\u3044-mobile, carryin-noun"
         },
         {
             "Kana": "\u3051\u3044\u305f\u3044\u3067\u3093\u308f",
@@ -1549,7 +1549,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "technology",
-            "id": 140
+            "id": "\u3051\u3044\u305f\u3044\u3067\u3093\u308f-mobile phone-noun"
         },
         {
             "Kana": "\u3051\u3059",
@@ -1560,7 +1560,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 141
+            "id": "\u3051\u3059-to turn off-verb"
         },
         {
             "Kana": "\u3051\u3063\u3053\u3093",
@@ -1571,7 +1571,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people, family",
-            "id": 142
+            "id": "\u3051\u3063\u3053\u3093-marriage-noun"
         },
         {
             "Kana": "\u3052\u3064\u3088\u3046\u3073",
@@ -1582,7 +1582,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 143
+            "id": "\u3052\u3064\u3088\u3046\u3073-Monday-noun"
         },
         {
             "Kana": "\u3053\u3044\u3057\u3044",
@@ -1593,7 +1593,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 144
+            "id": "\u3053\u3044\u3057\u3044-to be missed-adjective"
         },
         {
             "Kana": "\u3053\u3046",
@@ -1604,7 +1604,7 @@
             "sentenceJP": "\u3053\u3046\u66f8\u304d\u307e\u3059",
             "sentenceEN": "You write it this way.",
             "Topic": "basic",
-            "id": 145
+            "id": "\u3053\u3046-this way, like -adverb"
         },
         {
             "Kana": "\u3053\u3048",
@@ -1615,7 +1615,7 @@
             "sentenceJP": "\u9ce5\u306e\u58f0",
             "sentenceEN": "bird's singing",
             "Topic": "nature, body",
-            "id": 146
+            "id": "\u3053\u3048-voice-noun"
         },
         {
             "Kana": "\u3053\u3048",
@@ -1626,7 +1626,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals, body",
-            "id": 147
+            "id": "\u3053\u3048-voice-noun"
         },
         {
             "Kana": "\u3053\u3053\u306e\u304b",
@@ -1637,7 +1637,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 148
+            "id": "\u3053\u3053\u306e\u304b-ninth of the mo-noun"
         },
         {
             "Kana": "\u3053\u3063\u305b\u3064",
@@ -1648,7 +1648,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "health",
-            "id": 149
+            "id": "\u3053\u3063\u305b\u3064-bone fracture-noun"
         },
         {
             "Kana": "\u3053\u3063\u3061",
@@ -1659,7 +1659,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 150
+            "id": "\u3053\u3063\u3061-this way-noun"
         },
         {
             "Kana": "\u30b3\u30c3\u30d7",
@@ -1670,7 +1670,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 151
+            "id": "\u30b3\u30c3\u30d7-glass-noun"
         },
         {
             "Kana": "\u3053\u3068\u3057",
@@ -1681,7 +1681,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 152
+            "id": "\u3053\u3068\u3057-this year-noun"
         },
         {
             "Kana": "\u3053\u3068\u3070",
@@ -1692,7 +1692,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 153
+            "id": "\u3053\u3068\u3070-word-noun"
         },
         {
             "Kana": "\u3053\u3069\u3082",
@@ -1703,7 +1703,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family, people",
-            "id": 154
+            "id": "\u3053\u3069\u3082-(my) kid-noun"
         },
         {
             "Kana": "\u3054\u3076\u3055\u305f \u3057\u3066 \u304a\u308a\u307e\u3059",
@@ -1714,7 +1714,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 155
+            "id": "\u3054\u3076\u3055\u305f \u3057\u3066 \u304a\u308a\u307e\u3059-sorry it's been-expression"
         },
         {
             "Kana": "\u30b3\u30e1\u30c7\u30a3",
@@ -1725,7 +1725,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 156
+            "id": "\u30b3\u30e1\u30c7\u30a3-comedy-noun"
         },
         {
             "Kana": "\u3053\u3093\u304b\u3044",
@@ -1736,7 +1736,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 157
+            "id": "\u3053\u3093\u304b\u3044-this time-expression"
         },
         {
             "Kana": "\u3053\u3093\u306a{A}",
@@ -1747,7 +1747,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 158
+            "id": "\u3053\u3093\u306aXAX-things like XAX-expression"
         },
         {
             "Kana": "\u3055\u3044\u3075",
@@ -1758,7 +1758,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing, shopping",
-            "id": 159
+            "id": "\u3055\u3044\u3075-wallet-noun"
         },
         {
             "Kana": "\u3055\u304f",
@@ -1769,7 +1769,7 @@
             "sentenceJP": "\u82b1\u306f\u54b2\u304d\u307e\u3057\u305f\u3002",
             "sentenceEN": "The flowers bloomed.",
             "Topic": "nature",
-            "id": 160
+            "id": "\u3055\u304f-to bloom-verb"
         },
         {
             "Kana": "\u3055\u3059",
@@ -1780,7 +1780,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 161
+            "id": "\u3055\u3059-to put up (an u-verb"
         },
         {
             "Kana": "\u3055\u3064",
@@ -1791,7 +1791,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 162
+            "id": "\u3055\u3064-counter for boo-counter"
         },
         {
             "Kana": "\u3055\u3080\u3044",
@@ -1802,7 +1802,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "weather",
-            "id": 163
+            "id": "\u3055\u3080\u3044-cold-adjective"
         },
         {
             "Kana": "\u3055\u3089\u3044\u306d\u3093",
@@ -1813,7 +1813,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 164
+            "id": "\u3055\u3089\u3044\u306d\u3093-year after next-noun"
         },
         {
             "Kana": "\u30b5\u30eb",
@@ -1824,7 +1824,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals",
-            "id": 165
+            "id": "\u30b5\u30eb-monkey-noun"
         },
         {
             "Kana": "\u3057\u304b",
@@ -1835,7 +1835,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals",
-            "id": 166
+            "id": "\u3057\u304b-deer-noun"
         },
         {
             "Kana": "\u3058\u304b\u3093",
@@ -1846,7 +1846,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 167
+            "id": "\u3058\u304b\u3093-time, hour-noun"
         },
         {
             "Kana": "\u3058\u3057\u3087",
@@ -1857,7 +1857,7 @@
             "sentenceJP": "\u8f9e\u66f8\u3092\u5f15\u304d\u3066\u3044\u308b\u3002",
             "sentenceEN": "I am consulting a dictionary.",
             "Topic": "school",
-            "id": 168
+            "id": "\u3058\u3057\u3087-dictionary-noun"
         },
         {
             "Kana": "\u3057\u305a\u304b",
@@ -1868,7 +1868,7 @@
             "sentenceJP": "\u9759\u304b\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
             "sentenceEN": "Please be quiet.",
             "Topic": "",
-            "id": 169
+            "id": "\u3057\u305a\u304b-quiet-adjective"
         },
         {
             "Kana": "\u3057\u3063\u3066\u3044\u308b",
@@ -1879,7 +1879,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 170
+            "id": "\u3057\u3063\u3066\u3044\u308b-to know or have-verb"
         },
         {
             "Kana": "\u3057\u3064\u3082\u3093",
@@ -1890,7 +1890,7 @@
             "sentenceJP": "\u8cea\u554f\u3057\u3066\u3082\u3044\u3044\u3067\u3059\u304b\uff1f",
             "sentenceEN": "May I ask a question?",
             "Topic": "interactions",
-            "id": 171
+            "id": "\u3057\u3064\u3082\u3093-question-noun"
         },
         {
             "Kana": "\u3057\u3066\u3082\u3044\u3044",
@@ -1901,7 +1901,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "interactions",
-            "id": 172
+            "id": "\u3057\u3066\u3082\u3044\u3044-alright to do-expression"
         },
         {
             "Kana": "\u3057\u306c",
@@ -1912,7 +1912,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 173
+            "id": "\u3057\u306c-to die-verb"
         },
         {
             "Kana": "\u3057\u3081\u308b",
@@ -1923,7 +1923,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 174
+            "id": "\u3057\u3081\u308b-to shut, to clo-verb"
         },
         {
             "Kana": "\u3057\u3083\u3057\u3093:",
@@ -1934,7 +1934,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 175
+            "id": "\u3057\u3083\u3057\u3093:-photo-noun"
         },
         {
             "Kana": "\u3057\u3083\u3079\u308b",
@@ -1945,7 +1945,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 176
+            "id": "\u3057\u3083\u3079\u308b-to chat, to spe-verb"
         },
         {
             "Kana": "\u3057\u3085\u3046\u3066\u3093",
@@ -1956,7 +1956,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 177
+            "id": "\u3057\u3085\u3046\u3066\u3093-final stop, ter-noun"
         },
         {
             "Kana": "\u3057\u3085\u3046\u307e\u3064",
@@ -1967,7 +1967,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 178
+            "id": "\u3057\u3085\u3046\u307e\u3064-weekend-noun"
         },
         {
             "Kana": "\u3057\u3085\u304f\u3060\u3044",
@@ -1978,7 +1978,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "school",
-            "id": 179
+            "id": "\u3057\u3085\u304f\u3060\u3044-homework-noun"
         },
         {
             "Kana": "\u3057\u3085\u3066\u3093",
@@ -1989,7 +1989,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 180
+            "id": "\u3057\u3085\u3066\u3093-final stop-noun"
         },
         {
             "Kana": "\u3057\u3087\u3046\u3057\u3087\u3046",
@@ -2000,7 +2000,7 @@
             "sentenceJP": "\u5c11\u3005\u9ad8\u3044\u3067\u3059",
             "sentenceEN": "it's a bit expensive",
             "Topic": "",
-            "id": 181
+            "id": "\u3057\u3087\u3046\u3057\u3087\u3046-a bit-adverb"
         },
         {
             "Kana": "\u3058\u3087\u3046\u3076",
@@ -2011,7 +2011,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 182
+            "id": "\u3058\u3087\u3046\u3076-sturdy-adjective"
         },
         {
             "Kana": "\u3057\u3087\u3063\u3071\u3044",
@@ -2022,7 +2022,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 183
+            "id": "\u3057\u3087\u3063\u3071\u3044-salty-adjective"
         },
         {
             "Kana": "\u3057\u308b",
@@ -2033,7 +2033,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 184
+            "id": "\u3057\u308b-to discoverLfin-verb"
         },
         {
             "Kana": "\u3057\u308d",
@@ -2044,7 +2044,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, travel",
-            "id": 185
+            "id": "\u3057\u308d-castle-noun"
         },
         {
             "Kana": "\u3058\u3093\u3058\u3083",
@@ -2055,7 +2055,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, travel",
-            "id": 186
+            "id": "\u3058\u3093\u3058\u3083-shrine-noun"
         },
         {
             "Kana": "\u3057\u3093\u305b\u304d",
@@ -2066,7 +2066,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 187
+            "id": "\u3057\u3093\u305b\u304d-relatives-noun"
         },
         {
             "Kana": "\u30b9\u30fc\u30d7",
@@ -2077,7 +2077,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 188
+            "id": "\u30b9\u30fc\u30d7-soup-noun"
         },
         {
             "Kana": "\u3059\u3044\u3088\u3046\u3073",
@@ -2088,7 +2088,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 189
+            "id": "\u3059\u3044\u3088\u3046\u3073-Wednesday-noun"
         },
         {
             "Kana": "\u3059\u304d",
@@ -2099,7 +2099,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 190
+            "id": "\u3059\u304d-liked-adjective"
         },
         {
             "Kana": "\u3059\u304f\u306a\u3044",
@@ -2110,7 +2110,7 @@
             "sentenceJP": "\u516c\u5712\u306b\u308f\u9e7f\u304c\u5c11\u306a\u3044\u3002",
             "sentenceEN": "There are few deer in the park.",
             "Topic": "",
-            "id": 191
+            "id": "\u3059\u304f\u306a\u3044-few-adjective"
         },
         {
             "Kana": "\u3059\u3053\u3057",
@@ -2121,7 +2121,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 192
+            "id": "\u3059\u3053\u3057-a bit-adverb"
         },
         {
             "Kana": "\u3059\u3059\u3080",
@@ -2132,7 +2132,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 193
+            "id": "\u3059\u3059\u3080-to go forward, -verb"
         },
         {
             "Kana": "\u3059\u3063\u304b\u308a",
@@ -2143,7 +2143,7 @@
             "sentenceJP": "\u3059\u3063\u304b\u308a\u308f\u3059\u308c\u305f\uff01",
             "sentenceEN": "I completely forgot!",
             "Topic": "",
-            "id": 194
+            "id": "\u3059\u3063\u304b\u308a-completely-adverb"
         },
         {
             "Kana": "\u3059\u3066\u304d",
@@ -2154,7 +2154,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 195
+            "id": "\u3059\u3066\u304d-lovely-adjective"
         },
         {
             "Kana": "\u30b9\u30c8\u30ec\u30c3\u30c1",
@@ -2165,7 +2165,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 196
+            "id": "\u30b9\u30c8\u30ec\u30c3\u30c1-stretch-noun"
         },
         {
             "Kana": "\u30b9\u30d7\u30fc\u30f3",
@@ -2176,7 +2176,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 197
+            "id": "\u30b9\u30d7\u30fc\u30f3-spoon-noun"
         },
         {
             "Kana": "\u3059\u308b",
@@ -2187,7 +2187,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 198
+            "id": "\u3059\u308b-to do-verb"
         },
         {
             "Kana": "\u3059\u308f\u308b",
@@ -2198,7 +2198,7 @@
             "sentenceJP": "\u6905\u5b50\u306b\u5ea7\u3063\u3066\u304f\u3060\u3055\u3044\u3002",
             "sentenceEN": "Please sit in the chair.",
             "Topic": "basic, motion",
-            "id": 199
+            "id": "\u3059\u308f\u308b-to sit-verb"
         },
         {
             "Kana": "\u305b\u304d",
@@ -2209,7 +2209,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 200
+            "id": "\u305b\u304d-seat-noun"
         },
         {
             "Kana": "\u305b\u307e\u3044",
@@ -2220,7 +2220,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions, home",
-            "id": 201
+            "id": "\u305b\u307e\u3044-cramped, narrow-adjective"
         },
         {
             "Kana": "\u305b\u3093\u305f\u304f",
@@ -2231,7 +2231,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 202
+            "id": "\u305b\u3093\u305f\u304f-laundry-noun"
         },
         {
             "Kana": "\u305b\u3093\u305f\u304f\u304d",
@@ -2242,7 +2242,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 203
+            "id": "\u305b\u3093\u305f\u304f\u304d-washing machine-noun"
         },
         {
             "Kana": "\u305b\u3093\u306d\u3093\u307e\u3048\u306b",
@@ -2253,7 +2253,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 204
+            "id": "\u305b\u3093\u306d\u3093\u307e\u3048\u306b-a thousand year-expression"
         },
         {
             "Kana": "\u305c\u3093\u3076",
@@ -2264,7 +2264,7 @@
             "sentenceJP": "\u30af\u30c3\u30ad\u30fc\u3092\u5168\u90e8\u98df\u3079\u305f\uff01",
             "sentenceEN": "I ate all the cookies!",
             "Topic": "",
-            "id": 205
+            "id": "\u305c\u3093\u3076-all of it, all -noun"
         },
         {
             "Kana": "\u305d\u3046\u3058",
@@ -2275,7 +2275,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 206
+            "id": "\u305d\u3046\u3058-cleaning-noun"
         },
         {
             "Kana": "\u305d\u3046\u3058\u304d",
@@ -2286,7 +2286,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 207
+            "id": "\u305d\u3046\u3058\u304d-vacuum cleaner-noun"
         },
         {
             "Kana": "\u305d\u304f",
@@ -2297,7 +2297,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 208
+            "id": "\u305d\u304f-counter for pai-counter"
         },
         {
             "Kana": "\u305d\u3053\u306e\u304b\u3069\u3092\u307f\u304e\u306b\u307e\u304c\u308a\u307e\u3059\u3002",
@@ -2308,7 +2308,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 209
+            "id": "\u305d\u3053\u306e\u304b\u3069\u3092\u307f\u304e\u306b\u307e\u304c\u308a\u307e\u3059\u3002-you turn right -"
         },
         {
             "Kana": "\u305d\u3057\u3066\u3001",
@@ -2319,7 +2319,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 210
+            "id": "\u305d\u3057\u3066\u3001-then,...-adverbLclause"
         },
         {
             "Kana": "\u305d\u3063\u3061",
@@ -2330,7 +2330,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 211
+            "id": "\u305d\u3063\u3061-that way (close-noun"
         },
         {
             "Kana": "\u305d\u3075",
@@ -2341,7 +2341,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 212
+            "id": "\u305d\u3075-grandpa-noun"
         },
         {
             "Kana": "\u305d\u307c",
@@ -2352,7 +2352,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 213
+            "id": "\u305d\u307c-grandma-noun"
         },
         {
             "Kana": "\u3060\u3044",
@@ -2363,7 +2363,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 214
+            "id": "\u3060\u3044-counter for fur-counter"
         },
         {
             "Kana": "\u305f\u3044\u305b\u3064",
@@ -2374,7 +2374,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 215
+            "id": "\u305f\u3044\u305b\u3064-important-adjective"
         },
         {
             "Kana": "\u305f\u3044\u305b\u3064\u306a",
@@ -2385,7 +2385,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 216
+            "id": "\u305f\u3044\u305b\u3064\u306a-important-adjective"
         },
         {
             "Kana": "\u305f\u3044\u305b\u3064\u306b\u3057\u3066\u306d!",
@@ -2396,7 +2396,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 217
+            "id": "\u305f\u3044\u305b\u3064\u306b\u3057\u3066\u306d!-take care of it-expression"
         },
         {
             "Kana": "\u3060\u3044\u3069\u3053\u308d",
@@ -2407,7 +2407,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 218
+            "id": "\u3060\u3044\u3069\u3053\u308d-kitchen-noun"
         },
         {
             "Kana": "\u305f\u3044\u3078\u3093",
@@ -2418,7 +2418,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 219
+            "id": "\u305f\u3044\u3078\u3093-toughLdifficult-adjective"
         },
         {
             "Kana": "\u305f\u304b\u3044",
@@ -2429,7 +2429,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "shopping",
-            "id": 220
+            "id": "\u305f\u304b\u3044-expensive, tall-adjective"
         },
         {
             "Kana": "\u3060\u3059",
@@ -2440,7 +2440,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 221
+            "id": "\u3060\u3059-to take out-verb"
         },
         {
             "Kana": "\u305f\u3059\u3051\u305f\uff01",
@@ -2451,7 +2451,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 222
+            "id": "\u305f\u3059\u3051\u305f\uff01-Help! (in an em-expression"
         },
         {
             "Kana": "\u305f\u3064",
@@ -2462,7 +2462,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic, motion",
-            "id": 223
+            "id": "\u305f\u3064-to stand-verb"
         },
         {
             "Kana": "\u305f\u3066\u3082\u306e",
@@ -2473,7 +2473,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home",
-            "id": 224
+            "id": "\u305f\u3066\u3082\u306e-building-noun"
         },
         {
             "Kana": "\u305f\u3066\u308b",
@@ -2484,7 +2484,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 225
+            "id": "\u305f\u3066\u308b-stand up-verb"
         },
         {
             "Kana": "\u305f\u306e\u3057\u3044",
@@ -2495,7 +2495,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 226
+            "id": "\u305f\u306e\u3057\u3044-fun-adjective"
         },
         {
             "Kana": "\u305f\u306e\u3057\u307f",
@@ -2506,7 +2506,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 227
+            "id": "\u305f\u306e\u3057\u307f-looked forward -adjective"
         },
         {
             "Kana": "\u305f\u3076\u3093",
@@ -2517,7 +2517,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 228
+            "id": "\u305f\u3076\u3093-probably-adverbLclause"
         },
         {
             "Kana": "\u305f\u3079\u308b",
@@ -2528,7 +2528,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 229
+            "id": "\u305f\u3079\u308b-to eat-verb"
         },
         {
             "Kana": "\u305f\u3093\u3058\u3087\u3046\u3073",
@@ -2539,7 +2539,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 230
+            "id": "\u305f\u3093\u3058\u3087\u3046\u3073-birthday-noun"
         },
         {
             "Kana": "\u3061\u3044\u3055\u3044",
@@ -2550,7 +2550,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 231
+            "id": "\u3061\u3044\u3055\u3044-small-adjective"
         },
         {
             "Kana": "\u3061\u304b\u3044",
@@ -2561,7 +2561,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, dimensions",
-            "id": 232
+            "id": "\u3061\u304b\u3044-near-adjective"
         },
         {
             "Kana": "\u3061\u304c\u3044",
@@ -2572,7 +2572,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 233
+            "id": "\u3061\u304c\u3044-difference, err-noun"
         },
         {
             "Kana": "\u3061\u304c\u3046",
@@ -2583,7 +2583,7 @@
             "sentenceJP": "\u9055\u3046\u9784",
             "sentenceEN": "a different bag",
             "Topic": "",
-            "id": 234
+            "id": "\u3061\u304c\u3046-to differ, to b-verb"
         },
         {
             "Kana": "\u3061\u3061",
@@ -2594,7 +2594,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 235
+            "id": "\u3061\u3061-(my) father-noun"
         },
         {
             "Kana": "\u3061\u3083\u308f\u3093",
@@ -2605,7 +2605,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 236
+            "id": "\u3061\u3083\u308f\u3093-bowl-noun"
         },
         {
             "Kana": "\u3061\u3083\u3093\u3068",
@@ -2616,7 +2616,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 237
+            "id": "\u3061\u3083\u3093\u3068-reliably (I wil-adverbLclause"
         },
         {
             "Kana": "\u3064\u3044\u305f\u3061",
@@ -2627,7 +2627,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 238
+            "id": "\u3064\u3044\u305f\u3061-first of the mo-noun"
         },
         {
             "Kana": "\u3064\u304e",
@@ -2638,7 +2638,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 239
+            "id": "\u3064\u304e-next-adverbLclause"
         },
         {
             "Kana": "\u3064\u304f\u308b",
@@ -2649,7 +2649,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 240
+            "id": "\u3064\u304f\u308b-to make-verb"
         },
         {
             "Kana": "\u3064\u3051\u308b",
@@ -2660,7 +2660,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 241
+            "id": "\u3064\u3051\u308b-to turn on-verb"
         },
         {
             "Kana": "\u3064\u3068\u3081\u308b",
@@ -2671,7 +2671,7 @@
             "sentenceJP": "\u5148\u751f\u3092\u52d9\u3081\u308b",
             "sentenceEN": "to work as a teacher",
             "Topic": "",
-            "id": 242
+            "id": "\u3064\u3068\u3081\u308b-to workLserve a-verb"
         },
         {
             "Kana": "\u3064\u307e",
@@ -2682,7 +2682,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 243
+            "id": "\u3064\u307e-wife-noun"
         },
         {
             "Kana": "\u3064\u3081\u305f\u3044",
@@ -2693,7 +2693,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 244
+            "id": "\u3064\u3081\u305f\u3044-cold-adjective"
         },
         {
             "Kana": "\u3067\u304d\u308b",
@@ -2704,7 +2704,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 245
+            "id": "\u3067\u304d\u308b-to be able to-verb"
         },
         {
             "Kana": "\u3067\u3050\u3061",
@@ -2715,7 +2715,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, home, transit",
-            "id": 246
+            "id": "\u3067\u3050\u3061-exit-noun"
         },
         {
             "Kana": "\u3066\u3064\u3060\u3046",
@@ -2726,7 +2726,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 247
+            "id": "\u3066\u3064\u3060\u3046-help with-verb"
         },
         {
             "Kana": "\u3066\u3064\u3060\u3046",
@@ -2737,7 +2737,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "interactions",
-            "id": 248
+            "id": "\u3066\u3064\u3060\u3046-to help-verb"
         },
         {
             "Kana": "\u3066\u3064\u3060\u3063\u3066\u304f\u3060\u3055\u3044",
@@ -2748,7 +2748,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 249
+            "id": "\u3066\u3064\u3060\u3063\u3066\u304f\u3060\u3055\u3044-Can you give me-expression"
         },
         {
             "Kana": "\u3066\u3076\u304f\u308d",
@@ -2759,7 +2759,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 250
+            "id": "\u3066\u3076\u304f\u308d-glove-noun"
         },
         {
             "Kana": "\u3067\u308b",
@@ -2770,7 +2770,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "motion",
-            "id": 251
+            "id": "\u3067\u308b-to leave-verb"
         },
         {
             "Kana": "\u3067\u308b",
@@ -2781,7 +2781,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, transit",
-            "id": 252
+            "id": "\u3067\u308b-to exitLleave-verb"
         },
         {
             "Kana": "\u3067\u3093\u304d",
@@ -2792,7 +2792,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 253
+            "id": "\u3067\u3093\u304d-electricity, li-noun"
         },
         {
             "Kana": "\u3067\u3093\u304d\u3092\u3051\u3057\u307e\u3057\u305f",
@@ -2803,7 +2803,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 254
+            "id": "\u3067\u3093\u304d\u3092\u3051\u3057\u307e\u3057\u305f-I turn off the -expression"
         },
         {
             "Kana": "\u3067\u3093\u3057\u30ec\u30f3\u30b8",
@@ -2814,7 +2814,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home, food and drink",
-            "id": 255
+            "id": "\u3067\u3093\u3057\u30ec\u30f3\u30b8-microwave-noun"
         },
         {
             "Kana": "\u3066\u3093\u306a\u3044",
@@ -2825,7 +2825,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 256
+            "id": "\u3066\u3093\u306a\u3044-inside a store-noun"
         },
         {
             "Kana": "\u3069\u3046",
@@ -2836,7 +2836,7 @@
             "sentenceJP": "\u3053\u306e\u6f22\u5b57\u306f\u3069\u3046\u66f8\u304d\u307e\u3057\u305f\u304b\uff1f",
             "sentenceEN": "How do you write this kanji?",
             "Topic": "basic",
-            "id": 257
+            "id": "\u3069\u3046-how-question word"
         },
         {
             "Kana": "\u3069\u3046\u304c",
@@ -2847,7 +2847,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 258
+            "id": "\u3069\u3046\u304c-video-noun"
         },
         {
             "Kana": "\u3069\u3046\u3076\u3064",
@@ -2858,7 +2858,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 259
+            "id": "\u3069\u3046\u3076\u3064-animal-noun"
         },
         {
             "Kana": "\u3069\u3046\u3076\u3064\u3048\u3093",
@@ -2869,7 +2869,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings",
-            "id": 260
+            "id": "\u3069\u3046\u3076\u3064\u3048\u3093-zoo-noun"
         },
         {
             "Kana": "\u3069\u3046\u308a\u3087\u3046",
@@ -2880,7 +2880,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 261
+            "id": "\u3069\u3046\u308a\u3087\u3046-coworker-noun"
         },
         {
             "Kana": "\u3068\u304a\u3044",
@@ -2891,7 +2891,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, dimensions",
-            "id": 262
+            "id": "\u3068\u304a\u3044-far-adjective"
         },
         {
             "Kana": "\u3068\u304a\u304b",
@@ -2902,7 +2902,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 263
+            "id": "\u3068\u304a\u304b-tenth of the mo-noun"
         },
         {
             "Kana": "\u3068\u304a\u308a\u307e\u3059",
@@ -2913,7 +2913,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, buildings",
-            "id": 264
+            "id": "\u3068\u304a\u308a\u307e\u3059-to pass by-verb"
         },
         {
             "Kana": "\u3068\u304d\u3069\u304d",
@@ -2924,7 +2924,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 265
+            "id": "\u3068\u304d\u3069\u304d-sometimes-adverb"
         },
         {
             "Kana": "\u3069\u304f\u3057\u3093",
@@ -2935,7 +2935,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people",
-            "id": 266
+            "id": "\u3069\u304f\u3057\u3093-single-noun"
         },
         {
             "Kana": "\u3068\u3051\u3044",
@@ -2946,7 +2946,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 267
+            "id": "\u3068\u3051\u3044-clock-noun"
         },
         {
             "Kana": "\u3068\u3053\u308d",
@@ -2957,7 +2957,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 268
+            "id": "\u3068\u3053\u308d-place-noun"
         },
         {
             "Kana": "\u3069\u3063\u3061",
@@ -2968,7 +2968,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, general actions",
-            "id": 269
+            "id": "\u3069\u3063\u3061-which wayLwhich-noun"
         },
         {
             "Kana": "\u3069\u306e\u3050\u3089\u3044...\uff1f",
@@ -2979,7 +2979,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 270
+            "id": "\u3069\u306e\u3050\u3089\u3044...\uff1f-about how long.-expression"
         },
         {
             "Kana": "\u3068\u3076",
@@ -2990,7 +2990,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 271
+            "id": "\u3068\u3076-to fly-verb"
         },
         {
             "Kana": "\u3069\u3088\u3046\u3073",
@@ -3001,7 +3001,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 272
+            "id": "\u3069\u3088\u3046\u3073-Saturday-noun"
         },
         {
             "Kana": "\u30c9\u30e9\u30de",
@@ -3012,7 +3012,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 273
+            "id": "\u30c9\u30e9\u30de-drama-noun"
         },
         {
             "Kana": "\u3068\u308b",
@@ -3023,7 +3023,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 274
+            "id": "\u3068\u308b-to take (a phot-verb"
         },
         {
             "Kana": "\u30c9\u30ec\u30b9",
@@ -3034,7 +3034,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 275
+            "id": "\u30c9\u30ec\u30b9-dress-noun"
         },
         {
             "Kana": "\u3068\u3093\u304b\u3064",
@@ -3045,7 +3045,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 276
+            "id": "\u3068\u3093\u304b\u3064-pork cutlet-noun"
         },
         {
             "Kana": "\u3069\u3093\u306a {A}",
@@ -3056,7 +3056,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 277
+            "id": "\u3069\u3093\u306a XAX-what kind of XA-expression"
         },
         {
             "Kana": "\u30ca\u30a4\u30d5",
@@ -3067,7 +3067,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 278
+            "id": "\u30ca\u30a4\u30d5-knife-noun"
         },
         {
             "Kana": "\u306a\u304c\u3044",
@@ -3078,7 +3078,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 279
+            "id": "\u306a\u304c\u3044-long-adjective"
         },
         {
             "Kana": "\u306a\u304f",
@@ -3089,7 +3089,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 280
+            "id": "\u306a\u304f-to chirp-verb"
         },
         {
             "Kana": "\u306a\u304f",
@@ -3100,7 +3100,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 281
+            "id": "\u306a\u304f-to cry, to weep-verb"
         },
         {
             "Kana": "\u306a\u304f\u306a\u308b",
@@ -3111,7 +3111,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 282
+            "id": "\u306a\u304f\u306a\u308b-to pass away-verb"
         },
         {
             "Kana": "\u306a\u3064",
@@ -3122,7 +3122,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, weather",
-            "id": 283
+            "id": "\u306a\u3064-summer-noun"
         },
         {
             "Kana": "\u306a\u3064\u3084\u3059\u307f",
@@ -3133,7 +3133,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 284
+            "id": "\u306a\u3064\u3084\u3059\u307f-summer break-noun"
         },
         {
             "Kana": "\u306a\u306e\u304b",
@@ -3144,7 +3144,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 285
+            "id": "\u306a\u306e\u304b-seventh of the -noun"
         },
         {
             "Kana": "\u306a\u307e",
@@ -3155,7 +3155,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "raw meat = \u306a\u307e\u306e\u8089",
-            "id": 286
+            "id": "\u306a\u307e-raw-noun"
         },
         {
             "Kana": "\u306a\u3089\u3046",
@@ -3166,7 +3166,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "work and school, basic",
-            "id": 287
+            "id": "\u306a\u3089\u3046-to learn-verb"
         },
         {
             "Kana": "\u306a\u308b",
@@ -3177,7 +3177,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 288
+            "id": "\u306a\u308b-to become-verb"
         },
         {
             "Kana": "\u306a\u3093\u306d\u3093",
@@ -3188,7 +3188,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 289
+            "id": "\u306a\u3093\u306d\u3093-what year...?-noun"
         },
         {
             "Kana": "\u306b\u304e\u3084\u304b",
@@ -3199,7 +3199,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 290
+            "id": "\u306b\u304e\u3084\u304b-lively, busy-adjective"
         },
         {
             "Kana": "\u306b\u3057",
@@ -3210,7 +3210,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, dimensions",
-            "id": 291
+            "id": "\u306b\u3057-West-noun"
         },
         {
             "Kana": "\u306b\u3061\u3088\u3042\u3073",
@@ -3221,7 +3221,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 292
+            "id": "\u306b\u3061\u3088\u3042\u3073-Sunday-noun"
         },
         {
             "Kana": "\u306b\u3068\u3063\u3066",
@@ -3232,7 +3232,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 293
+            "id": "\u306b\u3068\u3063\u3066-toLfor someone,-adverbLclause"
         },
         {
             "Kana": "\u306b\u307b\u3093\u3054\u3067\u306a\u3093\u3066\u3044\u3044\u307e\u3059\u304b\uff1f",
@@ -3243,7 +3243,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 294
+            "id": "\u306b\u307b\u3093\u3054\u3067\u306a\u3093\u3066\u3044\u3044\u307e\u3059\u304b\uff1f-how do you say -expression"
         },
         {
             "Kana": "\u306b\u3082\u3064",
@@ -3254,7 +3254,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 295
+            "id": "\u306b\u3082\u3064-lugggage-noun"
         },
         {
             "Kana": "\u306c\u304e\u308b",
@@ -3265,7 +3265,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "clothing",
-            "id": 296
+            "id": "\u306c\u304e\u308b-to take off-verb"
         },
         {
             "Kana": "\u306d\u308b",
@@ -3276,7 +3276,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 297
+            "id": "\u306d\u308b-to sleep-verb"
         },
         {
             "Kana": "\u306d\u3093",
@@ -3287,7 +3287,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 298
+            "id": "\u306d\u3093-year-noun"
         },
         {
             "Kana": "\u306e\u307c\u308b",
@@ -3298,7 +3298,7 @@
             "sentenceJP": "\u5c71\u306b\u767b\u3063\u3066\u3044\u307e\u3059\u3002",
             "sentenceEN": "I am climbing the mountain.",
             "Topic": "nature",
-            "id": 299
+            "id": "\u306e\u307c\u308b-to climb up, to-verb"
         },
         {
             "Kana": "\u306e\u3080",
@@ -3309,7 +3309,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "basic",
-            "id": 300
+            "id": "\u306e\u3080-to drink-verb"
         },
         {
             "Kana": "\u306e\u308b",
@@ -3320,7 +3320,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 301
+            "id": "\u306e\u308b-to ride-verb"
         },
         {
             "Kana": "\u306f\u3044\u3044\u308d",
@@ -3331,7 +3331,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 302
+            "id": "\u306f\u3044\u3044\u308d-gray-noun"
         },
         {
             "Kana": "\u306f\u3044\u308b",
@@ -3342,7 +3342,7 @@
             "sentenceJP": "\u5b66\u6821\u306b\u5165\u308b\u3002",
             "sentenceEN": "I am entering the school.",
             "Topic": "buildings, transit",
-            "id": 303
+            "id": "\u306f\u3044\u308b-to enter-verb"
         },
         {
             "Kana": "\u306f\u304f",
@@ -3353,7 +3353,7 @@
             "sentenceJP": "\u9774\u3092\u5c65\u304f\u3002",
             "sentenceEN": "I put on my shoes.",
             "Topic": "clothing",
-            "id": 304
+            "id": "\u306f\u304f-to wear, to put-verb"
         },
         {
             "Kana": "\u306f\u3058\u3081\u306b",
@@ -3364,7 +3364,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 305
+            "id": "\u306f\u3058\u3081\u306b-first-adverbLclause"
         },
         {
             "Kana": "\u306f\u3057\u308b",
@@ -3375,7 +3375,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "motion, hobbies",
-            "id": 306
+            "id": "\u306f\u3057\u308b-to run-verb"
         },
         {
             "Kana": "\u306f\u3064\u304b",
@@ -3386,7 +3386,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 307
+            "id": "\u306f\u3064\u304b-twenty days-noun"
         },
         {
             "Kana": "\u30cf\u30c8",
@@ -3397,7 +3397,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "animals",
-            "id": 308
+            "id": "\u30cf\u30c8-pigeon-noun"
         },
         {
             "Kana": "\u306f\u306a\u3057\u304b\u3051\u308b",
@@ -3408,7 +3408,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "people, interactions",
-            "id": 309
+            "id": "\u306f\u306a\u3057\u304b\u3051\u308b-to address, to -verb"
         },
         {
             "Kana": "\u306f\u306a\u3059",
@@ -3419,7 +3419,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 310
+            "id": "\u306f\u306a\u3059-to talk-verb"
         },
         {
             "Kana": "\u306f\u306f",
@@ -3430,7 +3430,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "family",
-            "id": 311
+            "id": "\u306f\u306f-(my) mother-noun"
         },
         {
             "Kana": "\u306f\u3084\u3044",
@@ -3441,7 +3441,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 312
+            "id": "\u306f\u3084\u3044-early, fast-adjective"
         },
         {
             "Kana": "\u306f\u3084\u304f\u3052\u3093\u304d\u306b\u306a\u3063\u3066\u306d",
@@ -3452,7 +3452,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 313
+            "id": "\u306f\u3084\u304f\u3052\u3093\u304d\u306b\u306a\u3063\u3066\u306d-get well soon!-expression"
         },
         {
             "Kana": "\u306f\u308b",
@@ -3463,7 +3463,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, weather",
-            "id": 314
+            "id": "\u306f\u308b-spring-noun"
         },
         {
             "Kana": "\u30d1\u30f3\u3084",
@@ -3474,7 +3474,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 315
+            "id": "\u30d1\u30f3\u3084-bakery-noun"
         },
         {
             "Kana": "\u3072\u304c\u3057",
@@ -3485,7 +3485,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, dimensions",
-            "id": 316
+            "id": "\u3072\u304c\u3057-East-noun"
         },
         {
             "Kana": "\u3072\u304d",
@@ -3496,7 +3496,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "nature",
-            "id": 317
+            "id": "\u3072\u304d-counter for sma-counter"
         },
         {
             "Kana": "\u3072\u304f",
@@ -3507,7 +3507,7 @@
             "sentenceJP": "\u8a00\u8449\u3092\u8f9e\u66f8\u3067\u5f15\u304d\u307e\u3057\u305f\u3002",
             "sentenceEN": "I looked up the word in the dictionary.",
             "Topic": "school",
-            "id": 318
+            "id": "\u3072\u304f-to look up-verb"
         },
         {
             "Kana": "\u3072\u304f\u3044",
@@ -3518,7 +3518,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions",
-            "id": 319
+            "id": "\u3072\u304f\u3044-lowLshort in he-adjective"
         },
         {
             "Kana": "\u3072\u3053\u3046\u304d",
@@ -3529,7 +3529,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 320
+            "id": "\u3072\u3053\u3046\u304d-airplane-noun"
         },
         {
             "Kana": "\u30d4\u30b6",
@@ -3540,7 +3540,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 321
+            "id": "\u30d4\u30b6-pizza-noun"
         },
         {
             "Kana": "\u3072\u3055\u3057\u3076\u308a",
@@ -3551,7 +3551,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 322
+            "id": "\u3072\u3055\u3057\u3076\u308a-long time no se-expression"
         },
         {
             "Kana": "\u30d4\u30b6\u3084",
@@ -3562,7 +3562,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink, buildings",
-            "id": 323
+            "id": "\u30d4\u30b6\u3084-pizzeria-noun"
         },
         {
             "Kana": "\u3073\u3058\u3085\u3064\u304b\u3093",
@@ -3573,7 +3573,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 324
+            "id": "\u3073\u3058\u3085\u3064\u304b\u3093-art museum-noun"
         },
         {
             "Kana": "\u3072\u3063\u3053\u3059",
@@ -3584,7 +3584,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 325
+            "id": "\u3072\u3063\u3053\u3059-to move (reside-verb"
         },
         {
             "Kana": "\u3072\u3068",
@@ -3595,7 +3595,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 326
+            "id": "\u3072\u3068-person-noun"
         },
         {
             "Kana": "\u3072\u307e\u306a",
@@ -3606,7 +3606,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 327
+            "id": "\u3072\u307e\u306a-free (having ti-adjective"
         },
         {
             "Kana": "\u3073\u3087\u3046\u3044\u3093",
@@ -3617,7 +3617,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "buildings, health",
-            "id": 328
+            "id": "\u3073\u3087\u3046\u3044\u3093-hospital-noun"
         },
         {
             "Kana": "\u3073\u3087\u3046\u304d",
@@ -3628,7 +3628,7 @@
             "sentenceJP": "\u75c5\u6c17\u306e\u4eba",
             "sentenceEN": "",
             "Topic": "",
-            "id": 329
+            "id": "\u3073\u3087\u3046\u304d-sick-noun"
         },
         {
             "Kana": "\u3072\u3089\u304f",
@@ -3639,7 +3639,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 330
+            "id": "\u3072\u3089\u304f-to open-verb"
         },
         {
             "Kana": "\u3072\u308b",
@@ -3650,7 +3650,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, weather",
-            "id": 331
+            "id": "\u3072\u308b-daytime-noun"
         },
         {
             "Kana": "\u3072\u308d\u3044",
@@ -3661,7 +3661,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "dimensions, home",
-            "id": 332
+            "id": "\u3072\u308d\u3044-spacious-adjective"
         },
         {
             "Kana": "\u3072\u308d\u3070",
@@ -3672,7 +3672,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 333
+            "id": "\u3072\u308d\u3070-plaza-noun"
         },
         {
             "Kana": "\u30d5\u30a9\u30fc\u30af",
@@ -3683,7 +3683,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 334
+            "id": "\u30d5\u30a9\u30fc\u30af-fork-noun"
         },
         {
             "Kana": "\u3075\u304f\u308d",
@@ -3694,7 +3694,7 @@
             "sentenceJP": "\u888b\u306f\u8981\u308a\u307e\u3059\u306a\uff1f",
             "sentenceEN": "Do you need a bag?",
             "Topic": "shopping",
-            "id": 335
+            "id": "\u3075\u304f\u308d-bag-noun"
         },
         {
             "Kana": "\u3075\u3064\u304b",
@@ -3705,7 +3705,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 336
+            "id": "\u3075\u3064\u304b-second of the m-noun"
         },
         {
             "Kana": "\u3076\u3069\u3046",
@@ -3716,7 +3716,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 337
+            "id": "\u3076\u3069\u3046-grape-noun"
         },
         {
             "Kana": "\u3075\u3068\u3093",
@@ -3727,7 +3727,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 338
+            "id": "\u3075\u3068\u3093-futon-noun"
         },
         {
             "Kana": "\u3075\u3086",
@@ -3738,7 +3738,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time, weather",
-            "id": 339
+            "id": "\u3075\u3086-winter-noun"
         },
         {
             "Kana": "\u3075\u308b\u3044",
@@ -3749,7 +3749,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "shopping, time",
-            "id": 340
+            "id": "\u3075\u308b\u3044-old-adjective"
         },
         {
             "Kana": "\u3078\u3044\u3058\u3064",
@@ -3760,7 +3760,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 341
+            "id": "\u3078\u3044\u3058\u3064-weekdays-noun"
         },
         {
             "Kana": "\u3079\u3064",
@@ -3771,7 +3771,7 @@
             "sentenceJP": "\u5225\u306e\u4eba",
             "sentenceEN": "a different person",
             "Topic": "",
-            "id": 342
+            "id": "\u3079\u3064-difference, dis-noun"
         },
         {
             "Kana": "\u3078\u3084",
@@ -3782,7 +3782,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 343
+            "id": "\u3078\u3084-room-noun"
         },
         {
             "Kana": "\u3079\u3093\u3054\u3057",
@@ -3793,7 +3793,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 344
+            "id": "\u3079\u3093\u3054\u3057-lawyer-noun"
         },
         {
             "Kana": "\u3079\u3093\u3068\u3046",
@@ -3804,7 +3804,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "food and drink",
-            "id": 345
+            "id": "\u3079\u3093\u3068\u3046-bento (lunchbox-noun"
         },
         {
             "Kana": "\u3079\u3093\u308a",
@@ -3815,7 +3815,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 346
+            "id": "\u3079\u3093\u308a-convenient-adjective"
         },
         {
             "Kana": "\u30db\u30fc\u30e0",
@@ -3826,7 +3826,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit",
-            "id": 347
+            "id": "\u30db\u30fc\u30e0-platform-noun"
         },
         {
             "Kana": "\u307c\u3046\u3057",
@@ -3837,7 +3837,7 @@
             "sentenceJP": "\u5e3d\u5b50\u3092\u304b\u3076\u308b",
             "sentenceEN": "to wear a hat",
             "Topic": "clothing",
-            "id": 348
+            "id": "\u307c\u3046\u3057-hat-noun"
         },
         {
             "Kana": "\u307b\u304b",
@@ -3848,7 +3848,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 349
+            "id": "\u307b\u304b-else-noun"
         },
         {
             "Kana": "\u307b\u304b\u306b{question word}",
@@ -3859,7 +3859,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 350
+            "id": "\u307b\u304b\u306bXquestion wordX-whatLwho else..-expression"
         },
         {
             "Kana": "\u30dc\u30b9\u30c8\u30ab\u30fc\u30c9",
@@ -3870,7 +3870,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "travel",
-            "id": 351
+            "id": "\u30dc\u30b9\u30c8\u30ab\u30fc\u30c9-postcard-noun"
         },
         {
             "Kana": "\u30db\u30e9\u30fc",
@@ -3881,7 +3881,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "hobbies",
-            "id": 352
+            "id": "\u30db\u30e9\u30fc-horror-noun"
         },
         {
             "Kana": "\u307b\u3093\u3060\u306a",
@@ -3892,7 +3892,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "home",
-            "id": 353
+            "id": "\u307b\u3093\u3060\u306a-bookshelf-noun"
         },
         {
             "Kana": "\u307e\u3044",
@@ -3903,7 +3903,7 @@
             "sentenceJP": "\u65e5\u672c\u3067100\u679a\u306e\u5199\u771f\u3092\u64ae\u3063\u305f\u3002",
             "sentenceEN": "I took 100 photos in Japan.",
             "Topic": "",
-            "id": 354
+            "id": "\u307e\u3044-counter for thi-counter"
         },
         {
             "Kana": "\u307e\u3044\u3042\u3055",
@@ -3914,7 +3914,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 355
+            "id": "\u307e\u3044\u3042\u3055-every morning-noun"
         },
         {
             "Kana": "\u307e\u3044\u3057\u3085\u3046",
@@ -3925,7 +3925,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 356
+            "id": "\u307e\u3044\u3057\u3085\u3046-every week-noun"
         },
         {
             "Kana": "\u307e\u3044\u3064\u304d",
@@ -3936,7 +3936,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 357
+            "id": "\u307e\u3044\u3064\u304d-every month-noun"
         },
         {
             "Kana": "\u307e\u3044\u3068\u3057",
@@ -3947,7 +3947,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 358
+            "id": "\u307e\u3044\u3068\u3057-every year-noun"
         },
         {
             "Kana": "\u307e\u3044\u306b\u3061",
@@ -3958,7 +3958,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 359
+            "id": "\u307e\u3044\u306b\u3061-every day-noun"
         },
         {
             "Kana": "\u307e\u3044\u3070\u3093",
@@ -3969,7 +3969,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 360
+            "id": "\u307e\u3044\u3070\u3093-every evening-noun"
         },
         {
             "Kana": "\u307e\u3045\u3059\u3050",
@@ -3980,7 +3980,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "",
-            "id": 361
+            "id": "\u307e\u3045\u3059\u3050-straight-adverbLclause"
         },
         {
             "Kana": "\u307e\u304c\u308b",
@@ -3991,7 +3991,7 @@
             "sentenceJP": "\u53f3\u306b\u66f2\u304c\u308a\u307e\u3057\u305f.",
             "sentenceEN": "I turned right.",
             "Topic": "transit, motion",
-            "id": 362
+            "id": "\u307e\u304c\u308b-to turn-verb"
         },
         {
             "Kana": "\u307e\u3060",
@@ -4002,7 +4002,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "time",
-            "id": 363
+            "id": "\u307e\u3060-still-adverbLclause"
         },
         {
             "Kana": "\u307e\u3061",
@@ -4013,7 +4013,7 @@
             "sentenceJP": "",
             "sentenceEN": "",
             "Topic": "transit, buildings",
-            "id": 364
+            "id": "\u307e\u3061-town-noun"
         },
         {
             "Kana": "\u307e\u3064",
@@ -4024,7 +4024,7 @@
             "sentenceJP": "\u3061\u3087\u3063\u3068\u5f85\u3063\u3066\u304f\u3060\u3055\u3044\uff01",
             "sentenceEN": "Wait a moment!",
             "Topic": "",
-            "id": 365
+            "id": "\u307e\u3064-to wait-verb"
         }
     ]
 }

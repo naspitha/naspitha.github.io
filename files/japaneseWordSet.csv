@@ -1,6 +1,5 @@
 ﻿Kana,Kanji,English,Category,Notes,sentenceJP,sentenceEN,Topic
-{A} いかがですか？,,"How about {A}? 
-Would you like some {A}?",expression,,,,interactions
+{A} いかがですか？,,How about {A}? Would you like some {A}?,expression,,,,interactions
 {A} がすきです,{A} が好きです,I like {A},expression,,,,basic
 {A} がたのしみです,,I'm looking forward to {A},expression,,,,basic
 {A} がほしいです,,I want {A},expression,,,,basic
