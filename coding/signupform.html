@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tournament Sign-Up Form</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="/assets/js/jquery.min.js"></script>
+	</head>
+	<style>
+		.red {
+			color: red;
+		}
+		input[type="checkbox"] + label:before {
+			border-radius: 4px;
+			border: solid 1px #5b5252;
+			content: '';
+			margin-right: 0.8em;
+			display: inline-block;
+			font-size: 0.8em;
+			height: 1.5em;
+			line-height: 1.5em;
+			left: 0;
+			text-align: center;
+			top: 0;
+			width: 1.5em;
+			-webkit-font-smoothing: antialiased;
+			text-rendering: auto;
+			margin-left: 0.5em;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 900;
+		}
+		.compEvent {
+			margin-bottom: 0;
+		}
+		input[type="checkbox"]{
+			display:none;
+		}
+		input[type="checkbox"]:checked + label:before {
+			background: #ffffff;
+			border-color: #585858;
+			color: #000000;
+			content: '\2714';
+		}
+		h5 {
+			margin-bottom: 1em;
+			text-align: center;
+		}
+	</style>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Menu -->
+						<nav id="nav">
+							<script>$("#nav").load("/menu.html")</script>
+						</nav>
+
+					</div>
+					
+				</section>
+
+			<!-- Main -->
+			<section id="main-ds">
+				<div class="container">
+					<div class="row">
+						<!-- Content -->
+							<div id="content" class="col-12">
+								<!-- Post -->
+									<article class="box post">	
+										<h3>Tournament Sign-Up Form</h3>
+										<form>
+											<h5>Competitor Information</h5>
+											<div class="grid-x grid-padding-x" style="width:40%; margin:auto">
+												<div class="large-6 cell">
+													<label class="lead">First (given) name <sup class="red">*</sup>
+														<input id="reg-fname" type="text" placeholder="First Name" required >
+													</label>
+												</div>
+												<div class="large-6 cell">
+													<label class="lead">Last (family) name <sup class="red">*</sup>
+														<input id="reg-lname" type="text" placeholder="Last Name" required >
+													</label>
+												</div>
+												<div class="medium-6 cell">
+													<label class="lead">Rank <sup class="red">*</sup>
+														<select id="reg-rank" required>
+															<option value=""></option>
+															<option value="C9">9 kyu</option>
+															<option value="C8">8 kyu</option>
+															<option value="C7">7 kyu</option>
+															<option value="C6">6 kyu </option>
+															<option value="C5">5 kyu</option>
+															<option value="C4">4 kyu</option>
+															<option value="C3">3 kyu</option>
+															<option value="C2">2 kyu</option>
+															<option value="C1">1 kyu</option>
+															<option value="B1">1 dan</option>
+															<option value="B2">2 dan</option>
+															<option value="B3">3 dan+</option>
+														</select>
+													</label>
+												</div>
+											</div>
+										</form>
+												<h5>Events</h5>
+										<form>
+											<div class="grid-x grid-padding-x" style="width:40%; margin:auto">
+												<div id="reg-level5">
+													<input type="checkbox" class="reg-adult-ind" name="reg-adult-ind" value="indKata" id="reg-adult-kata5"><label for="reg-adult-kata5" class="compEvent" >Kata</label>
+													<input type="checkbox" class="reg-adult-ind" name="reg-adult-ind" value="indKumite" id="reg-adult-kumite2"><label for="reg-adult-kumite2" class="compEvent" >Jiyu Kumite (Free Sparring)</label>
+												</div>
+											</div>
+										</form>
+										<p style="text-align:right; margin-top: 6em; font-size:0.8em">by Natalia. Thanks to Vassil Peytchev for his assistance in setting this form!</p>
+									</article>
+							</div>			
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!-- Footer -->
+			<section id="footer">
+				<script>$("#footer").load("/footer.html")</script>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<script src="/assets/js/japaneseFlashCardApplet.js"></script>
+
+			
+	</body>
+</html>
