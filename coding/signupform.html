@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Strongly Typed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Tournament Sign-Up Form</title>
@@ -16,11 +11,31 @@
 		.red {
 			color: red;
 		}
+		form input[type="text"], form input[type="checkbox"], 
+		form input[type="email"], form input[type="date"], form select {
+			background: #ffffff;
+		}
+		form input[type="date"] {
+			margin-left: 5px;
+			border-width: 0;
+			border-radius: 4px;
+			line-height: 2.5;
+			padding:0 10px;
+			box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+		}
+		input[type="checkbox"]{
+			display:none;
+		}
 		input[type="checkbox"] + label:before {
 			border-radius: 4px;
 			border: solid 1px #5b5252;
-			content: '';
+			background: #ffffff;
+			border-color: #585858;
+			color: #000000;
+			content: '\2714';
+			content: '\00a0';
 			margin-right: 0.8em;
+			margin-left: 0.5em;
 			display: inline-block;
 			font-size: 0.8em;
 			height: 1.5em;
@@ -31,26 +46,91 @@
 			width: 1.5em;
 			-webkit-font-smoothing: antialiased;
 			text-rendering: auto;
-			margin-left: 0.5em;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
 		}
+		.listMembers {
+			display: none;
+		}
+		.listMembers > label {
+			margin-top: 0.8em;
+		}
 		.compEvent {
 			margin-bottom: 0;
 		}
-		input[type="checkbox"]{
-			display:none;
-		}
 		input[type="checkbox"]:checked + label:before {
-			background: #ffffff;
-			border-color: #585858;
-			color: #000000;
 			content: '\2714';
+		}
+		.twoCell-1, .twoCell-2 {
+			width: 48%; 
+			display: inline-block
+		}
+		.twoCell-1 {
+			padding-right: 1em;
+		}
+		.twoCell-2 {
+			padding-left: 1em;
 		}
 		h5 {
 			margin-bottom: 1em;
 			text-align: center;
+		}
+		h6 {
+			margin-top: 2em;
+			margin-bottom: 0.5em; 
+		}
+		.auxParams {
+			display:none;
+		}
+		.navButton {
+			width: 100%;
+			position: absolute;
+			top: 95%;
+		}
+		.navButton button {
+			font-size: 0.6em;
+			background:#bbbbdd;
+			border-color: #fff;
+		}
+		#formBox {
+			width:40%;
+			height:44em;
+			margin:auto;
+			overflow:hidden;
+			background: #eeeeff;
+			border-radius: 10px;
+		}
+		.formGroup {
+			width:90%;
+			top: 5%;
+			height: 90%;
+			position: absolute;
+			margin:auto;
+			transition: all 1s
+		}
+		#participantInfo {
+			left:5%;			
+		}
+		#eventInfo {
+			left:100%;
+		}
+		.formHelp {
+			width:50%;
+			margin: auto;
+			text-align: center;
+			margin-bottom: 1em;
+		}
+		.formNote {
+			font-size:0.8em;
+			margin-left: 0;
+			margin-top: -0.5em;
+			margin-bottom: 1em;
+			line-height: 1;
+			color: #888;
+		}
+		#submit {
+			float: right
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -77,50 +157,152 @@
 								<!-- Post -->
 									<article class="box post">	
 										<h3>Tournament Sign-Up Form</h3>
-										<form>
-											<h5>Competitor Information</h5>
-											<div class="grid-x grid-padding-x" style="width:40%; margin:auto">
-												<div class="large-6 cell">
+										<form id="regForm" method="POST" action="https://script.google.com/macros/s/AKfycbxKZNoBx_ScCVVYnTakHMGnWtfHWavrvv4Zre1OziRx/exec">
+										<div id="formBox" style="position:relative">	
+											<div class="formGroup" id="participantInfo">
+												<h5>Competitor Information</h5>
+												<div class="twoCell-1">
 													<label class="lead">First (given) name <sup class="red">*</sup>
-														<input id="reg-fname" type="text" placeholder="First Name" required >
+														<input id="fname" name="fname" type="text" placeholder="First Name" required >
 													</label>
 												</div>
-												<div class="large-6 cell">
+												<div class="twoCell-2">
 													<label class="lead">Last (family) name <sup class="red">*</sup>
-														<input id="reg-lname" type="text" placeholder="Last Name" required >
+														<input id="lname" name="lname" type="text" placeholder="Last Name" required >
 													</label>
 												</div>
-												<div class="medium-6 cell">
-													<label class="lead">Rank <sup class="red">*</sup>
-														<select id="reg-rank" required>
-															<option value=""></option>
-															<option value="C9">9 kyu</option>
-															<option value="C8">8 kyu</option>
-															<option value="C7">7 kyu</option>
-															<option value="C6">6 kyu </option>
-															<option value="C5">5 kyu</option>
-															<option value="C4">4 kyu</option>
-															<option value="C3">3 kyu</option>
-															<option value="C2">2 kyu</option>
-															<option value="C1">1 kyu</option>
-															<option value="B1">1 dan</option>
-															<option value="B2">2 dan</option>
-															<option value="B3">3 dan+</option>
+												<div style="text-align:center">
+													<label class="lead">Birth date <sup class="red">*</sup> 
+														<input id="birthday" name="birthday" type="date" placeholder="dd-mm-yyyy" required >
+													</label>
+												</div>
+												<div class="twoCell-1">
+													<label class="lead">Gender Division<sup class="red">*</sup>
+														<select id="gender" name="gender" required>
+															<option value="" disabled selected>Select...</option>
+															<option value="F">Female</option>
+															<option value="M">Male</option>
 														</select>
 													</label>
 												</div>
-											</div>
-										</form>
-												<h5>Events</h5>
-										<form>
-											<div class="grid-x grid-padding-x" style="width:40%; margin:auto">
-												<div id="reg-level5">
-													<input type="checkbox" class="reg-adult-ind" name="reg-adult-ind" value="indKata" id="reg-adult-kata5"><label for="reg-adult-kata5" class="compEvent" >Kata</label>
-													<input type="checkbox" class="reg-adult-ind" name="reg-adult-ind" value="indKumite" id="reg-adult-kumite2"><label for="reg-adult-kumite2" class="compEvent" >Jiyu Kumite (Free Sparring)</label>
+												<div class="twoCell-2">
+													<label class="lead">Rank <sup class="red">*</sup>
+														<select id="rank" name="rank" required>
+															<option value="" disabled selected>Select...</option>
+															<option value="C10">10. Kyu</option>
+															<option value="C9">9. Kyu</option>
+															<option value="C8">8. Kyu</option>
+															<option value="C7">7. Kyu</option>
+															<option value="C6">6. Kyu </option>
+															<option value="C5">5. Kyu</option>
+															<option value="C4">4. Kyu</option>
+															<option value="C3">3. Kyu</option>
+															<option value="C2">2. Kyu</option>
+															<option value="C1">1. Kyu</option>
+															<option value="B1">1. Dan</option>
+															<option value="B2">2. Dan</option>
+															<option value="B3">3. Dan +</option>
+														</select>
+													</label>
+												</div>
+												<div class="formNote">
+													<span>Note: if your gender identity is neither female or male, you should pick the gender division you prefer to compete in. Ranks and/or gender divisions may be combined depending on participation.</span>
+												</div>
+												
+												<div class="oneCell">
+													<label class="lead">E-Mail <sup class="red">*</sup> 
+														<input id="email" name="email" type="email" placeholder="e.g. iLoveShotokan@karate.com" required >
+													</label>
+												</div>
+												<div class="oneCell">
+													<label class="lead">Club Name <sup class="red">*</sup> 
+														<input id="clubName" name="clubName" type="text" placeholder="e.g. Shotokan Kyokai Berlin" required>
+													</label>
+												</div>
+												<div class="oneCell">
+													<label class="lead">Phone No. <sup class="red">*</sup>
+														<input id="phone" name="phone" type="text" required>
+													</label>
+												</div>
+												<div class="formNote">
+													<span>For participants under 18, enter the parent or guardian's phone number.</span>
+												</div>
+												<div class="navButton" style="text-align: right;">
+													<button type="button" onclick="goToEvents()">Select Events &rarr;</button>
+												</div>
+											</div>											
+											<div class="formGroup" id="eventInfo">
+												<h5>Events</h5>	
+												<div class="formNote">
+													<span>Select at least one event to compete in.</span>
+												</div>
+												<div id="indEvents" style="display:block">
+													<h6>Individual Events</h6>
+													<!-- Youth -->
+													<input type="checkbox" class="youth-ind" name="youth-indKata" id="youth-indKata" value="1"><label for="youth-indKata" class="compEvent" >Kata</label>
+													<input type="checkbox" class="youth-ind" name="youth-kihonKumite" id="youth-kihonKumite" value="1"><label for="youth-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
+													<input type="checkbox" class="youth-ind" name="youth-jiyuIppKumite" id="youth-jiyuIppKumite" value="1"><label for="youth-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
+													<input type="checkbox" class="youth-ind" name="youth-indKumite" id="youth-indKumite" value="1"><label for="youth-indKumite" class="compEvent" >Jiyu Kumite</label>
+													<!-- Adult -->
+													<input type="checkbox" class="adult-ind" name="adult-indKata" id="adult-indKata" value="1"><label for="adult-indKata" class="compEvent">Kata</label>
+													<input type="checkbox" class="adult-ind" name="adult-kihonKumite" id="adult-kihonKumite" value="1"><label for="adult-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
+													<input type="checkbox" class="adult-ind" name="adult-jiyuIppKumite" id="adult-jiyuIppKumite" value="1"><label for="adult-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
+													<input type="checkbox" class="adult-ind" name="adult-indKumite" id="adult-indKumite" value="1"><label for="adult-indKumite" class="compEvent" >Jiyu Kumite</label>
+												</div>
+												<div id="teamEvents" style="display:block">
+													<h6>Team Events</h6>
+													<!-- Youth -->
+													<input type="checkbox" class="youth-team" name="youth-teamKata" id="youth-teamKata" value="1"><label for="youth-teamKata" class="compEvent" >Team Kata</label>
+													<div class="listMembers" id="youth-teamKataDiv">
+														<label  >Fellow TEAM KATA members:
+															<input id="youth-teamKataMembers" name="youth-teamKataMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
+														</label>
+													</div>
+													<input type="checkbox" class="youth-team" name="youth-teamKumite" id="youth-teamKumite" value="1"><label for="youth-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
+													<div class="listMembers" id="youth-teamKumiteDiv">
+														<label>Fellow TEAM KUMITE members:
+															<input id="youth-teamKumiteMembers" name="youth-teamKumiteMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
+														</label>
+													</div>
+													<!-- Adult -->
+													<input type="checkbox" class="adult-team" name="adult-teamKata" id="adult-teamKata" value="1"><label for="adult-teamKata" class="compEvent" >Team Kata</label>
+													<div class="listMembers" id="adult-teamKataDiv">
+														<label  >Fellow TEAM KATA members:
+															<input id="adult-teamKataMembers" name="adult-teamKataMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
+														</label>
+													</div>
+													<input type="checkbox" class="adult-team" name="adult-teamKumite" id="adult-teamKumite" value="1"><label for="adult-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
+													<div class="listMembers" id="adult-teamKumiteDiv">
+														<label>Fellow TEAM KUMITE members:
+															<input id="adult-teamKumiteMembers" name="adult-teamKumiteMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
+														</label>
+													</div>
+												</div>
+												<div class="navButton" style="text-align: left">
+													<button type="button" onclick="goToParticipant()">&larr; Competitor Info</button>
 												</div>
 											</div>
+											<div class="auxParams">
+												<!-- hidden parameters -->
+												<label class="lead">Age competing
+													<input id="ageOnCompDay" name="ageOnCompDay" type="text" placeholder="--">
+												</label>
+												<label class="lead">Age Division
+													<input id="ageDiv" name="ageDiv" type="text" placeholder="--">
+												</label>
+												<label class="lead">Fee
+													<input id="total-fee" name="total-fee" type="number" value="0" placeholder="--">
+												</label>
+											</div>
+										</div>	
+										<div style="width: 50%; margin: auto; margin-top: 2em; text-align: right">
+											<button id="submitButton" type="submit" disabled=true>Submit</button>
+										</div>
 										</form>
-										<p style="text-align:right; margin-top: 6em; font-size:0.8em">by Natalia. Thanks to Vassil Peytchev for his assistance in setting this form!</p>
+										
+											
+										
+										
 									</article>
 							</div>			
 					</div>
@@ -143,7 +325,173 @@
 			<script src="/assets/js/breakpoints.min.js"></script>
 			<script src="/assets/js/util.js"></script>
 			<script src="/assets/js/main.js"></script>
-			<script src="/assets/js/japaneseFlashCardApplet.js"></script>
+			<script>
+				// Updating events based on rank and age
+				var ageOnCompDay = 0
+				var ageDivision = ""
+				var participantRank	= "" 
+				var availableEvents = []
+				var numberOfSelectedEvents = 0
+				var nodeList = document.querySelectorAll(".youth-ind, .youth-team, .adult-ind, .adult-team")
+				var nodesShown = []
+				var submitButton = document.getElementById("submitButton")
+				var teamEventIds = ["youth-teamKata","youth-teamKumite","adult-teamKata","adult-teamKumite" ]
+				var mappingByRank = {
+					"": [""],
+					"C10": ["indKata", "teamKata", "kihonKumite"],
+					"C9": ["indKata", "teamKata","kihonKumite"],
+					"C8": ["indKata", "teamKata","kihonKumite"],
+					"C7": ["indKata", "teamKata","kihonKumite"],
+					"C6": ["indKata", "teamKata","kihonKumite"],
+					"C5": ["indKata", "teamKata","kihonKumite", "jiyuIppKumite"],
+					"C4": ["indKata", "teamKata","kihonKumite", "jiyuIppKumite"],
+					"C3": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"C2": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"C1": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"B1": ["indKata", "teamKata","indKumite", "teamKumite"],
+					"B2": ["indKata", "teamKata","indKumite", "teamKumite"],
+					"B3": ["indKata", "teamKata","indKumite", "teamKumite"]
+				}
+
+				// Calculating Participant Age
+				function calculateAge(birthdate) { // birthday is a date
+					// var birthdate = new Date(birthyear, birthmonth-1, birthday, 0,0,0,0)
+					var tournamentDate = new Date(2024, 4, 1, 23, 59, 59, 999);
+					var ageDifMs = tournamentDate - birthdate;
+					var ageDate = new Date(ageDifMs)
+					console.log(Math.abs(ageDate.getUTCFullYear() - 1970))
+					return Math.abs(ageDate.getUTCFullYear() - 1970);
+				 }
+
+				 function getAvailableEvents(rank, adiv){
+					if (rank == "" || adiv == "" ){
+						availableEvents = []
+						return []
+					} else {
+						availableEvents = []
+						let eventsList = mappingByRank[rank]
+						eventsList.forEach(function(en){
+							availableEvents.push(adiv+"-"+en)
+						})
+					return availableEvents
+				 	}
+				}
+
+				 document.getElementById("rank").addEventListener("change", function(){
+					participantRank = this.value
+					getAvailableEvents(participantRank, ageDivision)
+				 })
+
+				 document.getElementById("birthday").addEventListener("change", function(){
+					var bd = new Date(this.value)
+					if (bd.getFullYear() >= 1800){
+						// avoid unnecessary actions until date is fully typed
+						ageOnCompDay = calculateAge(bd)
+						console.log(ageOnCompDay)
+						document.getElementById("ageOnCompDay").value = ageOnCompDay
+						ageDivision = ageOnCompDay >= 18 ? "adult" : "youth"
+						getAvailableEvents(participantRank, ageDivision)
+					}
+				 })
+
+				
+				// Actions when selecting or deselecting competition events 
+				nodeList.forEach(function(node){
+					if (teamEventIds.includes(node.id)){
+						document.querySelector("#"+node.id).addEventListener("change",function(m){
+							$("#"+node.id+"Div").toggle()
+						})
+					} else {
+						document.querySelector("#"+node.id).addEventListener("change",function(m){
+							if (this.checked){
+								numberOfSelectedEvents += 1
+								if (submitButton.disabled == true){
+									submitButton.disabled = false
+								}
+							} else {
+								numberOfSelectedEvents -= 1
+								if (submitButton.disabled == false && numberOfSelectedEvents==0 ){
+									submitButton.disabled = true
+								}
+
+							}
+						})
+					}
+				})
+			</script>
+			<script>
+				const participantFields = ["fname", "lname", "birthday", "gender", "rank", "email", "clubName", "phone"]
+				participantFields.forEach(function(name){
+						document.getElementById(name).addEventListener("change", function(){
+							if (this.validity.valid){
+								this.style["background"] = "#ffffff"
+							}
+						})})
+				function participantValidity(){
+					let validity = true
+					participantFields.forEach(function(name){
+						validity = document.getElementById(name).validity.valid
+						if (validity===false){
+							document.getElementById(name).style["background"] = "#ffcccc"
+						}
+					})
+					return validity
+				}
+				function goToEvents(){
+					let pI = document.querySelector("#participantInfo")
+					let eI = document.querySelector("#eventInfo")
+					let participantValid = participantValidity()
+					if (participantValid==true){
+						numberOfSelectedEvents = 0
+						nodesShown = []
+						nodeList.forEach(function(node){
+							let label  = node.nextSibling
+							availableEvents = getAvailableEvents(participantRank, ageDivision)
+							if (availableEvents.includes(node.id)){
+								nodesShown.push(node)
+								label.style["display"] = "block"
+								if (node.checked){
+									numberOfSelectedEvents += 1
+								}
+							} else {
+								node.checked = false
+								label.style["display"] = "none"
+								if (teamEventIds.includes(node.id)){
+									$("#"+node.id+"Div").hide()
+								}
+							}
+						})
+						console.log("no. selected: ", numberOfSelectedEvents)
+						pI.style["left"] = "-100%"
+						eI.style["left"] = "5%"
+					}
+				}
+				function goToParticipant(){
+					let pI = document.querySelector("#participantInfo")
+					let eI = document.querySelector("#eventInfo")
+					pI.style["left"] = "5%"
+					eI.style["left"] = "100%"
+				}
+
+
+			</script>
+			<!-- <script>
+				window.addEventListener("load", function() {
+					const form = document.getElementById('regForm');
+					form.addEventListener("submit", function(e) {
+						e.preventDefault();
+						const data = new FormData(form);
+						const action = e.target.action;
+						fetch(action, {
+						method: 'POST',
+						body: data,
+						})
+						.then(() => {
+						alert("Success!");
+						})
+					});
+					});
+			</script> -->
 
 			
 	</body>
