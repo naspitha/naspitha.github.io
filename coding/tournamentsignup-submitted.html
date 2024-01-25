@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tournament Sign-Up Form</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="/assets/js/jquery.min.js"></script>
+	</head>
+	<style>
+		.shortMessage p {
+			text-indent: 0;
+		}
+		.shortMessage h3 {
+			text-align: center;
+		}
+	</style>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Menu -->
+						<nav id="nav">
+							<script>$("#nav").load("/menu.html")</script>
+						</nav>
+
+					</div>
+					
+				</section>
+
+			<!-- Main -->
+			<section id="main">
+				<div class="container">
+					<div class="row">
+						<!-- Content -->
+							<div id="content" class="col-12">
+								<!-- Post -->
+									<article class="shortMessage">	
+										<h3>Success!</h3>
+										<p>Your registration was submitted! Please check your e-mail for a confirmation e-mail and a PDF of your filled-out registration form. If you don't receive an e-mail within 15 minutes, please contact me.</p>
+										<p>Click <a href="tournamentsignup.html">here</a> if you want to submit a new registration!</p>
+										
+									</article>
+							</div>			
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!-- Footer -->
+			<section id="footer">
+				<script>$("#footer").load("/footer.html")</script>
+			</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<script>
+				// Updating events based on rank and age
+				var ageOnCompDay = 0
+				var ageDivision = ""
+				var participantRank	= "" 
+				var availableEvents = []
+				var numberOfSelectedEvents = 0
+				var nodeList = document.querySelectorAll(".youth-ind, .youth-team, .adult-ind, .adult-team")
+				var nodesShown = []
+				var submitButton = document.getElementById("submitButton")
+				submitButton.disabled=true
+				var teamEventIds = ["youth-teamKata","youth-teamKumite","adult-teamKata","adult-teamKumite" ]
+				var mappingByRank = {
+					"": [""],
+					"C10": ["indKata", "teamKata", "kihonKumite"],
+					"C9": ["indKata", "teamKata","kihonKumite"],
+					"C8": ["indKata", "teamKata","kihonKumite"],
+					"C7": ["indKata", "teamKata","kihonKumite"],
+					"C6": ["indKata", "teamKata","kihonKumite"],
+					"C5": ["indKata", "teamKata","kihonKumite", "jiyuIppKumite"],
+					"C4": ["indKata", "teamKata","kihonKumite", "jiyuIppKumite"],
+					"C3": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"C2": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"C1": ["indKata", "teamKata","jiyuIppKumite", "indKumite", "teamKumite"],
+					"B1": ["indKata", "teamKata","indKumite", "teamKumite"],
+					"B2": ["indKata", "teamKata","indKumite", "teamKumite"],
+					"B3": ["indKata", "teamKata","indKumite", "teamKumite"]
+				}
+
+				// Calculating Participant Age
+				function calculateAge(birthdate) { // birthday is a date
+					// var birthdate = new Date(birthyear, birthmonth-1, birthday, 0,0,0,0)
+					var tournamentDate = new Date(2024, 4, 1, 23, 59, 59, 999);
+					var ageDifMs = tournamentDate - birthdate;
+					var ageDate = new Date(ageDifMs)
+					console.log(Math.abs(ageDate.getUTCFullYear() - 1970))
+					return Math.abs(ageDate.getUTCFullYear() - 1970);
+				 }
+
+				function getAvailableEvents(rank, adiv){
+					if (rank == "" || adiv == "" ){
+						availableEvents = []
+						return []
+					} else {
+						availableEvents = []
+						let eventsList = mappingByRank[rank]
+						eventsList.forEach(function(en){
+							availableEvents.push(adiv+"-"+en)
+						})
+					return availableEvents
+				 	}
+				}
+
+				function calcFee(en){
+					if (en==0){return "0"}
+					if (en==1){
+						return "30"
+					} else {
+						return "45"
+					}
+				}
+
+				 document.getElementById("rank").addEventListener("change", function(){
+					participantRank = this.value
+					getAvailableEvents(participantRank, ageDivision)
+				 })
+
+				 document.getElementById("birthday").addEventListener("change", function(){
+					var bd = new Date(this.value)
+					if (bd.getFullYear() >= 1800){
+						// avoid unnecessary actions until date is fully typed
+						ageOnCompDay = calculateAge(bd)
+						console.log(ageOnCompDay)
+						document.getElementById("ageOnCompDay").value = ageOnCompDay
+						ageDivision = ageOnCompDay >= 18 ? "adult" : "youth"
+						document.getElementById("ageDiv").value = ageDivision
+						getAvailableEvents(participantRank, ageDivision)
+					}
+				 })
+
+				
+				// Actions when selecting or deselecting competition events 
+				nodeList.forEach(function(node){
+					document.querySelector("#"+node.id).addEventListener("change",function(m){
+						if (this.checked){
+							numberOfSelectedEvents += 1
+							if (submitButton.disabled == true){
+								submitButton.disabled = false
+							}
+						} else {
+							numberOfSelectedEvents -= 1
+							if (submitButton.disabled == false && numberOfSelectedEvents==0 ){
+								submitButton.disabled = true
+							}
+						}
+						console.log("no. selected: ", numberOfSelectedEvents)
+						document.getElementById("total-events").value = numberOfSelectedEvents
+						document.getElementById("total-fee").value = calcFee(numberOfSelectedEvents)
+						if (teamEventIds.includes(node.id)){
+							$("#"+node.id+"Div").toggle()
+						}
+					})
+				})
+			</script>
+			<script>
+				const participantFields = ["fname", "lname", "birthday", "gender", "rank", "email", "clubName", "phone"]
+				participantFields.forEach(function(name){
+						document.getElementById(name).addEventListener("change", function(){
+							if (this.validity.valid){
+								this.style["background"] = "#ffffff"
+							}
+						})})
+				function participantValidity(){
+					let validity = true
+					participantFields.forEach(function(name){
+						validity = document.getElementById(name).validity.valid
+						if (validity===false){
+							document.getElementById(name).style["background"] = "#ffcccc"
+						}
+					})
+					return validity
+				}
+				function goToEvents(){
+					let pI = document.querySelector("#participantInfo")
+					let eI = document.querySelector("#eventInfo")
+					let participantValid = participantValidity()
+					if (participantValid==true){
+						numberOfSelectedEvents = 0
+						nodesShown = []
+						nodeList.forEach(function(node){
+							let label  = node.nextSibling
+							availableEvents = getAvailableEvents(participantRank, ageDivision)
+							if (availableEvents.includes(node.id)){
+								nodesShown.push(node)
+								label.style["display"] = "block"
+								if (node.checked){
+									numberOfSelectedEvents += 1
+								}
+							} else {
+								node.checked = false
+								label.style["display"] = "none"
+								if (teamEventIds.includes(node.id)){
+									$("#"+node.id+"Div").hide()
+								}
+							}
+						})
+						console.log("no. selected: ", numberOfSelectedEvents)
+						document.getElementById("total-events").value = numberOfSelectedEvents
+						document.getElementById("total-fee").value = calcFee(numberOfSelectedEvents)
+						pI.style["left"] = "-100%"
+						eI.style["left"] = "5%"
+					}
+				}
+				function goToParticipant(){
+					let pI = document.querySelector("#participantInfo")
+					let eI = document.querySelector("#eventInfo")
+					pI.style["left"] = "5%"
+					eI.style["left"] = "100%"
+				}
+			</script>
+			<script>
+				window.addEventListener("load", function() {
+					const form = document.getElementById('regForm');
+					form.addEventListener('submit', (event) => {
+						event.preventDefault();
+						submitButton.innerHTML = "Processing..."
+						fetch(form.action, {
+							method: 'post',
+							body: new FormData(form),
+						}).then((res) => {
+							if (!res.ok) {
+							window.location.href = ""
+							}
+							window.location.href = "(Redirect URL)";
+						});
+					});
+					});
+			</script>
+
+			
+	</body>
+</html>

@@ -158,7 +158,7 @@
 								<!-- Post -->
 									<article class="box post">	
 										<h3>Tournament Sign-Up Form</h3>
-										<form id="regForm" method="POST" action="https://script.google.com/macros/s/AKfycbxKZNoBx_ScCVVYnTakHMGnWtfHWavrvv4Zre1OziRx/exec">
+										<form id="regForm" method="POST" action="https://script.google.com/macros/s/AKfycbznc_EELVi3PMhLXfLoXod-ofYeO9ObMARylwcIewUr5HdW841aVbtP4JCvrMYzjeY/exec">
 										<div id="formBox" style="position:relative">	
 											<div class="formGroup" id="participantInfo">
 												<h5>Competitor Information</h5>
@@ -489,24 +489,23 @@
 					eI.style["left"] = "100%"
 				}
 			</script>
-			<!-- <script>
+			<script>
 				window.addEventListener("load", function() {
 					const form = document.getElementById('regForm');
-					form.addEventListener("submit", function(e) {
-						e.preventDefault();
-						const data = new FormData(form);
-						const action = e.target.action;
-						fetch(action, {
-						method: 'POST',
-						body: data,
-						})
-						.then(() => {
-						alert("Success!");
-						})
+					form.addEventListener('submit', (event) => {
+						event.preventDefault();
+						submitButton.innerHTML = "Processing..."
+						fetch(form.action, {
+							method: 'post',
+							body: new FormData(form),
+						}).then((res) => {
+							if (!res.ok) {
+							window.location.href = "tournamentsignup-error.html"
+							}
+							window.location.href = "tournamentsignup-submitted.html";
+						});
 					});
 					});
-			</script> -->
-
-			
+			</script>
 	</body>
 </html>
