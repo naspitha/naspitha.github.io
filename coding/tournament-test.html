@@ -502,6 +502,7 @@
 					form.addEventListener('submit', (event) => {
 						event.preventDefault();
 						submitButton.innerHTML = "Processing..."
+						submitButton.disabled = true
 						fetch(form.action, {
 							method: 'post',
 							body: new FormData(form),
