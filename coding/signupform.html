@@ -129,8 +129,9 @@
 			line-height: 1;
 			color: #888;
 		}
-		#submit {
-			float: right
+		button:disabled {
+			pointer-events: none;
+			opacity: 0.2
 		}
 	</style>
 	<body class="homepage is-preload">
@@ -239,39 +240,39 @@
 												<div id="indEvents" style="display:block">
 													<h6>Individual Events</h6>
 													<!-- Youth -->
-													<input type="checkbox" class="youth-ind" name="youth-indKata" id="youth-indKata" value="1"><label for="youth-indKata" class="compEvent" >Kata</label>
-													<input type="checkbox" class="youth-ind" name="youth-kihonKumite" id="youth-kihonKumite" value="1"><label for="youth-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
-													<input type="checkbox" class="youth-ind" name="youth-jiyuIppKumite" id="youth-jiyuIppKumite" value="1"><label for="youth-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
-													<input type="checkbox" class="youth-ind" name="youth-indKumite" id="youth-indKumite" value="1"><label for="youth-indKumite" class="compEvent" >Jiyu Kumite</label>
+													<input type="checkbox" class="youth-ind" name="youth-indKata" id="youth-indKata" value="x"><label for="youth-indKata" class="compEvent" >Kata</label>
+													<input type="checkbox" class="youth-ind" name="youth-kihonKumite" id="youth-kihonKumite" value="x"><label for="youth-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
+													<input type="checkbox" class="youth-ind" name="youth-jiyuIppKumite" id="youth-jiyuIppKumite" value="x"><label for="youth-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
+													<input type="checkbox" class="youth-ind" name="youth-indKumite" id="youth-indKumite" value="x"><label for="youth-indKumite" class="compEvent" >Jiyu Kumite</label>
 													<!-- Adult -->
-													<input type="checkbox" class="adult-ind" name="adult-indKata" id="adult-indKata" value="1"><label for="adult-indKata" class="compEvent">Kata</label>
-													<input type="checkbox" class="adult-ind" name="adult-kihonKumite" id="adult-kihonKumite" value="1"><label for="adult-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
-													<input type="checkbox" class="adult-ind" name="adult-jiyuIppKumite" id="adult-jiyuIppKumite" value="1"><label for="adult-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
-													<input type="checkbox" class="adult-ind" name="adult-indKumite" id="adult-indKumite" value="1"><label for="adult-indKumite" class="compEvent" >Jiyu Kumite</label>
+													<input type="checkbox" class="adult-ind" name="adult-indKata" id="adult-indKata" value="x"><label for="adult-indKata" class="compEvent">Kata</label>
+													<input type="checkbox" class="adult-ind" name="adult-kihonKumite" id="adult-kihonKumite" value="x"><label for="adult-kihonKumite" class="compEvent" >Kihon Ippon Kumite</label>
+													<input type="checkbox" class="adult-ind" name="adult-jiyuIppKumite" id="adult-jiyuIppKumite" value="x"><label for="adult-jiyuIppKumite" class="compEvent" >Jiyu Ippon Kumite</label>
+													<input type="checkbox" class="adult-ind" name="adult-indKumite" id="adult-indKumite" value="x"><label for="adult-indKumite" class="compEvent" >Jiyu Kumite</label>
 												</div>
 												<div id="teamEvents" style="display:block">
 													<h6>Team Events</h6>
 													<!-- Youth -->
-													<input type="checkbox" class="youth-team" name="youth-teamKata" id="youth-teamKata" value="1"><label for="youth-teamKata" class="compEvent" >Team Kata</label>
+													<input type="checkbox" class="youth-team" name="youth-teamKata" id="youth-teamKata" value="x"><label for="youth-teamKata" class="compEvent" >Team Kata</label>
 													<div class="listMembers" id="youth-teamKataDiv">
 														<label  >Fellow TEAM KATA members:
 															<input id="youth-teamKataMembers" name="youth-teamKataMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
 														</label>
 													</div>
-													<input type="checkbox" class="youth-team" name="youth-teamKumite" id="youth-teamKumite" value="1"><label for="youth-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
+													<input type="checkbox" class="youth-team" name="youth-teamKumite" id="youth-teamKu" value="x"><label for="youth-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
 													<div class="listMembers" id="youth-teamKumiteDiv">
 														<label>Fellow TEAM KUMITE members:
 															<input id="youth-teamKumiteMembers" name="youth-teamKumiteMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
 														</label>
 													</div>
 													<!-- Adult -->
-													<input type="checkbox" class="adult-team" name="adult-teamKata" id="adult-teamKata" value="1"><label for="adult-teamKata" class="compEvent" >Team Kata</label>
+													<input type="checkbox" class="adult-team" name="adult-teamKata" id="adult-teamKata" value="x"><label for="adult-teamKata" class="compEvent" >Team Kata</label>
 													<div class="listMembers" id="adult-teamKataDiv">
 														<label  >Fellow TEAM KATA members:
 															<input id="adult-teamKataMembers" name="adult-teamKataMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
 														</label>
 													</div>
-													<input type="checkbox" class="adult-team" name="adult-teamKumite" id="adult-teamKumite" value="1"><label for="adult-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
+													<input type="checkbox" class="adult-team" name="adult-teamKumite" id="adult-teamKumite" value="x"><label for="adult-teamKumite" class="compEvent" >Team (Jiyu) Kumite</label>
 													<div class="listMembers" id="adult-teamKumiteDiv">
 														<label>Fellow TEAM KUMITE members:
 															<input id="adult-teamKumiteMembers" name="adult-teamKumiteMembers" type="text" placeholder="e.g. Max Mustermann, Erika Mustermann" >
@@ -290,13 +291,16 @@
 												<label class="lead">Age Division
 													<input id="ageDiv" name="ageDiv" type="text" placeholder="--">
 												</label>
+												<label class="lead">Number of Events
+													<input id="total-events" name="total-events" type="number" value="0" placeholder="--">
+												</label>
 												<label class="lead">Fee
 													<input id="total-fee" name="total-fee" type="number" value="0" placeholder="--">
 												</label>
 											</div>
 										</div>	
 										<div style="width: 50%; margin: auto; margin-top: 2em; text-align: right">
-											<button id="submitButton" type="submit" disabled=true>Submit</button>
+											<button id="submitButton">Submit</button>
 										</div>
 										</form>
 										
@@ -335,6 +339,7 @@
 				var nodeList = document.querySelectorAll(".youth-ind, .youth-team, .adult-ind, .adult-team")
 				var nodesShown = []
 				var submitButton = document.getElementById("submitButton")
+				submitButton.disabled=true
 				var teamEventIds = ["youth-teamKata","youth-teamKumite","adult-teamKata","adult-teamKumite" ]
 				var mappingByRank = {
 					"": [""],
@@ -363,7 +368,7 @@
 					return Math.abs(ageDate.getUTCFullYear() - 1970);
 				 }
 
-				 function getAvailableEvents(rank, adiv){
+				function getAvailableEvents(rank, adiv){
 					if (rank == "" || adiv == "" ){
 						availableEvents = []
 						return []
@@ -375,6 +380,15 @@
 						})
 					return availableEvents
 				 	}
+				}
+
+				function calcFee(en){
+					if (en==0){return "0"}
+					if (en==1){
+						return "30"
+					} else {
+						return "45"
+					}
 				}
 
 				 document.getElementById("rank").addEventListener("change", function(){
@@ -390,6 +404,7 @@
 						console.log(ageOnCompDay)
 						document.getElementById("ageOnCompDay").value = ageOnCompDay
 						ageDivision = ageOnCompDay >= 18 ? "adult" : "youth"
+						document.getElementById("ageDiv").value = ageDivision
 						getAvailableEvents(participantRank, ageDivision)
 					}
 				 })
@@ -397,26 +412,25 @@
 				
 				// Actions when selecting or deselecting competition events 
 				nodeList.forEach(function(node){
-					if (teamEventIds.includes(node.id)){
-						document.querySelector("#"+node.id).addEventListener("change",function(m){
-							$("#"+node.id+"Div").toggle()
-						})
-					} else {
-						document.querySelector("#"+node.id).addEventListener("change",function(m){
-							if (this.checked){
-								numberOfSelectedEvents += 1
-								if (submitButton.disabled == true){
-									submitButton.disabled = false
-								}
-							} else {
-								numberOfSelectedEvents -= 1
-								if (submitButton.disabled == false && numberOfSelectedEvents==0 ){
-									submitButton.disabled = true
-								}
-
+					document.querySelector("#"+node.id).addEventListener("change",function(m){
+						if (this.checked){
+							numberOfSelectedEvents += 1
+							if (submitButton.disabled == true){
+								submitButton.disabled = false
 							}
-						})
-					}
+						} else {
+							numberOfSelectedEvents -= 1
+							if (submitButton.disabled == false && numberOfSelectedEvents==0 ){
+								submitButton.disabled = true
+							}
+						}
+						console.log("no. selected: ", numberOfSelectedEvents)
+						document.getElementById("total-events").value = numberOfSelectedEvents
+						document.getElementById("total-fee").value = calcFee(numberOfSelectedEvents)
+						if (teamEventIds.includes(node.id)){
+							$("#"+node.id+"Div").toggle()
+						}
+					})
 				})
 			</script>
 			<script>
@@ -462,6 +476,8 @@
 							}
 						})
 						console.log("no. selected: ", numberOfSelectedEvents)
+						document.getElementById("total-events").value = numberOfSelectedEvents
+						document.getElementById("total-fee").value = calcFee(numberOfSelectedEvents)
 						pI.style["left"] = "-100%"
 						eI.style["left"] = "5%"
 					}
@@ -472,8 +488,6 @@
 					pI.style["left"] = "5%"
 					eI.style["left"] = "100%"
 				}
-
-
 			</script>
 			<!-- <script>
 				window.addEventListener("load", function() {
