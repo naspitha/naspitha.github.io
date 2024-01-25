@@ -495,24 +495,24 @@
 					eI.style["left"] = "100%"
 				}
 			</script>
-			<!-- <script>
+			<script>
+				// Redirecting user to success or error page when submitting the form
 				window.addEventListener("load", function() {
 					const form = document.getElementById('regForm');
-					form.addEventListener("submit", function(e) {
-						e.preventDefault();
-						const data = new FormData(form);
-						const action = e.target.action;
-						fetch(action, {
-						method: 'POST',
-						body: data,
-						})
-						.then(() => {
-						alert("Success!");
-						})
+					form.addEventListener('submit', (event) => {
+						event.preventDefault();
+						submitButton.innerHTML = "Processing..."
+						fetch(form.action, {
+							method: 'post',
+							body: new FormData(form),
+						}).then((res) => {
+							if (!res.ok) {
+							window.location.href = "tournamentsignup-error.html"
+							}
+							window.location.href = "tournamentsignup-submitted.html";
+						});
 					});
-					});
-			</script> -->
-
-			
+				});
+			</script>
 	</body>
 </html>
