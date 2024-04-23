@@ -7,6 +7,10 @@
 	float: right;
 	display: block;
 }
+
+.flexp {
+	width: 55%;
+} 
 .sectionContainer {
 	overflow: auto
 }
@@ -15,6 +19,9 @@
 	.fleximg {
 		width: 35%;
 	}
+	.flexp {
+		width: 65%;
+	} 
 }
 
 
@@ -25,5 +32,8 @@
 		padding-bottom: 1.5em;
 		margin: auto;
 	}
+	.flexp {
+		width: 100%;
+	} 
 }
 
