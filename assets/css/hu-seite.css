@@ -7,7 +7,9 @@
 	float: right;
 	display: block;
 }
-	
+* > .fleximg {
+	overflow: auto
+}
 
 @media screen and (max-width: 980px) {
 	.fleximg {
