@@ -1,1 +1,26 @@
+/* external hosting for styling HU content*/
+
+.fleximg {
+	width: 45%;
+	max-width: 300px;
+	padding-left: 1.5em;
+	float: right;
+	display: block;
+}
+	
+
+@media screen and (max-width: 980px) {
+	.fleximg {
+		width: 35%;
+	}
+}
+
+
+@media screen and (max-width: 736px) {
+	.fleximg {		
+		width: 100%;
+		float: none;
+		padding-bottom: 1.5 em;
+	}
+}
 
