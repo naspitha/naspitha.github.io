@@ -7,7 +7,7 @@
 	float: right;
 	display: block;
 }
-* > .fleximg {
+.sectionContainer {
 	overflow: auto
 }
 
