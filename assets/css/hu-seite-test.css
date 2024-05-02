@@ -228,8 +228,14 @@
 
 	.tiles article {
 		width: calc(100% - 1.25em);
-		margin: 1.25em 0 0 1.25em;
+		margin: 0 0 0 0;
 		}
+	.tiles article > .image {
+				width: 100%;
+				margin: auto;
+				border-radius: 4px;
+				overflow: hidden;
+			}
 
 		.tiles article:hover > .image {
 			-moz-transform: scale(1.0);
