@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pitch Changer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<script src="/assets/js/jquery.min.js"></script>
+	</head>
+    <style>
+        #applyChanges, #videoFrame {
+            display: block;
+            margin-top: 1em;
+        }
+        #message {
+            margin-left: 2em;
+            color: red;
+            display: none;
+        }
+    </style>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Menu -->
+						<nav id="nav">
+							<script>$("#nav").load("/menu.html")</script>
+						</nav>
+
+					</div>
+					
+				</section>
+
+			<!-- Main -->
+			<section id="main-ds">
+				<div class="container">
+					<div class="row">
+						<!-- Content -->
+							<div id="content" class="col-12">
+								<!-- Post -->
+									<article class="box post">	
+										<h3>Pitch Changer</h3>
+                                        <label for="urlPicker">YouTube-Video URL:</label>
+                                        <input type="text" id="urlPicker" name="urlPicker"><span id="message">Please enter a valid URL.</span>
+                                        <button id="applyChanges" onclick="updateURL()">Go!</button>
+                                        <iframe id="videoFrame" width="560" height="315" src="https://www.youtube.com/embed/B7BbZSpnXIw?si=19xDJY0DwcmWnZtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>			
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!-- Footer -->
+			<section id="footer">
+				<script>$("#footer").load("/footer.html")</script>
+			</section>
+        <script>
+            const audioCtx = new AudioContext();
+            const pitchShifter = audioCtx.createBiquadFilter();
+            // audioCtx.destination.connect(pitchShifter)
+            // pitchShifter.connect(audioCtx.destination)
+
+            async function captureTabAudio() {
+                // from ChatGPT
+                try {
+                    // Request access to capture the audio output of the tab
+                    const stream = await navigator.mediaDevices.getDisplayMedia({
+                    video: false,    // We only need audio, not video
+                    audio: {
+                        // Make sure this is set to capture tab audio
+                        mandatory: {
+                        chromeMediaSource: 'tab'
+                        }
+                    }
+                    });
+
+                    // Create a new AudioContext
+                    const audioContext = new AudioContext();
+
+                    // Create a MediaStreamSource node from the captured stream
+                    const mediaStreamSource = audioContext.createMediaStreamSource(stream);
+
+                    // Create a destination node if you want to process or analyze the stream
+                    const mediaStreamDestination = audioContext.createMediaStreamDestination();
+
+                    // Connect the source to the destination for further processing
+                    mediaStreamSource.connect(mediaStreamDestination);
+
+                    // You now have access to the tab's audio output as a MediaStream for further processing
+                    const processedAudioStream = mediaStreamDestination.stream;
+
+                    // Further processing or connecting the audio to other Web APIs can go here
+                    // For example, you can add audio effects, analyze audio, etc.
+                } catch (error) {
+                    console.error("Error capturing tab audio:", error);
+                }
+                }
+
+            function updateURL(){
+                let url = document.querySelector("#urlPicker").value
+                if (!url){
+                    document.querySelector("#message").style.display = "inline"
+                } else {
+                    let embedURL = "https://www.youtube.com/embed/" + url.split("watch?v=")[1].split("&")[0]
+                    console.log(embedURL)
+                    document.querySelector("#videoFrame").src = embedURL
+                } 
+            }
+
+            function pitchChange(semitones){
+                let frequencyRatio = Math.pow(2, semitones / 12);
+                  // Set the filter type and frequency to achieve pitch shifting
+                pitchShifter.type = 'lowshelf';
+                pitchShifter.frequency.value = 1000; // You can adjust this value
+                pitchShifter.gain.value = 20 * Math.log10(frequencyRatio);
+
+            }
+        </script>
+		</div>
+	</body>
+</html>
