@@ -9,34 +9,50 @@
 		<title>Menu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<style>
+			.icons i {
+				margin-right: 0.5em;
+			}
+		</style>
 	</head>
 	<body class="homepage is-preload">
 		<div class="container">
 			<header>
-				<h3 style="color:white">Questions or comments? Get in touch:</h3>
+				<h3 style="color:white">Get in touch:</h3>
 			</header>
 			<div class="row">
 				<div class="col-12">
 					<ul class="icons">
-						<li class="icon solid fa-envelope">E-mail: natalia.spitha (@gmail.com)</li>
-						<li class="icon brands fa-twitter">Twitter: 
-							<a href="https://twitter.com/nataliaspark" target="_blank">@nataliaspark</a>
+						<li><i class="fa-solid fa-envelope"></i>E-mail: natalia.spitha (@gmail.com)</li>
+						<li><i class="fa-brands fa-bluesky"></i>Bluesky: 
+							<a href="https://bsky.app/profile/nataliaspark.bsky.social" target="_blank">@nataliaspark</a>
 						</li>
-						<li class="icon brands fa-github">Github:
+						<li><i class="fa-brands fa-github"></i>Github:
 							<a href="https://github.com/naspitha" target="_blank">naspitha</a>
 						</li>
-						<li class="icon brands fa-github">
+						<!-- <li class="icon brands fa-github">
 							Interested in IB tutoring? Find me on <a href="https://www.valdoacademics.com/ib-diploma" 
 							target="_blank">Valdo Academics</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>
 		</div>
 		<div id="copyright" class="container">
 			<ul class="links">
-				<li>&copy; 2023 All rights reserved.</li><li>Designed using <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>&copy; <span class="currentYear"></span> All rights reserved.</li><li>Designed using <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</div>
+		<script>
+			// when the DOM is ready
+			document.addEventListener("DOMContentLoaded", function() { 
+			// get the the span element
+			const yrSpan = document.querySelector('.currentYear');
+			// get the current year
+			const currentYr = new Date().getFullYear();
+			// set the year span element's text to the current year
+			yrSpan.textContent = currentYr;
+		});
+	</script>
 	</body>
 </html>

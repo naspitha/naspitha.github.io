@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("fontawesome/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Handlee&family=Indie+Flower&family=Reenie+Beanie&display=swap');
@@ -120,8 +120,9 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.65em;
+		font-size: 1.85em;
 		font-weight: 400;
+		font-family: 'Handlee';
 		letter-spacing: 4px;
 		margin: 0 0 1.5em 0;
 		line-height: 1.75em;
@@ -514,7 +515,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 60px 0 0 60px;
+				padding: 60px 30px 0 30px;
 			}
 
 			.row.gtr-uniform {
@@ -1873,7 +1874,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #ffa600;
+			background: hsl(111, 50%, 71%);
 		}
 
 		input[type="button"]:active,
@@ -1881,8 +1882,9 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ffa600;
+			background: hsl(111, 50%, 71%);
 		}
+		
 
 		input[type="button"].alt,
 		input[type="submit"].alt,
@@ -2006,11 +2008,13 @@ input, select, textarea {
 
 			#header h2 {
 				text-transform: none;
-				font-family: 'Lato';
-				font-weight: 100;
-				color: rgb(0, 0, 0);
+				/* font-family: 'Lato'; */
+				font-weight: 800;
+				/* color: rgb(0, 0, 0); */
+				color: rgb(15 105 0);
 				margin: 1em 0 0 0;
-				font-size: 1.85rem;
+				/* font-size: 1.85rem; */
+				
 				letter-spacing: 1px;
 				text-align: center;
 			}
@@ -2064,8 +2068,11 @@ input, select, textarea {
 				
 			}
 
-				#nav > ul > li > a:before {
-					display: inline-block;
+				/* #nav > ul > li > a:before,  */
+				#nav i:before {
+					display: flex;
+					align-items: center;
+    				justify-content: center;
 					background: #ffffff;
 					color: #000000;
 					width: 2.25em;
@@ -2097,8 +2104,9 @@ input, select, textarea {
 			}
 
 			#nav > ul > li.active > a:before,
-			#nav > ul > li:hover > a:before {
-				background: #ffa600;
+			#nav > ul > li:hover > a:before, 
+			#nav i:hover:before {
+				background: rgb(15 105 0);
 				color: #fff;
 			}
 

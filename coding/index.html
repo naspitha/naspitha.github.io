@@ -11,6 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
 		<script src="/assets/js/jquery.min.js"></script>
+		<style>
+			.modf section {
+				height:100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.modf p {
+				padding: 1.5em 0.5em 0;
+			}
+			.modf img {
+				width: auto !important;
+				height: 10em;
+			}
+		</style>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -26,30 +42,43 @@
 
 						<!-- Menu -->
 						<nav id="nav">
-							<script>$("#nav").load("/menu.html")</script>
+							<script src="/assets/js/loadMenu.js"></script>
 						</nav>
 
 					</div>
 					
 				</section>
-			<div id="content" class="container" style="max-width:800px">
-				<p>The following projects were all created to fulfill various purposes throughout my academic research and teaching. I have been programming in Python since ca. 2015, HTML/CSS since ca. 2020 (to build this website!), and Javascript (mostly D3.js and jQuery) since 2022. I am self-taught programmer, most of my programming knowledge developed as-needed for the given project that I was working on. I have been learning as I go and look forward to continuing to grow in that domain!</p>
+			<div id="content" class="container" style="max-width:800px; margin-bottom: 5em;">
+				<p>The following projects were all created to fulfill various purposes throughout my academic research and teaching. I have been programming in Python since ca. 2015 and have used HTML, CSS and Javascript to build interactive websites and applications since 2022. I am self-taught programmer, most of my programming knowledge developed as-needed for the given project that I was working on. I have been learning as I go and look forward to continuing to grow in that domain!</p>
 				<p>Below are my most recent projects; click on one to learn more about it!</p>
 			</div>
 			<section id="projects">
 					<div class="container">
-
-						
 						<div class="row aln-center">
-							<div class="col-4 col-6-medium col-12-small">
+							<div class="col-4 col-6-medium col-12-small modf">
 								<!-- Feature -->
 								<section>
-									<header>
-										<h3>SILC</h3>
-									</header>
-									<img src="/images/simLogo_desc.svg">
-									<p> SILC stands for <em>Simulationen für Interaktives Lernen in Chemie</em> (<em>Simulations for Interactive Learning in Chemistry</em>)! It is a library of newly simulations and activities on topics across the early undergraduate chemistry curriculum. The activities were originally developed in German, in order to be used at the introductory chemistry course at the Humboldt University of Berlin. They are currently being translated into English.
-									</p>
+									<div class="content">
+										<h3>Decision-making tool for hybrid teaching</h3>
+										<img src="/images/entscheidungshilfe-wide.png">
+										<p>This web-based tool helps university instructors decide if hybrid teaching (the simultaneous teaching in-person and online) is a fitting choice for their course and provides a variety of tips for teaching and planning in different formats. I have programmed this tool completely from scratch and the teaching and technical tips associated with it were developed by me and two other colleagues from the <a href="https://www.tu.berlin/bzhl/netzwerk-hybride-lehre" aria-label="Berlin Hybrid Teaching Network (German page)">Berlin Hybrid Teaching Network</a> .
+										</p>
+									</div>
+									
+									<ul class="actions">
+										<li><a href="hu.berlin/entscheidungshilfe-lehre" class="button" aria-label="zum Entscheidungshilfe-Tool Hybride Lehre">Try out the tool (in German)</a></li>
+									</ul>
+								</section>
+						</div>
+							<div class="col-4 col-6-medium col-12-small modf">
+								<!-- Feature -->
+								<section>
+									<div class="content">
+										<h3>SILC - Chemistry simulations</h3>
+										<img src="/images/simLogo_desc.svg">
+										<p> SILC stands for <em>Simulationen für Interaktives Lernen in Chemie</em> (<em>Simulations for Interactive Learning in Chemistry</em>)! It is a library of newly simulations and activities on topics across the early undergraduate chemistry curriculum. The activities were originally developed in German, in order to be used at the introductory chemistry course at the Humboldt University of Berlin. They are currently being translated into English.
+										</p>									
+									</div>
 									<ul class="actions">
 										<li><a href="https://tcel-hu-berlin.github.io/silc/index_EN.html" class="button">English</a></li>
 										<li><a href="https://tcel-hu-berlin.github.io/silc/index.html" class="button">German</a></li>
@@ -57,42 +86,50 @@
 								</section>
 							</div>
 
-							<div class="col-4 col-6-medium col-12-small">
+							<div class="col-4 col-6-medium col-12-small modf">
 								<!-- Feature -->
 								<section>
-									<header>
-										<h3>Beer's Law Simulation</h3>
-									</header>
-									<img src="/images/BLSim-wide.png">
-									<p>This simulation was developed to give undergraduate analytical chemistry students 
-										a more intuitive explanation as to why Beer's law (i.e. absorbance being directly 
-										proportional to concentration) holds. We are currently investigating the effects 
-										of an activity based on this simulation on students' reasoning about the phenomenon 
-										of absorption. 
-									</p>
+									<div class="content">
+										<h3>Beer's Law Simulation <br>& Activity</h3>
+										<img src="/images/BLSim-wide.png">
+										<p>This simulation was developed to give undergraduate analytical chemistry students a more intuitive explanation as to why Beer's law (i.e. absorbance being directly proportional to concentration) holds. I have co-authored two chemistry education publications investigating the effects of an activity based on this simulation on students' reasoning about the phenomenon of absorption. 
+										</p>									
+									</div>
+
 									<ul class="actions">
 										<li><a href="/coding/beer+law+simulation.html" class="button">Read More...</a></li>
 									</ul>
 								</section>
 							</div>
 
-							<div class="col-4 col-6-medium col-12-small">
+							<div class="col-4 col-6-medium col-12-small modf">
 
 								<!-- Feature -->
 								<section>
-									<header>
+									<div class="content">
 										<h3>KinetiKit</h3>
-									</header>
-									<img src="/images/use_kinetikit.jpg">
-									<p><em>KinetiKit</em> is a Python-based software package that I developed during my graduate work. 
-										It can be used to analyze temporal data (in my case, time-resolved photoluminescence of semiconductors) 
-									using models of any desired complexity that represent the physical behavior of particles in a system.</p>
+										<img src="/images/use_kinetikit.jpg">
+										<p><em>KinetiKit</em> is a Python-based software package that I developed during my graduate work. It can be used to analyze temporal data (in my case, time-resolved photoluminescence of semiconductors) using models of any desired complexity that represent the physical behavior of particles in a system.</p>
+									</div>
 									<ul class="actions">
 										<!-- <li><a href="/coding/kinetikit.html" class="button">Read More...</a></li> -->
 										<li><a href="https://github.com/wright-group/KinetiKit" class="button">Github</a></li>
 									</ul>
 								</section>
-
+							</div>
+							<div class="col-4 col-6-medium col-12-small modf">
+								<!-- Feature -->
+								<section>
+									<div class="content">
+										<h3>Japanese Flashcards!</h3>
+										<img src="/images/nihongo_wide.png">
+										<p>This one is just for fun and mostly for my personal use; I have been learning Japanese for a few years and I have been using this self-made flashcard website to help me remember words that I have saved in my own collection. In the future, I plan to expand this app so other users can link their own lists of words.</p>
+									</div>
+									<ul class="actions">
+										<!-- <li><a href="/coding/kinetikit.html" class="button">Read More...</a></li> -->
+										<li><a href="japaneseflashcards.html" class="button">Check it out</a></li>
+									</ul>
+								</section>
 							</div>
 						</div>
 					</div>
